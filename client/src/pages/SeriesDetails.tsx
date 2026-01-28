@@ -1,13 +1,107 @@
-import React from 'react';
-import { useRoute } from 'wouter';
+import React, { useEffect, useState } from 'react';
+import { useRoute, Link } from 'wouter';
+import { ArrowLeft, Play, Clock, Calendar } from 'lucide-react';
+import { dataService } from '../services/dataService';
+import { Series, Episode } from '../types';
+import { getThumbnailUrl } from '../constants';
 
 const SeriesDetails: React.FC = () => {
   const [, params] = useRoute('/serie/:id');
-  
+  const [series, setSeries] = useState<Series | null>(null);
+  const [episodes, setEpisodes] = useState<Episode[]>([]);
+
+  useEffect(() => {
+    if (params?.id) {
+      const s = dataService.getSeriesById(params.id);
+      if (s) {
+        setSeries(s);
+        setEpisodes(dataService.getEpisodesBySeries(s.id).sort((a, b) => b.ordem - a.ordem)); // Newest first
+      }
+    }
+  }, [params?.id]);
+
+  if (!series) return <div className="h-screen bg-[#141414] flex items-center justify-center text-white">Carregando...</div>;
+
+  const latestEpisode = episodes[0];
+  const coverImage = series.capaUrl || (latestEpisode ? getThumbnailUrl(latestEpisode.youtubeVideoId) : '');
+
   return (
-    <div className="min-h-screen bg-[#141414] text-white pt-24 px-12">
-      <h1 className="text-4xl font-bold">Detalhes da Série: {params?.id}</h1>
-      <p className="mt-4 text-gray-400">Em breve...</p>
+    <div className="min-h-screen bg-[#141414] text-white pb-20">
+      {/* Hero Header */}
+      <div className="relative h-[60vh] w-full">
+        <div className="absolute inset-0">
+          <img 
+            src={coverImage} 
+            alt={series.titulo}
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#141414] via-[#141414]/60 to-transparent"></div>
+        </div>
+
+        <div className="absolute bottom-0 left-0 w-full p-6 md:p-12 max-w-4xl">
+          <Link href="/">
+            <button className="flex items-center gap-2 text-gray-300 hover:text-white mb-6 transition">
+              <ArrowLeft className="w-5 h-5" /> Voltar
+            </button>
+          </Link>
+          
+          <h1 className="text-5xl md:text-7xl font-display font-bold mb-4 drop-shadow-lg">{series.titulo}</h1>
+          <p className="text-xl text-gray-200 mb-8 font-sans max-w-2xl drop-shadow-md">{series.descricao}</p>
+          
+          <div className="flex items-center gap-4">
+            <span className="bg-[#E50914] px-3 py-1 rounded font-bold text-sm">SÉRIE</span>
+            <span className="text-gray-300">{series.ano}</span>
+            <span className="text-gray-300">{episodes.length} Episódios</span>
+          </div>
+        </div>
+      </div>
+
+      {/* Episodes List */}
+      <div className="px-6 md:px-12 mt-8">
+        <h2 className="text-2xl font-bold mb-6 border-b border-gray-800 pb-4">Episódios</h2>
+        
+        <div className="space-y-4">
+          {episodes.map((episode, index) => (
+            <Link key={episode.id} href={`/episodio/${episode.id}`}>
+              <div className="group flex flex-col md:flex-row gap-4 p-4 rounded-lg hover:bg-[#2F2F2F] transition cursor-pointer border border-transparent hover:border-gray-700">
+                {/* Thumbnail */}
+                <div className="relative w-full md:w-64 aspect-video rounded overflow-hidden flex-shrink-0">
+                  <img 
+                    src={getThumbnailUrl(episode.youtubeVideoId)} 
+                    alt={episode.titulo}
+                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition bg-black/40">
+                    <Play className="w-10 h-10 fill-white text-white" />
+                  </div>
+                </div>
+
+                {/* Info */}
+                <div className="flex-1 flex flex-col justify-center">
+                  <div className="flex items-center justify-between mb-2">
+                    <h3 className="text-lg font-bold text-white group-hover:text-[#E50914] transition line-clamp-1">
+                      {index + 1}. {episode.titulo.split('|')[0]}
+                    </h3>
+                    <span className="text-sm text-gray-400 flex items-center gap-1">
+                      <Clock className="w-3 h-3" /> {episode.duracao}
+                    </span>
+                  </div>
+                  
+                  <p className="text-gray-400 text-sm line-clamp-2 mb-3">
+                    {episode.descricaoCurta}
+                  </p>
+                  
+                  <div className="mt-auto pt-2 border-t border-gray-700/50 flex items-center gap-4 text-xs text-gray-500">
+                    <span className="flex items-center gap-1">
+                      <Calendar className="w-3 h-3" /> Semana {episode.ordem}
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </div>
     </div>
   );
 };

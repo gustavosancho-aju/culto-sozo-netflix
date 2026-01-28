@@ -14,6 +14,8 @@ export interface Series {
   descricao: string;
   destaque: boolean;
   ordem: number;
+  ano: number; // 2025 or 2026
+  capaUrl?: string; // Optional custom cover, otherwise use first episode thumbnail
 }
 
 export interface UserRating {
