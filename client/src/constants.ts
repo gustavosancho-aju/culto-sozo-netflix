@@ -29,6 +29,14 @@ export const INITIAL_SERIES: Series[] = [
     destaque: false,
     ordem: 1,
     ano: 2025
+  },
+  {
+    id: "estilo-vida-felizes-2025",
+    titulo: "O Estilo de Vida dos Felizes",
+    descricao: "Uma série sobre os princípios do Reino para uma vida plena e feliz.",
+    destaque: false,
+    ordem: 2,
+    ano: 2025
   }
 ];
 
@@ -122,6 +130,44 @@ export const INITIAL_EPISODES: Episode[] = [
     youtubeVideoId: "Qs3QhSUCPjw", 
     duracao: "54min", 
     descricaoCurta: "Introdução à série sobre princípios de libertação financeira." 
+  },
+
+  // O ESTILO DE VIDA DOS FELIZES (2025)
+  { 
+    id: "felizes-4", 
+    serieId: "estilo-vida-felizes-2025", 
+    ordem: 4, 
+    titulo: "SOZO: O ESTILO DE VIDA DOS FELIZES | SEMANA 4", 
+    youtubeVideoId: "_Ak1EhamVR0", 
+    duracao: "44min 18s", 
+    descricaoCurta: "Estreou em 27 de outubro de 2025." 
+  },
+  { 
+    id: "felizes-3", 
+    serieId: "estilo-vida-felizes-2025", 
+    ordem: 3, 
+    titulo: "SOZO: O ESTILO DE VIDA DOS FELIZES | SEMANA 3", 
+    youtubeVideoId: "jdTNB_r1iIQ", 
+    duracao: "47min 24s", 
+    descricaoCurta: "Ministrado em 20 de outubro de 2025." 
+  },
+  { 
+    id: "felizes-2", 
+    serieId: "estilo-vida-felizes-2025", 
+    ordem: 2, 
+    titulo: "SOZO: O ESTILO DE VIDA DOS FELIZES | SEMANA 2", 
+    youtubeVideoId: "klyDYWjhQq0", 
+    duracao: "48min 49s", 
+    descricaoCurta: "Ministrado em 13 de outubro de 2025." 
+  },
+  { 
+    id: "felizes-1", 
+    serieId: "estilo-vida-felizes-2025", 
+    ordem: 1, 
+    titulo: "SOZO: O ESTILO DE VIDA DOS FELIZES | SEMANA 1", 
+    youtubeVideoId: "2YgEJiYv6ZU", 
+    duracao: "56min 04s", 
+    descricaoCurta: "Ministrado em 6 de outubro de 2025." 
   }
 ];
 
