@@ -38,10 +38,9 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
           
           <div className="hidden md:flex items-center gap-6 text-sm font-medium text-gray-200">
             <Link href="/" className={`hover:text-gray-400 transition ${location === '/' ? 'font-bold text-white' : ''}`}>Início</Link>
-            <Link href="/series" className="hover:text-gray-400 transition">Séries</Link>
-            <Link href="/filmes" className="hover:text-gray-400 transition">Filmes</Link>
-            <Link href="/bombando" className="hover:text-gray-400 transition">Bombando</Link>
-            <Link href="/minha-lista" className="hover:text-gray-400 transition">Minha Lista</Link>
+            <a href="https://www.instagram.com/cnaracaju/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400 transition">CN Aracaju</a>
+            <a href="#" className="hover:text-gray-400 transition">Testemunhos</a>
+            <a href="#" className="hover:text-gray-400 transition">Horários de culto</a>
           </div>
         </div>
 
@@ -63,7 +62,7 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
             />
           </div>
           
-          <span className="hidden md:block text-sm font-medium cursor-pointer">Infantil</span>
+
           <Bell className="w-5 h-5 cursor-pointer hover:text-gray-300 transition" />
           
           <div className="flex items-center gap-2 cursor-pointer group">

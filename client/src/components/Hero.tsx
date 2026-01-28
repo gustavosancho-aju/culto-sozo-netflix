@@ -19,7 +19,8 @@ const Hero: React.FC<HeroProps> = ({ episode }) => {
           className="w-full h-full object-cover"
         />
         {/* Vignette Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-r from-[#141414] via-transparent to-transparent opacity-90"></div>
+        {/* Enhanced Vignette Overlay for better text readability */}
+        <div className="absolute inset-0 bg-gradient-to-r from-[#141414] via-[#141414]/60 to-transparent opacity-100"></div>
         <div className="absolute inset-0 bg-gradient-to-t from-[#141414] via-transparent to-transparent"></div>
       </div>
 
