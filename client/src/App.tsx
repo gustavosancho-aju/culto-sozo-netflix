@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import SeriesDetails from './pages/SeriesDetails';
 import EpisodePlayer from './pages/EpisodePlayer';
 import Admin from './pages/Admin';
-import { Youtube } from 'lucide-react';
+import { Youtube, Instagram } from 'lucide-react';
 import { CHANNEL_URL } from './constants';
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -51,6 +51,37 @@ const Layout: React.FC = () => {
           <Youtube className="w-6 h-6 fill-white" />
           <span className="hidden md:inline">Inscreva-se</span>
         </a>
+      )}
+
+      {/* Footer with Social Icons */}
+      {!location.startsWith('/episodio/') && (
+        <footer className="w-full bg-black/80 py-12 mt-20 border-t border-white/10">
+          <div className="container mx-auto px-4 flex flex-col items-center gap-6">
+            <div className="flex items-center gap-8">
+              <a 
+                href={CHANNEL_URL} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-white transition-colors transform hover:scale-110"
+                title="YouTube"
+              >
+                <Youtube className="w-8 h-8" />
+              </a>
+              <a 
+                href="https://www.instagram.com/lorenaamelo/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-white transition-colors transform hover:scale-110"
+                title="Instagram"
+              >
+                <Instagram className="w-8 h-8" />
+              </a>
+            </div>
+            <p className="text-gray-500 text-sm text-center">
+              © {new Date().getFullYear()} Culto Sozo. Todos os direitos reservados.
+            </p>
+          </div>
+        </footer>
       )}
     </div>
   );
