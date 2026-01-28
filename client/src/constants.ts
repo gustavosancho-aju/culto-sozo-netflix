@@ -21,6 +21,14 @@ export const INITIAL_SERIES: Series[] = [
     destaque: false,
     ordem: 3,
     ano: 2025
+  },
+  {
+    id: "sementes-2025",
+    titulo: "Sementes que Geram Libertação Financeira",
+    descricao: "Princípios bíblicos e práticos para uma vida financeira saudável e próspera.",
+    destaque: false,
+    ordem: 1,
+    ano: 2025
   }
 ];
 
@@ -67,7 +75,54 @@ export const INITIAL_EPISODES: Episode[] = [
   { id: "renove-1", serieId: "renove-se-2025", ordem: 4, titulo: "CORTE AS CORDAS DO PASSADO | RENOVE - SE | 4º SEMANA", youtubeVideoId: "ZQRhghykgSo", duracao: "1h 03min", descricaoCurta: "Cortar amarras e seguir leve para a próxima estação." },
   { id: "renove-2", serieId: "renove-se-2025", ordem: 3, titulo: "COMO DEUS CURA O QUE ME FERIU? | RENOVE-SE | 3º SEMANA", youtubeVideoId: "ruCpQobig1c", duracao: "46min 17s", descricaoCurta: "Cura, restauração e passos para recomeçar." },
   { id: "renove-3", serieId: "renove-se-2025", ordem: 2, titulo: "O QUE NÃO PODE IR COM VOCÊ PARA 2026? | RENOVE-SE | 2º SEMANA", youtubeVideoId: "Z_oUA7BJPb4", duracao: "47min 50s", descricaoCurta: "Ministração: Pra. Lorena Melo. Identifique pesos e escolhas para entrar em 2026 com clareza." },
-  { id: "renove-4", serieId: "renove-se-2025", ordem: 1, titulo: "QUAIS PESOS VOCÊ CARREGOU EM 2025 ? | RENOVE-SE | 1º SEMANA", youtubeVideoId: "UI7bMHEboHA", duracao: "57min 05s", descricaoCurta: "Ministração: Pra. Lorena Melo. Reflexão e fechamento de ciclos: o que ficou de 2025." }
+  { id: "renove-4", serieId: "renove-se-2025", ordem: 1, titulo: "QUAIS PESOS VOCÊ CARREGOU EM 2025 ? | RENOVE-SE | 1º SEMANA", youtubeVideoId: "UI7bMHEboHA", duracao: "57min 05s", descricaoCurta: "Ministração: Pra. Lorena Melo. Reflexão e fechamento de ciclos: o que ficou de 2025." },
+
+  // SEMENTES QUE GERAM LIBERTAÇÃO FINANCEIRA (2025)
+  { 
+    id: "sementes-5", 
+    serieId: "sementes-2025", 
+    ordem: 5, 
+    titulo: "SEMENTES QUE GERAM LIBERTAÇÃO FINANCEIRA | SEMANA 5", 
+    youtubeVideoId: "Sci4ctD_aIU", 
+    duracao: "55min", 
+    descricaoCurta: "Tema: A Semente da Generosidade - Baseada na história de Salomão e seus 1000 holocaustos (1 Reis 3:1-14)." 
+  },
+  { 
+    id: "sementes-4", 
+    serieId: "sementes-2025", 
+    ordem: 4, 
+    titulo: "SEMENTES QUE GERAM LIBERTAÇÃO FINANCEIRA | SEMANA 4", 
+    youtubeVideoId: "PFcNbZs0lCU", 
+    duracao: "1h", 
+    descricaoCurta: "Tema: O Monte da Provisão." 
+  },
+  { 
+    id: "sementes-3", 
+    serieId: "sementes-2025", 
+    ordem: 3, 
+    titulo: "SEMENTES QUE GERAM LIBERTAÇÃO FINANCEIRA | SEMANA 3", 
+    youtubeVideoId: "SRZ87Km_-1c", 
+    duracao: "1h 10min", 
+    descricaoCurta: "Tema: A Semente que gera multiplicação. Instagram: @cnaracaju" 
+  },
+  { 
+    id: "sementes-2", 
+    serieId: "sementes-2025", 
+    ordem: 2, 
+    titulo: "SEMENTES QUE GERAM LIBERTAÇÃO FINANCEIRA | SEMANA 2", 
+    youtubeVideoId: "ejzKhJfPK4E", 
+    duracao: "49min", 
+    descricaoCurta: "Tema: A Semente que abre o futuro." 
+  },
+  { 
+    id: "sementes-1", 
+    serieId: "sementes-2025", 
+    ordem: 1, 
+    titulo: "SEMENTES QUE GERAM LIBERTAÇÃO FINANCEIRA | SEMANA 1", 
+    youtubeVideoId: "Qs3QhSUCPjw", 
+    duracao: "54min", 
+    descricaoCurta: "Introdução à série sobre princípios de libertação financeira." 
+  }
 ];
 
 // Helper to generate image URL
