@@ -40,7 +40,30 @@ const Hero: React.FC<HeroProps> = ({ episode }) => {
         </div>
       </div>
 
+      {/* Hero Actions & Title - Positioned at bottom left */}
+      <div className="absolute bottom-20 left-[60px] flex flex-col gap-3 z-10">
+        {/* Buttons Row */}
+        <div className="flex items-center gap-2">
+          <Link href={`/episodio/${episode.id}`}>
+            <button className="flex items-center gap-3 bg-white text-black px-8 py-3 rounded hover:bg-white/90 transition font-bold text-lg">
+              <Play className="w-6 h-6 fill-black" />
+              Assistir
+            </button>
+          </Link>
+          
+          <a 
+            href="https://www.instagram.com/lorenaamelo/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 bg-[rgba(109,109,110,0.7)] text-white px-8 py-3 rounded hover:bg-[rgba(109,109,110,0.4)] transition font-bold text-lg backdrop-blur-sm"
+          >
+            <Info className="w-6 h-6" />
+            Mais Informações
+          </a>
+        </div>
 
+
+      </div>
     </div>
   );
 };
