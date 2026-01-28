@@ -41,7 +41,7 @@ const Hero: React.FC<HeroProps> = ({ episode }) => {
       </div>
 
       {/* Hero Actions & Title - Positioned at bottom left */}
-      <div className="absolute bottom-[150px] left-[60px] flex flex-col gap-3 z-10">
+      <div className="absolute bottom-20 left-[60px] flex flex-col gap-3 z-10">
         {/* Buttons Row */}
         <div className="flex items-center gap-2">
           <Link href={`/episodio/${episode.id}`}>
