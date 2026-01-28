@@ -15,12 +15,12 @@ export const INITIAL_SERIES: Series[] = [
     ano: 2026
   },
   {
-    id: "renove-se-2026",
+    id: "renove-se-2025",
     titulo: "Renove-se",
-    descricao: "Uma jornada de renovação espiritual e emocional para o novo ano.",
+    descricao: "Série ministrada pela Pastora Lorena Melo abordando temas relacionados à renovação espiritual, cura interior e preparação para um novo ciclo.",
     destaque: false,
-    ordem: 2,
-    ano: 2026
+    ordem: 3,
+    ano: 2025
   },
   {
     id: "sementes-2025",
@@ -79,11 +79,11 @@ export const INITIAL_EPISODES: Episode[] = [
     descricaoCurta: "Raízes invisíveis por trás de dores recorrentes e restauração." 
   },
 
-  // RENOVE-SE (Mantido como 2026 conforme contexto anterior, mas ajustável)
-  { id: "renove-1", serieId: "renove-se-2026", ordem: 4, titulo: "CORTE AS CORDAS DO PASSADO | RENOVE - SE | 4º SEMANA", youtubeVideoId: "ZQRhghykgSo", duracao: "1h 03min", descricaoCurta: "Cortar amarras e seguir leve para a próxima estação." },
-  { id: "renove-2", serieId: "renove-se-2026", ordem: 3, titulo: "COMO DEUS CURA O QUE ME FERIU? | RENOVE-SE | 3º SEMANA", youtubeVideoId: "ruCpQobig1c", duracao: "46min 17s", descricaoCurta: "Cura, restauração e passos para recomeçar." },
-  { id: "renove-3", serieId: "renove-se-2026", ordem: 2, titulo: "O QUE NÃO PODE IR COM VOCÊ PARA 2026? | RENOVE-SE | 2º SEMANA", youtubeVideoId: "Z_oUA7BJPb4", duracao: "47min 50s", descricaoCurta: "Identifique pesos e escolhas para entrar em 2026 com clara." },
-  { id: "renove-4", serieId: "renove-se-2026", ordem: 1, titulo: "QUAIS PESOS VOCÊ CARREGOU EM 2025 ? | RENOVE-SE | 1º SEMANA", youtubeVideoId: "UI7bMHEboHA", duracao: "57min 05s", descricaoCurta: "Reflexão e fechamento de ciclos: o que ficou de 2025." },
+  // RENOVE-SE (2025)
+  { id: "renove-1", serieId: "renove-se-2025", ordem: 4, titulo: "CORTE AS CORDAS DO PASSADO | RENOVE - SE | 4º SEMANA", youtubeVideoId: "ZQRhghykgSo", duracao: "1h 03min", descricaoCurta: "Cortar amarras e seguir leve para a próxima estação." },
+  { id: "renove-2", serieId: "renove-se-2025", ordem: 3, titulo: "COMO DEUS CURA O QUE ME FERIU? | RENOVE-SE | 3º SEMANA", youtubeVideoId: "ruCpQobig1c", duracao: "46min 17s", descricaoCurta: "Cura, restauração e passos para recomeçar." },
+  { id: "renove-3", serieId: "renove-se-2025", ordem: 2, titulo: "O QUE NÃO PODE IR COM VOCÊ PARA 2026? | RENOVE-SE | 2º SEMANA", youtubeVideoId: "Z_oUA7BJPb4", duracao: "47min 50s", descricaoCurta: "Ministração: Pra. Lorena Melo. Identifique pesos e escolhas para entrar em 2026 com clareza." },
+  { id: "renove-4", serieId: "renove-se-2025", ordem: 1, titulo: "QUAIS PESOS VOCÊ CARREGOU EM 2025 ? | RENOVE-SE | 1º SEMANA", youtubeVideoId: "UI7bMHEboHA", duracao: "57min 05s", descricaoCurta: "Ministração: Pra. Lorena Melo. Reflexão e fechamento de ciclos: o que ficou de 2025." },
 
   // SEMENTES QUE GERAM LIBERTAÇÃO FINANCEIRA (2025)
   { id: "sementes-1", serieId: "sementes-2025", ordem: 5, titulo: "SEMENTES QUE GERAM LIBERTAÇÃO FINANCEIRA | SEMANA 5", youtubeVideoId: "Sci4ctD_aIU", duracao: "55min 59s", descricaoCurta: "Princípios e práticas para fortalecer sua vida financeira." },
