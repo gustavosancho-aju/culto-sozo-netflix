@@ -40,7 +40,7 @@ const Hero: React.FC<HeroProps> = ({ episode }) => {
             {episode.descricaoCurta}
           </p>
           
-          <div className="flex items-center gap-4 pt-12">
+          <div className="flex items-center gap-4 pt-12 ml-24">
             <Link href={`/episodio/${episode.id}`}>
               <button className="flex items-center gap-3 bg-white text-black px-8 py-3 rounded hover:bg-white/90 transition font-bold text-lg">
                 <Play className="w-6 h-6 fill-black" />
