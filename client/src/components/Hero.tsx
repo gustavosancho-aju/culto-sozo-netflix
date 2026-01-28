@@ -36,9 +36,7 @@ const Hero: React.FC<HeroProps> = ({ episode }) => {
             {episode.titulo.split('|')[0]}
           </h1>
           
-          <p className="text-lg text-gray-200 line-clamp-3 drop-shadow-md max-w-xl font-sans">
-            {episode.descricaoCurta}
-          </p>
+
         </div>
       </div>
 
@@ -64,10 +62,7 @@ const Hero: React.FC<HeroProps> = ({ episode }) => {
           </a>
         </div>
 
-        {/* Title Below Buttons */}
-        <h2 className="text-2xl font-bold text-white border-l-4 border-[#E50914] pl-3">
-          SOZO 2026
-        </h2>
+
       </div>
     </div>
   );
