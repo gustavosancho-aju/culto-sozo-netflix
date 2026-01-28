@@ -16,10 +16,17 @@ const Home: React.FC<HomeProps> = ({ searchQuery }) => {
     const loadedData = dataService.getData();
     setData(loadedData);
     
-    // Set featured episode (latest one from the first series)
-    const latestSeries = loadedData.series.find(s => s.destaque) || loadedData.series[0];
-    const latestEp = dataService.getEpisodesBySeries(latestSeries.id).sort((a, b) => b.ordem - a.ordem)[0];
-    setFeaturedEpisode(latestEp || loadedData.episodes[0]);
+    // Set featured episode (specifically the one requested: WAmwF7abBdg)
+    const specificFeaturedEp = loadedData.episodes.find(ep => ep.youtubeVideoId === "WAmwF7abBdg");
+    
+    if (specificFeaturedEp) {
+      setFeaturedEpisode(specificFeaturedEp);
+    } else {
+      // Fallback to latest logic if specific video not found
+      const latestSeries = loadedData.series.find(s => s.destaque) || loadedData.series[0];
+      const latestEp = dataService.getEpisodesBySeries(latestSeries.id).sort((a, b) => b.ordem - a.ordem)[0];
+      setFeaturedEpisode(latestEp || loadedData.episodes[0]);
+    }
   }, []);
 
   if (!featuredEpisode) return <div className="h-screen bg-[#141414] flex items-center justify-center text-white">Carregando...</div>;
