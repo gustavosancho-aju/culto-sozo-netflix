@@ -39,26 +39,35 @@ const Hero: React.FC<HeroProps> = ({ episode }) => {
           <p className="text-lg text-gray-200 line-clamp-3 drop-shadow-md max-w-xl font-sans">
             {episode.descricaoCurta}
           </p>
-          
-          <div className="flex items-center gap-4 pt-4 ml-20">
-            <Link href={`/episodio/${episode.id}`}>
-              <button className="flex items-center gap-3 bg-white text-black px-8 py-3 rounded hover:bg-white/90 transition font-bold text-lg">
-                <Play className="w-6 h-6 fill-black" />
-                Assistir
-              </button>
-            </Link>
-            
-            <a 
-              href="https://www.instagram.com/lorenaamelo/" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="flex items-center gap-3 bg-[rgba(109,109,110,0.7)] text-white px-8 py-3 rounded hover:bg-[rgba(109,109,110,0.4)] transition font-bold text-lg backdrop-blur-sm"
-            >
-              <Info className="w-6 h-6" />
-              Mais Informações
-            </a>
-          </div>
         </div>
+      </div>
+
+      {/* Hero Actions & Title - Positioned at bottom left */}
+      <div className="absolute bottom-20 left-[60px] flex flex-col gap-3 z-10">
+        {/* Buttons Row */}
+        <div className="flex items-center gap-2">
+          <Link href={`/episodio/${episode.id}`}>
+            <button className="flex items-center gap-3 bg-white text-black px-8 py-3 rounded hover:bg-white/90 transition font-bold text-lg">
+              <Play className="w-6 h-6 fill-black" />
+              Assistir
+            </button>
+          </Link>
+          
+          <a 
+            href="https://www.instagram.com/lorenaamelo/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 bg-[rgba(109,109,110,0.7)] text-white px-8 py-3 rounded hover:bg-[rgba(109,109,110,0.4)] transition font-bold text-lg backdrop-blur-sm"
+          >
+            <Info className="w-6 h-6" />
+            Mais Informações
+          </a>
+        </div>
+
+        {/* Title Below Buttons */}
+        <h2 className="text-2xl font-bold text-white border-l-4 border-[#E50914] pl-3">
+          SOZO 2026
+        </h2>
       </div>
     </div>
   );
