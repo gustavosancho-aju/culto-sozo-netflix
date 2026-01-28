@@ -59,7 +59,7 @@ const Home: React.FC<HomeProps> = ({ searchQuery }) => {
     <div className="min-h-screen bg-[#141414] pb-20 overflow-x-hidden">
       <Hero episode={featuredEpisode} />
       
-      <div className="relative z-20 px-4 md:px-12 space-y-16 -mt-20 md:-mt-32">
+      <div className="relative z-20 px-4 md:px-12 space-y-16 mt-8">
         {/* Section 2026 */}
         {series2026.length > 0 && (
           <section>
