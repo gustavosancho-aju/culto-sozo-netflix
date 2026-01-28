@@ -1,42 +1,72 @@
+import React, { useState } from 'react';
+import { Route, Switch, useLocation } from 'wouter';
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
+import SeriesDetails from './pages/SeriesDetails';
+import EpisodePlayer from './pages/EpisodePlayer';
+import Admin from './pages/Admin';
+import { Youtube } from 'lucide-react';
+import { CHANNEL_URL } from './constants';
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import NotFound from "@/pages/NotFound";
-import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
-import Home from "./pages/Home";
+import NotFound from "@/pages/NotFound";
 
+const Layout: React.FC = () => {
+  const [searchQuery, setSearchQuery] = useState('');
+  const [location] = useLocation();
 
-function Router() {
+  // Reset search when location changes
+  React.useEffect(() => {
+     if(location !== '/') {
+         setSearchQuery('');
+     }
+  }, [location]);
+
   return (
-    <Switch>
-      <Route path={"/"} component={Home} />
-      <Route path={"/404"} component={NotFound} />
-      {/* Final fallback route */}
-      <Route component={NotFound} />
-    </Switch>
+    <div className="bg-[#141414] min-h-screen font-sans text-gray-100 relative">
+      {/* Hide Navbar on Player Page */}
+      {!location.startsWith('/episodio/') && <Navbar onSearch={setSearchQuery} />}
+      
+      <Switch>
+        <Route path="/">
+          <Home searchQuery={searchQuery} />
+        </Route>
+        <Route path="/serie/:id" component={SeriesDetails} />
+        <Route path="/episodio/:id" component={EpisodePlayer} />
+        <Route path="/admin" component={Admin} />
+        <Route component={NotFound} />
+      </Switch>
+
+      {/* Global Fixed YouTube Button - Hide on Player Page */}
+      {!location.startsWith('/episodio/') && (
+        <a
+          href={CHANNEL_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="fixed bottom-6 right-6 z-[60] flex items-center gap-2 bg-[#E50914] hover:bg-[#B20710] text-white px-4 py-3 rounded-full shadow-lg shadow-black/50 transition-all hover:scale-105 font-bold group"
+          title="Inscreva-se no Canal"
+        >
+          <Youtube className="w-6 h-6 fill-white" />
+          <span className="hidden md:inline">Inscreva-se</span>
+        </a>
+      )}
+    </div>
   );
-}
+};
 
-// NOTE: About Theme
-// - First choose a default theme according to your design style (dark or light bg), than change color palette in index.css
-//   to keep consistent foreground/background color across components
-// - If you want to make theme switchable, pass `switchable` ThemeProvider and use `useTheme` hook
-
-function App() {
+const App: React.FC = () => {
   return (
     <ErrorBoundary>
-      <ThemeProvider
-        defaultTheme="light"
-        // switchable
-      >
+      <ThemeProvider defaultTheme="dark">
         <TooltipProvider>
           <Toaster />
-          <Router />
+          <Layout />
         </TooltipProvider>
       </ThemeProvider>
     </ErrorBoundary>
   );
-}
+};
 
 export default App;
