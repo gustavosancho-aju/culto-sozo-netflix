@@ -3,6 +3,8 @@ import Hero from '../components/Hero';
 import SeriesCard from '../components/SeriesCard';
 import { dataService } from '../services/dataService';
 import { DataState, Episode, Series } from '../types';
+import { Play, Info } from 'lucide-react';
+import { Link } from 'wouter';
 
 interface HomeProps {
   searchQuery?: string;
@@ -59,7 +61,27 @@ const Home: React.FC<HomeProps> = ({ searchQuery }) => {
     <div className="min-h-screen bg-[#141414] pb-20 overflow-x-hidden">
       <Hero episode={featuredEpisode} />
       
-      <div className="relative z-20 px-4 md:px-12 space-y-16 mt-8">
+      {/* Action Buttons - Centered in the spacing area */}
+      <div className="flex justify-center items-center gap-4 py-8 relative z-30">
+        <Link href={`/episodio/${featuredEpisode.id}`}>
+          <button className="flex items-center gap-3 bg-white text-black px-8 py-3 rounded hover:bg-white/90 transition font-bold text-lg">
+            <Play className="w-6 h-6 fill-black" />
+            Assistir
+          </button>
+        </Link>
+        
+        <a 
+          href="https://www.instagram.com/lorenaamelo/" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="flex items-center gap-3 bg-[rgba(109,109,110,0.7)] text-white px-8 py-3 rounded hover:bg-[rgba(109,109,110,0.4)] transition font-bold text-lg backdrop-blur-sm"
+        >
+          <Info className="w-6 h-6" />
+          Mais Informações
+        </a>
+      </div>
+
+      <div className="relative z-20 px-4 md:px-12 space-y-16 mt-4">
         {/* Section 2026 */}
         {series2026.length > 0 && (
           <section>
