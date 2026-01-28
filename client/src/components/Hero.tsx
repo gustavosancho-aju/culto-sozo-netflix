@@ -47,10 +47,15 @@ const Hero: React.FC<HeroProps> = ({ episode }) => {
               </button>
             </Link>
             
-            <button className="flex items-center gap-3 bg-[rgba(109,109,110,0.7)] text-white px-8 py-3 rounded hover:bg-[rgba(109,109,110,0.4)] transition font-bold text-lg backdrop-blur-sm">
+            <a 
+              href="https://www.instagram.com/lorenaamelo/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 bg-[rgba(109,109,110,0.7)] text-white px-8 py-3 rounded hover:bg-[rgba(109,109,110,0.4)] transition font-bold text-lg backdrop-blur-sm"
+            >
               <Info className="w-6 h-6" />
               Mais Informações
-            </button>
+            </a>
           </div>
         </div>
       </div>
