@@ -41,12 +41,12 @@ const Hero: React.FC<HeroProps> = ({ episode }) => {
       </div>
 
       {/* Hero Actions & Title - Positioned at bottom left */}
-      <div className="absolute bottom-20 left-[60px] flex flex-col gap-3 z-10">
+      <div className="absolute bottom-20 left-4 md:left-[60px] flex flex-col gap-3 z-10">
         {/* Buttons Row */}
         <div className="flex items-center gap-2">
           <Link href={`/episodio/${episode.id}`}>
-            <button className="flex items-center gap-3 bg-white text-black px-8 py-3 rounded hover:bg-white/90 transition font-bold text-lg">
-              <Play className="w-6 h-6 fill-black" />
+            <button className="flex items-center gap-2 md:gap-3 bg-white text-black px-4 py-2 md:px-8 md:py-3 rounded hover:bg-white/90 transition font-bold text-sm md:text-lg">
+              <Play className="w-4 h-4 md:w-6 md:h-6 fill-black" />
               Assistir
             </button>
           </Link>
@@ -55,9 +55,9 @@ const Hero: React.FC<HeroProps> = ({ episode }) => {
             href="https://www.instagram.com/lorenaamelo/" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="flex items-center gap-3 bg-[rgba(109,109,110,0.7)] text-white px-8 py-3 rounded hover:bg-[rgba(109,109,110,0.4)] transition font-bold text-lg backdrop-blur-sm"
+            className="flex items-center gap-2 md:gap-3 bg-[rgba(109,109,110,0.7)] text-white px-4 py-2 md:px-8 md:py-3 rounded hover:bg-[rgba(109,109,110,0.4)] transition font-bold text-sm md:text-lg backdrop-blur-sm"
           >
-            <Info className="w-6 h-6" />
+            <Info className="w-4 h-4 md:w-6 md:h-6" />
             Mais Informações
           </a>
         </div>

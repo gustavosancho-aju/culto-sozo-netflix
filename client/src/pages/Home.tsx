@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Hero from '../components/Hero';
 import SeriesCard from '../components/SeriesCard';
+import ScrollRow from '../components/ScrollRow';
 import { dataService } from '../services/dataService';
 import { DataState, Episode, Series } from '../types';
 
@@ -62,32 +63,22 @@ const Home: React.FC<HomeProps> = ({ searchQuery }) => {
       <div className="relative z-20 px-4 md:px-12 space-y-16 mt-8">
         {/* Section 2026 */}
         {series2026.length > 0 && (
-          <section>
-            <h2 className="text-3xl font-display font-bold text-white mb-6 border-l-4 border-[#E50914] pl-4">
-              SOZO 2026
-            </h2>
-            <div className="flex overflow-x-auto gap-4 pb-4 scrollbar-hide">
-              {series2026.map(serie => {
-                const latestEp = dataService.getEpisodesBySeries(serie.id).sort((a, b) => b.ordem - a.ordem)[0];
-                return <SeriesCard key={serie.id} series={serie} latestEpisode={latestEp} />;
-              })}
-            </div>
-          </section>
+          <ScrollRow title="SOZO 2026">
+            {series2026.map(serie => {
+              const latestEp = dataService.getEpisodesBySeries(serie.id).sort((a, b) => b.ordem - a.ordem)[0];
+              return <SeriesCard key={serie.id} series={serie} latestEpisode={latestEp} />;
+            })}
+          </ScrollRow>
         )}
 
         {/* Section 2025 */}
         {series2025.length > 0 && (
-          <section>
-            <h2 className="text-3xl font-display font-bold text-white mb-6 border-l-4 border-[#E50914] pl-4">
-              SOZO 2025
-            </h2>
-            <div className="flex overflow-x-auto gap-4 pb-4 scrollbar-hide">
-              {series2025.map(serie => {
-                const latestEp = dataService.getEpisodesBySeries(serie.id).sort((a, b) => b.ordem - a.ordem)[0];
-                return <SeriesCard key={serie.id} series={serie} latestEpisode={latestEp} />;
-              })}
-            </div>
-          </section>
+          <ScrollRow title="SOZO 2025">
+            {series2025.map(serie => {
+              const latestEp = dataService.getEpisodesBySeries(serie.id).sort((a, b) => b.ordem - a.ordem)[0];
+              return <SeriesCard key={serie.id} series={serie} latestEpisode={latestEp} />;
+            })}
+          </ScrollRow>
         )}
       </div>
     </div>
