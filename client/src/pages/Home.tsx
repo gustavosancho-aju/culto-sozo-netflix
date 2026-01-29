@@ -66,7 +66,7 @@ const Home: React.FC<HomeProps> = ({ searchQuery }) => {
             <h2 className="text-3xl font-display font-bold text-white mb-6 border-l-4 border-[#E50914] pl-4">
               SOZO 2026
             </h2>
-            <div className="flex flex-wrap gap-6">
+            <div className="flex overflow-x-auto gap-4 pb-4 scrollbar-hide">
               {series2026.map(serie => {
                 const latestEp = dataService.getEpisodesBySeries(serie.id).sort((a, b) => b.ordem - a.ordem)[0];
                 return <SeriesCard key={serie.id} series={serie} latestEpisode={latestEp} />;
@@ -81,7 +81,7 @@ const Home: React.FC<HomeProps> = ({ searchQuery }) => {
             <h2 className="text-3xl font-display font-bold text-white mb-6 border-l-4 border-[#E50914] pl-4">
               SOZO 2025
             </h2>
-            <div className="flex flex-wrap gap-6">
+            <div className="flex overflow-x-auto gap-4 pb-4 scrollbar-hide">
               {series2025.map(serie => {
                 const latestEp = dataService.getEpisodesBySeries(serie.id).sort((a, b) => b.ordem - a.ordem)[0];
                 return <SeriesCard key={serie.id} series={serie} latestEpisode={latestEp} />;

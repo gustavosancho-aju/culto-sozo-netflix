@@ -15,7 +15,7 @@ const SeriesCard: React.FC<SeriesCardProps> = ({ series, latestEpisode }) => {
 
   return (
     <Link href={`/serie/${series.id}`}>
-      <div className="group relative h-[400px] w-full md:w-[300px] cursor-pointer overflow-hidden rounded-md transition-all duration-300 hover:scale-105 hover:z-20 hover:shadow-2xl shadow-black/50">
+      <div className="group relative aspect-video w-full md:w-[320px] cursor-pointer overflow-hidden rounded-md transition-all duration-300 hover:scale-105 hover:z-20 hover:shadow-2xl shadow-black/50 flex-shrink-0">
         {/* Background Image */}
         <img 
           src={coverImage} 
