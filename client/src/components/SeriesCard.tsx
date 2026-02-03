@@ -34,9 +34,7 @@ const SeriesCard: React.FC<SeriesCardProps> = ({ series, latestEpisode }) => {
             </h3>
             
             <div className="h-0 group-hover:h-auto overflow-hidden transition-all duration-300 opacity-0 group-hover:opacity-100">
-              <p className="text-sm text-gray-300 mb-4 line-clamp-3 font-sans">
-                {series.descricao}
-              </p>
+
               
               <div className="flex items-center gap-2 text-xs font-bold text-white">
                 <span className="bg-[#E50914] px-2 py-1 rounded">SÉRIE</span>
