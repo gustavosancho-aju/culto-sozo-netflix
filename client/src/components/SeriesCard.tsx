@@ -29,16 +29,10 @@ const SeriesCard: React.FC<SeriesCardProps> = ({ series, latestEpisode }) => {
         {/* Content */}
         <div className="absolute bottom-0 left-0 w-full p-6 flex flex-col justify-end h-full">
           <div className="transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-            <h3 className="text-3xl font-display font-bold text-white leading-tight mb-2 drop-shadow-lg">
-              {series.titulo}
-            </h3>
-            
             <div className="h-0 group-hover:h-auto overflow-hidden transition-all duration-300 opacity-0 group-hover:opacity-100">
-
-              
               <div className="flex items-center gap-2 text-xs font-bold text-white">
-                <span className="bg-[#E50914] px-2 py-1 rounded">SÉRIE</span>
-                {latestEpisode && <span>Novos Episódios</span>}
+                {/* Only show 'Novos Episódios' for the latest series (Identidade e Propósito) */}
+                {series.titulo.includes("Identidade e Propósito") && <span>Novos Episódios</span>}
               </div>
             </div>
           </div>
