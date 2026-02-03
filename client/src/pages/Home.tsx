@@ -53,7 +53,7 @@ const Home: React.FC<HomeProps> = ({ searchQuery }) => {
   }
 
   // Group series by year
-  const series2026 = data.series.filter(s => s.ano === 2026).sort((a, b) => a.ordem - b.ordem);
+  const series2026 = data.series.filter(s => s.ano === 2026).sort((a, b) => b.ordem - a.ordem);
   const series2025 = data.series.filter(s => s.ano === 2025).sort((a, b) => a.ordem - b.ordem);
 
   return (
