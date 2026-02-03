@@ -7,10 +7,18 @@ export const THUMBNAIL_TEMPLATE = "img.youtube.com/vi/{id}/maxresdefault.jpg";
 // Initial Data
 export const INITIAL_SERIES: Series[] = [
   {
+    id: "identidade-proposito-2026",
+    titulo: "Identidade e Propósito - Fevereiro 2026",
+    descricao: "Descobrindo quem somos e para o que fomos chamados.",
+    destaque: true,
+    ordem: 2,
+    ano: 2026
+  },
+  {
     id: "orfaos-a-filho-2026",
     titulo: "De Órfãos a Filho - Janeiro 2026",
     descricao: "Uma jornada de cura interior, identidade e restauração da paternidade.",
-    destaque: true,
+    destaque: false,
     ordem: 1,
     ano: 2026
   },
@@ -41,6 +49,17 @@ export const INITIAL_SERIES: Series[] = [
 ];
 
 export const INITIAL_EPISODES: Episode[] = [
+  // IDENTIDADE E PROPÓSITO - FEVEREIRO 2026
+  { 
+    id: "identidade-2026-1", 
+    serieId: "identidade-proposito-2026", 
+    ordem: 1, 
+    titulo: "IDENTIDADE E PROPÓSITO | SOZO | 1º SEMANA", 
+    youtubeVideoId: "x6ZbZHPH98I", 
+    duracao: "55min", 
+    descricaoCurta: "Início da jornada sobre identidade e propósito." 
+  },
+
   // DE ÓRFÃOS A FILHO - JANEIRO 2026 (Novos dados)
   { 
     id: "orfaos-2026-4", 
