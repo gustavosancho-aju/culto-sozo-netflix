@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Hero from '../components/Hero';
 import SeriesCard from '../components/SeriesCard';
 import ScrollRow from '../components/ScrollRow';
+import ExclusiveContent from '../components/ExclusiveContent';
 import { dataService } from '../services/dataService';
 import { DataState, Episode, Series } from '../types';
 
@@ -80,6 +81,9 @@ const Home: React.FC<HomeProps> = ({ searchQuery }) => {
             })}
           </ScrollRow>
         )}
+
+        {/* Exclusive Content Section */}
+        <ExclusiveContent />
       </div>
     </div>
   );
