@@ -30,7 +30,7 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
         <div className="flex items-center gap-8">
           <Link href="/">
             <img 
-              src="/images/logo.png" 
+              src="https://files.manuscdn.com/user_upload_by_module/session_file/89232094/mAzBjhlVTYiBljZT.png" 
               alt="Culto Sozo" 
               className="h-8 md:h-10 object-contain cursor-pointer" 
             />
