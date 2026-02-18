@@ -51,6 +51,15 @@ export const INITIAL_SERIES: Series[] = [
 export const INITIAL_EPISODES: Episode[] = [
   // IDENTIDADE E PROPÓSITO - FEVEREIRO 2026
   { 
+    id: "identidade-2026-3", 
+    serieId: "identidade-proposito-2026", 
+    ordem: 3, 
+    titulo: "IDENTIDADE E PROPÓSITO | SOZO | 3º SEMANA", 
+    youtubeVideoId: "WTF58taNtJo", 
+    duracao: "55min", 
+    descricaoCurta: "Terceira semana da jornada sobre identidade e propósito." 
+  },
+  { 
     id: "identidade-2026-2", 
     serieId: "identidade-proposito-2026", 
     ordem: 2, 

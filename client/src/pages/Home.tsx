@@ -18,8 +18,8 @@ const Home: React.FC<HomeProps> = ({ searchQuery }) => {
     const loadedData = dataService.getData();
     setData(loadedData);
     
-    // Set featured episode (specifically the one requested: LdkPH0OEjOU)
-    const specificFeaturedEp = loadedData.episodes.find(ep => ep.youtubeVideoId === "LdkPH0OEjOU");
+    // Set featured episode (specifically the one requested: WTF58taNtJo)
+    const specificFeaturedEp = loadedData.episodes.find(ep => ep.youtubeVideoId === "WTF58taNtJo");
     
     if (specificFeaturedEp) {
       setFeaturedEpisode(specificFeaturedEp);
