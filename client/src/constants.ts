@@ -7,10 +7,18 @@ export const THUMBNAIL_TEMPLATE = "img.youtube.com/vi/{id}/maxresdefault.jpg";
 // Initial Data
 export const INITIAL_SERIES: Series[] = [
   {
+    id: "raiz-invisivel-caos-2026",
+    titulo: "A Raiz Invisível do Caos - Março 2026",
+    descricao: "Série sobre a ordem que libera destino e a família como engrenagem da vida.",
+    destaque: true,
+    ordem: 3,
+    ano: 2026
+  },
+  {
     id: "identidade-proposito-2026",
     titulo: "Identidade e Propósito - Fevereiro 2026",
     descricao: "Descobrindo quem somos e para o que fomos chamados.",
-    destaque: true,
+    destaque: false,
     ordem: 2,
     ano: 2026
   },
@@ -49,6 +57,17 @@ export const INITIAL_SERIES: Series[] = [
 ];
 
 export const INITIAL_EPISODES: Episode[] = [
+  // A RAIZ INVISÍVEL DO CAOS - MARÇO 2026
+  { 
+    id: "raiz-caos-2026-1", 
+    serieId: "raiz-invisivel-caos-2026", 
+    ordem: 1, 
+    titulo: "A RAIZ INVISÍVEL DO CAOS | FAMÍLIA: ENGRENAGEM DA VIDA | SOZO 1º SEMANA", 
+    youtubeVideoId: "i5h-bUn60tM", 
+    duracao: "57min", 
+    descricaoCurta: "Semana 1: A ordem que libera destino." 
+  },
+
   // IDENTIDADE E PROPÓSITO - FEVEREIRO 2026
   { 
     id: "identidade-2026-4", 
