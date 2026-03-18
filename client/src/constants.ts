@@ -59,6 +59,15 @@ export const INITIAL_SERIES: Series[] = [
 export const INITIAL_EPISODES: Episode[] = [
   // A RAIZ INVISÍVEL DO CAOS - MARÇO 2026
   { 
+    id: "raiz-caos-2026-3", 
+    serieId: "raiz-invisivel-caos-2026", 
+    ordem: 3, 
+    titulo: "A RAIZ DE MUITAS FERIDAS EMOCIONAIS | FAMÍLIA: ENGRENAGEM DA VIDA | SOZO 3º SEMANA", 
+    youtubeVideoId: "e2tAh9xKEUc", 
+    duracao: "1h", 
+    descricaoCurta: "Semana 3: A Raiz de Muitas Feridas Emocionais." 
+  },
+  { 
     id: "raiz-caos-2026-2", 
     serieId: "raiz-invisivel-caos-2026", 
     ordem: 2, 
