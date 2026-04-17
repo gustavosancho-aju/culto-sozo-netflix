@@ -59,6 +59,15 @@ export const INITIAL_SERIES: Series[] = [
 export const INITIAL_EPISODES: Episode[] = [
   // A RAIZ INVISÍVEL DO CAOS - MARÇO 2026
   { 
+    id: "raiz-caos-2026-4", 
+    serieId: "raiz-invisivel-caos-2026", 
+    ordem: 4, 
+    titulo: "POR QUE DEUS MANDOU HONRAR PAI E MÃE ? | FAMÍLIA: ENGRENAGEM DA VIDA | SOZO 2º SEMANA", 
+    youtubeVideoId: "CNLR8rAgJSQ", 
+    duracao: "1h", 
+    descricaoCurta: "Semana 4: Por que Deus mandou honrar pai e mãe?" 
+  },
+  { 
     id: "raiz-caos-2026-3", 
     serieId: "raiz-invisivel-caos-2026", 
     ordem: 3, 
