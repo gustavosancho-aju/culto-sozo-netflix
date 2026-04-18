@@ -71,10 +71,10 @@ export const INITIAL_EPISODES: Episode[] = [
     id: "raiz-caos-2026-4", 
     serieId: "raiz-invisivel-caos-2026", 
     ordem: 4, 
-    titulo: "POR QUE DEUS MANDOU HONRAR PAI E MÃE ? | FAMÍLIA: ENGRENAGEM DA VIDA | SOZO 2º SEMANA", 
-    youtubeVideoId: "CNLR8rAgJSQ", 
+    titulo: "O SILÊNCIO QUE DESTRÓI A CASA| FAMÍLIA: ENGRENAGEM DA VIDA | SOZO 4º SEMANA", 
+    youtubeVideoId: "S-laZSQ2e9A", 
     duracao: "1h", 
-    descricaoCurta: "Semana 4: Por que Deus mandou honrar pai e mãe?" 
+    descricaoCurta: "Semana 4: O silêncio que destrói a casa." 
   },
   { 
     id: "raiz-caos-2026-3", 
