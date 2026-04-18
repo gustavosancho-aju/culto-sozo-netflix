@@ -7,6 +7,14 @@ export const THUMBNAIL_TEMPLATE = "img.youtube.com/vi/{id}/maxresdefault.jpg";
 // Initial Data
 export const INITIAL_SERIES: Series[] = [
   {
+    id: "rasgando-veu-coracao-2026",
+    titulo: "Rasgando o Véu do Coração - Abril 2026",
+    descricao: "Série sobre como lidar com a dureza do coração e buscar a cura interior.",
+    destaque: false,
+    ordem: 4,
+    ano: 2026
+  },
+  {
     id: "raiz-invisivel-caos-2026",
     titulo: "A Raiz Invisível do Caos - Março 2026",
     descricao: "Série sobre a ordem que libera destino e a família como engrenagem da vida.",
@@ -57,6 +65,17 @@ export const INITIAL_SERIES: Series[] = [
 ];
 
 export const INITIAL_EPISODES: Episode[] = [
+  // RASGANDO O VÉU DO CORAÇÃO - ABRIL 2026
+  { 
+    id: "rasgando-veu-2026-1", 
+    serieId: "rasgando-veu-coracao-2026", 
+    ordem: 1, 
+    titulo: "QUANDO O CORAÇÃO SE TORNA DURO | RASGANDO O VÉU DO CORAÇÂO | 1º SEMANA", 
+    youtubeVideoId: "QNFRK2R9ghk", 
+    duracao: "1h", 
+    descricaoCurta: "Semana 1: Quando o coração se torna duro." 
+  },
+
   // A RAIZ INVISÍVEL DO CAOS - MARÇO 2026
   { 
     id: "raiz-caos-2026-5", 
