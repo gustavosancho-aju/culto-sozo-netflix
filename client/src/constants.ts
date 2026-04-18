@@ -67,6 +67,15 @@ export const INITIAL_SERIES: Series[] = [
 export const INITIAL_EPISODES: Episode[] = [
   // RASGANDO O VÉU DO CORAÇÃO - ABRIL 2026
   { 
+    id: "rasgando-veu-2026-2", 
+    serieId: "rasgando-veu-coracao-2026", 
+    ordem: 2, 
+    titulo: "O PERIGO DE PARECER E NÃO SER | RASGANDO O VÉU DO CORAÇÂO | 2º SEMANA", 
+    youtubeVideoId: "lAh6IqfVa3g", 
+    duracao: "1h", 
+    descricaoCurta: "Semana 2: O perigo de parecer e não ser." 
+  },
+  { 
     id: "rasgando-veu-2026-1", 
     serieId: "rasgando-veu-coracao-2026", 
     ordem: 1, 
