@@ -59,6 +59,15 @@ export const INITIAL_SERIES: Series[] = [
 export const INITIAL_EPISODES: Episode[] = [
   // A RAIZ INVISÍVEL DO CAOS - MARÇO 2026
   { 
+    id: "raiz-caos-2026-5", 
+    serieId: "raiz-invisivel-caos-2026", 
+    ordem: 5, 
+    titulo: "REPOSICIONANDO O CORAÇÃO | FAMÍLIA: ENGRENAGEM DA VIDA | SOZO 5º SEMANA", 
+    youtubeVideoId: "_eL6NlX94eE", 
+    duracao: "1h", 
+    descricaoCurta: "Semana 5: Reposicionando o coração." 
+  },
+  { 
     id: "raiz-caos-2026-4", 
     serieId: "raiz-invisivel-caos-2026", 
     ordem: 4, 
