@@ -31,8 +31,14 @@ const SeriesCard: React.FC<SeriesCardProps> = ({ series, latestEpisode }) => {
           <div className="transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
             <div className="h-0 group-hover:h-auto overflow-hidden transition-all duration-300 opacity-0 group-hover:opacity-100">
               <div className="flex items-center gap-2 text-xs font-bold text-white">
+                {/* Extrair o mês do título da série (ex: "Série - Março 2026" -> "Março") */}
+                {series.titulo.split(' - ')[1] && (
+                  <span className="text-gray-300 uppercase tracking-wider">
+                    {series.titulo.split(' - ')[1].split(' ')[0]}
+                  </span>
+                )}
                 {/* Only show 'Novos Episódios' for the latest series (Identidade e Propósito) */}
-                {series.titulo.includes("Identidade e Propósito") && <span>Novos Episódios</span>}
+                {series.titulo.includes("Identidade e Propósito") && <span className="text-green-500">• Novos Episódios</span>}
               </div>
             </div>
           </div>
