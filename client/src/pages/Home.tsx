@@ -65,9 +65,11 @@ const Home: React.FC<HomeProps> = ({ searchQuery }) => {
         {/* Section 2026 */}
         {series2026.length > 0 && (
           <ScrollRow title="SOZO 2026">
-            {series2026.map(serie => {
+            {series2026.map((serie, index) => {
               const latestEp = dataService.getEpisodesBySeries(serie.id).sort((a, b) => b.ordem - a.ordem)[0];
-              return <SeriesCard key={serie.id} series={serie} latestEpisode={latestEp} />;
+              // The first series in the 2026 list is the latest one
+              const isLatestSeries = index === 0;
+              return <SeriesCard key={serie.id} series={serie} latestEpisode={latestEp} isLatestSeries={isLatestSeries} />;
             })}
           </ScrollRow>
         )}

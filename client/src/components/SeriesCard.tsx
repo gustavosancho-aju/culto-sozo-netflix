@@ -7,9 +7,10 @@ import { Play } from 'lucide-react';
 interface SeriesCardProps {
   series: Series;
   latestEpisode?: Episode;
+  isLatestSeries?: boolean;
 }
 
-const SeriesCard: React.FC<SeriesCardProps> = ({ series, latestEpisode }) => {
+const SeriesCard: React.FC<SeriesCardProps> = ({ series, latestEpisode, isLatestSeries }) => {
   // Use latest episode thumbnail as series cover if no custom cover provided
   const coverImage = series.capaUrl || (latestEpisode ? getThumbnailUrl(latestEpisode.youtubeVideoId) : '');
 
@@ -37,8 +38,8 @@ const SeriesCard: React.FC<SeriesCardProps> = ({ series, latestEpisode }) => {
                     {series.titulo.split(' - ')[1].split(' ')[0]}
                   </span>
                 )}
-                {/* Only show 'Novos Episódios' for the latest series (Identidade e Propósito) */}
-                {series.titulo.includes("Identidade e Propósito") && <span className="text-green-500">• Novos Episódios</span>}
+                {/* Only show 'Novos Episódios' for the latest series */}
+                {isLatestSeries && <span className="text-green-500">• Novos Episódios</span>}
               </div>
             </div>
           </div>
