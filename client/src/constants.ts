@@ -67,6 +67,15 @@ export const INITIAL_SERIES: Series[] = [
 export const INITIAL_EPISODES: Episode[] = [
   // RASGANDO O VÉU DO CORAÇÃO - ABRIL 2026
   { 
+    id: "rasgando-veu-2026-4", 
+    serieId: "rasgando-veu-coracao-2026", 
+    ordem: 4, 
+    titulo: "DO VÉU AO REINO : QUANDO O CORAÇÃO É TRANSFORMADO | RASGANDO O VÉU DO CORAÇÃO | 4º SEMANA", 
+    youtubeVideoId: "KdzLMRWqESo", 
+    duracao: "1h", 
+    descricaoCurta: "Semana 4: Do véu ao reino: quando o coração é transformado." 
+  },
+  { 
     id: "rasgando-veu-2026-3", 
     serieId: "rasgando-veu-coracao-2026", 
     ordem: 3, 
