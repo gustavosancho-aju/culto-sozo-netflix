@@ -93,10 +93,47 @@ export const INITIAL_SERIES: Series[] = [
     destaque: false,
     ordem: 4,
     ano: 2025
+  },
+  {
+    id: "poder-de-amar-2025",
+    titulo: "O Poder de Amar - Setembro 2025",
+    descricao: "Série sobre o amor, restauração e escolhas que geram vida.",
+    destaque: false,
+    ordem: 5,
+    ano: 2025
   }
 ];
 
 export const INITIAL_EPISODES: Episode[] = [
+  // O PODER DE AMAR - SETEMBRO 2025
+  { 
+    id: "poder-de-amar-2025-1", 
+    serieId: "poder-de-amar-2025", 
+    ordem: 1, 
+    titulo: "DO FRACASSO À RESTAURAÇÃO | 14 DE SETEMBRO", 
+    youtubeVideoId: "CiqG7OnlXug", 
+    duracao: "1h", 
+    descricaoCurta: "Semana 1: Do Fracasso à Restauração." 
+  },
+  { 
+    id: "poder-de-amar-2025-2", 
+    serieId: "poder-de-amar-2025", 
+    ordem: 2, 
+    titulo: "O PODER DE AMAR: ESCOLHAS QUE GERAM VIDA", 
+    youtubeVideoId: "6xlUZxW88ls", 
+    duracao: "1h", 
+    descricaoCurta: "Semana 2: Escolhas que Geram Vida." 
+  },
+  { 
+    id: "poder-de-amar-2025-3", 
+    serieId: "poder-de-amar-2025", 
+    ordem: 3, 
+    titulo: "O PODER DE AMAR: CICLO DA CONFIANÇA | 29 DE SETEMBRO", 
+    youtubeVideoId: "LngMwGPd7x0", 
+    duracao: "1h", 
+    descricaoCurta: "Semana 3: Ciclo da Confiança." 
+  },
+
   // O ESTILO DE VIDA DOS FELIZES - JULHO 2025
   { 
     id: "estilo-vida-felizes-2025-1", 
