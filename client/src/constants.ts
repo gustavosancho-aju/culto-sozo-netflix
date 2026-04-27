@@ -101,10 +101,56 @@ export const INITIAL_SERIES: Series[] = [
     destaque: false,
     ordem: 5,
     ano: 2025
+  },
+  {
+    id: "feridas-que-marcam-2025",
+    titulo: "Feridas que Marcam, Amor que Transforma - Outubro 2025",
+    descricao: "Série sobre cura de feridas emocionais através do amor transformador.",
+    destaque: false,
+    ordem: 6,
+    ano: 2025
   }
 ];
 
 export const INITIAL_EPISODES: Episode[] = [
+  // FERIDAS QUE MARCAM, AMOR QUE TRANSFORMA - OUTUBRO 2025
+  { 
+    id: "feridas-que-marcam-2025-1", 
+    serieId: "feridas-que-marcam-2025", 
+    ordem: 1, 
+    titulo: "FERIDAS QUE MARCAM, AMOR QUE TRANSFORMA | 1º SEMANA", 
+    youtubeVideoId: "dLSKlT_UpPQ", 
+    duracao: "1h", 
+    descricaoCurta: "Semana 1: Feridas que Marcam, Amor que Transforma." 
+  },
+  { 
+    id: "feridas-que-marcam-2025-2", 
+    serieId: "feridas-que-marcam-2025", 
+    ordem: 2, 
+    titulo: "FERIDAS QUE MARCAM, AMOR QUE TRANSFORMA | FERIDOS QUE FEREM", 
+    youtubeVideoId: "GnpasfVjADI", 
+    duracao: "1h", 
+    descricaoCurta: "Semana 2: Feridos que Ferem." 
+  },
+  { 
+    id: "feridas-que-marcam-2025-3", 
+    serieId: "feridas-que-marcam-2025", 
+    ordem: 3, 
+    titulo: "FERIDAS QUE MARCAM, AMOR QUE TRANSFORMA | 4º SEMANA", 
+    youtubeVideoId: "kvL9o_udtgg", 
+    duracao: "1h", 
+    descricaoCurta: "Semana 4: Feridas que Marcam, Amor que Transforma." 
+  },
+  { 
+    id: "feridas-que-marcam-2025-4", 
+    serieId: "feridas-que-marcam-2025", 
+    ordem: 4, 
+    titulo: "FERIDAS QUE MARCAM, AMOR QUE TRANSFORMA | 5 SEMANA", 
+    youtubeVideoId: "VhwuTYy4qw0", 
+    duracao: "1h", 
+    descricaoCurta: "Semana 5: Feridas que Marcam, Amor que Transforma." 
+  },
+
   // O PODER DE AMAR - SETEMBRO 2025
   { 
     id: "poder-de-amar-2025-1", 
