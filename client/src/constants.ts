@@ -77,10 +77,56 @@ export const INITIAL_SERIES: Series[] = [
     destaque: false,
     ordem: 2,
     ano: 2025
+  },
+  {
+    id: "guerra-invisivel-2025",
+    titulo: "Quando a Guerra é Invisível - Junho 2025",
+    descricao: "Série sobre as batalhas espirituais e a libertação.",
+    destaque: false,
+    ordem: 3,
+    ano: 2025
   }
 ];
 
 export const INITIAL_EPISODES: Episode[] = [
+  // QUANDO A GUERRA É INVISÍVEL - JUNHO 2025
+  { 
+    id: "guerra-invisivel-2025-1", 
+    serieId: "guerra-invisivel-2025", 
+    ordem: 1, 
+    titulo: "QUANDO A GUERRA É INVISÍVEL | 01 DE JUNHO", 
+    youtubeVideoId: "zaMoj4sv9vE", 
+    duracao: "1h", 
+    descricaoCurta: "Semana 1: Quando a Guerra é Invisível." 
+  },
+  { 
+    id: "guerra-invisivel-2025-2", 
+    serieId: "guerra-invisivel-2025", 
+    ordem: 2, 
+    titulo: "DO LAÇO À LIBERDADE | QUANDO A GUERRA É INVISÍVEL | 08 DE JUNHO", 
+    youtubeVideoId: "N7igrs1PNQI", 
+    duracao: "1h", 
+    descricaoCurta: "Semana 2: Do Laço à Liberdade." 
+  },
+  { 
+    id: "guerra-invisivel-2025-3", 
+    serieId: "guerra-invisivel-2025", 
+    ordem: 3, 
+    titulo: "QUANDO A VOZ SE CALA | 3º SEMANA | QUANDO A GUERRA É INVISÍVEL | 15 DE JUNHO", 
+    youtubeVideoId: "aPG0J796Hns", 
+    duracao: "1h", 
+    descricaoCurta: "Semana 3: Quando a Voz se Cala." 
+  },
+  { 
+    id: "guerra-invisivel-2025-4", 
+    serieId: "guerra-invisivel-2025", 
+    ordem: 4, 
+    titulo: "QUEM ESTÁ NO TRONO DO SEU CORAÇÃO | | QUANDO A GUERRA É INVISÍVEL | 22 DE JUNHO", 
+    youtubeVideoId: "RF9vrISUOpE", 
+    duracao: "1h", 
+    descricaoCurta: "Semana 4: Quem Está no Trono do Seu Coração." 
+  },
+
   // MARCAS NÃO VISTAS - MAIO 2025
   { 
     id: "marcas-nao-vistas-2025-1", 
