@@ -55,16 +55,80 @@ export const INITIAL_SERIES: Series[] = [
     ano: 2025
   },
   {
-    id: "estilo-vida-felizes-2025",
-    titulo: "O Estilo de Vida dos Felizes",
-    descricao: "Uma série sobre os princípios do Reino para uma vida plena e feliz.",
+    id: "identidade-proposito-2025",
+    titulo: "Identidade e Propósito - Fevereiro 2025",
+    descricao: "Descubra quem você é em Deus e qual o seu chamado.",
     destaque: false,
-    ordem: 2,
+    ordem: 1,
+    ano: 2025
+  },
+  {
+    id: "odres-renovados-2025",
+    titulo: "Odres Renovados - Janeiro 2025",
+    descricao: "Série sobre a renovação do coração e a preparação para o novo de Deus.",
+    destaque: false,
+    ordem: 0,
     ano: 2025
   }
 ];
 
 export const INITIAL_EPISODES: Episode[] = [
+  // ODRES RENOVADOS - JANEIRO 2025
+  { 
+    id: "odres-renovados-2025-1", 
+    serieId: "odres-renovados-2025", 
+    ordem: 1, 
+    titulo: "ODRES RENOVADOS | SEMANA 01 | SOZO", 
+    youtubeVideoId: "NxSRxXVwQ7w", 
+    duracao: "1h", 
+    descricaoCurta: "Semana 1: Odres Renovados." 
+  },
+  { 
+    id: "odres-renovados-2025-2", 
+    serieId: "odres-renovados-2025", 
+    ordem: 2, 
+    titulo: "ODRES RENOVADOS | MOTIVAÇÃO CORROMPIDA | 2 SEMANA | SOZO", 
+    youtubeVideoId: "VX8gj-mr_vQ", 
+    duracao: "1h", 
+    descricaoCurta: "Semana 2: Motivação Corrompida." 
+  },
+  { 
+    id: "odres-renovados-2025-3", 
+    serieId: "odres-renovados-2025", 
+    ordem: 3, 
+    titulo: "ODRES RENOVADOS | A VOZ DA JUSTIÇA | 3 SEMANA | SOZO", 
+    youtubeVideoId: "_2VKg7C3jAc", 
+    duracao: "1h", 
+    descricaoCurta: "Semana 3: A Voz da Justiça." 
+  },
+  { 
+    id: "odres-renovados-2025-4", 
+    serieId: "odres-renovados-2025", 
+    ordem: 4, 
+    titulo: "ODRES RENOVADOS | A QUEDA QUE O CORAÇÃO NÃO VIU | SEMANA 4: 20 DE ABRIL", 
+    youtubeVideoId: "I-KW7Ic2xmY", 
+    duracao: "1h", 
+    descricaoCurta: "Semana 4: A Queda que o Coração Não Viu." 
+  },
+  { 
+    id: "odres-renovados-2025-5", 
+    serieId: "odres-renovados-2025", 
+    ordem: 5, 
+    titulo: "ODRES RENOVADOS | A DOR DA REJEIÇÃO E O CONSOLO DO PAI | SEMANA 5: 27 DE ABRIL", 
+    youtubeVideoId: "Eo3pvq7wp0o", 
+    duracao: "1h", 
+    descricaoCurta: "Semana 5: A Dor da Rejeição e o Consolo do Pai." 
+  },
+  { 
+    id: "odres-renovados-2025-6", 
+    serieId: "odres-renovados-2025", 
+    ordem: 6, 
+    titulo: "ODRES RENOVADOS | O CONVITE AO NOVO | 6º SEMANA", 
+    youtubeVideoId: "3ners9WoYGg", 
+    duracao: "1h", 
+    descricaoCurta: "Semana 6: O Convite ao Novo." 
+  },
+
   // RASGANDO O VÉU DO CORAÇÃO - ABRIL 2026
   { 
     id: "rasgando-veu-2026-4", 
