@@ -109,10 +109,38 @@ export const INITIAL_SERIES: Series[] = [
     destaque: false,
     ordem: 6,
     ano: 2025
+  },
+  {
+    id: "transformados-pelo-espirito-2025",
+    titulo: "Transformados pelo Espírito - Novembro 2025",
+    descricao: "Série sobre a transformação da alma através do Espírito Santo.",
+    destaque: false,
+    ordem: 7,
+    ano: 2025
   }
 ];
 
 export const INITIAL_EPISODES: Episode[] = [
+  // TRANSFORMADOS PELO ESPÍRITO - NOVEMBRO 2025
+  { 
+    id: "transformados-pelo-espirito-2025-1", 
+    serieId: "transformados-pelo-espirito-2025", 
+    ordem: 1, 
+    titulo: "TRANSFORMADOS PELO ESPÍRITO | 1º• SEMANA", 
+    youtubeVideoId: "ylUDBw64J2s", 
+    duracao: "1h", 
+    descricaoCurta: "Semana 1: Transformados pelo Espírito." 
+  },
+  { 
+    id: "transformados-pelo-espirito-2025-2", 
+    serieId: "transformados-pelo-espirito-2025", 
+    ordem: 2, 
+    titulo: "TRANSFORMADOS PELO ESPÍRITO | SEMANA 4 - QUANDO A ALMA FERE", 
+    youtubeVideoId: "JLnnktXW3VA", 
+    duracao: "1h", 
+    descricaoCurta: "Semana 4: Quando a Alma Fere." 
+  },
+
   // FERIDAS QUE MARCAM, AMOR QUE TRANSFORMA - OUTUBRO 2025
   { 
     id: "feridas-que-marcam-2025-1", 
