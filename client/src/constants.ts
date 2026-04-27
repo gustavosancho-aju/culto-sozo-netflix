@@ -69,10 +69,47 @@ export const INITIAL_SERIES: Series[] = [
     destaque: false,
     ordem: 0,
     ano: 2025
+  },
+  {
+    id: "marcas-nao-vistas-2025",
+    titulo: "Marcas Não Vistas - Maio 2025",
+    descricao: "Série sobre as marcas invisíveis e a cura interior.",
+    destaque: false,
+    ordem: 2,
+    ano: 2025
   }
 ];
 
 export const INITIAL_EPISODES: Episode[] = [
+  // MARCAS NÃO VISTAS - MAIO 2025
+  { 
+    id: "marcas-nao-vistas-2025-1", 
+    serieId: "marcas-nao-vistas-2025", 
+    ordem: 1, 
+    titulo: "MARCAS NÃO VISTAS | 1º SEMANA | 11 DE MAIO", 
+    youtubeVideoId: "VoNphnBxFsw", 
+    duracao: "1h", 
+    descricaoCurta: "Semana 1: Marcas Não Vistas." 
+  },
+  { 
+    id: "marcas-nao-vistas-2025-2", 
+    serieId: "marcas-nao-vistas-2025", 
+    ordem: 2, 
+    titulo: "MARCAS NÃO VISTAS | 2º SEMANA | 18 DE MAIO", 
+    youtubeVideoId: "BG3lBtcOxEM", 
+    duracao: "1h", 
+    descricaoCurta: "Semana 2: Marcas Não Vistas." 
+  },
+  { 
+    id: "marcas-nao-vistas-2025-3", 
+    serieId: "marcas-nao-vistas-2025", 
+    ordem: 3, 
+    titulo: "MARCAS NÃO VISTAS | 3º SEMANA | 25 DE MAIO", 
+    youtubeVideoId: "O0SLmoyin48", 
+    duracao: "1h", 
+    descricaoCurta: "Semana 3: Marcas Não Vistas." 
+  },
+
   // ODRES RENOVADOS - JANEIRO 2025
   { 
     id: "odres-renovados-2025-1", 
