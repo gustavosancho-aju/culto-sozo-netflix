@@ -85,10 +85,56 @@ export const INITIAL_SERIES: Series[] = [
     destaque: false,
     ordem: 3,
     ano: 2025
+  },
+  {
+    id: "estilo-vida-felizes-2025",
+    titulo: "O Estilo de Vida dos Felizes - Julho 2025",
+    descricao: "Série sobre como viver uma vida plena e feliz em Deus.",
+    destaque: false,
+    ordem: 4,
+    ano: 2025
   }
 ];
 
 export const INITIAL_EPISODES: Episode[] = [
+  // O ESTILO DE VIDA DOS FELIZES - JULHO 2025
+  { 
+    id: "estilo-vida-felizes-2025-1", 
+    serieId: "estilo-vida-felizes-2025", 
+    ordem: 1, 
+    titulo: "SOZO: O ESTILO DE VIDA DOS FELIZES | SEMANA 1", 
+    youtubeVideoId: "2YgEJiYv6ZU", 
+    duracao: "1h", 
+    descricaoCurta: "Semana 1: O Estilo de Vida dos Felizes." 
+  },
+  { 
+    id: "estilo-vida-felizes-2025-2", 
+    serieId: "estilo-vida-felizes-2025", 
+    ordem: 2, 
+    titulo: "SOZO: O ESTILO DE VIDA DOS FELIZES | SEMANA 2", 
+    youtubeVideoId: "klyDYWjhQq0", 
+    duracao: "1h", 
+    descricaoCurta: "Semana 2: O Estilo de Vida dos Felizes." 
+  },
+  { 
+    id: "estilo-vida-felizes-2025-3", 
+    serieId: "estilo-vida-felizes-2025", 
+    ordem: 3, 
+    titulo: "SOZO: O ESTILO DE VIDA DOS FELIZES | SEMANA 3", 
+    youtubeVideoId: "jdTNB_r1iIQ", 
+    duracao: "1h", 
+    descricaoCurta: "Semana 3: O Estilo de Vida dos Felizes." 
+  },
+  { 
+    id: "estilo-vida-felizes-2025-4", 
+    serieId: "estilo-vida-felizes-2025", 
+    ordem: 4, 
+    titulo: "SOZO: O ESTILO DE VIDA DOS FELIZES | SEMANA 4", 
+    youtubeVideoId: "_Ak1EhamVR0", 
+    duracao: "1h", 
+    descricaoCurta: "Semana 4: O Estilo de Vida dos Felizes." 
+  },
+
   // QUANDO A GUERRA É INVISÍVEL - JUNHO 2025
   { 
     id: "guerra-invisivel-2025-1", 
