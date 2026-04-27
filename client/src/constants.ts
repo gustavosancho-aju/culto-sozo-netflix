@@ -47,41 +47,41 @@ export const INITIAL_SERIES: Series[] = [
     ano: 2025
   },
   {
-    id: "identidade-proposito-2025",
-    titulo: "Identidade e Propósito - Fevereiro 2025",
-    descricao: "Descubra quem você é em Deus e qual o seu chamado.",
-    destaque: false,
-    ordem: 1,
-    ano: 2025
-  },
-  {
-    id: "renove-se-2025",
-    titulo: "Renove-se",
-    descricao: "Série ministrada pela Pastora Lorena Melo abordando temas relacionados à renovação espiritual, cura interior e preparação para um novo ciclo.",
-    destaque: false,
-    ordem: 2,
-    ano: 2025
-  },
-  {
-    id: "sementes-2025",
-    titulo: "Sementes que Geram Libertação Financeira",
-    descricao: "Princípios bíblicos e práticos para uma vida financeira saudável e próspera.",
-    destaque: false,
-    ordem: 3,
-    ano: 2025
-  },
-  {
     id: "marcas-nao-vistas-2025",
     titulo: "Marcas Não Vistas - Maio 2025",
     descricao: "Série sobre as marcas invisíveis e a cura interior.",
     destaque: false,
-    ordem: 4,
+    ordem: 1,
     ano: 2025
   },
   {
     id: "guerra-invisivel-2025",
     titulo: "Quando a Guerra é Invisível - Junho 2025",
     descricao: "Série sobre as batalhas espirituais e a libertação.",
+    destaque: false,
+    ordem: 2,
+    ano: 2025
+  },
+  {
+    id: "transformados-pelo-espirito-2025",
+    titulo: "Transformados pelo Espírito - Novembro 2025",
+    descricao: "Série sobre a transformação da alma através do Espírito Santo.",
+    destaque: false,
+    ordem: 3,
+    ano: 2025
+  },
+  {
+    id: "feridas-que-marcam-2025",
+    titulo: "Feridas que Marcam, Amor que Transforma - Outubro 2025",
+    descricao: "Série sobre cura de feridas emocionais através do amor transformador.",
+    destaque: false,
+    ordem: 4,
+    ano: 2025
+  },
+  {
+    id: "poder-de-amar-2025",
+    titulo: "O Poder de Amar - Setembro 2025",
+    descricao: "Série sobre o amor, restauração e escolhas que geram vida.",
     destaque: false,
     ordem: 5,
     ano: 2025
@@ -95,25 +95,25 @@ export const INITIAL_SERIES: Series[] = [
     ano: 2025
   },
   {
-    id: "poder-de-amar-2025",
-    titulo: "O Poder de Amar - Setembro 2025",
-    descricao: "Série sobre o amor, restauração e escolhas que geram vida.",
+    id: "sementes-2025",
+    titulo: "Sementes que Geram Libertação Financeira",
+    descricao: "Princípios bíblicos e práticos para uma vida financeira saudável e próspera.",
     destaque: false,
     ordem: 7,
     ano: 2025
   },
   {
-    id: "feridas-que-marcam-2025",
-    titulo: "Feridas que Marcam, Amor que Transforma - Outubro 2025",
-    descricao: "Série sobre cura de feridas emocionais através do amor transformador.",
+    id: "renove-se-2025",
+    titulo: "Renove-se",
+    descricao: "Série ministrada pela Pastora Lorena Melo abordando temas relacionados à renovação espiritual, cura interior e preparação para um novo ciclo.",
     destaque: false,
     ordem: 8,
     ano: 2025
   },
   {
-    id: "transformados-pelo-espirito-2025",
-    titulo: "Transformados pelo Espírito - Novembro 2025",
-    descricao: "Série sobre a transformação da alma através do Espírito Santo.",
+    id: "identidade-proposito-2025",
+    titulo: "Identidade e Propósito - Fevereiro 2025",
+    descricao: "Descubra quem você é em Deus e qual o seu chamado.",
     destaque: false,
     ordem: 9,
     ano: 2025
