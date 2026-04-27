@@ -96,7 +96,7 @@ export const INITIAL_SERIES: Series[] = [
   },
   {
     id: "sementes-2025",
-    titulo: "Sementes que Geram Libertação Financeira",
+    titulo: "Sementes que Geram Libertação Financeira - Agosto 2025",
     descricao: "Princípios bíblicos e práticos para uma vida financeira saudável e próspera.",
     destaque: false,
     ordem: 7,
@@ -104,7 +104,7 @@ export const INITIAL_SERIES: Series[] = [
   },
   {
     id: "renove-se-2025",
-    titulo: "Renove-se",
+    titulo: "Renove-se - Dezembro 2025",
     descricao: "Série ministrada pela Pastora Lorena Melo abordando temas relacionados à renovação espiritual, cura interior e preparação para um novo ciclo.",
     destaque: false,
     ordem: 8,
