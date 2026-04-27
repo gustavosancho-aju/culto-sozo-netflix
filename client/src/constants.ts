@@ -67,6 +67,15 @@ export const INITIAL_SERIES: Series[] = [
 export const INITIAL_EPISODES: Episode[] = [
   // RASGANDO O VÉU DO CORAÇÃO - ABRIL 2026
   { 
+    id: "rasgando-veu-2026-3", 
+    serieId: "rasgando-veu-coracao-2026", 
+    ordem: 3, 
+    titulo: "QUANDO VOCÊ VIRA O PRÓPRIO PADRÃO | RASGANDO O VÉU DO CORAÇÂO | 3º SEMANA", 
+    youtubeVideoId: "15AinWodPtQ", 
+    duracao: "1h", 
+    descricaoCurta: "Semana 3: Quando você vira o próprio padrão." 
+  },
+  { 
     id: "rasgando-veu-2026-2", 
     serieId: "rasgando-veu-coracao-2026", 
     ordem: 2, 
