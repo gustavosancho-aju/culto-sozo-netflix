@@ -116,7 +116,8 @@ export const INITIAL_SERIES: Series[] = [
     descricao: "Descubra quem você é em Deus e qual o seu chamado.",
     destaque: false,
     ordem: 9,
-    ano: 2025
+    ano: 2025,
+    capaUrl: "https://images.unsplash.com/photo-1493612276216-ee3925520721?q=80&w=1000&auto=format&fit=crop"
   }
 ];
 
