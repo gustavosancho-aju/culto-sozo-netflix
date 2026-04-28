@@ -47,17 +47,17 @@ export const INITIAL_SERIES: Series[] = [
     ano: 2025
   },
   {
-    id: "transformados-pelo-espirito-2025",
-    titulo: "Transformados pelo Espírito - Novembro 2025",
-    descricao: "Série sobre a transformação da alma através do Espírito Santo.",
+    id: "sementes-2025",
+    titulo: "Sementes que Geram Libertação Financeira - Novembro 2025",
+    descricao: "Princípios bíblicos e práticos para uma vida financeira saudável e próspera.",
     destaque: false,
     ordem: 1,
     ano: 2025
   },
   {
-    id: "feridas-que-marcam-2025",
-    titulo: "Feridas que Marcam, Amor que Transforma - Outubro 2025",
-    descricao: "Série sobre cura de feridas emocionais através do amor transformador.",
+    id: "estilo-vida-felizes-2025",
+    titulo: "O Estilo de Vida dos Felizes - Outubro 2025",
+    descricao: "Série sobre como viver uma vida plena e feliz em Deus.",
     destaque: false,
     ordem: 2,
     ano: 2025
@@ -71,17 +71,17 @@ export const INITIAL_SERIES: Series[] = [
     ano: 2025
   },
   {
-    id: "sementes-2025",
-    titulo: "Sementes que Geram Libertação Financeira - Agosto 2025",
-    descricao: "Princípios bíblicos e práticos para uma vida financeira saudável e próspera.",
+    id: "feridas-que-marcam-2025",
+    titulo: "Feridas que Marcam, Amor que Transforma - Agosto 2025",
+    descricao: "Série sobre cura de feridas emocionais através do amor transformador.",
     destaque: false,
     ordem: 4,
     ano: 2025
   },
   {
-    id: "estilo-vida-felizes-2025",
-    titulo: "O Estilo de Vida dos Felizes - Julho 2025",
-    descricao: "Série sobre como viver uma vida plena e feliz em Deus.",
+    id: "transformados-pelo-espirito-2025",
+    titulo: "Transformados pelo Espírito - Julho 2025",
+    descricao: "Série sobre a transformação da alma através do Espírito Santo.",
     destaque: false,
     ordem: 5,
     ano: 2025
@@ -103,20 +103,11 @@ export const INITIAL_SERIES: Series[] = [
     ano: 2025
   },
   {
-    id: "identidade-proposito-2025",
-    titulo: "Identidade e Propósito - Fevereiro 2025",
-    descricao: "Descubra quem você é em Deus e qual o seu chamado.",
-    destaque: false,
-    ordem: 8,
-    ano: 2025,
-    capaUrl: "https://images.unsplash.com/photo-1493612276216-ee3925520721?q=80&w=1000&auto=format&fit=crop"
-  },
-  {
     id: "odres-renovados-2025",
-    titulo: "Odres Renovados - Janeiro 2025",
+    titulo: "Odres Renovados - Abril 2025",
     descricao: "Série sobre a renovação do coração e a preparação para o novo de Deus.",
     destaque: false,
-    ordem: 9,
+    ordem: 8,
     ano: 2025
   }
 ];
