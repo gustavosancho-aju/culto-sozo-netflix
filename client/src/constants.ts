@@ -7,6 +7,14 @@ export const THUMBNAIL_TEMPLATE = "img.youtube.com/vi/{id}/maxresdefault.jpg";
 // Initial Data
 export const INITIAL_SERIES: Series[] = [
   {
+    id: "reconstruindo-interior-2026",
+    titulo: "Reconstruindo o Seu Interior - Maio 2026",
+    descricao: "Série sobre como reconstruir o interior, quebrar ciclos e vencer tentações.",
+    destaque: true,
+    ordem: 5,
+    ano: 2026
+  },
+  {
     id: "rasgando-veu-coracao-2026",
     titulo: "Rasgando o Véu do Coração - Abril 2026",
     descricao: "Série sobre como lidar com a dureza do coração e buscar a cura interior.",
@@ -18,7 +26,7 @@ export const INITIAL_SERIES: Series[] = [
     id: "raiz-invisivel-caos-2026",
     titulo: "A Raiz Invisível do Caos - Março 2026",
     descricao: "Série sobre a ordem que libera destino e a família como engrenagem da vida.",
-    destaque: true,
+    destaque: false,
     ordem: 3,
     ano: 2026
   },
@@ -113,6 +121,26 @@ export const INITIAL_SERIES: Series[] = [
 ];
 
 export const INITIAL_EPISODES: Episode[] = [
+  // RECONSTRUINDO O SEU INTERIOR - MAIO 2026
+  { 
+    id: "reconstruindo-interior-2026-2", 
+    serieId: "reconstruindo-interior-2026", 
+    ordem: 2, 
+    titulo: "POR QUE VOCÊ CONTINUA CAINDO EM TENTAÇÃO ? | RECONSTRUINDO O SEU INTERIOR | 2º SEMANA", 
+    youtubeVideoId: "moo55wQ8RqA", 
+    duracao: "1h", 
+    descricaoCurta: "Semana 2: Por que você continua caindo em tentação?" 
+  },
+  { 
+    id: "reconstruindo-interior-2026-1", 
+    serieId: "reconstruindo-interior-2026", 
+    ordem: 1, 
+    titulo: "PORQUE VOCÊ VIVE EM CICLOS ? | RECONSTRUINDO O SEU INTERIOR | 1º SEMANA", 
+    youtubeVideoId: "hx2QCqDcn7g", 
+    duracao: "1h", 
+    descricaoCurta: "Semana 1: Porque você vive em ciclos?" 
+  },
+
   // TRANSFORMADOS PELO ESPÍRITO - NOVEMBRO 2025
   { 
     id: "transformados-pelo-espirito-2025-1", 
