@@ -123,6 +123,15 @@ export const INITIAL_SERIES: Series[] = [
 export const INITIAL_EPISODES: Episode[] = [
   // RECONSTRUINDO O SEU INTERIOR - MAIO 2026
   { 
+    id: "reconstruindo-interior-2026-3", 
+    serieId: "reconstruindo-interior-2026", 
+    ordem: 3, 
+    titulo: "A AMBIÇÃO QUE CORROMPE A ALMA | RECONSTRUINDO O SEU INTERIOR | 3º SEMANA", 
+    youtubeVideoId: "TRMyMLims4I", 
+    duracao: "1h", 
+    descricaoCurta: "Semana 3: A ambição que corrompe a alma." 
+  },
+  { 
     id: "reconstruindo-interior-2026-2", 
     serieId: "reconstruindo-interior-2026", 
     ordem: 2, 
