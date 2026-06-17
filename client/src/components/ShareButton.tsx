@@ -10,6 +10,7 @@ interface ShareButtonProps {
 const ShareButton: React.FC<ShareButtonProps> = ({ title, url, episodeId }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [copied, setCopied] = useState(false);
+  const [showToast, setShowToast] = useState(false);
 
   // Generate the share URL
   const shareUrl = url || (typeof window !== 'undefined' ? window.location.href : '');
@@ -32,10 +33,20 @@ const ShareButton: React.FC<ShareButtonProps> = ({ title, url, episodeId }) => {
     window.open(twitterUrl, '_blank');
   };
 
-  const handleCopyLink = () => {
-    navigator.clipboard.writeText(shareUrl);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
+  const handleCopyLink = async () => {
+    try {
+      await navigator.clipboard.writeText(shareUrl);
+      setCopied(true);
+      setShowToast(true);
+      
+      // Reset copied state after 2 seconds
+      setTimeout(() => setCopied(false), 2000);
+      
+      // Hide toast after 3 seconds
+      setTimeout(() => setShowToast(false), 3000);
+    } catch (err) {
+      console.error('Falha ao copiar:', err);
+    }
   };
 
   return (
@@ -94,21 +105,33 @@ const ShareButton: React.FC<ShareButtonProps> = ({ title, url, episodeId }) => {
             {/* Copy Link */}
             <button
               onClick={handleCopyLink}
-              className="w-full flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-white/10 transition text-white text-sm font-medium"
+              className={`w-full flex items-center gap-3 px-4 py-3 rounded-lg transition text-sm font-medium ${
+                copied 
+                  ? 'bg-green-500/20 text-green-300' 
+                  : 'hover:bg-white/10 text-white'
+              }`}
             >
               {copied ? (
                 <>
-                  <Check className="w-5 h-5 text-green-500" />
-                  Copiado!
+                  <Check className="w-5 h-5 text-green-400" />
+                  <span>Link copiado!</span>
                 </>
               ) : (
                 <>
                   <LinkIcon className="w-5 h-5 text-gray-400" />
-                  Copiar Link
+                  <span>Copiar Link</span>
                 </>
               )}
             </button>
           </div>
+        </div>
+      )}
+
+      {/* Toast Notification */}
+      {showToast && (
+        <div className="fixed bottom-6 right-6 bg-green-500 text-white px-6 py-3 rounded-lg shadow-lg flex items-center gap-2 animate-in fade-in slide-in-from-bottom-4 z-[100]">
+          <Check className="w-5 h-5" />
+          <span className="font-medium">Link copiado com sucesso!</span>
         </div>
       )}
     </div>
