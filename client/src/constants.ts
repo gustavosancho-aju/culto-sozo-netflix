@@ -7,10 +7,18 @@ export const THUMBNAIL_TEMPLATE = "img.youtube.com/vi/{id}/maxresdefault.jpg";
 // Initial Data
 export const INITIAL_SERIES: Series[] = [
   {
+    id: "veneno-da-alma-2026",
+    titulo: "O Veneno da Alma - Junho 2026",
+    descricao: "Série sobre como o orgulho, a ofensa e outros venenos afetam a alma.",
+    destaque: true,
+    ordem: 6,
+    ano: 2026
+  },
+  {
     id: "reconstruindo-interior-2026",
     titulo: "Reconstruindo o Seu Interior - Maio 2026",
     descricao: "Série sobre como reconstruir o interior, quebrar ciclos e vencer tentações.",
-    destaque: true,
+    destaque: false,
     ordem: 5,
     ano: 2026
   },
@@ -121,6 +129,26 @@ export const INITIAL_SERIES: Series[] = [
 ];
 
 export const INITIAL_EPISODES: Episode[] = [
+  // O VENENO DA ALMA - JUNHO 2026
+  { 
+    id: "veneno-da-alma-2026-2", 
+    serieId: "veneno-da-alma-2026", 
+    ordem: 2, 
+    titulo: "O QUE A OFENSA ESTÁ FAZENDO COM O SEU CORAÇÃO | O VENENO DA ALMA | 2º SEMANA", 
+    youtubeVideoId: "m-zVwDgDZRU", 
+    duracao: "1h", 
+    descricaoCurta: "Semana 2: O que a ofensa está fazendo com o seu coração." 
+  },
+  { 
+    id: "veneno-da-alma-2026-1", 
+    serieId: "veneno-da-alma-2026", 
+    ordem: 1, 
+    titulo: "VOCÊ NÃO PARECE ORGULHO... | O VENENO DA ALMA | 1º SEMANA", 
+    youtubeVideoId: "2NhUOo1EvnI", 
+    duracao: "1h", 
+    descricaoCurta: "Semana 1: Você não parece orgulho..." 
+  },
+
   // RECONSTRUINDO O SEU INTERIOR - MAIO 2026
   { 
     id: "reconstruindo-interior-2026-5", 
