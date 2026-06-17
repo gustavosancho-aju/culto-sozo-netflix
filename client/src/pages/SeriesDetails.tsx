@@ -4,6 +4,7 @@ import { ArrowLeft, Play, Clock, Calendar } from 'lucide-react';
 import { dataService } from '../services/dataService';
 import { Series, Episode } from '../types';
 import { getThumbnailUrl } from '../constants';
+import ShareButton from '../components/ShareButton';
 
 const SeriesDetails: React.FC = () => {
   const [, params] = useRoute('/serie/:id');
@@ -52,6 +53,12 @@ const SeriesDetails: React.FC = () => {
             <span className="bg-[#E50914] px-3 py-1 rounded font-bold text-sm">SÉRIE</span>
             <span className="text-gray-300">{series.ano}</span>
             <span className="text-gray-300">{episodes.length} Episódios</span>
+            <div className="ml-auto">
+              <ShareButton 
+                title={series.titulo}
+                url={typeof window !== 'undefined' ? `${window.location.origin}/serie/${series.id}` : ''}
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -82,9 +89,17 @@ const SeriesDetails: React.FC = () => {
                     <h3 className="text-lg font-bold text-white group-hover:text-[#E50914] transition line-clamp-1">
                       {index + 1}. {episode.titulo.split('|')[0]}
                     </h3>
-                    <span className="text-sm text-gray-400 flex items-center gap-1">
-                      <Clock className="w-3 h-3" /> {episode.duracao}
-                    </span>
+                    <div className="flex items-center gap-3">
+                      <span className="text-sm text-gray-400 flex items-center gap-1">
+                        <Clock className="w-3 h-3" /> {episode.duracao}
+                      </span>
+                      <div onClick={(e) => e.stopPropagation()}>
+                        <ShareButton 
+                          title={episode.titulo}
+                          url={typeof window !== 'undefined' ? `${window.location.origin}/episodio/${episode.id}` : ''}
+                        />
+                      </div>
+                    </div>
                   </div>
                   
                   <p className="text-gray-400 text-sm line-clamp-2 mb-3">
