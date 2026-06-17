@@ -123,6 +123,24 @@ export const INITIAL_SERIES: Series[] = [
 export const INITIAL_EPISODES: Episode[] = [
   // RECONSTRUINDO O SEU INTERIOR - MAIO 2026
   { 
+    id: "reconstruindo-interior-2026-5", 
+    serieId: "reconstruindo-interior-2026", 
+    ordem: 5, 
+    titulo: "O PERIGO DE CONTINUAR FUNCIONANDO CANSADO | RECONSTRUINDO O SEU INTERIOR | 5º SEMANA", 
+    youtubeVideoId: "_hk65UAVssk", 
+    duracao: "1h", 
+    descricaoCurta: "Semana 5: O perigo de continuar funcionando cansado." 
+  },
+  { 
+    id: "reconstruindo-interior-2026-4", 
+    serieId: "reconstruindo-interior-2026", 
+    ordem: 4, 
+    titulo: "A DOR QUE VOCÊ APRENDEU A ESCONDER | RECONSTRUINDO O SEU INTERIOR | 4º SEMANA", 
+    youtubeVideoId: "Q04hqAYBoBk", 
+    duracao: "1h", 
+    descricaoCurta: "Semana 4: A dor que você aprendeu a esconder." 
+  },
+  { 
     id: "reconstruindo-interior-2026-3", 
     serieId: "reconstruindo-interior-2026", 
     ordem: 3, 
