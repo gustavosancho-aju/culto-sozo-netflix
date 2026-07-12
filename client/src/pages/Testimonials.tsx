@@ -1,10 +1,10 @@
-import React, { useState, useMemo } from 'react';
-import { Heart, Send, User, MapPin, Link2, ChevronDown, ChevronUp, MessageSquareHeart, Sparkles, Quote } from 'lucide-react';
+import React, { useState, useMemo, useEffect } from 'react';
+import { Heart, Send, User, MapPin, Link2, ChevronDown, ChevronUp, MessageSquareHeart, Sparkles, Quote, CheckCircle, Loader2 } from 'lucide-react';
 import { trpc } from '@/lib/trpc';
 import { dataService } from '../services/dataService';
 import { toast } from 'sonner';
 
-// Componente de card de depoimento
+// Componente de card de depoimento com curtir animado
 const TestimonialCard: React.FC<{
   testimonial: {
     id: number;
@@ -19,8 +19,11 @@ const TestimonialCard: React.FC<{
   };
   isLiked: boolean;
   onLike: (id: number) => void;
-}> = ({ testimonial, isLiked, onLike }) => {
+  isLiking: boolean;
+}> = ({ testimonial, isLiked, onLike, isLiking }) => {
   const [expanded, setExpanded] = useState(false);
+  const [burst, setBurst] = useState(false);
+
   const isLong = testimonial.content.length > 280;
   const displayContent = isLong && !expanded
     ? testimonial.content.slice(0, 280) + '...'
@@ -29,6 +32,15 @@ const TestimonialCard: React.FC<{
   const formatDate = (date: Date | null) => {
     if (!date) return '';
     return new Date(date).toLocaleDateString('pt-BR', { day: '2-digit', month: 'long', year: 'numeric' });
+  };
+
+  const handleLikeClick = () => {
+    if (isLiking) return;
+    if (!isLiked) {
+      setBurst(true);
+      setTimeout(() => setBurst(false), 600);
+    }
+    onLike(testimonial.id);
   };
 
   return (
@@ -77,19 +89,91 @@ const TestimonialCard: React.FC<{
 
         <div className="flex items-center gap-3">
           <span className="text-xs text-gray-600">{formatDate(testimonial.approvedAt)}</span>
-          <button
-            onClick={() => onLike(testimonial.id)}
-            className={`flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-full border transition-all duration-200 ${
-              isLiked
-                ? 'bg-[#E50914]/20 border-[#E50914]/50 text-[#E50914]'
-                : 'border-white/10 text-gray-400 hover:border-[#E50914]/40 hover:text-[#E50914]'
-            }`}
-          >
-            <Heart className={`w-3.5 h-3.5 ${isLiked ? 'fill-[#E50914]' : ''}`} />
-            {testimonial.likesCount}
-          </button>
+
+          {/* Botão curtir com animação */}
+          <div className="relative">
+            {/* Partículas de burst ao curtir */}
+            {burst && (
+              <div className="absolute inset-0 pointer-events-none">
+                {[...Array(6)].map((_, i) => (
+                  <span
+                    key={i}
+                    className="absolute w-1.5 h-1.5 rounded-full bg-[#E50914]"
+                    style={{
+                      top: '50%',
+                      left: '50%',
+                      animation: `burst-${i} 0.5s ease-out forwards`,
+                      transform: `rotate(${i * 60}deg) translateX(0)`,
+                    }}
+                  />
+                ))}
+              </div>
+            )}
+            <button
+              onClick={handleLikeClick}
+              disabled={isLiking}
+              title={isLiked ? 'Remover curtida' : 'Curtir este depoimento'}
+              className={`relative flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-full border transition-all duration-200 select-none
+                ${isLiked
+                  ? 'bg-[#E50914]/20 border-[#E50914]/60 text-[#E50914]'
+                  : 'border-white/10 text-gray-400 hover:border-[#E50914]/50 hover:text-[#E50914] hover:bg-[#E50914]/5'
+                }
+                ${isLiking ? 'opacity-70 cursor-wait' : 'cursor-pointer active:scale-90'}
+              `}
+              style={{ transition: 'transform 0.15s cubic-bezier(0.23,1,0.32,1), background 0.2s, border-color 0.2s, color 0.2s' }}
+            >
+              <Heart
+                className={`w-3.5 h-3.5 transition-all duration-200 ${
+                  isLiked ? 'fill-[#E50914] scale-110' : 'scale-100'
+                } ${burst ? 'scale-125' : ''}`}
+              />
+              <span className={`font-medium transition-all duration-200 ${burst ? 'scale-110' : ''}`}>
+                {testimonial.likesCount}
+              </span>
+            </button>
+          </div>
         </div>
       </div>
+    </div>
+  );
+};
+
+// Tela de sucesso após envio
+const SuccessScreen: React.FC<{ onClose: () => void }> = ({ onClose }) => {
+  useEffect(() => {
+    const timer = setTimeout(onClose, 6000);
+    return () => clearTimeout(timer);
+  }, [onClose]);
+
+  return (
+    <div className="bg-[#1c1c1c] border border-green-500/30 rounded-2xl p-8 md:p-10 flex flex-col items-center text-center gap-5 animate-in fade-in zoom-in-95 duration-300">
+      {/* Ícone animado */}
+      <div className="relative">
+        <div className="w-20 h-20 rounded-full bg-green-500/10 flex items-center justify-center">
+          <CheckCircle className="w-10 h-10 text-green-400" strokeWidth={1.5} />
+        </div>
+        {/* Pulso */}
+        <div className="absolute inset-0 rounded-full bg-green-500/20 animate-ping" style={{ animationDuration: '1.5s' }} />
+      </div>
+
+      <div className="space-y-2">
+        <h3 className="text-2xl font-bold text-white">Testemunho enviado!</h3>
+        <p className="text-gray-300 text-sm leading-relaxed max-w-sm">
+          Obrigado por compartilhar sua história. Seu depoimento será revisado e publicado em breve para inspirar outras pessoas.
+        </p>
+      </div>
+
+      <div className="flex items-center gap-2 text-xs text-gray-500 bg-white/5 px-4 py-2 rounded-full">
+        <Sparkles className="w-3.5 h-3.5 text-[#E50914]" />
+        Sua história pode transformar a vida de alguém
+      </div>
+
+      <button
+        onClick={onClose}
+        className="text-sm text-gray-400 hover:text-white transition underline underline-offset-4"
+      >
+        Fechar
+      </button>
     </div>
   );
 };
@@ -103,13 +187,13 @@ const TestimonialForm: React.FC<{ onSuccess: () => void }> = ({ onSuccess }) => 
   const [linkedEpisodeTitle, setLinkedEpisodeTitle] = useState('');
   const [isAnonymous, setIsAnonymous] = useState(false);
   const [showEpisodeLink, setShowEpisodeLink] = useState(false);
+  const [submitted, setSubmitted] = useState(false);
 
   // Carregar episódios para o select
   const allEpisodes = useMemo(() => {
     const data = dataService.getData();
     return data.episodes
       .sort((a, b) => {
-        // Ordenar por série (mais recente primeiro) e depois por ordem
         const seriesA = data.series.find(s => s.id === a.serieId);
         const seriesB = data.series.find(s => s.id === b.serieId);
         if (seriesA && seriesB && seriesA.ordem !== seriesB.ordem) {
@@ -121,7 +205,6 @@ const TestimonialForm: React.FC<{ onSuccess: () => void }> = ({ onSuccess }) => 
 
   const allSeries = useMemo(() => {
     const data = dataService.getData();
-    // Ordenar séries: mais recente (maior ano e maior ordem) primeiro
     return [...data.series].sort((a, b) => {
       if (b.ano !== a.ano) return b.ano - a.ano;
       return b.ordem - a.ordem;
@@ -130,18 +213,7 @@ const TestimonialForm: React.FC<{ onSuccess: () => void }> = ({ onSuccess }) => 
 
   const submitMutation = trpc.testimonials.submit.useMutation({
     onSuccess: () => {
-      toast.success('Depoimento enviado com sucesso! Ele será publicado após revisão.', {
-        duration: 5000,
-        icon: '🙏',
-      });
-      setContent('');
-      setAuthorName('');
-      setAuthorCity('');
-      setLinkedEpisodeId('');
-      setLinkedEpisodeTitle('');
-      setIsAnonymous(false);
-      setShowEpisodeLink(false);
-      onSuccess();
+      setSubmitted(true);
     },
     onError: (err) => {
       toast.error(err.message || 'Erro ao enviar depoimento. Tente novamente.');
@@ -172,6 +244,11 @@ const TestimonialForm: React.FC<{ onSuccess: () => void }> = ({ onSuccess }) => 
       setLinkedEpisodeTitle('');
     }
   };
+
+  // Exibir tela de sucesso após envio
+  if (submitted) {
+    return <SuccessScreen onClose={onSuccess} />;
+  }
 
   return (
     <form onSubmit={handleSubmit} className="bg-[#1c1c1c] border border-white/10 rounded-2xl p-6 md:p-8 space-y-5">
@@ -265,7 +342,6 @@ const TestimonialForm: React.FC<{ onSuccess: () => void }> = ({ onSuccess }) => 
             >
               <option value="">Selecione um episódio...</option>
               {allSeries.map(serie => {
-                // Episódios mais recentes (maior ordem) primeiro
                 const eps = allEpisodes.filter(e => e.serieId === serie.id).sort((a, b) => b.ordem - a.ordem);
                 if (eps.length === 0) return null;
                 return (
@@ -290,7 +366,10 @@ const TestimonialForm: React.FC<{ onSuccess: () => void }> = ({ onSuccess }) => 
         className="w-full flex items-center justify-center gap-2 bg-[#E50914] hover:bg-[#B20710] disabled:opacity-50 disabled:cursor-not-allowed text-white font-bold py-3 rounded-xl transition-all duration-200 hover:scale-[1.01] active:scale-[0.99]"
       >
         {submitMutation.isPending ? (
-          <span className="animate-pulse">Enviando...</span>
+          <>
+            <Loader2 className="w-4 h-4 animate-spin" />
+            Enviando seu testemunho...
+          </>
         ) : (
           <>
             <Send className="w-4 h-4" />
@@ -311,6 +390,7 @@ const Testimonials: React.FC = () => {
   const [page, setPage] = useState(0);
   const [showForm, setShowForm] = useState(false);
   const [likedIds, setLikedIds] = useState<Set<number>>(new Set());
+  const [likingIds, setLikingIds] = useState<Set<number>>(new Set());
   const LIMIT = 12;
 
   const { data: testimonialList = [], refetch, isLoading } = trpc.testimonials.list.useQuery({
@@ -326,18 +406,32 @@ const Testimonials: React.FC = () => {
   const likeMutation = trpc.testimonials.like.useMutation({
     onSuccess: (data, variables) => {
       setLikedIds(prev => {
-        const next = new Set(prev);
+        const next = new Set(Array.from(prev));
         if (data.liked) next.add(variables.testimonialId);
         else next.delete(variables.testimonialId);
         return next;
       });
+      setLikingIds(prev => {
+        const next = new Set(Array.from(prev));
+        next.delete(variables.testimonialId);
+        return next;
+      });
       refetch();
+    },
+    onError: (_err, variables) => {
+      setLikingIds(prev => {
+        const next = new Set(Array.from(prev));
+        next.delete(variables.testimonialId);
+        return next;
+      });
     },
   });
 
   const allLikedIds = new Set([...Array.from(myLikedIds), ...Array.from(likedIds)]);
 
   const handleLike = (id: number) => {
+    if (likingIds.has(id)) return;
+    setLikingIds(prev => new Set([...Array.from(prev), id]));
     likeMutation.mutate({ testimonialId: id });
   };
 
@@ -356,7 +450,7 @@ const Testimonials: React.FC = () => {
             Testemunhos
           </h1>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto mb-8">
-            Vidas transformadas pelo poder de Deus através do Culto Sozo. 
+            Vidas transformadas pelo poder de Deus através do Culto Sozo.
             Cada história é uma prova do amor e da graça de Deus.
           </p>
           <button
@@ -399,6 +493,7 @@ const Testimonials: React.FC = () => {
                   testimonial={t}
                   isLiked={allLikedIds.has(t.id)}
                   onLike={handleLike}
+                  isLiking={likingIds.has(t.id)}
                 />
               ))}
             </div>
