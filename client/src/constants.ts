@@ -7,10 +7,18 @@ export const THUMBNAIL_TEMPLATE = "img.youtube.com/vi/{id}/maxresdefault.jpg";
 // Initial Data
 export const INITIAL_SERIES: Series[] = [
   {
+    id: "livres-para-prosperar-2026",
+    titulo: "Livres para Prosperar - Julho 2026",
+    descricao: "Série sobre como se libertar de limitações e prosperar em todas as áreas da vida.",
+    destaque: true,
+    ordem: 7,
+    ano: 2026
+  },
+  {
     id: "veneno-da-alma-2026",
     titulo: "O Veneno da Alma - Junho 2026",
     descricao: "Série sobre como o orgulho, a ofensa e outros venenos afetam a alma.",
-    destaque: true,
+    destaque: false,
     ordem: 6,
     ano: 2026
   },
@@ -129,7 +137,36 @@ export const INITIAL_SERIES: Series[] = [
 ];
 
 export const INITIAL_EPISODES: Episode[] = [
+  // LIVRES PARA PROSPERAR - JULHO 2026
+  { 
+    id: "livres-para-prosperar-2026-1", 
+    serieId: "livres-para-prosperar-2026", 
+    ordem: 1, 
+    titulo: "1º SEMANA | O QUE VOCÊ TEM MEDO DE PERDER? | LIVRES PARA PROSPERAR", 
+    youtubeVideoId: "XHspQOErz9Q", 
+    duracao: "1h", 
+    descricaoCurta: "Semana 1: O que você tem medo de perder?" 
+  },
+
   // O VENENO DA ALMA - JUNHO 2026
+  { 
+    id: "veneno-da-alma-2026-4", 
+    serieId: "veneno-da-alma-2026", 
+    ordem: 4, 
+    titulo: "4º SEMANA | O PERIGO DE CONFIAR DEMAIS EM SI MESMO | O VENENO DA ALMA", 
+    youtubeVideoId: "GvaH4xMgMxI", 
+    duracao: "1h", 
+    descricaoCurta: "Semana 4: O perigo de confiar demais em si mesmo." 
+  },
+  { 
+    id: "veneno-da-alma-2026-3", 
+    serieId: "veneno-da-alma-2026", 
+    ordem: 3, 
+    titulo: "3º SEMANA | POR QUE O CRESCIMENTO DOS OUTROS TE INCOMODA TANTO? | O VENENO DA ALMA", 
+    youtubeVideoId: "j8qzE2PoH20", 
+    duracao: "1h", 
+    descricaoCurta: "Semana 3: Por que o crescimento dos outros te incomoda tanto?" 
+  },
   { 
     id: "veneno-da-alma-2026-2", 
     serieId: "veneno-da-alma-2026", 
