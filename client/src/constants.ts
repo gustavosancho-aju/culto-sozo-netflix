@@ -153,7 +153,7 @@ export const INITIAL_EPISODES: Episode[] = [
     id: "veneno-da-alma-2026-4", 
     serieId: "veneno-da-alma-2026", 
     ordem: 4, 
-    titulo: "4º SEMANA | O PERIGO DE CONFIAR DEMAIS EM SI MESMO | O VENENO DA ALMA", 
+    titulo: "O PERIGO DE CONFIAR DEMAIS EM SI MESMO | O VENENO DA ALMA | 4º SEMANA", 
     youtubeVideoId: "GvaH4xMgMxI", 
     duracao: "1h", 
     descricaoCurta: "Semana 4: O perigo de confiar demais em si mesmo." 
@@ -162,7 +162,7 @@ export const INITIAL_EPISODES: Episode[] = [
     id: "veneno-da-alma-2026-3", 
     serieId: "veneno-da-alma-2026", 
     ordem: 3, 
-    titulo: "3º SEMANA | POR QUE O CRESCIMENTO DOS OUTROS TE INCOMODA TANTO? | O VENENO DA ALMA", 
+    titulo: "POR QUE O CRESCIMENTO DOS OUTROS TE INCOMODA TANTO? | O VENENO DA ALMA | 3º SEMANA", 
     youtubeVideoId: "j8qzE2PoH20", 
     duracao: "1h", 
     descricaoCurta: "Semana 3: Por que o crescimento dos outros te incomoda tanto?" 
