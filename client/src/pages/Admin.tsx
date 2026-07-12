@@ -256,13 +256,13 @@ const Admin: React.FC = () => {
                       <td className="px-5 py-3 text-gray-400 whitespace-nowrap">
                         {formatDate(item.executedAt)}
                       </td>
-                      <td className="px-5 py-3 max-w-[200px]">
+                      <td className="px-5 py-3 max-w-[220px]">
                         {item.videoId ? (
                           <a
                             href={`https://www.youtube.com/watch?v=${item.videoId}`}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-white hover:text-[#E50914] transition truncate block"
+                            className="text-white hover:text-[#E50914] transition truncate block text-sm"
                             title={item.videoTitle || ''}
                           >
                             {item.videoTitle || item.videoId}
