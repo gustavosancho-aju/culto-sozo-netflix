@@ -119,7 +119,14 @@ const TestimonialForm: React.FC<{ onSuccess: () => void }> = ({ onSuccess }) => 
       });
   }, []);
 
-  const allSeries = useMemo(() => dataService.getData().series, []);
+  const allSeries = useMemo(() => {
+    const data = dataService.getData();
+    // Ordenar séries: mais recente (maior ano e maior ordem) primeiro
+    return [...data.series].sort((a, b) => {
+      if (b.ano !== a.ano) return b.ano - a.ano;
+      return b.ordem - a.ordem;
+    });
+  }, []);
 
   const submitMutation = trpc.testimonials.submit.useMutation({
     onSuccess: () => {
@@ -257,7 +264,8 @@ const TestimonialForm: React.FC<{ onSuccess: () => void }> = ({ onSuccess }) => 
               className="w-full bg-[#141414] border border-white/10 rounded-xl px-4 py-2.5 text-white text-sm focus:outline-none focus:border-[#E50914]/50 transition"
             >
               <option value="">Selecione um episódio...</option>
-              {allSeries.sort((a, b) => b.ordem - a.ordem).map(serie => {
+              {allSeries.map(serie => {
+                // Episódios mais recentes (maior ordem) primeiro
                 const eps = allEpisodes.filter(e => e.serieId === serie.id).sort((a, b) => b.ordem - a.ordem);
                 if (eps.length === 0) return null;
                 return (
