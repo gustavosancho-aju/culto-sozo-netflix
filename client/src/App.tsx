@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import SeriesDetails from './pages/SeriesDetails';
 import EpisodePlayer from './pages/EpisodePlayer';
 import Admin from './pages/Admin';
+import Testimonials from './pages/Testimonials';
 import { Youtube, Instagram } from 'lucide-react';
 import { CHANNEL_URL } from './constants';
 import { Toaster } from "@/components/ui/sonner";
@@ -36,6 +37,7 @@ const Layout: React.FC = () => {
         <Route path="/serie/:id" component={SeriesDetails} />
         <Route path="/episodio/:id" component={EpisodePlayer} />
         <Route path="/admin" component={Admin} />
+        <Route path="/testemunhos" component={Testimonials} />
         <Route component={NotFound} />
       </Switch>
 

@@ -1,6 +1,9 @@
-import { desc, eq } from "drizzle-orm";
+import { and, desc, eq, sql } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/mysql2";
-import { InsertSyncConfig, InsertSyncHistory, InsertUser, syncConfig, syncHistory, users } from "../drizzle/schema";
+import {
+  InsertSyncConfig, InsertSyncHistory, InsertTestimonial, InsertUser,
+  syncConfig, syncHistory, testimonialLikes, testimonials, users
+} from "../drizzle/schema";
 import { ENV } from './_core/env';
 
 let _db: ReturnType<typeof drizzle> | null = null;
@@ -84,4 +87,128 @@ export async function upsertSyncConfig(data: Partial<InsertSyncConfig>) {
     });
   }
   return getSyncConfig();
+}
+
+// === TESTIMONIALS ===
+
+export async function createTestimonial(data: InsertTestimonial) {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+  const result = await db.insert(testimonials).values(data);
+  return result;
+}
+
+export async function getApprovedTestimonials(limit = 50, offset = 0) {
+  const db = await getDb();
+  if (!db) return [];
+  return db
+    .select()
+    .from(testimonials)
+    .where(eq(testimonials.status, "approved"))
+    .orderBy(desc(testimonials.approvedAt))
+    .limit(limit)
+    .offset(offset);
+}
+
+export async function getAllTestimonials(status?: "pending" | "approved" | "rejected", limit = 100) {
+  const db = await getDb();
+  if (!db) return [];
+  if (status) {
+    return db
+      .select()
+      .from(testimonials)
+      .where(eq(testimonials.status, status))
+      .orderBy(desc(testimonials.createdAt))
+      .limit(limit);
+  }
+  return db.select().from(testimonials).orderBy(desc(testimonials.createdAt)).limit(limit);
+}
+
+export async function moderateTestimonial(
+  id: number,
+  status: "approved" | "rejected",
+  adminNote?: string
+) {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+  await db
+    .update(testimonials)
+    .set({
+      status,
+      adminNote: adminNote ?? null,
+      approvedAt: status === "approved" ? new Date() : null,
+    })
+    .where(eq(testimonials.id, id));
+}
+
+export async function deleteTestimonial(id: number) {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+  await db.delete(testimonials).where(eq(testimonials.id, id));
+}
+
+export async function likeTestimonial(testimonialId: number, visitorHash: string) {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+
+  // Verificar se já curtiu
+  const existing = await db
+    .select()
+    .from(testimonialLikes)
+    .where(
+      and(
+        eq(testimonialLikes.testimonialId, testimonialId),
+        eq(testimonialLikes.visitorHash, visitorHash)
+      )
+    )
+    .limit(1);
+
+  if (existing.length > 0) {
+    // Descurtir
+    await db
+      .delete(testimonialLikes)
+      .where(
+        and(
+          eq(testimonialLikes.testimonialId, testimonialId),
+          eq(testimonialLikes.visitorHash, visitorHash)
+        )
+      );
+    await db
+      .update(testimonials)
+      .set({ likesCount: sql`GREATEST(likesCount - 1, 0)` })
+      .where(eq(testimonials.id, testimonialId));
+    return { liked: false };
+  } else {
+    // Curtir
+    await db.insert(testimonialLikes).values({ testimonialId, visitorHash });
+    await db
+      .update(testimonials)
+      .set({ likesCount: sql`likesCount + 1` })
+      .where(eq(testimonials.id, testimonialId));
+    return { liked: true };
+  }
+}
+
+export async function getVisitorLikes(visitorHash: string, testimonialIds: number[]) {
+  const db = await getDb();
+  if (!db) return [];
+  if (testimonialIds.length === 0) return [];
+  return db
+    .select({ testimonialId: testimonialLikes.testimonialId })
+    .from(testimonialLikes)
+    .where(eq(testimonialLikes.visitorHash, visitorHash));
+}
+
+export async function countTestimonialsByStatus() {
+  const db = await getDb();
+  if (!db) return { pending: 0, approved: 0, rejected: 0 };
+  const rows = await db
+    .select({ status: testimonials.status, count: sql<number>`COUNT(*)` })
+    .from(testimonials)
+    .groupBy(testimonials.status);
+  const result = { pending: 0, approved: 0, rejected: 0 };
+  for (const row of rows) {
+    result[row.status] = Number(row.count);
+  }
+  return result;
 }

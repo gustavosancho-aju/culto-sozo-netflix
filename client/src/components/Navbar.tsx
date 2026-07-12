@@ -42,7 +42,7 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
           <div className="hidden md:flex items-center gap-6 text-sm font-medium text-gray-200">
             <Link href="/" className={`hover:text-gray-400 transition ${location === '/' ? 'font-bold text-white' : ''}`}>Início</Link>
             <a href="https://www.instagram.com/cnaracaju/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400 transition">CN Aracaju</a>
-            <a href="#" className="hover:text-gray-400 transition">Testemunhos</a>
+            <Link href="/testemunhos" className={`hover:text-gray-400 transition ${location === '/testemunhos' ? 'font-bold text-white' : ''}`}>Testemunhos</Link>
             <a href="#" className="hover:text-gray-400 transition">Horários de culto</a>
           </div>
         </div>

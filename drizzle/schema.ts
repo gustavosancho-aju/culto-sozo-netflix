@@ -48,3 +48,42 @@ export const syncConfig = mysqlTable("sync_config", {
 
 export type SyncConfig = typeof syncConfig.$inferSelect;
 export type InsertSyncConfig = typeof syncConfig.$inferInsert;
+
+// Tabela de depoimentos
+export const testimonials = mysqlTable("testimonials", {
+  id: int("id").autoincrement().primaryKey(),
+  // Texto do depoimento
+  content: text("content").notNull(),
+  // Nome opcional (null = anônimo)
+  authorName: varchar("authorName", { length: 128 }),
+  // Cidade/localidade opcional
+  authorCity: varchar("authorCity", { length: 128 }),
+  // Episódio vinculado (opcional) — armazena o youtubeVideoId
+  linkedEpisodeId: varchar("linkedEpisodeId", { length: 64 }),
+  linkedEpisodeTitle: text("linkedEpisodeTitle"),
+  // Status de moderação
+  status: mysqlEnum("status", ["pending", "approved", "rejected"]).default("pending").notNull(),
+  // Nota do admin (motivo de rejeição, etc.)
+  adminNote: text("adminNote"),
+  // Reações (curtidas)
+  likesCount: int("likesCount").default(0).notNull(),
+  // Metadados
+  createdAt: timestamp("createdAt").defaultNow().notNull(),
+  updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
+  approvedAt: timestamp("approvedAt"),
+});
+
+export type Testimonial = typeof testimonials.$inferSelect;
+export type InsertTestimonial = typeof testimonials.$inferInsert;
+
+// Tabela de curtidas em depoimentos (para evitar duplicatas por IP/sessão)
+export const testimonialLikes = mysqlTable("testimonial_likes", {
+  id: int("id").autoincrement().primaryKey(),
+  testimonialId: int("testimonialId").notNull(),
+  // Identificador anônimo do visitante (fingerprint leve via IP+UserAgent hash)
+  visitorHash: varchar("visitorHash", { length: 64 }).notNull(),
+  createdAt: timestamp("createdAt").defaultNow().notNull(),
+});
+
+export type TestimonialLike = typeof testimonialLikes.$inferSelect;
+export type InsertTestimonialLike = typeof testimonialLikes.$inferInsert;
