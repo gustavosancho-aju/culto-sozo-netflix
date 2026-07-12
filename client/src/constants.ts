@@ -142,7 +142,7 @@ export const INITIAL_EPISODES: Episode[] = [
     id: "livres-para-prosperar-2026-1", 
     serieId: "livres-para-prosperar-2026", 
     ordem: 1, 
-    titulo: "1º SEMANA | O QUE VOCÊ TEM MEDO DE PERDER? | LIVRES PARA PROSPERAR", 
+    titulo: "O QUE VOCÊ TEM MEDO DE PERDER? | LIVRES PARA PROSPERAR | 1º SEMANA", 
     youtubeVideoId: "XHspQOErz9Q", 
     duracao: "1h", 
     descricaoCurta: "Semana 1: O que você tem medo de perder?" 
