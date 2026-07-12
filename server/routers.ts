@@ -18,6 +18,12 @@ export const appRouter = router({
     }),
   }),
 
+  // Endpoint público: retorna o ID do último vídeo sincronizado (para o selo 'Novo')
+  latestVideoId: publicProcedure.query(async () => {
+    const config = await getSyncConfig();
+    return { lastVideoId: config?.lastVideoId ?? null };
+  }),
+
   // Admin: Gerenciamento de sincronização com YouTube
   sync: router({
     // Buscar histórico de sincronizações

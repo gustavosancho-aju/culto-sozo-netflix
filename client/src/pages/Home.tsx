@@ -4,7 +4,8 @@ import SeriesCard from '../components/SeriesCard';
 import ScrollRow from '../components/ScrollRow';
 import ExclusiveContent from '../components/ExclusiveContent';
 import { dataService } from '../services/dataService';
-import { DataState, Episode, Series } from '../types';
+import { DataState, Episode } from '../types';
+import { trpc } from '@/lib/trpc';
 
 interface HomeProps {
   searchQuery?: string;
@@ -14,21 +15,20 @@ const Home: React.FC<HomeProps> = ({ searchQuery }) => {
   const [data, setData] = useState<DataState>({ series: [], episodes: [] });
   const [featuredEpisode, setFeaturedEpisode] = useState<Episode | null>(null);
 
+  // Buscar o ID do último vídeo sincronizado para exibir o selo "Novo"
+  const { data: latestVideoData } = trpc.latestVideoId.useQuery(undefined, {
+    staleTime: 5 * 60 * 1000, // cache 5 minutos
+  });
+  const lastSyncedVideoId = latestVideoData?.lastVideoId ?? null;
+
   useEffect(() => {
     const loadedData = dataService.getData();
     setData(loadedData);
     
-    // Set featured episode (specifically the one requested: XHspQOErz9Q)
-    const specificFeaturedEp = loadedData.episodes.find(ep => ep.youtubeVideoId === "XHspQOErz9Q");
-    
-    if (specificFeaturedEp) {
-      setFeaturedEpisode(specificFeaturedEp);
-    } else {
-      // Fallback to latest logic if specific video not found
-      const latestSeries = loadedData.series.find(s => s.destaque) || loadedData.series[0];
-      const latestEp = dataService.getEpisodesBySeries(latestSeries.id).sort((a, b) => b.ordem - a.ordem)[0];
-      setFeaturedEpisode(latestEp || loadedData.episodes[0]);
-    }
+    // Destaque: prioridade para o último vídeo sincronizado, depois o mais recente
+    const latestSeries = loadedData.series.find(s => s.destaque) || loadedData.series[0];
+    const latestEp = dataService.getEpisodesBySeries(latestSeries.id).sort((a, b) => b.ordem - a.ordem)[0];
+    setFeaturedEpisode(latestEp || loadedData.episodes[0]);
   }, []);
 
   if (!featuredEpisode) return <div className="h-screen bg-[#141414] flex items-center justify-center text-white">Carregando...</div>;
@@ -67,9 +67,18 @@ const Home: React.FC<HomeProps> = ({ searchQuery }) => {
           <ScrollRow title="SOZO 2026">
             {series2026.map((serie, index) => {
               const latestEp = dataService.getEpisodesBySeries(serie.id).sort((a, b) => b.ordem - a.ordem)[0];
-              // The first series in the 2026 list is the latest one
               const isLatestSeries = index === 0;
-              return <SeriesCard key={serie.id} series={serie} latestEpisode={latestEp} isLatestSeries={isLatestSeries} />;
+              // Verificar se o último episódio desta série é o último vídeo sincronizado
+              const hasNewVideo = !!(lastSyncedVideoId && latestEp?.youtubeVideoId === lastSyncedVideoId);
+              return (
+                <SeriesCard
+                  key={serie.id}
+                  series={serie}
+                  latestEpisode={latestEp}
+                  isLatestSeries={isLatestSeries}
+                  hasNewVideo={hasNewVideo}
+                />
+              );
             })}
           </ScrollRow>
         )}

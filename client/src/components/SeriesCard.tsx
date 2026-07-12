@@ -2,17 +2,17 @@ import React from 'react';
 import { Link } from 'wouter';
 import { Series, Episode } from '../types';
 import { getThumbnailUrl } from '../constants';
-import { Play } from 'lucide-react';
+import { Play, Sparkles } from 'lucide-react';
 import ShareButton from './ShareButton';
 
 interface SeriesCardProps {
   series: Series;
   latestEpisode?: Episode;
   isLatestSeries?: boolean;
+  hasNewVideo?: boolean; // true quando o último episódio foi sincronizado recentemente
 }
 
-const SeriesCard: React.FC<SeriesCardProps> = ({ series, latestEpisode, isLatestSeries }) => {
-  // Use latest episode thumbnail as series cover if no custom cover provided
+const SeriesCard: React.FC<SeriesCardProps> = ({ series, latestEpisode, isLatestSeries, hasNewVideo }) => {
   const coverImage = series.capaUrl || (latestEpisode ? getThumbnailUrl(latestEpisode.youtubeVideoId) : '');
 
   const handleShareClick = (e: React.MouseEvent) => {
@@ -39,13 +39,11 @@ const SeriesCard: React.FC<SeriesCardProps> = ({ series, latestEpisode, isLatest
             <div className="transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
               <div className="h-0 group-hover:h-auto overflow-hidden transition-all duration-300 opacity-0 group-hover:opacity-100">
                 <div className="flex items-center gap-2 text-xs font-bold text-white">
-                  {/* Extrair o mês do título da série (ex: "Série - Março 2026" -> "Março") */}
                   {series.titulo.split(' - ')[1] && (
                     <span className="text-gray-300 uppercase tracking-wider">
                       {series.titulo.split(' - ')[1].split(' ')[0]}
                     </span>
                   )}
-                  {/* Only show 'Novos Episódios' for the latest series */}
                   {isLatestSeries && <span className="text-green-500">• Novos Episódios</span>}
                 </div>
               </div>
@@ -60,6 +58,16 @@ const SeriesCard: React.FC<SeriesCardProps> = ({ series, latestEpisode, isLatest
           </div>
         </div>
       </Link>
+
+      {/* Selo "Novo" — aparece quando o último vídeo foi sincronizado recentemente */}
+      {hasNewVideo && (
+        <div className="absolute top-3 left-3 z-10 pointer-events-none">
+          <div className="flex items-center gap-1 bg-[#E50914] text-white text-xs font-bold px-2.5 py-1 rounded-full shadow-lg shadow-black/60 animate-pulse">
+            <Sparkles className="w-3 h-3" />
+            NOVO
+          </div>
+        </div>
+      )}
 
       {/* Share Button - Visible on Hover */}
       <div 
