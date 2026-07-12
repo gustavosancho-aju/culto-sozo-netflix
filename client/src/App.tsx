@@ -16,7 +16,6 @@ import NotFound from "@/pages/NotFound";
 const Layout: React.FC = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [location] = useLocation();
-
   // Reset search when location changes
   React.useEffect(() => {
      if(location !== '/') {
@@ -24,6 +23,7 @@ const Layout: React.FC = () => {
      }
   }, [location]);
 
+  // make sure to consider if you need authentication for certain routes
   return (
     <div className="bg-[#141414] min-h-screen font-sans text-gray-100 relative">
       {/* Hide Navbar on Player Page */}

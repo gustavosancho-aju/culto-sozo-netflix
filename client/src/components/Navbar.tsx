@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useLocation } from 'wouter';
-import { Search, Bell, User } from 'lucide-react';
+import { Search, Bell, User, Settings } from 'lucide-react';
+import { useAuth } from '@/_core/hooks/useAuth';
+import { startLogin } from '@/const';
 
 interface NavbarProps {
   onSearch?: (query: string) => void;
@@ -10,6 +12,7 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [location] = useLocation();
+  const { user } = useAuth();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -65,7 +68,17 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
 
           <Bell className="w-5 h-5 cursor-pointer hover:text-gray-300 transition" />
           
-          <div className="flex items-center gap-2 cursor-pointer group">
+          {user?.role === 'admin' && (
+            <Link href="/admin" title="Painel Admin">
+              <Settings className="w-5 h-5 cursor-pointer hover:text-[#E50914] transition" />
+            </Link>
+          )}
+
+          <div
+            className="flex items-center gap-2 cursor-pointer group"
+            onClick={() => !user && startLogin()}
+            title={user ? user.name || 'Perfil' : 'Fazer login'}
+          >
             <div className="w-8 h-8 rounded bg-blue-600 flex items-center justify-center overflow-hidden">
                <User className="w-5 h-5 text-white" />
             </div>
