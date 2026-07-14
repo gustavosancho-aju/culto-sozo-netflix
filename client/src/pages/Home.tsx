@@ -1,10 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React, { useMemo } from 'react';
 import Hero from '../components/Hero';
 import SeriesCard from '../components/SeriesCard';
 import ScrollRow from '../components/ScrollRow';
 import ExclusiveContent from '../components/ExclusiveContent';
-import { dataService } from '../services/dataService';
-import { DataState, Episode } from '../types';
 import { trpc } from '@/lib/trpc';
 
 interface HomeProps {
@@ -12,33 +10,62 @@ interface HomeProps {
 }
 
 const Home: React.FC<HomeProps> = ({ searchQuery }) => {
-  const [data, setData] = useState<DataState>({ series: [], episodes: [] });
-  const [featuredEpisode, setFeaturedEpisode] = useState<Episode | null>(null);
-
-  // Buscar o ID do último vídeo sincronizado para exibir o selo "Novo"
+  // Buscar séries e episódios do banco via tRPC
+  const { data: allSeries, isLoading: loadingSeries } = trpc.content.series.useQuery(undefined, {
+    staleTime: 2 * 60 * 1000,
+  });
+  const { data: allEpisodes, isLoading: loadingEpisodes } = trpc.content.allEpisodes.useQuery(undefined, {
+    staleTime: 2 * 60 * 1000,
+  });
   const { data: latestVideoData } = trpc.latestVideoId.useQuery(undefined, {
-    staleTime: 5 * 60 * 1000, // cache 5 minutos
+    staleTime: 5 * 60 * 1000,
   });
   const lastSyncedVideoId = latestVideoData?.lastVideoId ?? null;
 
-  useEffect(() => {
-    const loadedData = dataService.getData();
-    setData(loadedData);
-    
-    // Destaque: prioridade para o último vídeo sincronizado, depois o mais recente
-    const latestSeries = loadedData.series.find(s => s.destaque) || loadedData.series[0];
-    const latestEp = dataService.getEpisodesBySeries(latestSeries.id).sort((a, b) => b.ordem - a.ordem)[0];
-    setFeaturedEpisode(latestEp || loadedData.episodes[0]);
-  }, []);
+  // Mapear episódios por série
+  const episodesBySeriesId = useMemo(() => {
+    const map: Record<string, typeof allEpisodes> = {};
+    if (!allEpisodes) return map;
+    for (const ep of allEpisodes) {
+      if (!map[ep.serieId]) map[ep.serieId] = [];
+      map[ep.serieId]!.push(ep);
+    }
+    return map;
+  }, [allEpisodes]);
 
-  if (!featuredEpisode) return <div className="h-screen bg-[#141414] flex items-center justify-center text-white">Carregando...</div>;
+  // Episódio de destaque: último episódio da série em destaque
+  const featuredEpisode = useMemo(() => {
+    if (!allSeries || !allEpisodes) return null;
+    const featuredSeries = allSeries.find(s => s.destaque) || allSeries[0];
+    if (!featuredSeries) return null;
+    const eps = (episodesBySeriesId[featuredSeries.id] || []).sort((a, b) => b.ordem - a.ordem);
+    return eps[0] || allEpisodes[0] || null;
+  }, [allSeries, allEpisodes, episodesBySeriesId]);
 
-  // Filter logic
-  const filteredEpisodes = searchQuery 
-    ? data.episodes.filter(ep => ep.titulo.toLowerCase().includes(searchQuery.toLowerCase()))
-    : data.episodes;
+  if (loadingSeries || loadingEpisodes) {
+    return (
+      <div className="h-screen bg-[#141414] flex items-center justify-center text-white">
+        <div className="flex flex-col items-center gap-4">
+          <div className="w-10 h-10 border-4 border-red-600 border-t-transparent rounded-full animate-spin" />
+          <span className="text-gray-400">Carregando...</span>
+        </div>
+      </div>
+    );
+  }
 
+  if (!featuredEpisode || !allSeries || !allEpisodes) {
+    return (
+      <div className="h-screen bg-[#141414] flex items-center justify-center text-white">
+        <span className="text-gray-400">Nenhum conteúdo disponível</span>
+      </div>
+    );
+  }
+
+  // Filtro de busca
   if (searchQuery) {
+    const filteredEpisodes = allEpisodes.filter(ep =>
+      ep.titulo.toLowerCase().includes(searchQuery.toLowerCase())
+    );
     return (
       <div className="min-h-screen bg-[#141414] pt-24 px-4 md:px-12">
         <h2 className="text-2xl text-white mb-6">Resultados para "{searchQuery}"</h2>
@@ -53,22 +80,22 @@ const Home: React.FC<HomeProps> = ({ searchQuery }) => {
     );
   }
 
-  // Group series by year
-  const series2026 = data.series.filter(s => s.ano === 2026).sort((a, b) => b.ordem - a.ordem);
-  const series2025 = data.series.filter(s => s.ano === 2025).sort((a, b) => a.ordem - b.ordem);
+  // Agrupar séries por ano
+  const series2026 = allSeries.filter(s => s.ano === 2026).sort((a, b) => b.ordem - a.ordem);
+  const series2025 = allSeries.filter(s => s.ano === 2025).sort((a, b) => b.ordem - a.ordem);
 
   return (
     <div className="min-h-screen bg-[#141414] pb-20 overflow-x-hidden">
       <Hero episode={featuredEpisode} />
-      
+
       <div className="relative z-20 px-4 md:px-12 space-y-16 mt-8">
         {/* Section 2026 */}
         {series2026.length > 0 && (
           <ScrollRow title="SOZO 2026">
             {series2026.map((serie, index) => {
-              const latestEp = dataService.getEpisodesBySeries(serie.id).sort((a, b) => b.ordem - a.ordem)[0];
+              const eps = (episodesBySeriesId[serie.id] || []).sort((a, b) => b.ordem - a.ordem);
+              const latestEp = eps[0];
               const isLatestSeries = index === 0;
-              // Verificar se o último episódio desta série é o último vídeo sincronizado
               const hasNewVideo = !!(lastSyncedVideoId && latestEp?.youtubeVideoId === lastSyncedVideoId);
               return (
                 <SeriesCard
@@ -87,7 +114,8 @@ const Home: React.FC<HomeProps> = ({ searchQuery }) => {
         {series2025.length > 0 && (
           <ScrollRow title="SOZO 2025">
             {series2025.map(serie => {
-              const latestEp = dataService.getEpisodesBySeries(serie.id).sort((a, b) => b.ordem - a.ordem)[0];
+              const eps = (episodesBySeriesId[serie.id] || []).sort((a, b) => b.ordem - a.ordem);
+              const latestEp = eps[0];
               return <SeriesCard key={serie.id} series={serie} latestEpisode={latestEp} />;
             })}
           </ScrollRow>

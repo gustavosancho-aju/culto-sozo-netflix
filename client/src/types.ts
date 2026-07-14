@@ -2,20 +2,24 @@ export interface Episode {
   id: string;
   serieId: string;
   titulo: string;
-  descricaoCurta: string;
+  descricaoCurta: string | null;
   youtubeVideoId: string;
-  duracao: string;
+  duracao: string | null;
   ordem: number;
+  createdAt?: Date;
+  updatedAt?: Date;
 }
 
 export interface Series {
   id: string;
   titulo: string;
-  descricao: string;
+  descricao: string | null;
   destaque: boolean;
   ordem: number;
   ano: number; // 2025 or 2026
   capaUrl?: string; // Optional custom cover, otherwise use first episode thumbnail
+  createdAt?: Date;
+  updatedAt?: Date;
 }
 
 export interface UserRating {

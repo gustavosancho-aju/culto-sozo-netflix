@@ -6,7 +6,8 @@ import {
   getSyncHistory, getSyncConfig, upsertSyncConfig,
   createTestimonial, getApprovedTestimonials, getAllTestimonials,
   moderateTestimonial, deleteTestimonial, likeTestimonial,
-  getVisitorLikes, countTestimonialsByStatus
+  getVisitorLikes, countTestimonialsByStatus,
+  getAllSeries, getSeriesById, getEpisodesBySeries, getEpisodeById, getAllEpisodes
 } from "./db";
 import { runYouTubeSync } from "./youtubeSync";
 import { z } from "zod";
@@ -30,6 +31,36 @@ export const appRouter = router({
       const cookieOptions = getSessionCookieOptions(ctx.req);
       ctx.res.clearCookie(COOKIE_NAME, { ...cookieOptions, maxAge: -1 });
       return { success: true } as const;
+    }),
+  }),
+
+  // === CONTEÚDO (séries e episódios do banco) ===
+  content: router({
+    // Listar todas as séries
+    series: publicProcedure.query(async () => {
+      return getAllSeries();
+    }),
+
+    // Buscar série por ID com seus episódios
+    seriesById: publicProcedure
+      .input(z.object({ id: z.string() }))
+      .query(async ({ input }) => {
+        const serie = await getSeriesById(input.id);
+        if (!serie) return null;
+        const eps = await getEpisodesBySeries(input.id);
+        return { ...serie, episodes: eps };
+      }),
+
+    // Buscar episódio por ID
+    episodeById: publicProcedure
+      .input(z.object({ id: z.string() }))
+      .query(async ({ input }) => {
+        return getEpisodeById(input.id);
+      }),
+
+    // Listar todos os episódios (para o select de depoimentos)
+    allEpisodes: publicProcedure.query(async () => {
+      return getAllEpisodes();
     }),
   }),
 

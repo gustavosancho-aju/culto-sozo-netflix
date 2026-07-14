@@ -1,7 +1,7 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { Heart, Send, User, MapPin, Link2, ChevronDown, ChevronUp, MessageSquareHeart, Sparkles, Quote, CheckCircle, Loader2 } from 'lucide-react';
 import { trpc } from '@/lib/trpc';
-import { dataService } from '../services/dataService';
+
 import { toast } from 'sonner';
 
 // Componente de card de depoimento com curtir animado
@@ -189,27 +189,29 @@ const TestimonialForm: React.FC<{ onSuccess: () => void }> = ({ onSuccess }) => 
   const [showEpisodeLink, setShowEpisodeLink] = useState(false);
   const [submitted, setSubmitted] = useState(false);
 
-  // Carregar episódios para o select
+  // Carregar episódios e séries do banco via tRPC
+  const { data: allEpisodesRaw } = trpc.content.allEpisodes.useQuery(undefined, { staleTime: 5 * 60 * 1000 });
+  const { data: allSeriesRaw } = trpc.content.series.useQuery(undefined, { staleTime: 5 * 60 * 1000 });
+
   const allEpisodes = useMemo(() => {
-    const data = dataService.getData();
-    return data.episodes
-      .sort((a, b) => {
-        const seriesA = data.series.find(s => s.id === a.serieId);
-        const seriesB = data.series.find(s => s.id === b.serieId);
-        if (seriesA && seriesB && seriesA.ordem !== seriesB.ordem) {
-          return seriesB.ordem - seriesA.ordem;
-        }
-        return b.ordem - a.ordem;
-      });
-  }, []);
+    if (!allEpisodesRaw || !allSeriesRaw) return [];
+    return [...allEpisodesRaw].sort((a, b) => {
+      const seriesA = allSeriesRaw.find(s => s.id === a.serieId);
+      const seriesB = allSeriesRaw.find(s => s.id === b.serieId);
+      if (seriesA && seriesB && seriesA.ordem !== seriesB.ordem) {
+        return seriesB.ordem - seriesA.ordem;
+      }
+      return b.ordem - a.ordem;
+    });
+  }, [allEpisodesRaw, allSeriesRaw]);
 
   const allSeries = useMemo(() => {
-    const data = dataService.getData();
-    return [...data.series].sort((a, b) => {
+    if (!allSeriesRaw) return [];
+    return [...allSeriesRaw].sort((a, b) => {
       if (b.ano !== a.ano) return b.ano - a.ano;
       return b.ordem - a.ordem;
     });
-  }, []);
+  }, [allSeriesRaw]);
 
   const submitMutation = trpc.testimonials.submit.useMutation({
     onSuccess: () => {

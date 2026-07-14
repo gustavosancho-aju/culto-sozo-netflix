@@ -1,37 +1,59 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { useRoute, useLocation } from 'wouter';
 import { ArrowLeft } from 'lucide-react';
 import { dataService } from '../services/dataService';
-import { Episode } from '../types';
+import { trpc } from '@/lib/trpc';
 
 const EpisodePlayer: React.FC = () => {
   const [, params] = useRoute('/episodio/:id');
   const [, setLocation] = useLocation();
-  const [episode, setEpisode] = useState<Episode | null>(null);
+  const episodeId = params?.id || '';
 
+  const { data: episode, isLoading } = trpc.content.episodeById.useQuery(
+    { id: episodeId },
+    { enabled: !!episodeId, staleTime: 5 * 60 * 1000 }
+  );
+
+  // Salvar no histórico local quando o episódio carregar
   useEffect(() => {
-    if (params?.id) {
-      const ep = dataService.getEpisodeById(params.id);
-      if (ep) {
-        setEpisode(ep);
-        // Save to history
-        dataService.saveHistory({
-          episodeId: ep.id,
-          serieId: ep.serieId,
-          lastWatchedAt: Date.now(),
-          progress: 0
-        });
-      }
+    if (episode) {
+      dataService.saveHistory({
+        episodeId: episode.id,
+        serieId: episode.serieId,
+        lastWatchedAt: Date.now(),
+        progress: 0,
+      });
     }
-  }, [params?.id]);
+  }, [episode?.id]);
 
-  if (!episode) return <div className="h-screen bg-black flex items-center justify-center text-white">Carregando...</div>;
+  if (isLoading) {
+    return (
+      <div className="h-screen bg-black flex items-center justify-center text-white">
+        <div className="flex flex-col items-center gap-4">
+          <div className="w-10 h-10 border-4 border-red-600 border-t-transparent rounded-full animate-spin" />
+        </div>
+      </div>
+    );
+  }
+
+  if (!episode) {
+    return (
+      <div className="h-screen bg-black flex items-center justify-center text-white">
+        <div className="text-center">
+          <p className="text-gray-400 mb-4">Episódio não encontrado</p>
+          <button onClick={() => setLocation('/')} className="text-red-500 hover:text-red-400">
+            Voltar ao início
+          </button>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="fixed inset-0 bg-black z-[60] flex flex-col">
       {/* Back Button Overlay */}
       <div className="absolute top-0 left-0 w-full p-6 z-10 bg-gradient-to-b from-black/80 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300">
-        <button 
+        <button
           onClick={() => setLocation('/')}
           className="flex items-center gap-2 text-white hover:text-gray-300 transition"
         >

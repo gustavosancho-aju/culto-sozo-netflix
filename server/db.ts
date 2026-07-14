@@ -212,3 +212,82 @@ export async function countTestimonialsByStatus() {
   }
   return result;
 }
+
+// === SERIES & EPISODES ===
+
+export async function getAllSeries() {
+  const db = await getDb();
+  if (!db) return [];
+  const { series } = await import("../drizzle/schema");
+  const { desc } = await import("drizzle-orm");
+  return db.select().from(series).orderBy(desc(series.ano), desc(series.ordem));
+}
+
+export async function getSeriesById(id: string) {
+  const db = await getDb();
+  if (!db) return null;
+  const { series } = await import("../drizzle/schema");
+  const result = await db.select().from(series).where(eq(series.id, id)).limit(1);
+  return result.length > 0 ? result[0] : null;
+}
+
+export async function getEpisodesBySeries(serieId: string) {
+  const db = await getDb();
+  if (!db) return [];
+  const { episodes } = await import("../drizzle/schema");
+  const { asc } = await import("drizzle-orm");
+  return db.select().from(episodes).where(eq(episodes.serieId, serieId)).orderBy(asc(episodes.ordem));
+}
+
+export async function getEpisodeById(id: string) {
+  const db = await getDb();
+  if (!db) return null;
+  const { episodes } = await import("../drizzle/schema");
+  const result = await db.select().from(episodes).where(eq(episodes.id, id)).limit(1);
+  return result.length > 0 ? result[0] : null;
+}
+
+export async function getEpisodeByVideoId(videoId: string) {
+  const db = await getDb();
+  if (!db) return null;
+  const { episodes } = await import("../drizzle/schema");
+  const result = await db.select().from(episodes).where(eq(episodes.youtubeVideoId, videoId)).limit(1);
+  return result.length > 0 ? result[0] : null;
+}
+
+export async function getAllEpisodes() {
+  const db = await getDb();
+  if (!db) return [];
+  const { episodes } = await import("../drizzle/schema");
+  const { asc } = await import("drizzle-orm");
+  return db.select().from(episodes).orderBy(asc(episodes.serieId), asc(episodes.ordem));
+}
+
+export async function insertSeries(data: { id: string; titulo: string; descricao: string; destaque: boolean; ordem: number; ano: number }) {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+  const { series } = await import("../drizzle/schema");
+  await db.insert(series).values(data).onDuplicateKeyUpdate({ set: { titulo: data.titulo, descricao: data.descricao, destaque: data.destaque, ordem: data.ordem } });
+}
+
+export async function insertEpisode(data: { id: string; serieId: string; ordem: number; titulo: string; youtubeVideoId: string; duracao: string; descricaoCurta: string }) {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+  const { episodes } = await import("../drizzle/schema");
+  await db.insert(episodes).values(data).onDuplicateKeyUpdate({ set: { titulo: data.titulo, descricaoCurta: data.descricaoCurta } });
+}
+
+export async function setSeriesDestaque(seriesId: string) {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+  const { series } = await import("../drizzle/schema");
+  // Remove destaque de todas
+  await db.update(series).set({ destaque: false });
+  // Define destaque na série especificada
+  await db.update(series).set({ destaque: true }).where(eq(series.id, seriesId));
+}
+
+export async function videoExistsInDb(videoId: string): Promise<boolean> {
+  const ep = await getEpisodeByVideoId(videoId);
+  return ep !== null;
+}

@@ -15,6 +15,37 @@ export const users = mysqlTable("users", {
 export type User = typeof users.$inferSelect;
 export type InsertUser = typeof users.$inferInsert;
 
+// Tabela de séries
+export const series = mysqlTable("series", {
+  id: varchar("id", { length: 128 }).primaryKey(),
+  titulo: varchar("titulo", { length: 256 }).notNull(),
+  descricao: text("descricao"),
+  destaque: boolean("destaque").default(false).notNull(),
+  ordem: int("ordem").default(0).notNull(),
+  ano: int("ano").notNull(),
+  createdAt: timestamp("createdAt").defaultNow().notNull(),
+  updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
+});
+
+export type Series = typeof series.$inferSelect;
+export type InsertSeries = typeof series.$inferInsert;
+
+// Tabela de episódios
+export const episodes = mysqlTable("episodes", {
+  id: varchar("id", { length: 128 }).primaryKey(),
+  serieId: varchar("serieId", { length: 128 }).notNull(),
+  ordem: int("ordem").default(1).notNull(),
+  titulo: varchar("titulo", { length: 512 }).notNull(),
+  youtubeVideoId: varchar("youtubeVideoId", { length: 64 }).notNull().unique(),
+  duracao: varchar("duracao", { length: 32 }).default("1h"),
+  descricaoCurta: text("descricaoCurta"),
+  createdAt: timestamp("createdAt").defaultNow().notNull(),
+  updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
+});
+
+export type Episode = typeof episodes.$inferSelect;
+export type InsertEpisode = typeof episodes.$inferInsert;
+
 // Tabela de histórico de sincronizações com YouTube
 export const syncHistory = mysqlTable("sync_history", {
   id: int("id").autoincrement().primaryKey(),
@@ -52,22 +83,14 @@ export type InsertSyncConfig = typeof syncConfig.$inferInsert;
 // Tabela de depoimentos
 export const testimonials = mysqlTable("testimonials", {
   id: int("id").autoincrement().primaryKey(),
-  // Texto do depoimento
   content: text("content").notNull(),
-  // Nome opcional (null = anônimo)
   authorName: varchar("authorName", { length: 128 }),
-  // Cidade/localidade opcional
   authorCity: varchar("authorCity", { length: 128 }),
-  // Episódio vinculado (opcional) — armazena o youtubeVideoId
   linkedEpisodeId: varchar("linkedEpisodeId", { length: 64 }),
   linkedEpisodeTitle: text("linkedEpisodeTitle"),
-  // Status de moderação
   status: mysqlEnum("status", ["pending", "approved", "rejected"]).default("pending").notNull(),
-  // Nota do admin (motivo de rejeição, etc.)
   adminNote: text("adminNote"),
-  // Reações (curtidas)
   likesCount: int("likesCount").default(0).notNull(),
-  // Metadados
   createdAt: timestamp("createdAt").defaultNow().notNull(),
   updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
   approvedAt: timestamp("approvedAt"),
@@ -76,11 +99,10 @@ export const testimonials = mysqlTable("testimonials", {
 export type Testimonial = typeof testimonials.$inferSelect;
 export type InsertTestimonial = typeof testimonials.$inferInsert;
 
-// Tabela de curtidas em depoimentos (para evitar duplicatas por IP/sessão)
+// Tabela de curtidas em depoimentos
 export const testimonialLikes = mysqlTable("testimonial_likes", {
   id: int("id").autoincrement().primaryKey(),
   testimonialId: int("testimonialId").notNull(),
-  // Identificador anônimo do visitante (fingerprint leve via IP+UserAgent hash)
   visitorHash: varchar("visitorHash", { length: 64 }).notNull(),
   createdAt: timestamp("createdAt").defaultNow().notNull(),
 });
