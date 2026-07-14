@@ -89,25 +89,62 @@ function parseTitlePattern(rawTitle: string): {
 }
 
 /**
+ * Resolve o channelId a partir de uma URL de canal do YouTube.
+ * Estratégia: scraping da página canônica (não usa oEmbed que retorna 404 para handles).
+ */
+async function resolveChannelId(channelUrl: string): Promise<string | null> {
+  try {
+    // Se já for um channelId direto (UCxxxxxx), usar diretamente
+    const directIdMatch = channelUrl.match(/\/channel\/(UC[a-zA-Z0-9_-]{22})/);
+    if (directIdMatch) return directIdMatch[1];
+
+    // Buscar a página do canal e extrair o canonical URL que contém o channelId
+    const res = await axios.get(channelUrl, {
+      timeout: 15000,
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Accept-Language': 'pt-BR,pt;q=0.9',
+      },
+    });
+    const html = res.data as string;
+
+    // Tentar extrair via link canonical
+    const canonicalMatch = html.match(/rel="canonical"\s+href="https:\/\/www\.youtube\.com\/channel\/(UC[a-zA-Z0-9_-]{22})"/);
+    if (canonicalMatch) return canonicalMatch[1];
+
+    // Tentar via og:url
+    const ogMatch = html.match(/property="og:url"\s+content="https:\/\/www\.youtube\.com\/channel\/(UC[a-zA-Z0-9_-]{22})"/);
+    if (ogMatch) return ogMatch[1];
+
+    // Tentar via externalChannelId no JSON embutido
+    const jsonMatch = html.match(/"externalChannelId":"(UC[a-zA-Z0-9_-]{22})"/);
+    if (jsonMatch) return jsonMatch[1];
+
+    return null;
+  } catch (err) {
+    console.error("[YouTubeSync] Erro ao resolver channelId:", err);
+    return null;
+  }
+}
+
+/**
  * Busca o vídeo mais recente do canal via RSS feed público do YouTube
  */
 async function fetchLatestVideo(channelUrl: string): Promise<YouTubeVideoInfo | null> {
   try {
-    const handleMatch = channelUrl.match(/@([^/]+)/);
-    if (!handleMatch) throw new Error("URL do canal inválida");
+    // Resolver o channelId a partir da URL do canal
+    let channelId = await resolveChannelId(channelUrl);
 
-    // Buscar channelId via oEmbed
-    const oembedUrl = `https://www.youtube.com/oembed?url=${encodeURIComponent(channelUrl)}&format=json`;
-    const oembedRes = await axios.get(oembedUrl, { timeout: 10000 });
-    const authorUrl = oembedRes.data.author_url as string;
-    const channelIdMatch = authorUrl.match(/channel\/([^/]+)/);
-
-    let rssUrl: string;
-    if (channelIdMatch) {
-      rssUrl = `https://www.youtube.com/feeds/videos.xml?channel_id=${channelIdMatch[1]}`;
-    } else {
-      rssUrl = `https://www.youtube.com/feeds/videos.xml?user=${handleMatch[1]}`;
+    // Fallback: se a URL já contiver um channelId embutido, usar diretamente
+    if (!channelId) {
+      const fallbackMatch = channelUrl.match(/UC[a-zA-Z0-9_-]{22}/);
+      channelId = fallbackMatch ? fallbackMatch[0] : null;
     }
+
+    if (!channelId) throw new Error(`Não foi possível resolver o channelId para: ${channelUrl}`);
+
+    const rssUrl = `https://www.youtube.com/feeds/videos.xml?channel_id=${channelId}`;
+    console.log(`[YouTubeSync] Usando RSS: ${rssUrl}`);
 
     const rssRes = await axios.get(rssUrl, { timeout: 10000 });
     const rssContent = rssRes.data as string;
