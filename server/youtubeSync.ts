@@ -306,7 +306,7 @@ export async function runYouTubeSync(): Promise<{
       id: episodeId,
       serieId: targetSeriesId,
       ordem: episodeOrder,
-      titulo: latestVideo.rawTitle,
+      titulo: latestVideo.episodeTitle, // salva apenas o título real, sem semana/série
       youtubeVideoId: latestVideo.videoId,
       duracao: "1h",
       descricaoCurta: cleanDesc,

@@ -740,16 +740,38 @@ export const getThumbnailUrl = (videoId: string) => {
 };
 
 /**
- * Extrai o título real do vídeo a partir do padrão YouTube:
- * "1º SEMANA | TÍTULO DO VÍDEO | NOME DA SÉRIE"
- * Se o título seguir esse padrão, retorna a parte do meio (índice 1).
- * Caso contrário, retorna o título completo.
+ * Extrai o título real do vídeo a partir do padrão YouTube.
+ * Suporta múltiplos formatos:
+ * - "TÍTULO | SÉRIE | Nº SEMANA"  → retorna parte[0]
+ * - "Nº SEMANA | TÍTULO | SÉRIE"  → retorna parte[1]
+ * - "SÉRIE | TÍTULO | SEMANA"     → retorna parte[1]
+ * - Sem pipe                      → retorna o título completo
  */
 export const parseEpisodeTitle = (titulo: string): string => {
   if (!titulo) return titulo;
-  const parts = titulo.split('|');
-  if (parts.length >= 2) {
-    return parts[1].trim();
+  const parts = titulo.split('|').map(p => p.trim()).filter(Boolean);
+  if (parts.length < 2) return titulo.trim();
+
+  // Detecta se a primeira parte é indicador de semana (ex: "1º SEMANA", "SEMANA 1", "1 SEMANA")
+  const semanaRegex = /^(\d+[ºªo°]?\s*SEMANA|SEMANA\s*\d+|\d+\s*SEMANA)/i;
+  if (semanaRegex.test(parts[0])) {
+    // Formato: "Nº SEMANA | TÍTULO | SÉRIE" → retorna o título (parte 1)
+    return parts[1];
   }
-  return titulo.trim();
+
+  // Se a última parte é indicador de semana, o título está na primeira parte
+  if (semanaRegex.test(parts[parts.length - 1])) {
+    return parts[0];
+  }
+
+  // Se tem 3+ partes e a do meio não parece ser nome de série curto, retorna a primeira
+  // Padrão: "TÍTULO | SÉRIE | SEMANA" ou "SÉRIE | TÍTULO | SEMANA"
+  // Heurística: a parte mais longa tende a ser o título descritivo
+  if (parts.length >= 3) {
+    // Retorna a parte mais longa (mais descritiva)
+    return parts.reduce((a, b) => a.length >= b.length ? a : b);
+  }
+
+  // Para 2 partes, retorna a primeira (geralmente é o título)
+  return parts[0];
 };
