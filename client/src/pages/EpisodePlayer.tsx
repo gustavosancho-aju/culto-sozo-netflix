@@ -3,6 +3,7 @@ import { useRoute, useLocation } from 'wouter';
 import { ArrowLeft } from 'lucide-react';
 import { dataService } from '../services/dataService';
 import { trpc } from '@/lib/trpc';
+import { parseEpisodeTitle } from '../constants';
 
 const EpisodePlayer: React.FC = () => {
   const [, params] = useRoute('/episodio/:id');
@@ -68,7 +69,7 @@ const EpisodePlayer: React.FC = () => {
           width="100%"
           height="100%"
           src={`https://www.youtube.com/embed/${episode.youtubeVideoId}?autoplay=1&rel=0&modestbranding=1`}
-          title={episode.titulo}
+          title={parseEpisodeTitle(episode.titulo)}
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen

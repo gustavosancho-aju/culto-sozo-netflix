@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 import { ChevronLeft, ChevronRight, Play, Plus, ThumbsUp, ChevronDown } from 'lucide-react';
 import { Episode, Series } from '../types';
-import { getThumbnailUrl } from '../constants';
+import { getThumbnailUrl, parseEpisodeTitle } from '../constants';
 import { Link } from 'wouter';
 
 interface SeriesRowProps {
@@ -88,7 +88,7 @@ const SeriesRow: React.FC<SeriesRowProps> = ({ title, episodes }) => {
                 </div>
                 
                 <div className="flex items-center gap-2 text-xs text-white">
-                  <span className="line-clamp-1">{episode.titulo}</span>
+                  <span className="line-clamp-1">{parseEpisodeTitle(episode.titulo)}</span>
                 </div>
               </div>
             </div>

@@ -1,7 +1,7 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { Heart, Send, User, MapPin, Link2, ChevronDown, ChevronUp, MessageSquareHeart, Sparkles, Quote, CheckCircle, Loader2 } from 'lucide-react';
 import { trpc } from '@/lib/trpc';
-
+import { parseEpisodeTitle } from '../constants';
 import { toast } from 'sonner';
 
 // Componente de card de depoimento com curtir animado
@@ -241,7 +241,7 @@ const TestimonialForm: React.FC<{ onSuccess: () => void }> = ({ onSuccess }) => 
     setLinkedEpisodeId(episodeId);
     if (episodeId) {
       const ep = allEpisodes.find(e => e.youtubeVideoId === episodeId);
-      if (ep) setLinkedEpisodeTitle(ep.titulo);
+      if (ep) setLinkedEpisodeTitle(parseEpisodeTitle(ep.titulo));
     } else {
       setLinkedEpisodeTitle('');
     }
@@ -350,7 +350,7 @@ const TestimonialForm: React.FC<{ onSuccess: () => void }> = ({ onSuccess }) => 
                   <optgroup key={serie.id} label={serie.titulo}>
                     {eps.map(ep => (
                       <option key={ep.id} value={ep.youtubeVideoId}>
-                        {ep.titulo}
+                        {parseEpisodeTitle(ep.titulo)}
                       </option>
                     ))}
                   </optgroup>

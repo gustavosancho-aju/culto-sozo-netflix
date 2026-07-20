@@ -738,3 +738,18 @@ export const INITIAL_EPISODES: Episode[] = [
 export const getThumbnailUrl = (videoId: string) => {
   return `https://${THUMBNAIL_TEMPLATE.replace('{id}', videoId)}`;
 };
+
+/**
+ * Extrai o título real do vídeo a partir do padrão YouTube:
+ * "1º SEMANA | TÍTULO DO VÍDEO | NOME DA SÉRIE"
+ * Se o título seguir esse padrão, retorna a parte do meio (índice 1).
+ * Caso contrário, retorna o título completo.
+ */
+export const parseEpisodeTitle = (titulo: string): string => {
+  if (!titulo) return titulo;
+  const parts = titulo.split('|');
+  if (parts.length >= 2) {
+    return parts[1].trim();
+  }
+  return titulo.trim();
+};

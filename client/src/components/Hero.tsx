@@ -1,7 +1,7 @@
 import React from 'react';
 import { Play, Info } from 'lucide-react';
 import { Episode } from '../types';
-import { getThumbnailUrl } from '../constants';
+import { getThumbnailUrl, parseEpisodeTitle } from '../constants';
 import { Link } from 'wouter';
 
 interface HeroProps {
@@ -33,7 +33,7 @@ const Hero: React.FC<HeroProps> = ({ episode }) => {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-display font-bold text-white leading-[0.9] drop-shadow-lg">
-            {episode.titulo.split('|')[0]}
+            {parseEpisodeTitle(episode.titulo)}
           </h1>
           
 

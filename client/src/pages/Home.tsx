@@ -4,6 +4,7 @@ import SeriesCard from '../components/SeriesCard';
 import ScrollRow from '../components/ScrollRow';
 import ExclusiveContent from '../components/ExclusiveContent';
 import { trpc } from '@/lib/trpc';
+import { parseEpisodeTitle } from '../constants';
 
 interface HomeProps {
   searchQuery?: string;
@@ -72,7 +73,7 @@ const Home: React.FC<HomeProps> = ({ searchQuery }) => {
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
           {filteredEpisodes.map(ep => (
             <div key={ep.id} className="aspect-video bg-gray-800 rounded overflow-hidden cursor-pointer hover:scale-105 transition">
-              <img src={`https://img.youtube.com/vi/${ep.youtubeVideoId}/mqdefault.jpg`} alt={ep.titulo} className="w-full h-full object-cover" />
+              <img src={`https://img.youtube.com/vi/${ep.youtubeVideoId}/mqdefault.jpg`} alt={parseEpisodeTitle(ep.titulo)} className="w-full h-full object-cover" />
             </div>
           ))}
         </div>
