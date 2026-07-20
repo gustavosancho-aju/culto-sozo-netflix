@@ -40,7 +40,7 @@ const Home: React.FC<HomeProps> = ({ searchQuery }) => {
     const featuredSeries = allSeries.find(s => s.destaque) || allSeries[0];
     if (!featuredSeries) return null;
     const eps = (episodesBySeriesId[featuredSeries.id] || []).sort((a, b) => b.ordem - a.ordem);
-    return eps[0] || allEpisodes[0] || null;
+    return eps[0] || allEpisodes[0] || null; // destaque = ep mais recente (b-a)
   }, [allSeries, allEpisodes, episodesBySeriesId]);
 
   if (loadingSeries || loadingEpisodes) {
@@ -95,7 +95,7 @@ const Home: React.FC<HomeProps> = ({ searchQuery }) => {
           <ScrollRow title="SOZO 2026">
             {series2026.map((serie, index) => {
               const eps = (episodesBySeriesId[serie.id] || []).sort((a, b) => b.ordem - a.ordem);
-              const latestEp = eps[0];
+              const latestEp = eps[0]; // capa do card = ep mais recente
               const isLatestSeries = index === 0;
               const hasNewVideo = !!(lastSyncedVideoId && latestEp?.youtubeVideoId === lastSyncedVideoId);
               return (
@@ -116,7 +116,7 @@ const Home: React.FC<HomeProps> = ({ searchQuery }) => {
           <ScrollRow title="SOZO 2025">
             {series2025.map(serie => {
               const eps = (episodesBySeriesId[serie.id] || []).sort((a, b) => b.ordem - a.ordem);
-              const latestEp = eps[0];
+              const latestEp = eps[0]; // capa do card = ep mais recente
               return <SeriesCard key={serie.id} series={serie} latestEpisode={latestEp} />;
             })}
           </ScrollRow>

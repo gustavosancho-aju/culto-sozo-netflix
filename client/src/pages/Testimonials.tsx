@@ -344,7 +344,7 @@ const TestimonialForm: React.FC<{ onSuccess: () => void }> = ({ onSuccess }) => 
             >
               <option value="">Selecione um episódio...</option>
               {allSeries.map(serie => {
-                const eps = allEpisodes.filter(e => e.serieId === serie.id).sort((a, b) => b.ordem - a.ordem);
+                const eps = allEpisodes.filter(e => e.serieId === serie.id).sort((a, b) => a.ordem - b.ordem);
                 if (eps.length === 0) return null;
                 return (
                   <optgroup key={serie.id} label={serie.titulo}>

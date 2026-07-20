@@ -37,9 +37,9 @@ const SeriesDetails: React.FC = () => {
   }
 
   const series = seriesWithEpisodes;
-  // Episódios do mais recente para o mais antigo
-  const episodes = [...(seriesWithEpisodes.episodes || [])].sort((a, b) => b.ordem - a.ordem);
-  const latestEpisode = episodes[0];
+  // Episódios do mais antigo para o mais recente (ordem crescente)
+  const episodes = [...(seriesWithEpisodes.episodes || [])].sort((a, b) => a.ordem - b.ordem);
+  const latestEpisode = episodes[episodes.length - 1]; // mais recente = último da lista
   const coverImage = (latestEpisode ? getThumbnailUrl(latestEpisode.youtubeVideoId) : '');
 
   return (
