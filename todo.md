@@ -15,3 +15,4 @@
 - [x] Corrigir no banco os títulos de todos os 63 episódios que estavam no formato antigo (com pipe)
 - [x] Corrigir títulos específicos de episódios com títulos genéricos (sementes, felizes, transformados, etc.)
 - [x] Episódio livres-para-prosperar-2026-ep3 corrigido: "O MAIOR ERRO QUE AS PESSOAS COMETEM NA CRISE"
+- [x] Auditar e consolidar código, automações e documentação versionáveis em commit no repositório conectado

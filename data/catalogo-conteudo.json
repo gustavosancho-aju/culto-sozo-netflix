@@ -1,0 +1,754 @@
+{
+  "generatedAt": "2026-08-18T01:00:47.026Z",
+  "source": "Banco de dados de produção do projeto Culto Sozo Netflix",
+  "syncConfiguration": {
+    "channelUrl": "https://www.youtube.com/@Lorenaamelo",
+    "channelId": null,
+    "enabled": 1,
+    "lastVideoId": "U0d2QEf-oHw",
+    "lastSyncAt": "2026-08-11T09:05:38.000Z"
+  },
+  "series": [
+    {
+      "id": "alem-da-filiacao-2026",
+      "titulo": "ALÉM DA FILIAÇÃO - Agosto 2026",
+      "descricao": "Série \"ALÉM DA FILIAÇÃO\" de Agosto 2026.",
+      "destaque": 1,
+      "ordem": 9,
+      "ano": 2026
+    },
+    {
+      "id": "livres-para-prosperar-2026",
+      "titulo": "Livres para Prosperar - Julho 2026",
+      "descricao": "Série sobre como se libertar de limitações e prosperar em todas as áreas da vida.",
+      "destaque": 0,
+      "ordem": 7,
+      "ano": 2026
+    },
+    {
+      "id": "veneno-da-alma-2026",
+      "titulo": "O Veneno da Alma - Junho 2026",
+      "descricao": "Série sobre como o orgulho, a ofensa e outros venenos afetam a alma.",
+      "destaque": 0,
+      "ordem": 6,
+      "ano": 2026
+    },
+    {
+      "id": "reconstruindo-interior-2026",
+      "titulo": "Reconstruindo o Seu Interior - Maio 2026",
+      "descricao": "Série sobre como reconstruir o interior, quebrar ciclos e vencer tentações.",
+      "destaque": 0,
+      "ordem": 5,
+      "ano": 2026
+    },
+    {
+      "id": "rasgando-veu-coracao-2026",
+      "titulo": "Rasgando o Véu do Coração - Abril 2026",
+      "descricao": "Série sobre como lidar com a dureza do coração e buscar a cura interior.",
+      "destaque": 0,
+      "ordem": 4,
+      "ano": 2026
+    },
+    {
+      "id": "raiz-invisivel-caos-2026",
+      "titulo": "A Raiz Invisível do Caos - Março 2026",
+      "descricao": "Série sobre a ordem que libera destino e a família como engrenagem da vida.",
+      "destaque": 0,
+      "ordem": 3,
+      "ano": 2026
+    },
+    {
+      "id": "identidade-proposito-2026",
+      "titulo": "Identidade e Propósito - Fevereiro 2026",
+      "descricao": "Descobrindo quem somos e para o que fomos chamados.",
+      "destaque": 0,
+      "ordem": 2,
+      "ano": 2026
+    },
+    {
+      "id": "orfaos-a-filho-2026",
+      "titulo": "De Órfãos a Filho - Janeiro 2026",
+      "descricao": "Uma jornada de cura interior, identidade e restauração da paternidade.",
+      "destaque": 0,
+      "ordem": 1,
+      "ano": 2026
+    },
+    {
+      "id": "odres-renovados-2025",
+      "titulo": "Odres Renovados - Abril 2025",
+      "descricao": "Série sobre a renovação do coração e a preparação para o novo de Deus.",
+      "destaque": 0,
+      "ordem": 8,
+      "ano": 2025
+    },
+    {
+      "id": "marcas-nao-vistas-2025",
+      "titulo": "Marcas Não Vistas - Maio 2025",
+      "descricao": "Série sobre as marcas invisíveis e a cura interior.",
+      "destaque": 0,
+      "ordem": 7,
+      "ano": 2025
+    },
+    {
+      "id": "guerra-invisivel-2025",
+      "titulo": "Quando a Guerra é Invisível - Junho 2025",
+      "descricao": "Série sobre as batalhas espirituais e a libertação.",
+      "destaque": 0,
+      "ordem": 6,
+      "ano": 2025
+    },
+    {
+      "id": "transformados-pelo-espirito-2025",
+      "titulo": "Transformados pelo Espírito - Julho 2025",
+      "descricao": "Série sobre a transformação da alma através do Espírito Santo.",
+      "destaque": 0,
+      "ordem": 5,
+      "ano": 2025
+    },
+    {
+      "id": "feridas-que-marcam-2025",
+      "titulo": "Feridas que Marcam, Amor que Transforma - Agosto 2025",
+      "descricao": "Série sobre cura de feridas emocionais através do amor transformador.",
+      "destaque": 0,
+      "ordem": 4,
+      "ano": 2025
+    },
+    {
+      "id": "poder-de-amar-2025",
+      "titulo": "O Poder de Amar - Setembro 2025",
+      "descricao": "Série sobre o amor, restauração e escolhas que geram vida.",
+      "destaque": 0,
+      "ordem": 3,
+      "ano": 2025
+    },
+    {
+      "id": "estilo-vida-felizes-2025",
+      "titulo": "O Estilo de Vida dos Felizes - Outubro 2025",
+      "descricao": "Série sobre como viver uma vida plena e feliz em Deus.",
+      "destaque": 0,
+      "ordem": 2,
+      "ano": 2025
+    },
+    {
+      "id": "sementes-2025",
+      "titulo": "Sementes que Geram Libertação Financeira - Novembro 2025",
+      "descricao": "Princípios bíblicos e práticos para uma vida financeira saudável e próspera.",
+      "destaque": 0,
+      "ordem": 1,
+      "ano": 2025
+    },
+    {
+      "id": "renove-se-2025",
+      "titulo": "Renove-se - Dezembro 2025",
+      "descricao": "Série ministrada pela Pastora Lorena Melo abordando temas relacionados à renovação espiritual.",
+      "destaque": 0,
+      "ordem": 0,
+      "ano": 2025
+    }
+  ],
+  "episodes": [
+    {
+      "id": "alem-da-filiacao-2026-ep1-1785834311622",
+      "serieId": "alem-da-filiacao-2026",
+      "ordem": 1,
+      "titulo": "A JORNADA DA IDENTIDADE PARA A MATURIDADE",
+      "youtubeVideoId": "F2qz7kC2sww",
+      "duracao": "1h",
+      "descricaoCurta": "1º SEMANA | A JORNADA DA IDENTIDADE PARA A MATURIDADE | ALÉM DA FILIAÇÃO   Seja bem-vindo(a) ao meu canal!   Sou Pastora da Comunidade das Nações Aracaju e este espaço foi criado para compartilhar men"
+    },
+    {
+      "id": "alem-da-filiacao-2026-ep2-1786439138216",
+      "serieId": "alem-da-filiacao-2026",
+      "ordem": 2,
+      "titulo": "QUEM ESTÁ DECIDINDO A SUA VIDA HOJE ?",
+      "youtubeVideoId": "U0d2QEf-oHw",
+      "duracao": "1h",
+      "descricaoCurta": "2º SEMANA | QUEM ESTÁ DECIDINDO A SUA VIDA HOJE ?  | ALÉM DA FILIAÇÃO   Seja bem-vindo(a) ao meu canal!   Sou Pastora da Comunidade das Nações Aracaju e este espaço foi criado para compartilhar mensag"
+    },
+    {
+      "id": "felizes-1",
+      "serieId": "estilo-vida-felizes-2025",
+      "ordem": 1,
+      "titulo": "O ESTILO DE VIDA DOS FELIZES — Semana 1",
+      "youtubeVideoId": "2YgEJiYv6ZU",
+      "duracao": "56min",
+      "descricaoCurta": "Ministrado em 6 de outubro de 2025."
+    },
+    {
+      "id": "felizes-2",
+      "serieId": "estilo-vida-felizes-2025",
+      "ordem": 2,
+      "titulo": "O ESTILO DE VIDA DOS FELIZES — Semana 2",
+      "youtubeVideoId": "klyDYWjhQq0",
+      "duracao": "48min",
+      "descricaoCurta": "Ministrado em 13 de outubro de 2025."
+    },
+    {
+      "id": "felizes-3",
+      "serieId": "estilo-vida-felizes-2025",
+      "ordem": 3,
+      "titulo": "O ESTILO DE VIDA DOS FELIZES — Semana 3",
+      "youtubeVideoId": "jdTNB_r1iIQ",
+      "duracao": "47min",
+      "descricaoCurta": "Ministrado em 20 de outubro de 2025."
+    },
+    {
+      "id": "felizes-4",
+      "serieId": "estilo-vida-felizes-2025",
+      "ordem": 4,
+      "titulo": "O ESTILO DE VIDA DOS FELIZES — Semana 4",
+      "youtubeVideoId": "_Ak1EhamVR0",
+      "duracao": "44min",
+      "descricaoCurta": "Estreou em 27 de outubro de 2025."
+    },
+    {
+      "id": "feridas-que-marcam-2025-1",
+      "serieId": "feridas-que-marcam-2025",
+      "ordem": 1,
+      "titulo": "FERIDAS QUE MARCAM, AMOR QUE TRANSFORMA — Semana 1",
+      "youtubeVideoId": "dLSKlT_UpPQ",
+      "duracao": "1h",
+      "descricaoCurta": "Semana 1: Feridas que Marcam, Amor que Transforma."
+    },
+    {
+      "id": "feridas-que-marcam-2025-2",
+      "serieId": "feridas-que-marcam-2025",
+      "ordem": 2,
+      "titulo": "FERIDOS QUE FEREM",
+      "youtubeVideoId": "GnpasfVjADI",
+      "duracao": "1h",
+      "descricaoCurta": "Semana 2: Feridos que Ferem."
+    },
+    {
+      "id": "feridas-que-marcam-2025-3",
+      "serieId": "feridas-que-marcam-2025",
+      "ordem": 3,
+      "titulo": "FERIDAS QUE MARCAM, AMOR QUE TRANSFORMA — Semana 4",
+      "youtubeVideoId": "kvL9o_udtgg",
+      "duracao": "1h",
+      "descricaoCurta": "Semana 4: Feridas que Marcam, Amor que Transforma."
+    },
+    {
+      "id": "feridas-que-marcam-2025-4",
+      "serieId": "feridas-que-marcam-2025",
+      "ordem": 4,
+      "titulo": "FERIDAS QUE MARCAM, AMOR QUE TRANSFORMA — Semana 5",
+      "youtubeVideoId": "VhwuTYy4qw0",
+      "duracao": "1h",
+      "descricaoCurta": "Semana 5: Feridas que Marcam, Amor que Transforma."
+    },
+    {
+      "id": "guerra-invisivel-2025-1",
+      "serieId": "guerra-invisivel-2025",
+      "ordem": 1,
+      "titulo": "QUANDO A GUERRA É INVISÍVEL — Semana 1",
+      "youtubeVideoId": "zaMoj4sv9vE",
+      "duracao": "1h",
+      "descricaoCurta": "Semana 1: Quando a Guerra é Invisível."
+    },
+    {
+      "id": "guerra-invisivel-2025-2",
+      "serieId": "guerra-invisivel-2025",
+      "ordem": 2,
+      "titulo": "DO LAÇO À LIBERDADE",
+      "youtubeVideoId": "N7igrs1PNQI",
+      "duracao": "1h",
+      "descricaoCurta": "Semana 2: Do Laço à Liberdade."
+    },
+    {
+      "id": "guerra-invisivel-2025-3",
+      "serieId": "guerra-invisivel-2025",
+      "ordem": 3,
+      "titulo": "QUANDO A VOZ SE CALA",
+      "youtubeVideoId": "aPG0J796Hns",
+      "duracao": "1h",
+      "descricaoCurta": "Semana 3: Quando a Voz se Cala."
+    },
+    {
+      "id": "guerra-invisivel-2025-4",
+      "serieId": "guerra-invisivel-2025",
+      "ordem": 4,
+      "titulo": "QUEM ESTÁ NO TRONO DO SEU CORAÇÃO",
+      "youtubeVideoId": "RF9vrISUOpE",
+      "duracao": "1h",
+      "descricaoCurta": "Semana 4: Quem Está no Trono do Seu Coração."
+    },
+    {
+      "id": "identidade-2026-1",
+      "serieId": "identidade-proposito-2026",
+      "ordem": 1,
+      "titulo": "IDENTIDADE E PROPÓSITO",
+      "youtubeVideoId": "x6ZbZHPH98I",
+      "duracao": "55min",
+      "descricaoCurta": "Início da jornada sobre identidade e propósito."
+    },
+    {
+      "id": "identidade-2026-2",
+      "serieId": "identidade-proposito-2026",
+      "ordem": 2,
+      "titulo": "IDENTIDADE E PROPÓSITO",
+      "youtubeVideoId": "LdkPH0OEjOU",
+      "duracao": "55min",
+      "descricaoCurta": "Continuação da jornada sobre identidade e propósito."
+    },
+    {
+      "id": "identidade-2026-3",
+      "serieId": "identidade-proposito-2026",
+      "ordem": 3,
+      "titulo": "IDENTIDADE E PROPÓSITO",
+      "youtubeVideoId": "WTF58taNtJo",
+      "duracao": "55min",
+      "descricaoCurta": "Terceira semana da jornada sobre identidade e propósito."
+    },
+    {
+      "id": "identidade-2026-4",
+      "serieId": "identidade-proposito-2026",
+      "ordem": 4,
+      "titulo": "IDENTIDADE E PROPÓSITO",
+      "youtubeVideoId": "3zakyXohnv8",
+      "duracao": "55min",
+      "descricaoCurta": "Quarta semana da jornada sobre identidade e propósito."
+    },
+    {
+      "id": "livres-para-prosperar-2026-1",
+      "serieId": "livres-para-prosperar-2026",
+      "ordem": 1,
+      "titulo": "O QUE VOCÊ TEM MEDO DE PERDER?",
+      "youtubeVideoId": "XHspQOErz9Q",
+      "duracao": "1h",
+      "descricaoCurta": "Semana 1: O que você tem medo de perder?"
+    },
+    {
+      "id": "livres-para-prosperar-2026-2",
+      "serieId": "livres-para-prosperar-2026",
+      "ordem": 2,
+      "titulo": "QUANDO A DOR DISTORCE A REALIDADE",
+      "youtubeVideoId": "0lrvb7Ay9VM",
+      "duracao": "1h",
+      "descricaoCurta": "Semana 2: Quando a dor distorce a realidade."
+    },
+    {
+      "id": "livres-para-prosperar-2026-ep3-1784574373512",
+      "serieId": "livres-para-prosperar-2026",
+      "ordem": 3,
+      "titulo": "O MAIOR ERRO QUE AS PESSOAS COMETEM NA CRISE",
+      "youtubeVideoId": "KqmrCqiN0rM",
+      "duracao": "1h",
+      "descricaoCurta": "3º SEMANA | O MAIOR ERRO QUE AS PESSOAS COMETEM NA CRISE | LIVRES PARA PROSPERAR  Seja bem-vindo(a) ao meu canal!   Sou Pastora da Comunidade das Nações Aracaju e este espaço foi criado para compartil"
+    },
+    {
+      "id": "livres-para-prosperar-2026-ep4-1785229581441",
+      "serieId": "livres-para-prosperar-2026",
+      "ordem": 4,
+      "titulo": "O MAIOR TESTE DA SUA FÉ",
+      "youtubeVideoId": "RjtvAlZRArk",
+      "duracao": "1h",
+      "descricaoCurta": "4º SEMANA | O MAIOR TESTE DA SUA FÉ | LIVRES PARA PROSPERAR  Seja bem-vindo(a) ao meu canal!   Sou Pastora da Comunidade das Nações Aracaju e este espaço foi criado para compartilhar mensagens que ger"
+    },
+    {
+      "id": "marcas-nao-vistas-2025-1",
+      "serieId": "marcas-nao-vistas-2025",
+      "ordem": 1,
+      "titulo": "MARCAS NÃO VISTAS — Semana 1",
+      "youtubeVideoId": "VoNphnBxFsw",
+      "duracao": "1h",
+      "descricaoCurta": "Semana 1: Marcas Não Vistas."
+    },
+    {
+      "id": "marcas-nao-vistas-2025-2",
+      "serieId": "marcas-nao-vistas-2025",
+      "ordem": 2,
+      "titulo": "MARCAS NÃO VISTAS — Semana 2",
+      "youtubeVideoId": "BG3lBtcOxEM",
+      "duracao": "1h",
+      "descricaoCurta": "Semana 2: Marcas Não Vistas."
+    },
+    {
+      "id": "marcas-nao-vistas-2025-3",
+      "serieId": "marcas-nao-vistas-2025",
+      "ordem": 3,
+      "titulo": "MARCAS NÃO VISTAS — Semana 3",
+      "youtubeVideoId": "O0SLmoyin48",
+      "duracao": "1h",
+      "descricaoCurta": "Semana 3: Marcas Não Vistas."
+    },
+    {
+      "id": "odres-renovados-2025-1",
+      "serieId": "odres-renovados-2025",
+      "ordem": 1,
+      "titulo": "ODRES RENOVADOS — Semana 1",
+      "youtubeVideoId": "NxSRxXVwQ7w",
+      "duracao": "1h",
+      "descricaoCurta": "Semana 1: Odres Renovados."
+    },
+    {
+      "id": "odres-renovados-2025-2",
+      "serieId": "odres-renovados-2025",
+      "ordem": 2,
+      "titulo": "MOTIVAÇÃO CORROMPIDA",
+      "youtubeVideoId": "VX8gj-mr_vQ",
+      "duracao": "1h",
+      "descricaoCurta": "Semana 2: Motivação Corrompida."
+    },
+    {
+      "id": "odres-renovados-2025-3",
+      "serieId": "odres-renovados-2025",
+      "ordem": 3,
+      "titulo": "A VOZ DA JUSTIÇA",
+      "youtubeVideoId": "_2VKg7C3jAc",
+      "duracao": "1h",
+      "descricaoCurta": "Semana 3: A Voz da Justiça."
+    },
+    {
+      "id": "odres-renovados-2025-4",
+      "serieId": "odres-renovados-2025",
+      "ordem": 4,
+      "titulo": "A QUEDA QUE O CORAÇÃO NÃO VIU",
+      "youtubeVideoId": "I-KW7Ic2xmY",
+      "duracao": "1h",
+      "descricaoCurta": "Semana 4: A Queda que o Coração Não Viu."
+    },
+    {
+      "id": "odres-renovados-2025-5",
+      "serieId": "odres-renovados-2025",
+      "ordem": 5,
+      "titulo": "A DOR DA REJEIÇÃO E O CONSOLO DO PAI",
+      "youtubeVideoId": "Eo3pvq7wp0o",
+      "duracao": "1h",
+      "descricaoCurta": "Semana 5: A Dor da Rejeição e o Consolo do Pai."
+    },
+    {
+      "id": "odres-renovados-2025-6",
+      "serieId": "odres-renovados-2025",
+      "ordem": 6,
+      "titulo": "O CONVITE AO NOVO",
+      "youtubeVideoId": "3ners9WoYGg",
+      "duracao": "1h",
+      "descricaoCurta": "Semana 6: O Convite ao Novo."
+    },
+    {
+      "id": "orfaos-2026-1",
+      "serieId": "orfaos-a-filho-2026",
+      "ordem": 1,
+      "titulo": "A RAZÃO INVÍSIVEL POR TRÁS DAS DORES QUE INSISTEM EM VOLTAR",
+      "youtubeVideoId": "iumK7-_2AV0",
+      "duracao": "52min",
+      "descricaoCurta": "Raízes invisíveis por trás de dores recorrentes e restauração."
+    },
+    {
+      "id": "orfaos-2026-2",
+      "serieId": "orfaos-a-filho-2026",
+      "ordem": 2,
+      "titulo": "POR QUE É TAO DIFICIL CONFIAR?",
+      "youtubeVideoId": "A-X4HA_ZnvY",
+      "duracao": "53min",
+      "descricaoCurta": "Confiança e cura interior na caminhada de filhos."
+    },
+    {
+      "id": "orfaos-2026-3",
+      "serieId": "orfaos-a-filho-2026",
+      "ordem": 3,
+      "titulo": "QUANDO VIVER CANSA MAIS DO QUE DEVERIA",
+      "youtubeVideoId": "rUVGg845H_Q",
+      "duracao": "54min",
+      "descricaoCurta": "Aprendendo um novo jeito de viver."
+    },
+    {
+      "id": "orfaos-2026-4",
+      "serieId": "orfaos-a-filho-2026",
+      "ordem": 4,
+      "titulo": "QUANDO A CURA VIRA CHAMADO !",
+      "youtubeVideoId": "WAmwF7abBdg",
+      "duracao": "58min",
+      "descricaoCurta": "Quando a cura vira chamado."
+    },
+    {
+      "id": "poder-de-amar-2025-1",
+      "serieId": "poder-de-amar-2025",
+      "ordem": 1,
+      "titulo": "DO FRACASSO À RESTAURAÇÃO",
+      "youtubeVideoId": "CiqG7OnlXug",
+      "duracao": "1h",
+      "descricaoCurta": "Semana 1: Do Fracasso à Restauração."
+    },
+    {
+      "id": "poder-de-amar-2025-2",
+      "serieId": "poder-de-amar-2025",
+      "ordem": 2,
+      "titulo": "O PODER DE AMAR: ESCOLHAS QUE GERAM VIDA",
+      "youtubeVideoId": "6xlUZxW88ls",
+      "duracao": "1h",
+      "descricaoCurta": "Semana 2: Escolhas que Geram Vida."
+    },
+    {
+      "id": "poder-de-amar-2025-3",
+      "serieId": "poder-de-amar-2025",
+      "ordem": 3,
+      "titulo": "O PODER DE AMAR: CICLO DA CONFIANÇA",
+      "youtubeVideoId": "LngMwGPd7x0",
+      "duracao": "1h",
+      "descricaoCurta": "Semana 3: Ciclo da Confiança."
+    },
+    {
+      "id": "raiz-caos-2026-1",
+      "serieId": "raiz-invisivel-caos-2026",
+      "ordem": 1,
+      "titulo": "A RAIZ INVISÍVEL DO CAOS",
+      "youtubeVideoId": "i5h-bUn60tM",
+      "duracao": "57min",
+      "descricaoCurta": "Semana 1: A ordem que libera destino."
+    },
+    {
+      "id": "raiz-caos-2026-2",
+      "serieId": "raiz-invisivel-caos-2026",
+      "ordem": 2,
+      "titulo": "POR QUE DEUS MANDOU HONRAR PAI E MÃE ?",
+      "youtubeVideoId": "CNLR8rAgJSQ",
+      "duracao": "1h",
+      "descricaoCurta": "Semana 2: O Canal Invisível da Força."
+    },
+    {
+      "id": "raiz-caos-2026-3",
+      "serieId": "raiz-invisivel-caos-2026",
+      "ordem": 3,
+      "titulo": "A RAIZ DE MUITAS FERIDAS EMOCIONAIS",
+      "youtubeVideoId": "e2tAh9xKEUc",
+      "duracao": "1h",
+      "descricaoCurta": "Semana 3: A Raiz de Muitas Feridas Emocionais."
+    },
+    {
+      "id": "raiz-caos-2026-4",
+      "serieId": "raiz-invisivel-caos-2026",
+      "ordem": 4,
+      "titulo": "O SILÊNCIO QUE DESTRÓI A CASA",
+      "youtubeVideoId": "S-laZSQ2e9A",
+      "duracao": "1h",
+      "descricaoCurta": "Semana 4: O silêncio que destrói a casa."
+    },
+    {
+      "id": "raiz-caos-2026-5",
+      "serieId": "raiz-invisivel-caos-2026",
+      "ordem": 5,
+      "titulo": "REPOSICIONANDO O CORAÇÃO",
+      "youtubeVideoId": "_eL6NlX94eE",
+      "duracao": "1h",
+      "descricaoCurta": "Semana 5: Reposicionando o coração."
+    },
+    {
+      "id": "rasgando-veu-2026-1",
+      "serieId": "rasgando-veu-coracao-2026",
+      "ordem": 1,
+      "titulo": "QUANDO O CORAÇÃO SE TORNA DURO",
+      "youtubeVideoId": "QNFRK2R9ghk",
+      "duracao": "1h",
+      "descricaoCurta": "Semana 1: Quando o coração se torna duro."
+    },
+    {
+      "id": "rasgando-veu-2026-2",
+      "serieId": "rasgando-veu-coracao-2026",
+      "ordem": 2,
+      "titulo": "O PERIGO DE PARECER E NÃO SER",
+      "youtubeVideoId": "lAh6IqfVa3g",
+      "duracao": "1h",
+      "descricaoCurta": "Semana 2: O perigo de parecer e não ser."
+    },
+    {
+      "id": "rasgando-veu-2026-3",
+      "serieId": "rasgando-veu-coracao-2026",
+      "ordem": 3,
+      "titulo": "QUANDO VOCÊ VIRA O PRÓPRIO PADRÃO",
+      "youtubeVideoId": "15AinWodPtQ",
+      "duracao": "1h",
+      "descricaoCurta": "Semana 3: Quando você vira o próprio padrão."
+    },
+    {
+      "id": "rasgando-veu-2026-4",
+      "serieId": "rasgando-veu-coracao-2026",
+      "ordem": 4,
+      "titulo": "DO VÉU AO REINO : QUANDO O CORAÇÃO É TRANSFORMADO",
+      "youtubeVideoId": "KdzLMRWqESo",
+      "duracao": "1h",
+      "descricaoCurta": "Semana 4: Do véu ao reino: quando o coração é transformado."
+    },
+    {
+      "id": "reconstruindo-interior-2026-1",
+      "serieId": "reconstruindo-interior-2026",
+      "ordem": 1,
+      "titulo": "PORQUE VOCÊ VIVE EM CICLOS ?",
+      "youtubeVideoId": "hx2QCqDcn7g",
+      "duracao": "1h",
+      "descricaoCurta": "Semana 1: Porque você vive em ciclos?"
+    },
+    {
+      "id": "reconstruindo-interior-2026-2",
+      "serieId": "reconstruindo-interior-2026",
+      "ordem": 2,
+      "titulo": "POR QUE VOCÊ CONTINUA CAINDO EM TENTAÇÃO ?",
+      "youtubeVideoId": "moo55wQ8RqA",
+      "duracao": "1h",
+      "descricaoCurta": "Semana 2: Por que você continua caindo em tentação?"
+    },
+    {
+      "id": "reconstruindo-interior-2026-3",
+      "serieId": "reconstruindo-interior-2026",
+      "ordem": 3,
+      "titulo": "A AMBIÇÃO QUE CORROMPE A ALMA",
+      "youtubeVideoId": "TRMyMLims4I",
+      "duracao": "1h",
+      "descricaoCurta": "Semana 3: A ambição que corrompe a alma."
+    },
+    {
+      "id": "reconstruindo-interior-2026-4",
+      "serieId": "reconstruindo-interior-2026",
+      "ordem": 4,
+      "titulo": "A DOR QUE VOCÊ APRENDEU A ESCONDER",
+      "youtubeVideoId": "Q04hqAYBoBk",
+      "duracao": "1h",
+      "descricaoCurta": "Semana 4: A dor que você aprendeu a esconder."
+    },
+    {
+      "id": "reconstruindo-interior-2026-5",
+      "serieId": "reconstruindo-interior-2026",
+      "ordem": 5,
+      "titulo": "O PERIGO DE CONTINUAR FUNCIONANDO CANSADO",
+      "youtubeVideoId": "_hk65UAVssk",
+      "duracao": "1h",
+      "descricaoCurta": "Semana 5: O perigo de continuar funcionando cansado."
+    },
+    {
+      "id": "renove-4",
+      "serieId": "renove-se-2025",
+      "ordem": 1,
+      "titulo": "QUAIS PESOS VOCÊ CARREGOU EM 2025 ?",
+      "youtubeVideoId": "UI7bMHEboHA",
+      "duracao": "57min",
+      "descricaoCurta": "Reflexão e fechamento de ciclos: o que ficou de 2025."
+    },
+    {
+      "id": "renove-3",
+      "serieId": "renove-se-2025",
+      "ordem": 2,
+      "titulo": "O QUE NÃO PODE IR COM VOCÊ PARA 2026?",
+      "youtubeVideoId": "Z_oUA7BJPb4",
+      "duracao": "47min",
+      "descricaoCurta": "Identifique pesos e escolhas para entrar em 2026 com clareza."
+    },
+    {
+      "id": "renove-2",
+      "serieId": "renove-se-2025",
+      "ordem": 3,
+      "titulo": "COMO DEUS CURA O QUE ME FERIU?",
+      "youtubeVideoId": "ruCpQobig1c",
+      "duracao": "46min",
+      "descricaoCurta": "Cura, restauração e passos para recomeçar."
+    },
+    {
+      "id": "renove-1",
+      "serieId": "renove-se-2025",
+      "ordem": 4,
+      "titulo": "CORTE AS CORDAS DO PASSADO",
+      "youtubeVideoId": "ZQRhghykgSo",
+      "duracao": "1h 03min",
+      "descricaoCurta": "Cortar amarras e seguir leve para a próxima estação."
+    },
+    {
+      "id": "sementes-1",
+      "serieId": "sementes-2025",
+      "ordem": 1,
+      "titulo": "SEMENTES QUE GERAM LIBERTAÇÃO FINANCEIRA — Semana 1",
+      "youtubeVideoId": "Qs3QhSUCPjw",
+      "duracao": "54min",
+      "descricaoCurta": "Introdução à série sobre princípios de libertação financeira."
+    },
+    {
+      "id": "sementes-2",
+      "serieId": "sementes-2025",
+      "ordem": 2,
+      "titulo": "SEMENTES QUE GERAM LIBERTAÇÃO FINANCEIRA — Semana 2",
+      "youtubeVideoId": "ejzKhJfPK4E",
+      "duracao": "49min",
+      "descricaoCurta": "Tema: A Semente que abre o futuro."
+    },
+    {
+      "id": "sementes-3",
+      "serieId": "sementes-2025",
+      "ordem": 3,
+      "titulo": "SEMENTES QUE GERAM LIBERTAÇÃO FINANCEIRA — Semana 3",
+      "youtubeVideoId": "SRZ87Km_-1c",
+      "duracao": "1h 10min",
+      "descricaoCurta": "Tema: A Semente que gera multiplicação."
+    },
+    {
+      "id": "sementes-4",
+      "serieId": "sementes-2025",
+      "ordem": 4,
+      "titulo": "SEMENTES QUE GERAM LIBERTAÇÃO FINANCEIRA — Semana 4",
+      "youtubeVideoId": "PFcNbZs0lCU",
+      "duracao": "1h",
+      "descricaoCurta": "Tema: O Monte da Provisão."
+    },
+    {
+      "id": "sementes-5",
+      "serieId": "sementes-2025",
+      "ordem": 5,
+      "titulo": "SEMENTES QUE GERAM LIBERTAÇÃO FINANCEIRA — Semana 5",
+      "youtubeVideoId": "Sci4ctD_aIU",
+      "duracao": "55min",
+      "descricaoCurta": "Tema: A Semente da Generosidade."
+    },
+    {
+      "id": "transformados-pelo-espirito-2025-1",
+      "serieId": "transformados-pelo-espirito-2025",
+      "ordem": 1,
+      "titulo": "TRANSFORMADOS PELO ESPÍRITO — Semana 1",
+      "youtubeVideoId": "ylUDBw64J2s",
+      "duracao": "1h",
+      "descricaoCurta": "Semana 1: Transformados pelo Espírito."
+    },
+    {
+      "id": "transformados-pelo-espirito-2025-2",
+      "serieId": "transformados-pelo-espirito-2025",
+      "ordem": 2,
+      "titulo": "QUANDO A ALMA FERE",
+      "youtubeVideoId": "JLnnktXW3VA",
+      "duracao": "1h",
+      "descricaoCurta": "Semana 4: Quando a Alma Fere."
+    },
+    {
+      "id": "veneno-da-alma-2026-1",
+      "serieId": "veneno-da-alma-2026",
+      "ordem": 1,
+      "titulo": "VOCÊ NÃO PARECE ORGULHO...",
+      "youtubeVideoId": "2NhUOo1EvnI",
+      "duracao": "1h",
+      "descricaoCurta": "Semana 1: Você não parece orgulho..."
+    },
+    {
+      "id": "veneno-da-alma-2026-2",
+      "serieId": "veneno-da-alma-2026",
+      "ordem": 2,
+      "titulo": "O QUE A OFENSA ESTÁ FAZENDO COM O SEU CORAÇÃO",
+      "youtubeVideoId": "m-zVwDgDZRU",
+      "duracao": "1h",
+      "descricaoCurta": "Semana 2: O que a ofensa está fazendo com o seu coração."
+    },
+    {
+      "id": "veneno-da-alma-2026-3",
+      "serieId": "veneno-da-alma-2026",
+      "ordem": 3,
+      "titulo": "POR QUE O CRESCIMENTO DOS OUTROS TE INCOMODA TANTO?",
+      "youtubeVideoId": "j8qzE2PoH20",
+      "duracao": "1h",
+      "descricaoCurta": "Semana 3: Por que o crescimento dos outros te incomoda tanto?"
+    },
+    {
+      "id": "veneno-da-alma-2026-4",
+      "serieId": "veneno-da-alma-2026",
+      "ordem": 4,
+      "titulo": "O PERIGO DE CONFIAR DEMAIS EM SI MESMO",
+      "youtubeVideoId": "GvaH4xMgMxI",
+      "duracao": "1h",
+      "descricaoCurta": "Semana 4: O perigo de confiar demais em si mesmo."
+    }
+  ]
+}
