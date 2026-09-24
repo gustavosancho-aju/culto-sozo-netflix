@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { trpc } from '@/lib/trpc';
 import { useAuth } from '@/_core/hooks/useAuth';
-import { startLogin } from '@/const';
+import { isLoginConfigured, startLogin } from '@/const';
 import {
   RefreshCw, CheckCircle, XCircle, Clock, Youtube,
   Settings, History, Play, AlertCircle, Loader2, Lock,
@@ -150,6 +150,7 @@ const TestimonialModerationCard: React.FC<{
 
 const Admin: React.FC = () => {
   const { user, loading } = useAuth();
+  const statusQuery = trpc.status.useQuery(undefined, { staleTime: 60_000 });
   const [isSyncing, setIsSyncing] = useState(false);
   const [activeTab, setActiveTab] = useState<'sync' | 'testimonials'>('sync');
   const [testimonialFilter, setTestimonialFilter] = useState<'pending' | 'approved' | 'rejected' | 'all'>('pending');
@@ -218,9 +219,17 @@ const Admin: React.FC = () => {
     deleteMutation.mutate({ id });
   };
 
-  if (loading) return (
+  if (loading || statusQuery.isLoading) return (
     <div className="min-h-screen bg-[#141414] flex items-center justify-center">
       <Loader2 className="w-8 h-8 text-[#E50914] animate-spin" />
+    </div>
+  );
+  if (!isLoginConfigured || !statusQuery.data?.loginAvailable) return (
+    <div className="min-h-screen bg-[#141414] flex flex-col items-center justify-center gap-6 px-6 text-center text-white">
+      <Lock className="w-16 h-16 text-gray-500" />
+      <h2 className="text-2xl font-bold">Administração temporariamente indisponível</h2>
+      <p className="text-gray-400">O acesso administrativo está em manutenção. As séries e os episódios continuam disponíveis.</p>
+      <a href="/" className="text-red-500 hover:text-red-400">Voltar ao início</a>
     </div>
   );
   if (!user) return (

@@ -53,7 +53,7 @@ const EpisodePlayer: React.FC = () => {
   return (
     <div className="fixed inset-0 bg-black z-[60] flex flex-col">
       {/* Back Button Overlay */}
-      <div className="absolute top-0 left-0 w-full p-6 z-10 bg-gradient-to-b from-black/80 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300">
+      <div className="absolute top-0 left-0 p-4 z-10 rounded-br-lg bg-black/70">
         <button
           onClick={() => setLocation('/')}
           className="flex items-center gap-2 text-white hover:text-gray-300 transition"

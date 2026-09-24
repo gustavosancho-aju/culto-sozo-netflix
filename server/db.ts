@@ -5,6 +5,7 @@ import {
   syncConfig, syncHistory, testimonialLikes, testimonials, users
 } from "../drizzle/schema";
 import { ENV } from './_core/env';
+import { catalogEpisodes, catalogSeries } from './catalog';
 
 let _db: ReturnType<typeof drizzle> | null = null;
 
@@ -217,7 +218,8 @@ export async function countTestimonialsByStatus() {
 
 export async function getAllSeries() {
   const db = await getDb();
-  if (!db) return [];
+  if (!db && !process.env.DATABASE_URL) return catalogSeries;
+  if (!db) throw new Error("Database not available");
   const { series } = await import("../drizzle/schema");
   const { desc } = await import("drizzle-orm");
   return db.select().from(series).orderBy(desc(series.ano), desc(series.ordem));
@@ -225,7 +227,8 @@ export async function getAllSeries() {
 
 export async function getSeriesById(id: string) {
   const db = await getDb();
-  if (!db) return null;
+  if (!db && !process.env.DATABASE_URL) return catalogSeries.find(series => series.id === id) ?? null;
+  if (!db) throw new Error("Database not available");
   const { series } = await import("../drizzle/schema");
   const result = await db.select().from(series).where(eq(series.id, id)).limit(1);
   return result.length > 0 ? result[0] : null;
@@ -233,7 +236,8 @@ export async function getSeriesById(id: string) {
 
 export async function getEpisodesBySeries(serieId: string) {
   const db = await getDb();
-  if (!db) return [];
+  if (!db && !process.env.DATABASE_URL) return catalogEpisodes.filter(episode => episode.serieId === serieId);
+  if (!db) throw new Error("Database not available");
   const { episodes } = await import("../drizzle/schema");
   const { asc } = await import("drizzle-orm");
   return db.select().from(episodes).where(eq(episodes.serieId, serieId)).orderBy(asc(episodes.ordem));
@@ -241,7 +245,8 @@ export async function getEpisodesBySeries(serieId: string) {
 
 export async function getEpisodeById(id: string) {
   const db = await getDb();
-  if (!db) return null;
+  if (!db && !process.env.DATABASE_URL) return catalogEpisodes.find(episode => episode.id === id) ?? null;
+  if (!db) throw new Error("Database not available");
   const { episodes } = await import("../drizzle/schema");
   const result = await db.select().from(episodes).where(eq(episodes.id, id)).limit(1);
   return result.length > 0 ? result[0] : null;
@@ -257,7 +262,8 @@ export async function getEpisodeByVideoId(videoId: string) {
 
 export async function getAllEpisodes() {
   const db = await getDb();
-  if (!db) return [];
+  if (!db && !process.env.DATABASE_URL) return catalogEpisodes;
+  if (!db) throw new Error("Database not available");
   const { episodes } = await import("../drizzle/schema");
   const { asc } = await import("drizzle-orm");
   return db.select().from(episodes).orderBy(asc(episodes.serieId), asc(episodes.ordem));
