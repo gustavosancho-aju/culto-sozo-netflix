@@ -160,6 +160,8 @@ export async function runYouTubeSync(): Promise<{
     let newestAdded: Awaited<ReturnType<typeof addVideo>> | null = null;
     let count = 0;
     for (const video of recentVideos) {
+      // Vídeos avulsos não fazem parte do catálogo de séries do Sozo.
+      if (!video.seriesName) continue;
       if (await videoExistsInDb(video.videoId)) continue;
       newestAdded = await addVideo(video);
       count++;
@@ -172,8 +174,8 @@ export async function runYouTubeSync(): Promise<{
       parsedTitle: newestAdded!.parsedTitle, action: newestAdded!.action,
     };
     await insertSyncHistory({ status: 'no_new_videos', videoId: latestVideo.videoId,
-      videoTitle: latestVideo.rawTitle, action: 'none', details: 'Todos os vídeos recentes já estão no catálogo' });
-    return { status: 'no_new_videos', message: 'Nenhum vídeo novo encontrado',
+      videoTitle: latestVideo.rawTitle, action: 'none', details: 'Nenhum episódio novo de série; vídeos avulsos ignorados' });
+    return { status: 'no_new_videos', message: 'Nenhum episódio novo de série encontrado',
       videoId: latestVideo.videoId, videoTitle: latestVideo.rawTitle };
   } catch (error) {
     const errorMessage = error instanceof Error ? error.message : String(error);
