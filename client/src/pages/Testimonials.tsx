@@ -389,6 +389,7 @@ const TestimonialForm: React.FC<{ onSuccess: () => void }> = ({ onSuccess }) => 
 
 // Página principal
 const Testimonials: React.FC = () => {
+  const statusQuery = trpc.status.useQuery(undefined, { staleTime: 60_000 });
   const [page, setPage] = useState(0);
   const [showForm, setShowForm] = useState(false);
   const [likedIds, setLikedIds] = useState<Set<number>>(new Set());
@@ -430,6 +431,18 @@ const Testimonials: React.FC = () => {
   });
 
   const allLikedIds = new Set([...Array.from(myLikedIds), ...Array.from(likedIds)]);
+
+  if (statusQuery.isLoading) return (
+    <div className="min-h-screen flex items-center justify-center text-gray-400">Carregando testemunhos...</div>
+  );
+  if (!statusQuery.data?.testimonialsAvailable) return (
+    <div className="min-h-screen flex flex-col items-center justify-center gap-5 px-6 text-center text-white">
+      <MessageSquareHeart className="w-14 h-14 text-gray-500" />
+      <h1 className="text-3xl font-bold">Testemunhos</h1>
+      <p className="max-w-xl text-gray-400">Os testemunhos estão temporariamente indisponíveis. Você pode continuar assistindo às séries e aos episódios.</p>
+      <a href="/" className="text-red-500 hover:text-red-400">Explorar as séries</a>
+    </div>
+  );
 
   const handleLike = (id: number) => {
     if (likingIds.has(id)) return;

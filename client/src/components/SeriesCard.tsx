@@ -44,7 +44,7 @@ const SeriesCard: React.FC<SeriesCardProps> = ({ series, latestEpisode, isLatest
                       {series.titulo.split(' - ')[1].split(' ')[0]}
                     </span>
                   )}
-                  {isLatestSeries && <span className="text-green-500">• Novos Episódios</span>}
+                  {isLatestSeries && <span className="text-green-500">• Última série do catálogo</span>}
                 </div>
               </div>
             </div>

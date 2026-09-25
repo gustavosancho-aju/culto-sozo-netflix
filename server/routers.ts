@@ -13,6 +13,8 @@ import { runYouTubeSync } from "./youtubeSync";
 import { z } from "zod";
 import { TRPCError } from "@trpc/server";
 import crypto from "crypto";
+import { catalogSnapshotDate } from "./catalog";
+import { ENV } from "./_core/env";
 
 // Helper para gerar hash anônimo do visitante (IP + User-Agent)
 function getVisitorHash(req: { headers: Record<string, string | string[] | undefined> }): string {
@@ -25,6 +27,12 @@ function getVisitorHash(req: { headers: Record<string, string | string[] | undef
 
 export const appRouter = router({
   system: systemRouter,
+  status: publicProcedure.query(() => ({
+    catalogSource: process.env.DATABASE_URL ? "database" as const : "snapshot" as const,
+    snapshotDate: process.env.DATABASE_URL ? null : catalogSnapshotDate,
+    testimonialsAvailable: Boolean(process.env.DATABASE_URL),
+    loginAvailable: Boolean(process.env.DATABASE_URL && ENV.appId && ENV.oAuthServerUrl && ENV.cookieSecret.length >= 32),
+  })),
   auth: router({
     me: publicProcedure.query(opts => opts.ctx.user),
     logout: publicProcedure.mutation(({ ctx }) => {
@@ -92,6 +100,9 @@ export const appRouter = router({
         linkedEpisodeTitle: z.string().max(256).optional(),
       }))
       .mutation(async ({ input }) => {
+        if (!process.env.DATABASE_URL) {
+          throw new TRPCError({ code: "SERVICE_UNAVAILABLE", message: "O envio de testemunhos está temporariamente indisponível." });
+        }
         await createTestimonial({
           content: input.content,
           authorName: input.authorName || null,

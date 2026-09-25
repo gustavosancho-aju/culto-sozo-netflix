@@ -1,7 +1,7 @@
 import React from 'react';
 import { useRoute, Link } from 'wouter';
 import { ArrowLeft, Play, Clock, Calendar } from 'lucide-react';
-import { getThumbnailUrl } from '../constants';
+import { getThumbnailUrl, parseEpisodeTitle } from '../constants';
 import ShareButton from '../components/ShareButton';
 import { trpc } from '@/lib/trpc';
 
@@ -103,7 +103,7 @@ const SeriesDetails: React.FC = () => {
                 <div className="flex-1 flex flex-col justify-center">
                   <div className="flex items-center justify-between mb-2">
                     <h3 className="text-lg font-bold text-white group-hover:text-[#E50914] transition line-clamp-1">
-                      {index + 1}. {episode.titulo.includes('|') ? episode.titulo.split('|')[1].trim() : episode.titulo}
+                      {index + 1}. {parseEpisodeTitle(episode.titulo)}
                     </h3>
                     <div className="flex items-center gap-3">
                       <span className="text-sm text-gray-400 flex items-center gap-1">

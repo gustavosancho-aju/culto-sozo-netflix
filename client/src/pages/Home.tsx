@@ -1,4 +1,5 @@
 import React, { useMemo } from 'react';
+import { Link } from 'wouter';
 import Hero from '../components/Hero';
 import SeriesCard from '../components/SeriesCard';
 import ScrollRow from '../components/ScrollRow';
@@ -25,7 +26,7 @@ const Home: React.FC<HomeProps> = ({ searchQuery }) => {
 
   // Mapear episódios por série
   const episodesBySeriesId = useMemo(() => {
-    const map: Record<string, typeof allEpisodes> = {};
+    const map: Record<string, Array<NonNullable<typeof allEpisodes>[number]>> = {};
     if (!allEpisodes) return map;
     for (const ep of allEpisodes) {
       if (!map[ep.serieId]) map[ep.serieId] = [];
@@ -72,11 +73,13 @@ const Home: React.FC<HomeProps> = ({ searchQuery }) => {
         <h2 className="text-2xl text-white mb-6">Resultados para "{searchQuery}"</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
           {filteredEpisodes.map(ep => (
-            <div key={ep.id} className="aspect-video bg-gray-800 rounded overflow-hidden cursor-pointer hover:scale-105 transition">
-              <img src={`https://img.youtube.com/vi/${ep.youtubeVideoId}/mqdefault.jpg`} alt={parseEpisodeTitle(ep.titulo)} className="w-full h-full object-cover" />
-            </div>
+            <Link key={ep.id} href={`/episodio/${ep.id}`} className="block bg-gray-800 rounded overflow-hidden hover:scale-105 transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-red-500">
+              <img src={`https://img.youtube.com/vi/${ep.youtubeVideoId}/mqdefault.jpg`} alt="" className="w-full aspect-video object-cover" />
+              <span className="block p-3 text-sm">{parseEpisodeTitle(ep.titulo)}</span>
+            </Link>
           ))}
         </div>
+        {filteredEpisodes.length === 0 && <p className="text-gray-400">Nenhum episódio encontrado para esta busca.</p>}
       </div>
     );
   }
@@ -87,7 +90,7 @@ const Home: React.FC<HomeProps> = ({ searchQuery }) => {
 
   return (
     <div className="min-h-screen bg-[#141414] pb-20 overflow-x-hidden">
-      <Hero episode={featuredEpisode} />
+      <Hero episode={featuredEpisode} isNew={featuredEpisode.youtubeVideoId === lastSyncedVideoId} />
 
       <div className="relative z-20 px-4 md:px-12 space-y-16 mt-8">
         {/* Section 2026 */}

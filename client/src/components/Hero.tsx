@@ -6,9 +6,10 @@ import { Link } from 'wouter';
 
 interface HeroProps {
   episode: Episode;
+  isNew?: boolean;
 }
 
-const Hero: React.FC<HeroProps> = ({ episode }) => {
+const Hero: React.FC<HeroProps> = ({ episode, isNew = false }) => {
   return (
     <div className="relative h-[85vh] w-full">
       {/* Background Image/Video Placeholder */}
@@ -28,8 +29,8 @@ const Hero: React.FC<HeroProps> = ({ episode }) => {
       <div className="absolute top-0 left-0 w-full h-full flex items-center px-4 md:px-12 pt-20">
         <div className="max-w-2xl space-y-6 animate-fade-in-up">
           <div className="flex items-center gap-2 text-[#E50914] font-bold tracking-widest uppercase text-sm">
-            <span className="bg-[#E50914] text-white px-2 py-0.5 text-xs rounded-sm">Novo</span>
-            <span>Destaque da Semana</span>
+            {isNew && <span className="bg-[#E50914] text-white px-2 py-0.5 text-xs rounded-sm">Novo</span>}
+            <span>Em destaque</span>
           </div>
           
           <h1 className="text-5xl md:text-7xl font-display font-bold text-white leading-[0.9] drop-shadow-lg">

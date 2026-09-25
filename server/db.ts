@@ -1,17 +1,22 @@
 import { and, desc, eq, sql } from "drizzle-orm";
-import { drizzle } from "drizzle-orm/mysql2";
+import { drizzle } from "drizzle-orm/node-postgres";
+import { Pool } from "pg";
+import { attachDatabasePool } from "@vercel/functions";
 import {
   InsertSyncConfig, InsertSyncHistory, InsertTestimonial, InsertUser,
   syncConfig, syncHistory, testimonialLikes, testimonials, users
 } from "../drizzle/schema";
 import { ENV } from './_core/env';
+import { catalogEpisodes, catalogSeries } from './catalog';
 
 let _db: ReturnType<typeof drizzle> | null = null;
 
 export async function getDb() {
   if (!_db && process.env.DATABASE_URL) {
     try {
-      _db = drizzle(process.env.DATABASE_URL);
+      const pool = new Pool({ connectionString: process.env.DATABASE_URL, max: 5 });
+      if (process.env.VERCEL) attachDatabasePool(pool);
+      _db = drizzle(pool);
     } catch (error) {
       console.warn("[Database] Failed to connect:", error);
       _db = null;
@@ -42,7 +47,7 @@ export async function upsertUser(user: InsertUser): Promise<void> {
     else if (user.openId === ENV.ownerOpenId) { values.role = 'admin'; updateSet.role = 'admin'; }
     if (!values.lastSignedIn) values.lastSignedIn = new Date();
     if (Object.keys(updateSet).length === 0) updateSet.lastSignedIn = new Date();
-    await db.insert(users).values(values).onDuplicateKeyUpdate({ set: updateSet });
+    await db.insert(users).values(values).onConflictDoUpdate({ target: users.openId, set: updateSet as Partial<InsertUser> });
   } catch (error) { console.error("[Database] Failed to upsert user:", error); throw error; }
 }
 
@@ -217,7 +222,8 @@ export async function countTestimonialsByStatus() {
 
 export async function getAllSeries() {
   const db = await getDb();
-  if (!db) return [];
+  if (!db && !process.env.DATABASE_URL) return catalogSeries;
+  if (!db) throw new Error("Database not available");
   const { series } = await import("../drizzle/schema");
   const { desc } = await import("drizzle-orm");
   return db.select().from(series).orderBy(desc(series.ano), desc(series.ordem));
@@ -225,7 +231,8 @@ export async function getAllSeries() {
 
 export async function getSeriesById(id: string) {
   const db = await getDb();
-  if (!db) return null;
+  if (!db && !process.env.DATABASE_URL) return catalogSeries.find(series => series.id === id) ?? null;
+  if (!db) throw new Error("Database not available");
   const { series } = await import("../drizzle/schema");
   const result = await db.select().from(series).where(eq(series.id, id)).limit(1);
   return result.length > 0 ? result[0] : null;
@@ -233,7 +240,8 @@ export async function getSeriesById(id: string) {
 
 export async function getEpisodesBySeries(serieId: string) {
   const db = await getDb();
-  if (!db) return [];
+  if (!db && !process.env.DATABASE_URL) return catalogEpisodes.filter(episode => episode.serieId === serieId);
+  if (!db) throw new Error("Database not available");
   const { episodes } = await import("../drizzle/schema");
   const { asc } = await import("drizzle-orm");
   return db.select().from(episodes).where(eq(episodes.serieId, serieId)).orderBy(asc(episodes.ordem));
@@ -241,7 +249,8 @@ export async function getEpisodesBySeries(serieId: string) {
 
 export async function getEpisodeById(id: string) {
   const db = await getDb();
-  if (!db) return null;
+  if (!db && !process.env.DATABASE_URL) return catalogEpisodes.find(episode => episode.id === id) ?? null;
+  if (!db) throw new Error("Database not available");
   const { episodes } = await import("../drizzle/schema");
   const result = await db.select().from(episodes).where(eq(episodes.id, id)).limit(1);
   return result.length > 0 ? result[0] : null;
@@ -257,7 +266,8 @@ export async function getEpisodeByVideoId(videoId: string) {
 
 export async function getAllEpisodes() {
   const db = await getDb();
-  if (!db) return [];
+  if (!db && !process.env.DATABASE_URL) return catalogEpisodes;
+  if (!db) throw new Error("Database not available");
   const { episodes } = await import("../drizzle/schema");
   const { asc } = await import("drizzle-orm");
   return db.select().from(episodes).orderBy(asc(episodes.serieId), asc(episodes.ordem));
@@ -267,14 +277,14 @@ export async function insertSeries(data: { id: string; titulo: string; descricao
   const db = await getDb();
   if (!db) throw new Error("Database not available");
   const { series } = await import("../drizzle/schema");
-  await db.insert(series).values(data).onDuplicateKeyUpdate({ set: { titulo: data.titulo, descricao: data.descricao, destaque: data.destaque, ordem: data.ordem } });
+  await db.insert(series).values(data).onConflictDoUpdate({ target: series.id, set: { titulo: data.titulo, descricao: data.descricao, destaque: data.destaque, ordem: data.ordem } });
 }
 
 export async function insertEpisode(data: { id: string; serieId: string; ordem: number; titulo: string; youtubeVideoId: string; duracao: string; descricaoCurta: string }) {
   const db = await getDb();
   if (!db) throw new Error("Database not available");
   const { episodes } = await import("../drizzle/schema");
-  await db.insert(episodes).values(data).onDuplicateKeyUpdate({ set: { titulo: data.titulo, descricaoCurta: data.descricaoCurta } });
+  await db.insert(episodes).values(data).onConflictDoUpdate({ target: episodes.youtubeVideoId, set: { titulo: data.titulo, descricaoCurta: data.descricaoCurta } });
 }
 
 export async function setSeriesDestaque(seriesId: string) {
