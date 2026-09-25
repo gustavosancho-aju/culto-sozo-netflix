@@ -105,59 +105,41 @@ async function resolveChannelId(channelUrl: string): Promise<string | null> {
   }
 }
 
-async function fetchLatestVideo(channelUrl: string): Promise<YouTubeVideoInfo | null> {
-  try {
-    let channelId = await resolveChannelId(channelUrl);
+function decodeXml(value: string): string {
+  return value.replace(/&(?:amp|lt|gt|quot|apos|#\d+|#x[0-9a-f]+);/gi, entity => {
+    const named: Record<string, string> = { '&amp;': '&', '&lt;': '<', '&gt;': '>', '&quot;': '"', '&apos;': "'" };
+    if (named[entity]) return named[entity];
+    const hex = entity.match(/^&#x([0-9a-f]+);$/i);
+    const decimal = entity.match(/^&#(\d+);$/);
+    return hex ? String.fromCodePoint(parseInt(hex[1], 16)) : decimal ? String.fromCodePoint(parseInt(decimal[1], 10)) : entity;
+  });
+}
 
-    if (!channelId) {
-      const fallbackMatch = channelUrl.match(/UC[a-zA-Z0-9_-]{22}/);
-      channelId = fallbackMatch ? fallbackMatch[0] : null;
-    }
-
-    if (!channelId) throw new Error(`Não foi possível resolver o channelId para: ${channelUrl}`);
-
-    const rssUrl = `https://www.youtube.com/feeds/videos.xml?channel_id=${channelId}`;
-    console.log(`[YouTubeSync] Usando RSS: ${rssUrl}`);
-
-    const rssResponse = await axios.get(rssUrl, { timeout: 10000 });
-    const rssContent = rssResponse.data as string;
-
-    const videoIdMatch = rssContent.match(/<yt:videoId>([^<]+)<\/yt:videoId>/);
-    const titleMatches = rssContent.match(/<title>([^<]+)<\/title>/g);
-    const publishedMatches = rssContent.match(/<published>([^<]+)<\/published>/g);
-    const descriptionMatch = rssContent.match(/<media:description>([^<]*)<\/media:description>/);
-
-    if (!videoIdMatch) throw new Error("Não foi possível extrair o videoId do RSS");
-
-    const videoId = videoIdMatch[1];
-    const rawTitle = titleMatches && titleMatches[1]
-      ? titleMatches[1].replace(/<\/?title>/g, "").trim()
-      : "Vídeo sem título";
-
-    const publishedStr = publishedMatches && publishedMatches[1]
-      ? publishedMatches[1].replace(/<\/?published>/g, "").trim()
-      : new Date().toISOString();
-
-    const description = descriptionMatch
-      ? descriptionMatch[1].trim().substring(0, 500)
-      : "";
-
+export function parseYouTubeFeed(xml: string): YouTubeVideoInfo[] {
+  const field = (entry: string, tag: string) => decodeXml(entry.match(new RegExp(`<${tag}>([\\s\\S]*?)<\\/${tag}>`))?.[1]?.trim() || '');
+  const entries = xml.match(/<entry>[\s\S]*?<\/entry>/g) || [];
+  return entries.map(entry => {
+    const videoId = field(entry, 'yt:videoId');
+    const rawTitle = field(entry, 'title');
+    const publishedAt = new Date(field(entry, 'published'));
+    if (!/^[\w-]{11}$/.test(videoId) || !rawTitle || Number.isNaN(publishedAt.getTime())) return null;
     const parsed = parseTitlePattern(rawTitle);
-
     return {
-      videoId,
-      rawTitle,
-      episodeTitle: parsed?.episodeTitle || rawTitle,
-      seriesName: parsed?.seriesName || "",
-      weekNumber: parsed?.weekNumber || 1,
-      description,
-      thumbnailUrl: `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`,
-      publishedAt: new Date(publishedStr),
+      videoId, rawTitle, episodeTitle: parsed?.episodeTitle || rawTitle,
+      seriesName: parsed?.seriesName || '', weekNumber: parsed?.weekNumber || 0,
+      description: field(entry, 'media:description').substring(0, 500),
+      thumbnailUrl: `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`, publishedAt,
     };
-  } catch (error) {
-    console.error("[YouTubeSync] Erro ao buscar vídeo:", error);
-    throw error;
-  }
+  }).filter((video): video is YouTubeVideoInfo => video !== null).reverse();
+}
+
+async function fetchRecentVideos(channelUrl: string): Promise<YouTubeVideoInfo[]> {
+  const channelId = await resolveChannelId(channelUrl);
+  if (!channelId) throw new Error(`Não foi possível resolver o channelId para: ${channelUrl}`);
+  const { data } = await axios.get<string>(`https://www.youtube.com/feeds/videos.xml?channel_id=${channelId}`, { timeout: 15000 });
+  const videos = parseYouTubeFeed(data);
+  if (!videos.length) throw new Error('Nenhum vídeo válido no RSS do canal');
+  return videos;
 }
 
 export async function runYouTubeSync(): Promise<{
@@ -174,40 +156,34 @@ export async function runYouTubeSync(): Promise<{
     const config = await getSyncConfig();
     const channelUrl = config?.channelUrl || "https://www.youtube.com/@Lorenaamelo";
 
-    // 1. Buscar o vídeo mais recente
-    const latestVideo = await fetchLatestVideo(channelUrl);
-    if (!latestVideo) {
-      await insertSyncHistory({ status: "error", errorMessage: "Não foi possível buscar o vídeo" });
-      return { status: "error", message: "Não foi possível buscar o vídeo mais recente" };
+    const recentVideos = await fetchRecentVideos(channelUrl);
+    let newestAdded: Awaited<ReturnType<typeof addVideo>> | null = null;
+    let count = 0;
+    for (const video of recentVideos) {
+      if (await videoExistsInDb(video.videoId)) continue;
+      newestAdded = await addVideo(video);
+      count++;
     }
+    const latestVideo = recentVideos[recentVideos.length - 1];
+    await upsertSyncConfig({ lastSyncAt: new Date(), lastVideoId: latestVideo.videoId });
+    if (count) return {
+      status: 'success', message: `${count} vídeo(s) adicionado(s)`,
+      videoId: newestAdded!.videoId, videoTitle: newestAdded!.videoTitle,
+      parsedTitle: newestAdded!.parsedTitle, action: newestAdded!.action,
+    };
+    await insertSyncHistory({ status: 'no_new_videos', videoId: latestVideo.videoId,
+      videoTitle: latestVideo.rawTitle, action: 'none', details: 'Todos os vídeos recentes já estão no catálogo' });
+    return { status: 'no_new_videos', message: 'Nenhum vídeo novo encontrado',
+      videoId: latestVideo.videoId, videoTitle: latestVideo.rawTitle };
+  } catch (error) {
+    const errorMessage = error instanceof Error ? error.message : String(error);
+    console.error("[YouTubeSync] Erro:", errorMessage);
+    try { await insertSyncHistory({ status: "error", errorMessage }); } catch (historyError) { console.error('[YouTubeSync] Histórico indisponível:', historyError); }
+    return { status: "error", message: errorMessage };
+  }
+}
 
-    console.log(`[YouTubeSync] Vídeo: "${latestVideo.rawTitle}" (${latestVideo.videoId})`);
-    console.log(`[YouTubeSync] Parsed → Semana: ${latestVideo.weekNumber} | Episódio: "${latestVideo.episodeTitle}" | Série: "${latestVideo.seriesName}"`);
-
-    // 2. Verificar se já existe no banco
-    const alreadyExists = await videoExistsInDb(latestVideo.videoId);
-    if (alreadyExists) {
-      await insertSyncHistory({
-        status: "no_new_videos",
-        videoId: latestVideo.videoId,
-        videoTitle: latestVideo.rawTitle,
-        action: "none",
-        details: "Vídeo já existe no sistema"
-      });
-      await upsertSyncConfig({ lastSyncAt: new Date(), lastVideoId: latestVideo.videoId });
-      return {
-        status: "no_new_videos",
-        message: "Nenhum vídeo novo encontrado",
-        videoId: latestVideo.videoId,
-        videoTitle: latestVideo.rawTitle,
-        parsedTitle: {
-          weekNumber: latestVideo.weekNumber,
-          episodeTitle: latestVideo.episodeTitle,
-          seriesName: latestVideo.seriesName,
-        },
-      };
-    }
-
+async function addVideo(latestVideo: YouTubeVideoInfo) {
     // 3. Determinar ação usando dados do banco
     const videoYear = latestVideo.publishedAt.getFullYear();
     const videoMonth = latestVideo.publishedAt.getMonth() + 1;
@@ -330,9 +306,6 @@ export async function runYouTubeSync(): Promise<{
         : `Episódio ${episodeOrder} adicionado à série "${targetSeriesTitle}"`
     });
 
-    // 7. Atualizar config
-    await upsertSyncConfig({ lastSyncAt: new Date(), lastVideoId: latestVideo.videoId });
-
     return {
       status: "success",
       message: isNewSeries
@@ -347,10 +320,4 @@ export async function runYouTubeSync(): Promise<{
       },
       action: isNewSeries ? "new_series" : "new_episode",
     };
-  } catch (error) {
-    const errorMessage = error instanceof Error ? error.message : String(error);
-    console.error("[YouTubeSync] Erro:", errorMessage);
-    await insertSyncHistory({ status: "error", errorMessage });
-    return { status: "error", message: errorMessage };
-  }
 }

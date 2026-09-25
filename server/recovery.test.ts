@@ -2,7 +2,7 @@ import { afterEach, describe, expect, it, vi } from "vitest";
 import { appRouter } from "./routers";
 import type { TrpcContext } from "./_core/context";
 
-vi.mock("drizzle-orm/mysql2", () => ({
+vi.mock("drizzle-orm/node-postgres", () => ({
   drizzle: vi.fn(() => { throw new Error("Database unavailable in regression test"); }),
 }));
 
@@ -51,7 +51,7 @@ describe("public catalog recovery without managed services", () => {
   });
 
   it("does not report snapshot data as a working database", async () => {
-    vi.stubEnv("DATABASE_URL", "mysql://unavailable.invalid/catalog");
+    vi.stubEnv("DATABASE_URL", "postgresql://unavailable.invalid/catalog");
     const caller = appRouter.createCaller(anonymousContext);
     const warning = vi.spyOn(console, "warn").mockImplementation(() => {});
     try {
