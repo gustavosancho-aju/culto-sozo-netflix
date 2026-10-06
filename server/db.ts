@@ -264,6 +264,14 @@ export async function getEpisodeByVideoId(videoId: string) {
   return result.length > 0 ? result[0] : null;
 }
 
+export async function updateEpisodeTitleByVideoId(videoId: string, title: string) {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+  const { episodes } = await import("../drizzle/schema");
+  await db.update(episodes).set({ titulo: title, updatedAt: new Date() })
+    .where(eq(episodes.youtubeVideoId, videoId));
+}
+
 export async function getAllEpisodes() {
   const db = await getDb();
   if (!db && !process.env.DATABASE_URL) return catalogEpisodes;

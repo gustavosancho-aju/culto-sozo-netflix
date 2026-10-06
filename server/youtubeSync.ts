@@ -18,7 +18,7 @@
 import axios from "axios";
 import {
   insertSyncHistory, getSyncConfig, upsertSyncConfig,
-  getAllSeries, getEpisodesBySeries, videoExistsInDb,
+  getAllSeries, getEpisodesBySeries, getEpisodeByVideoId, updateEpisodeTitleByVideoId,
   insertSeries, insertEpisode, setSeriesDestaque
 } from "./db";
 
@@ -159,20 +159,33 @@ export async function runYouTubeSync(): Promise<{
     const recentVideos = await fetchRecentVideos(channelUrl);
     let newestAdded: Awaited<ReturnType<typeof addVideo>> | null = null;
     let count = 0;
+    let updatedCount = 0;
     for (const video of recentVideos) {
+      const existing = await getEpisodeByVideoId(video.videoId);
+      if (existing) {
+        if (existing.titulo !== video.rawTitle) {
+          await updateEpisodeTitleByVideoId(video.videoId, video.rawTitle);
+          updatedCount++;
+        }
+        continue;
+      }
       // Vídeos avulsos não fazem parte do catálogo de séries do Sozo.
       if (!video.seriesName) continue;
-      if (await videoExistsInDb(video.videoId)) continue;
       newestAdded = await addVideo(video);
       count++;
     }
     const latestVideo = recentVideos[recentVideos.length - 1];
     await upsertSyncConfig({ lastSyncAt: new Date(), lastVideoId: latestVideo.videoId });
-    if (count) return {
-      status: 'success', message: `${count} vídeo(s) adicionado(s)`,
-      videoId: newestAdded!.videoId, videoTitle: newestAdded!.videoTitle,
-      parsedTitle: newestAdded!.parsedTitle, action: newestAdded!.action,
-    };
+    if (count || updatedCount) {
+      if (updatedCount) await insertSyncHistory({ status: 'success', action: 'none',
+        details: `${updatedCount} título(s) atualizado(s) conforme o YouTube` });
+      return {
+        status: 'success', message: `${count} vídeo(s) adicionado(s), ${updatedCount} título(s) atualizado(s)`,
+        videoId: newestAdded?.videoId ?? latestVideo.videoId,
+        videoTitle: newestAdded?.videoTitle ?? latestVideo.rawTitle,
+        parsedTitle: newestAdded?.parsedTitle, action: newestAdded?.action ?? 'none',
+      };
+    }
     await insertSyncHistory({ status: 'no_new_videos', videoId: latestVideo.videoId,
       videoTitle: latestVideo.rawTitle, action: 'none', details: 'Nenhum episódio novo de série; vídeos avulsos ignorados' });
     return { status: 'no_new_videos', message: 'Nenhum episódio novo de série encontrado',
@@ -284,7 +297,7 @@ async function addVideo(latestVideo: YouTubeVideoInfo) {
       id: episodeId,
       serieId: targetSeriesId,
       ordem: episodeOrder,
-      titulo: latestVideo.episodeTitle, // salva apenas o título real, sem semana/série
+      titulo: latestVideo.rawTitle,
       youtubeVideoId: latestVideo.videoId,
       duracao: "1h",
       descricaoCurta: cleanDesc,
@@ -297,7 +310,7 @@ async function addVideo(latestVideo: YouTubeVideoInfo) {
     await insertSyncHistory({
       status: "success",
       videoId: latestVideo.videoId,
-      videoTitle: latestVideo.episodeTitle,
+      videoTitle: latestVideo.rawTitle,
       videoDescription: latestVideo.description,
       action: isNewSeries ? "new_series" : "new_episode",
       seriesId: targetSeriesId,
