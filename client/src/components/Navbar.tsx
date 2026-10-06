@@ -29,13 +29,15 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
         isScrolled ? 'bg-[#141414]' : 'bg-gradient-to-b from-black/80 to-transparent'
       }`}
     >
-      <div className="px-4 md:px-12 py-4 flex items-center justify-between">
+      <div className="px-4 md:px-12 py-3 flex items-center justify-between">
         <div className="flex items-center gap-8">
-          <Link href="/">
+          <Link href="/" aria-label="Culto Sozo — início">
             <img 
-              src="https://files.manuscdn.com/user_upload_by_module/session_file/89232094/mAzBjhlVTYiBljZT.png" 
-              alt="Culto Sozo" 
-              className="h-8 md:h-10 object-contain cursor-pointer" 
+              src="/brand/lorena-melo.png"
+              alt="Lorena Melo — Culto Sozo"
+              width={2048}
+              height={1284}
+              className="h-10 w-auto object-contain md:h-12"
             />
           </Link>
           

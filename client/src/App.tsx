@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Route, Switch, useLocation } from 'wouter';
+import { Link, Route, Switch, useLocation } from 'wouter';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import SeriesDetails from './pages/SeriesDetails';
@@ -59,8 +59,14 @@ const Layout: React.FC = () => {
 
       {/* Footer with Social Icons */}
       {!location.startsWith('/episodio/') && (
-        <footer className="w-full bg-black/80 py-12 mt-20 border-t border-white/10">
-          <div className="container mx-auto px-4 flex flex-col items-center gap-6">
+        <footer className="w-full bg-black/80 pb-12 mt-20 border-t border-white/10">
+          <a href={CHANNEL_URL} target="_blank" rel="noopener noreferrer" className="mx-auto block w-full max-w-7xl transition hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-red-500" aria-label="Vídeos semanais com a Pastora Lorena Melo — visitar canal no YouTube">
+            <img src="/brand/sozo-videos-semanais.png" alt="Culto Sozo — Pastora Lorena Melo — vídeos semanais" width={1062} height={206} loading="lazy" className="h-auto w-full" />
+          </a>
+          <div className="container mx-auto px-4 pt-10 flex flex-col items-center gap-6">
+            <Link href="/" aria-label="Culto Sozo — início">
+              <img src="/brand/lorena-melo.png" alt="Lorena Melo — Culto Sozo" width={2048} height={1284} loading="lazy" className="h-24 w-auto object-contain" />
+            </Link>
             <div className="flex items-center gap-8">
               <a 
                 href={CHANNEL_URL} 
