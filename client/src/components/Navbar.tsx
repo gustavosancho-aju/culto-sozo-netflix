@@ -41,13 +41,17 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
           
           <div className="hidden md:flex items-center gap-6 text-sm font-medium text-gray-200">
             <Link href="/" className={`hover:text-gray-400 transition ${location === '/' ? 'font-bold text-white' : ''}`}>Início</Link>
+            <Link href="/semanal" className={`hover:text-gray-400 transition ${location === '/semanal' ? 'font-bold text-white' : ''}`}>Semanal</Link>
             <a href="https://www.instagram.com/cnaracaju/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400 transition">CN Aracaju</a>
             <Link href="/testemunhos" className={`hover:text-gray-400 transition ${location === '/testemunhos' ? 'font-bold text-white' : ''}`}>Testemunhos</Link>
             <a href="#" className="hover:text-gray-400 transition">Horários de culto</a>
           </div>
         </div>
 
-        <div className="flex items-center gap-6 text-white">
+        <div className="flex items-center gap-3 text-white md:gap-6">
+          <Link href="/semanal" className={`md:hidden rounded border px-2.5 py-1.5 text-xs font-semibold transition ${location === '/semanal' ? 'border-[#E50914] bg-[#E50914]' : 'border-white/30 hover:border-white'}`}>
+            Semanal
+          </Link>
           <div className={`flex items-center border transition-all duration-300 ${
             isSearchOpen ? 'border-white bg-black/80 px-2 py-1' : 'border-transparent'
           }`}>
@@ -66,7 +70,7 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
           </div>
           
 
-          <Bell className="w-5 h-5 cursor-pointer hover:text-gray-300 transition" />
+          <Bell className="hidden w-5 h-5 cursor-pointer transition hover:text-gray-300 sm:block" />
           
           {user?.role === 'admin' && (
             <Link href="/admin" title="Painel Admin">

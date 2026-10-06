@@ -6,6 +6,7 @@ import ScrollRow from '../components/ScrollRow';
 import ExclusiveContent from '../components/ExclusiveContent';
 import { trpc } from '@/lib/trpc';
 import { parseEpisodeTitle } from '../constants';
+import { ArrowRight, BookOpen } from 'lucide-react';
 
 interface HomeProps {
   searchQuery?: string;
@@ -93,6 +94,17 @@ const Home: React.FC<HomeProps> = ({ searchQuery }) => {
       <Hero episode={featuredEpisode} isNew={featuredEpisode.youtubeVideoId === lastSyncedVideoId} />
 
       <div className="relative z-20 px-4 md:px-12 space-y-16 mt-8">
+        <Link href="/semanal" className="group flex flex-col gap-5 rounded-xl border border-white/10 bg-gradient-to-r from-[#292020] to-[#1b1b1b] p-6 transition hover:border-[#E50914]/70 md:flex-row md:items-center md:justify-between md:p-8">
+          <div className="flex items-start gap-4">
+            <span className="rounded-lg bg-[#E50914]/20 p-3 text-[#ff777d]"><BookOpen className="h-7 w-7" /></span>
+            <div>
+              <p className="text-xs font-bold uppercase tracking-widest text-[#ff777d]">Outubro 2026 · 4 semanas</p>
+              <h2 className="mt-2 text-2xl font-bold text-white md:text-3xl">Devocional semanal</h2>
+              <p className="mt-2 text-sm text-zinc-300 md:text-base">Escolha um dia e acompanhe a primeira semana: Aprovado, de 5 a 11 de outubro.</p>
+            </div>
+          </div>
+          <span className="inline-flex shrink-0 items-center gap-2 font-bold text-white group-hover:text-[#ff777d]">Abrir devocional <ArrowRight className="h-5 w-5 transition group-hover:translate-x-1" /></span>
+        </Link>
         {/* Section 2026 */}
         {series2026.length > 0 && (
           <ScrollRow title="SOZO 2026">
