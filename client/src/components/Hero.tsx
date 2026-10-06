@@ -11,7 +11,7 @@ interface HeroProps {
 
 const Hero: React.FC<HeroProps> = ({ episode, isNew = false }) => {
   return (
-    <div className="relative h-[85vh] w-full">
+    <div className="relative h-[calc(85vh-8rem)] min-h-[380px] w-full md:h-[calc(85vh-8.5rem)]">
       {/* Background Image/Video Placeholder */}
       <div className="absolute inset-0">
         <img 
@@ -26,7 +26,7 @@ const Hero: React.FC<HeroProps> = ({ episode, isNew = false }) => {
       </div>
 
       {/* Content */}
-      <div className="absolute top-0 left-0 w-full h-full flex items-center px-4 md:px-12 pt-20">
+      <div className="absolute top-0 left-0 w-full h-full flex items-center px-4 md:px-12">
         <div className="max-w-2xl space-y-6 animate-fade-in-up">
           <div className="flex items-center gap-2 text-[#E50914] font-bold tracking-widest uppercase text-sm">
             {isNew && <span className="bg-[#E50914] text-white px-2 py-0.5 text-xs rounded-sm">Novo</span>}

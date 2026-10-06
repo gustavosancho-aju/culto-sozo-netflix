@@ -90,21 +90,26 @@ const Home: React.FC<HomeProps> = ({ searchQuery }) => {
   const series2025 = allSeries.filter(s => s.ano === 2025).sort((a, b) => b.ordem - a.ordem);
 
   return (
-    <div className="min-h-screen bg-[#141414] pb-20 overflow-x-hidden">
+    <div className="min-h-screen bg-[#141414] pb-20 pt-16 overflow-x-hidden md:pt-[72px]">
+      <div className="px-4 py-2 md:px-12">
+        <Link href="/semanal" className="group flex items-center justify-between gap-3 rounded border border-white/10 bg-[#202020] px-4 py-3 transition hover:border-[#E50914]/60 hover:bg-[#252525] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-500">
+          <div className="flex min-w-0 items-center gap-3">
+            <BookOpen className="h-5 w-5 shrink-0 text-[#E50914]" />
+            <div className="flex min-w-0 flex-col gap-1 sm:flex-row sm:items-center sm:gap-4">
+              <h2 className="text-sm font-bold text-white md:text-base">Devocional semanal</h2>
+              <p className="text-xs text-gray-400">Semana 1 · Aprovado · 5 a 11 out</p>
+            </div>
+          </div>
+          <span className="inline-flex shrink-0 items-center gap-2 text-sm font-bold text-white transition group-hover:text-[#E50914]">
+            <span className="hidden sm:inline">Abrir devocional</span>
+            <span className="sm:hidden">Abrir</span>
+            <ArrowRight className="h-4 w-4 transition group-hover:translate-x-1" />
+          </span>
+        </Link>
+      </div>
       <Hero episode={featuredEpisode} isNew={featuredEpisode.youtubeVideoId === lastSyncedVideoId} />
 
       <div className="relative z-20 px-4 md:px-12 space-y-16 mt-8">
-        <Link href="/semanal" className="group flex flex-col gap-5 rounded-xl border border-white/10 bg-gradient-to-r from-[#292020] to-[#1b1b1b] p-6 transition hover:border-[#E50914]/70 md:flex-row md:items-center md:justify-between md:p-8">
-          <div className="flex items-start gap-4">
-            <span className="rounded-lg bg-[#E50914]/20 p-3 text-[#ff777d]"><BookOpen className="h-7 w-7" /></span>
-            <div>
-              <p className="text-xs font-bold uppercase tracking-widest text-[#ff777d]">Outubro 2026 · 4 semanas</p>
-              <h2 className="mt-2 text-2xl font-bold text-white md:text-3xl">Devocional semanal</h2>
-              <p className="mt-2 text-sm text-zinc-300 md:text-base">Escolha um dia e acompanhe a primeira semana: Aprovado, de 5 a 11 de outubro.</p>
-            </div>
-          </div>
-          <span className="inline-flex shrink-0 items-center gap-2 font-bold text-white group-hover:text-[#ff777d]">Abrir devocional <ArrowRight className="h-5 w-5 transition group-hover:translate-x-1" /></span>
-        </Link>
         {/* Section 2026 */}
         {series2026.length > 0 && (
           <ScrollRow title="SOZO 2026">
