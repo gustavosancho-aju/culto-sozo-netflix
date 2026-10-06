@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'wouter';
 import { ArrowLeft, ArrowUpRight, BookOpen, CalendarDays, Heart, Play, Sparkles } from 'lucide-react';
 import { brazilToday, datesForWeek, october2026Weeks, weekDays } from '../data/weeklyDevotionals';
+import { trpc } from '@/lib/trpc';
 
 const monthNames = ['jan', 'fev', 'mar', 'abr', 'mai', 'jun', 'jul', 'ago', 'set', 'out', 'nov', 'dez'];
 
@@ -34,6 +35,10 @@ const WeeklyDevotional: React.FC = () => {
   const dates = datesForWeek(week.startsOn);
   const devotional = week.devotionals[selectedDate];
   const selectedDay = weekDays[dates.indexOf(selectedDate)];
+  const { data: episodes } = trpc.content.allEpisodes.useQuery(undefined, { staleTime: 5 * 60 * 1000 });
+  const videoTitle = week.video
+    ? episodes?.find(episode => episode.youtubeVideoId === week.video?.youtubeId)?.titulo?.trim() || week.video.title
+    : '';
 
   function selectWeek(index: number) {
     const nextDates = datesForWeek(october2026Weeks[index].startsOn);
@@ -152,7 +157,7 @@ const WeeklyDevotional: React.FC = () => {
                     <iframe
                       className="h-full w-full"
                       src={`https://www.youtube-nocookie.com/embed/${week.video.youtubeId}`}
-                      title={week.video.title}
+                      title={videoTitle}
                       loading="lazy"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                       referrerPolicy="strict-origin-when-cross-origin"
@@ -161,7 +166,7 @@ const WeeklyDevotional: React.FC = () => {
                   </div>
                   <div className="p-6">
                     <p className="text-xs font-bold uppercase tracking-widest text-[#ff777d]">Mensagem da semana</p>
-                    <h4 className="mt-2 text-xl font-bold text-white">{week.video.title}</h4>
+                    <h4 className="mt-2 text-xl font-bold text-white">{videoTitle}</h4>
                     <p className="mt-3 text-sm leading-relaxed text-zinc-400">As reflexões desta semana foram inspiradas no tema da mensagem.</p>
                     <a
                       href={`https://www.youtube.com/watch?v=${week.video.youtubeId}`}
