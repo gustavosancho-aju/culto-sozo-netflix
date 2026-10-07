@@ -38,26 +38,6 @@ export const october2026Weeks: DevotionalWeek[] = [
     video: { title: 'SEMANA 1 | APROVADO', youtubeId: '80aB2_VlgNk' },
     devotionals: {
       '2026-10-05': {
-        title: 'Comece pelo coração',
-        passage: 'Salmo 139:23–24',
-        reflection: [
-          'Antes de pensar no que você precisa fazer, reserve um momento para perceber o que Deus está formando em você. A oração do salmista é um convite sincero para que o Senhor examine pensamentos, desejos e caminhos.',
-          'Ser aprovado não é aparentar que está tudo resolvido. É permitir que Deus nos mostre, com amor, aquilo que precisa ser transformado. O primeiro passo desta semana é abrir o coração sem medo.',
-        ],
-        practice: 'Separe cinco minutos em silêncio. Anote uma área da sua vida que você deseja entregar a Deus nesta semana.',
-        prayer: 'Senhor, examina o meu coração. Mostra-me o que precisa mudar e ajuda-me a acolher a tua direção. Amém.',
-      },
-      '2026-10-06': {
-        title: 'Uma mente em renovação',
-        passage: 'Romanos 12:2',
-        reflection: [
-          'A transformação começa também na maneira como pensamos. Nem toda voz que define nosso valor fala a verdade sobre nós; por isso, precisamos voltar à Palavra e aprender a reconhecer a vontade de Deus.',
-          'Ao longo do dia, observe os pensamentos que têm guiado suas escolhas. A aprovação que mais importa não depende de comparação ou desempenho, mas de uma vida que se deixa renovar pelo Senhor.',
-        ],
-        practice: 'Identifique um pensamento que gera ansiedade. Escreva ao lado uma verdade bíblica que ajude você a responder a ele.',
-        prayer: 'Deus, renova a minha mente. Que a tua verdade conduza minhas decisões hoje. Amém.',
-      },
-      '2026-10-07': {
         "format": "document",
         "label": "APROVADOS — DEVOCIONAL | DIA 1",
         "title": "CHAMADO NÃO É ATESTADO DE MATURIDADE",
@@ -131,6 +111,26 @@ export const october2026Weeks: DevotionalWeek[] = [
             ]
           }
         ]
+      },
+      '2026-10-06': {
+        title: 'Uma mente em renovação',
+        passage: 'Romanos 12:2',
+        reflection: [
+          'A transformação começa também na maneira como pensamos. Nem toda voz que define nosso valor fala a verdade sobre nós; por isso, precisamos voltar à Palavra e aprender a reconhecer a vontade de Deus.',
+          'Ao longo do dia, observe os pensamentos que têm guiado suas escolhas. A aprovação que mais importa não depende de comparação ou desempenho, mas de uma vida que se deixa renovar pelo Senhor.',
+        ],
+        practice: 'Identifique um pensamento que gera ansiedade. Escreva ao lado uma verdade bíblica que ajude você a responder a ele.',
+        prayer: 'Deus, renova a minha mente. Que a tua verdade conduza minhas decisões hoje. Amém.',
+      },
+      '2026-10-07': {
+        title: 'Permaneça antes de produzir',
+        passage: 'João 15:4–5',
+        reflection: [
+          'Jesus nos chama a permanecer nele. O fruto não aparece porque o ramo se esforça sozinho, mas porque está unido à videira. A vida com Deus nasce dessa relação diária, inclusive nos dias comuns.',
+          'Você não precisa provar seu valor pela quantidade de coisas que consegue realizar. Faça espaço para estar com Cristo antes de correr para as tarefas; dele vem a força para servir e crescer.',
+        ],
+        practice: 'Antes da primeira tarefa importante do dia, leia João 15:4–5 e faça uma pausa de oração.',
+        prayer: 'Jesus, ensina-me a permanecer em ti. Que meu trabalho de hoje nasça da tua presença. Amém.',
       },
       '2026-10-08': {
         title: 'Crescer no processo',
