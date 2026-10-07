@@ -132,6 +132,15 @@
   .weekly-devotional .devotional-title-plate { font-size: 16px; }
 }
 
+@media (min-width: 1024px) {
+  .weekly-devotional aside {
+    max-height: calc(100dvh - 112px);
+    overflow-y: auto;
+    scrollbar-color: #69552f #202020;
+    scrollbar-width: thin;
+  }
+}
+
 @media (max-width: 479px) {
   .weekly-devotional .devotional-panel { padding: 18px; }
   .weekly-devotional .devotional-title-plate { gap: 8px; padding: 10px; font-size: 12px; }
