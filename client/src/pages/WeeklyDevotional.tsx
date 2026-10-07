@@ -127,28 +127,54 @@ const WeeklyDevotional: React.FC = () => {
           {devotional ? (
             <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(280px,380px)]">
               <article className="rounded-2xl border border-white/10 bg-[#202020] p-6 md:p-10">
-                <p className="text-xs font-bold uppercase tracking-[0.2em] text-[#ff777d]">{selectedDay} · {shortDate(selectedDate)} · Devocional {dates.indexOf(selectedDate) + 1}/7</p>
+                <p className="text-xs font-bold uppercase tracking-[0.2em] text-[#ff777d]">{selectedDay} · {shortDate(selectedDate)}{devotional.format !== 'document' && ` · Devocional ${dates.indexOf(selectedDate) + 1}/7`}</p>
+                {devotional.format === 'document' && <p className="mt-5 text-sm font-bold uppercase tracking-wide text-zinc-300">{devotional.label}</p>}
                 <h3 className="mt-4 text-3xl font-bold text-white md:text-4xl">{devotional.title}</h3>
-                <div className="mt-7 flex items-center gap-3 rounded-lg border border-white/10 bg-black/25 px-4 py-4">
-                  <BookOpen className="h-6 w-6 shrink-0 text-[#ff666d]" />
-                  <div><span className="block text-xs font-semibold uppercase tracking-widest text-zinc-400">Leitura bíblica</span><strong className="text-white">{devotional.passage}</strong></div>
-                </div>
-
-                <div className="mt-9">
-                  <h4 className="text-lg font-bold text-white">Para meditar</h4>
-                  {devotional.reflection.map((paragraph, index) => <p key={index} className="mt-4 text-base leading-8 text-zinc-300">{paragraph}</p>)}
-                </div>
-
-                <div className="mt-9 grid gap-4 md:grid-cols-2">
-                  <div className="rounded-xl border border-white/10 bg-black/20 p-5">
-                    <h4 className="flex items-center gap-2 font-bold text-white"><Sparkles className="h-4 w-4 text-[#ff666d]" /> Coloque em prática</h4>
-                    <p className="mt-3 leading-relaxed text-zinc-300">{devotional.practice}</p>
+                {devotional.format === 'document' ? (
+                  <div className="mt-9 space-y-9">
+                    {devotional.sections.map(section => (
+                      <section key={section.title} aria-label={section.title}>
+                        <h4 className="text-lg font-bold text-white">{section.title}</h4>
+                        {section.kind === 'questions' ? (
+                          <ol className="mt-4 list-decimal space-y-6 pl-6 text-base leading-8 text-zinc-300 marker:font-bold marker:text-[#ff777d]">
+                            {section.paragraphs.map(paragraph => <li key={paragraph} className="pl-1">{paragraph}</li>)}
+                          </ol>
+                        ) : section.kind === 'verse' ? (
+                          <blockquote className="mt-4 text-base italic leading-8 text-zinc-200">
+                            {section.paragraphs.map(paragraph => <p key={paragraph}>{paragraph}</p>)}
+                          </blockquote>
+                        ) : (
+                          section.paragraphs.map((paragraph, index) => (
+                            <p key={paragraph} className={`${section.kind === 'takeaway' && index > 0 ? 'mt-1' : 'mt-4'} text-base leading-8 ${section.kind === 'takeaway' ? 'font-medium text-white' : 'text-zinc-300'}`}>{paragraph}</p>
+                          ))
+                        )}
+                      </section>
+                    ))}
                   </div>
-                  <div className="rounded-xl border border-white/10 bg-black/20 p-5">
-                    <h4 className="flex items-center gap-2 font-bold text-white"><Heart className="h-4 w-4 text-[#ff666d]" /> Oração</h4>
-                    <p className="mt-3 leading-relaxed text-zinc-300">{devotional.prayer}</p>
+                ) : (
+                  <>
+                  <div className="mt-7 flex items-center gap-3 rounded-lg border border-white/10 bg-black/25 px-4 py-4">
+                    <BookOpen className="h-6 w-6 shrink-0 text-[#ff666d]" />
+                    <div><span className="block text-xs font-semibold uppercase tracking-widest text-zinc-400">Leitura bíblica</span><strong className="text-white">{devotional.passage}</strong></div>
                   </div>
-                </div>
+
+                  <div className="mt-9">
+                    <h4 className="text-lg font-bold text-white">Para meditar</h4>
+                    {devotional.reflection.map((paragraph, index) => <p key={index} className="mt-4 text-base leading-8 text-zinc-300">{paragraph}</p>)}
+                  </div>
+
+                  <div className="mt-9 grid gap-4 md:grid-cols-2">
+                    <div className="rounded-xl border border-white/10 bg-black/20 p-5">
+                      <h4 className="flex items-center gap-2 font-bold text-white"><Sparkles className="h-4 w-4 text-[#ff666d]" /> Coloque em prática</h4>
+                      <p className="mt-3 leading-relaxed text-zinc-300">{devotional.practice}</p>
+                    </div>
+                    <div className="rounded-xl border border-white/10 bg-black/20 p-5">
+                      <h4 className="flex items-center gap-2 font-bold text-white"><Heart className="h-4 w-4 text-[#ff666d]" /> Oração</h4>
+                      <p className="mt-3 leading-relaxed text-zinc-300">{devotional.prayer}</p>
+                    </div>
+                  </div>
+                  </>
+                )}
               </article>
 
               {week.video && (

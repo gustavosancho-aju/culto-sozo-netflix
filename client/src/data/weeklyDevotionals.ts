@@ -1,10 +1,24 @@
-export interface Devotional {
+export interface StandardDevotional {
+  format?: 'standard';
   title: string;
   passage: string;
   reflection: [string, string];
   practice: string;
   prayer: string;
 }
+
+export interface DocumentDevotional {
+  format: 'document';
+  label: string;
+  title: string;
+  sections: {
+    title: string;
+    kind: 'verse' | 'text' | 'questions' | 'takeaway';
+    paragraphs: string[];
+  }[];
+}
+
+export type Devotional = StandardDevotional | DocumentDevotional;
 
 export interface DevotionalWeek {
   number: number;
@@ -44,14 +58,79 @@ export const october2026Weeks: DevotionalWeek[] = [
         prayer: 'Deus, renova a minha mente. Que a tua verdade conduza minhas decisões hoje. Amém.',
       },
       '2026-10-07': {
-        title: 'Permaneça antes de produzir',
-        passage: 'João 15:4–5',
-        reflection: [
-          'Jesus nos chama a permanecer nele. O fruto não aparece porque o ramo se esforça sozinho, mas porque está unido à videira. A vida com Deus nasce dessa relação diária, inclusive nos dias comuns.',
-          'Você não precisa provar seu valor pela quantidade de coisas que consegue realizar. Faça espaço para estar com Cristo antes de correr para as tarefas; dele vem a força para servir e crescer.',
-        ],
-        practice: 'Antes da primeira tarefa importante do dia, leia João 15:4–5 e faça uma pausa de oração.',
-        prayer: 'Jesus, ensina-me a permanecer em ti. Que meu trabalho de hoje nasça da tua presença. Amém.',
+        "format": "document",
+        "label": "APROVADOS — DEVOCIONAL | DIA 1",
+        "title": "CHAMADO NÃO É ATESTADO DE MATURIDADE",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“Procure apresentar-se a Deus aprovado, como obreiro que não tem do que se envergonhar e que maneja corretamente a palavra da verdade.” (2 Timóteo 2:15)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Você já pensou que, porque Deus chamou você para alguma coisa, isso significava que você já estava pronto para vivê-la?",
+              "Existe uma diferença entre receber um chamado e estar preparado para sustentar aquilo para o qual fomos chamados. Essa é uma das primeiras verdades trabalhadas na mensagem: o chamado pode ser verdadeiro e, ainda assim, existirem áreas dentro de nós que precisam amadurecer."
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Quando Deus coloca algo em nosso coração, normalmente ficamos empolgados com aquilo que Ele poderá fazer através de nós.",
+              "Queremos viver a promessa. Queremos avançar. Queremos ver aquilo acontecer.",
+              "Mas existe uma parte dessa caminhada que nem sempre nos empolga da mesma maneira: o processo de nos tornarmos capazes de sustentar aquilo que desejamos viver.",
+              "Davi foi escolhido por Deus quando ainda estava cuidando de ovelhas. A escolha era verdadeira. A unção era verdadeira. Mas ele não saiu daquele campo diretamente para o trono. Existiam coisas que ainda seriam construídas dentro dele durante o caminho.",
+              "Talvez seja aqui que muitas vezes nos confundimos.",
+              "Pensamos que o processo significa que algo deu errado, quando, na verdade, o processo pode ser justamente uma evidência de que Deus está nos preparando para aquilo que Ele já decidiu fazer.",
+              "Você pode ter um chamado para liderar e ainda precisar aprender a lidar com oposição. Pode desejar influenciar pessoas e ainda precisar aprender a receber correção. Pode carregar uma promessa e ainda precisar amadurecer emocionalmente para não destruir, com suas próprias reações, aquilo que tanto pediu para viver.",
+              "Por isso, talvez a pergunta de hoje não seja apenas: “Deus, quando aquilo que o Senhor me prometeu vai acontecer?”",
+              "Talvez exista uma pergunta ainda mais importante: “Deus, quem eu preciso me tornar para sustentar aquilo que o Senhor deseja colocar em minhas mãos?”",
+              "O chamado aponta para aquilo que Deus deseja fazer através de você. O processo trabalha aquilo que Deus precisa fazer em você. E os dois fazem parte da mesma história."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Existe alguma área da minha vida em que estou mais preocupado em avançar do que em amadurecer?",
+              "Quando Deus usa pessoas, esperas, correções ou frustrações para me tratar, eu reconheço o processo ou interpreto tudo como um impedimento?",
+              "O que minhas reações atuais revelam sobre algo em mim que talvez ainda não esteja preparado para sustentar aquilo que desejo viver?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "Hoje, escolha uma área em que você deseja muito avançar, família, profissão, ministério relacionamentos, finanças ou algum projeto pessoal.",
+              "Em vez de perguntar apenas: “O que falta acontecer para eu chegar lá?”",
+              "Pergunte: “O que ainda precisa ser desenvolvido em mim para que eu esteja preparado quando chegar lá?”",
+              "Não tente responder rapidamente. Dê espaço para o Espírito Santo mostrar algo que talvez você ainda não tenha percebido."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Senhor, eu reconheço que ser chamado não significa que já estou pronto. Não quero apenas chegar aos lugares que o Senhor preparou para mim; quero me tornar alguém capaz de sustentá-los.",
+              "Mostra-me o que ainda precisa amadurecer em mim. Confronta minhas motivações, minhas reações e aquilo que ainda precisa ser transformado. Dá-me humildade para não fugir dos processos que o Senhor está usando para me formar.",
+              "Antes de fazer a Tua obra, eu reconheço que sou a Tua obra.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "O chamado revela para onde Deus quer levar você.",
+              "O processo revela quem você precisa se tornar para chegar lá."
+            ]
+          }
+        ]
       },
       '2026-10-08': {
         title: 'Crescer no processo',
