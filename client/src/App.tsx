@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { Link, Route, Switch, useLocation } from 'wouter';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
@@ -104,6 +105,7 @@ const App: React.FC = () => {
         <TooltipProvider>
           <Toaster />
           <Layout />
+          <Analytics mode={import.meta.env.PROD ? 'production' : 'development'} />
         </TooltipProvider>
       </ThemeProvider>
     </ErrorBoundary>
