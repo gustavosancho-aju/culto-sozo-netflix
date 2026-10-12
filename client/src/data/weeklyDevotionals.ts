@@ -594,7 +594,170 @@ export const october2026Weeks: DevotionalWeek[] = [
       }
     },
   },
-  { number: 2, startsOn: '2026-10-12', devotionals: {} },
+  {
+    number: 2,
+    startsOn: '2026-10-12',
+    theme: 'Aprovados',
+    devotionals: {
+      "2026-10-12": {
+        "format": "document",
+        "label": "APROVADOS — DEVOCIONAL | SEMANA 2 — DIA 1",
+        "title": "DEUS CONTINUA PRESENTE NA PROVA",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“O Senhor estava com José, de modo que este prosperou e passou a morar na casa do seu senhor egípcio.” (Gênesis 39:2)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Você já interpretou uma situação difícil como um sinal de que Deus não estava cuidando de você?",
+              "Às vezes, oramos, buscamos fazer o que é certo e esperamos que as coisas aconteçam de determinada maneira. Mas, quando tudo começa a sair do nosso controle, surgem perguntas:",
+              "“Será que Deus está comigo?”",
+              "“Se Ele está cuidando de mim, por que estou passando por isso?”",
+              "Talvez o problema esteja na maneira como aprendemos a reconhecer a presença de Deus."
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "José era um jovem que havia recebido sonhos de Deus sobre seu futuro. Mas, antes de viver aquilo que havia sonhado, foi traído pelos próprios irmãos, vendido como escravo e levado para uma terra estrangeira.",
+              "Imagine o contraste. José tinha sonhos sobre o futuro, mas estava vivendo uma realidade que parecia completamente contrária a eles. E é justamente nesse cenário que a Bíblia faz uma declaração surpreendente: “O Senhor estava com José.”",
+              "Deus estava com José quando ele não estava onde gostaria de estar. Estava com ele quando sua família estava distante. Estava com ele quando sua liberdade havia sido tirada. Perceba: a presença de Deus não impediu que José atravessasse circunstâncias difíceis.E isso confronta uma ideia que, muitas vezes, carregamos sem perceber: a de que, quando Deus está conosco, tudo precisa acontecer conforme esperamos.",
+              "Mas existe algo ainda mais profundo nessa história. Deus não estava apenas acompanhando José durante aquele processo. Ele também estava formando José para aquilo que ainda viria. O jovem que havia recebido sonhos precisava amadurecer para assumir responsabilidades que ainda não conhecia.",
+              "E, ao longo daquela trajetória, José enfrentaria situações que exigiriam fidelidade, domínio próprio, perseverança, sabedoria e capacidade de lidar com pessoas. Aquilo que José viveria no futuro exigiria muito mais do que a capacidade de interpretar sonhos. Exigiria um caráter capaz de sustentar a responsabilidade que receberia.",
+              "É importante compreender que nem toda dificuldade é enviada por Deus. José sofreu consequências de escolhas injustas feitas por outras pessoas. Mas a maldade dos irmãos não impediu que Deus continuasse trabalhando em sua história.",
+              "E aqui está uma verdade que precisamos guardar: Deus pode usar até aquilo que não escolhemos viver para desenvolver em nós aquilo que ainda precisamos amadurecer.",
+              "Pense na purificação do ouro. Quando o ouro passa pelo fogo, aquilo que estava misturado a ele pode se tornar visível e ser separado. O objetivo do refinamento não é destruir o ouro, mas remover aquilo que compromete sua pureza. De maneira semelhante, algumas experiências podem revelar fragilidades, motivações e comportamentos que ainda precisam ser tratados em nós.",
+              "Talvez uma espera esteja ensinando você a perseverar. Talvez uma frustração esteja revelando sua necessidade de controlar tudo. Talvez uma situação difícil esteja mostrando que sua confiança em Deus ainda depende muito das circunstâncias. A prova não precisa ser apenas algo que você suporta. Ela também pode se tornar um lugar onde você amadurece.",
+              "Por isso, não avalie a presença de Deus apenas pelo cenário que está diante dos seus olhos. José ainda não estava no palácio. Mas Deus continuava com ele. E o processo que José atravessava fazia parte da história de formação daquele que, mais tarde, assumiria grandes responsabilidades. Talvez Deus ainda não tenha mudado a situação que você está vivendo. Mas isso não significa que Ele não esteja trabalhando em você enquanto ela permanece."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Tenho medido o cuidado e a presença de Deus pelos resultados que consigo enxergar na minha vida?",
+              "Quando enfrento situações difíceis, minha primeira reação é questionar o cuidado de Deus ou buscar compreender o que posso aprender e amadurecer?",
+              "Existe alguma área do meu caráter que Deus pode estar me convidando a fortalecer durante a fase que estou vivendo?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "Hoje, identifique uma situação da sua vida que ainda não aconteceu como você esperava.",
+              "Escreva duas frases:",
+              "“O que eu gostaria que Deus mudasse nessa situação é...”",
+              "“O que talvez precise ser fortalecido em mim enquanto essa situação não muda é...”",
+              "Depois, apresente essas respostas a Deus. Não significa que você precisa gostar do que está vivendo ou deixar de desejar uma mudança. Significa apenas reconhecer que sua vida não precisa ficar paralisada enquanto você espera que as circunstâncias mudem."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Senhor, perdoa-me pelas vezes em que interpretei o Teu cuidado apenas pelas circunstâncias que estava vivendo. Ajuda-me a reconhecer Tua presença mesmo quando as coisas não acontecem como eu gostaria. Mostra-me aquilo que ainda precisa ser fortalecido em meu caráter e não permita que eu desperdice as oportunidades de amadurecimento durante os processos da vida. Eu não quero apenas chegar ao lugar que o Senhor tem para mim. Quero me tornar alguém preparado para viver aquilo que o Senhor me confiar.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "A PROVA NÃO SIGNIFICA QUE DEUS ME ABANDONOU.",
+              "ENQUANTO EU ATRAVESSO O PROCESSO, ELE PODE ESTAR FORMANDO EM MIM O CARÁTER NECESSÁRIO PARA O QUE AINDA VIRÁ."
+            ]
+          }
+        ]
+      },
+      "2026-10-13": {
+        "format": "document",
+        "label": "APROVADOS — DEVOCIONAL | SEMANA 2 — DIA 2",
+        "title": "O QUE ESTÁ GOVERNANDO SUAS ESCOLHAS?",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“Como poderia eu, então, cometer algo tão perverso e pecar contra Deus?” (Gênesis 39:9)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Você já percebeu como é mais fácil defender um princípio do que permanecer fiel a ele quando surge uma oportunidade de fazer diferente?",
+              "É fácil dizer que valorizamos a honestidade quando não temos nada a ganhar mentindo. É fácil falar sobre fidelidade quando ninguém está despertando nosso interesse. É fácil afirmar que temos domínio próprio quando nada está contrariando nossas vontades. Mas o que acontece quando fazer o certo começa a nos custar alguma coisa?"
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Quando José foi colocado diante da proposta da mulher de Potifar, ele precisou tomar uma decisão. Mas existe algo muito interessante na resposta dele.",
+              "José não começou perguntando quais seriam as consequências se alguém descobrisse. Ele também não tentou descobrir até onde poderia ir sem ultrapassar determinado limite. Sua resposta revelou que havia algo mais importante do que a oportunidade que estava diante dele: os valores que governavam sua vida.",
+              "E aqui encontramos uma questão que merece nossa atenção.",
+              "Muitas pessoas possuem princípios que admiram, mas que ainda não aprenderam a transformar em critérios para suas decisões. Valorizam a verdade, mas mentem quando precisam proteger a própria imagem. Defendem o perdão, mas alimentam ressentimento quando são feridas. Acreditam na fidelidade, mas começam a negociar pequenos limites quando recebem uma atenção que lhes agrada.",
+              "O problema não é necessariamente desconhecer o princípio. É permitir que outras coisas se tornem mais importantes do que ele no momento da escolha.",
+              "Pense em alguém que valoriza a honestidade, mas recebe um dinheiro a mais por engano. Ninguém percebeu. Ninguém cobrará explicações. Naquele instante, a decisão não depende apenas do que essa pessoa sabe sobre honestidade.",
+              "Depende de algo mais profundo: O que tem mais autoridade sobre ela: seu compromisso com a verdade ou a vantagem que poderá obter? É por isso que nossas escolhas revelam muito sobre aquilo que realmente governa nosso coração.",
+              "E existe outro detalhe importante. Nem sempre negociamos nossos princípios por desejar alguma coisa errada. Às vezes fazemos isso porque queremos desesperadamente alguma coisa boa. Queremos ser aceitos e, por isso, concordamos com o que sabemos estar errado. Queremos preservar um relacionamento e começamos a tolerar comportamentos que ferem nossos valores. Queremos evitar um conflito e escolhemos esconder a verdade. Quando o medo de perder alguma coisa se torna maior do que nosso compromisso com aquilo que é certo, começamos a negociar quem somos.",
+              "José poderia ter encontrado justificativas para sua decisão. Estava longe da família. Havia sido injustiçado. Vivia em uma realidade que não havia escolhido. Mas ele não permitiu que aquilo que havia sofrido se transformasse em autorização para fazer o que sabia ser errado.",
+              "Isso nos ensina que domínio próprio não é apenas resistir a um desejo; é preservar nossos valores quando nossas emoções apresentam motivos para abandoná-los.",
+              "E talvez hoje você precise observar suas próprias escolhas com mais atenção. Não apenas aquelas decisões grandes, que parecem determinar o rumo da vida. Mas as pequenas concessões que fazemos quando estamos cansados, carentes, frustrados ou com medo.",
+              "Porque aquilo que negociamos repetidamente pode acabar se tornando um novo padrão de comportamento. E aquilo que sustentamos, mesmo quando é difícil, participa da formação do nosso caráter.",
+              "A maturidade começa a aparecer quando nossos valores deixam de ser apenas aquilo que defendemos e passam a ser aquilo que determina nossas escolhas."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Existe algum princípio que defendo com facilidade, mas tenho dificuldade de praticar quando ele contraria meus desejos?",
+              "O que mais costuma me levar a negociar aquilo que sei ser certo: medo de perder, necessidade de aprovação, desejo de agradar ou busca por alguma vantagem?",
+              "Minhas decisões recentes demonstram os valores que afirmo possuir?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "Hoje, escolha um princípio que você considera indispensável para sua vida: honestidade, fidelidade, respeito, domínio próprio ou outro.",
+              "Agora pergunte: “Em qual situação esse princípio tem sido mais difícil de praticar?”",
+              "Identifique uma atitude concreta que você precisa mudar para que suas escolhas estejam alinhadas àquilo em que acredita.",
+              "Não espere uma grande prova para começar.",
+              "A fidelidade aos nossos valores também é construída nas pequenas decisões de cada dia."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Senhor, eu não quero apenas conhecer os Teus princípios. Quero permitir que eles governem minhas escolhas.",
+              "Mostra-me onde tenho negociado aquilo que sei ser certo por medo, desejo, insegurança ou necessidade de aprovação.",
+              "Fortalece meu caráter para que minhas decisões não dependam apenas das circunstâncias favoráveis.",
+              "Que meus valores sejam mais fortes do que as justificativas que minhas emoções tentam apresentar.",
+              "Ensina-me a permanecer fiel também quando fazer o certo exigir renúncia.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "MEUS PRINCÍPIOS NÃO SÃO REVELADOS APENAS PELO QUE DEFENDO, MAS PELO QUE ESCOLHO QUANDO SEGUI-LOS ME CUSTA ALGUMA COISA."
+            ]
+          }
+        ]
+      }
+    },
+  },
   { number: 3, startsOn: '2026-10-19', devotionals: {} },
   { number: 4, startsOn: '2026-10-26', devotionals: {} },
 ];
