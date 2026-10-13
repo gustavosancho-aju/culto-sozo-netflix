@@ -4,6 +4,8 @@ import { ArrowLeft, ArrowUpRight, CalendarDays, Play, Sparkles } from 'lucide-re
 import { brazilToday, datesForWeek, october2026Weeks, weekDays } from '../data/weeklyDevotionals';
 import { trpc } from '@/lib/trpc';
 import DevotionalSection, { type DevotionalSectionContent } from '../components/DevotionalSection';
+import { useDevotionalAnalytics } from '../hooks/useDevotionalAnalytics';
+import { recordEngagement } from '../lib/engagementAnalytics';
 
 const monthNames = ['jan', 'fev', 'mar', 'abr', 'mai', 'jun', 'jul', 'ago', 'set', 'out', 'nov', 'dez'];
 
@@ -35,6 +37,7 @@ const WeeklyDevotional: React.FC = () => {
   const week = october2026Weeks[weekIndex];
   const dates = datesForWeek(week.startsOn);
   const devotional = week.devotionals[selectedDate];
+  const articleRef = useDevotionalAnalytics(selectedDate, week.number, !!devotional);
   const selectedDay = weekDays[dates.indexOf(selectedDate)];
   const devotionalSections: DevotionalSectionContent[] = !devotional ? [] : devotional.format === 'document'
     ? devotional.sections
@@ -56,6 +59,7 @@ const WeeklyDevotional: React.FC = () => {
     : 'Mensagem da semana';
 
   function selectWeek(index: number) {
+    recordEngagement('Semana selecionada', { semana: october2026Weeks[index].number, inicio: october2026Weeks[index].startsOn });
     const nextDates = datesForWeek(october2026Weeks[index].startsOn);
     setWeekIndex(index);
     setSelectedDate(nextDates.includes(today) ? today : nextDates[0]);
@@ -124,7 +128,10 @@ const WeeklyDevotional: React.FC = () => {
                 <button
                   key={date}
                   type="button"
-                  onClick={() => setSelectedDate(date)}
+                  onClick={() => {
+                    recordEngagement('Dia selecionado', { semana: week.number, data: date });
+                    setSelectedDate(date);
+                  }}
                   aria-pressed={isSelected}
                   aria-current={today === date ? 'date' : undefined}
                   className={`min-h-24 rounded-xl border px-3 py-4 text-left transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#b79e68] ${isSelected ? 'border-[#b79e68] bg-gradient-to-br from-[#e4d2a6] to-[#b79e68] text-[#211c12] shadow-[0_4px_0_#69552f,0_8px_18px_#0005]' : 'border-white/10 bg-[#222] text-zinc-200 hover:border-white/40 hover:bg-[#2c2c2c]'}`}
@@ -141,7 +148,7 @@ const WeeklyDevotional: React.FC = () => {
         <section className="mt-7" aria-live="polite" aria-label={`Devocional de ${selectedDay}, ${shortDate(selectedDate)}`}>
           {devotional ? (
             <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(280px,380px)]">
-              <article className="min-w-0">
+              <article ref={articleRef} className="min-w-0">
                 <header className="devotional-reading-header rounded-2xl p-6 md:p-8">
                   <p className="text-xs font-bold uppercase tracking-[0.2em] text-[#e4d2a6]">{selectedDay} · {shortDate(selectedDate)}{devotional.format !== 'document' && ` · Devocional ${dates.indexOf(selectedDate) + 1}/7`}</p>
                   {devotional.format === 'document' && <p className="mt-5 text-sm font-bold uppercase tracking-wide text-[#b79e68]">{devotional.label}</p>}
