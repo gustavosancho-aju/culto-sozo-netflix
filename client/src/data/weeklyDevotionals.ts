@@ -595,10 +595,10 @@ export const october2026Weeks: DevotionalWeek[] = [
     },
   },
   {
-    number: 2,
-    startsOn: '2026-10-12',
-    theme: 'Aprovados',
-    devotionals: {
+    "number": 2,
+    "startsOn": "2026-10-12",
+    "theme": "Aprovados",
+    "devotionals": {
       "2026-10-12": {
         "format": "document",
         "label": "APROVADOS — DEVOCIONAL | SEMANA 2 — DIA 1",
@@ -755,8 +755,571 @@ export const october2026Weeks: DevotionalWeek[] = [
             ]
           }
         ]
+      },
+      "2026-10-14": {
+        "format": "document",
+        "label": "APROVADOS — DEVOCIONAL | SEMANA 2 — DIA 3",
+        "title": "NEM TODA FUGA É FRAQUEZA",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“Ela o agarrou pelo manto e voltou a convidá-lo: ‘Vamos, deite-se comigo!’ Mas ele deixou o manto na mão dela e fugiu da casa.”",
+              "Gênesis 39:12 (NVI)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Você já permaneceu em uma situação que sabia que não lhe fazia bem, apenas porque acreditava que conseguiria administrá-la?",
+              "Às vezes, percebemos que determinada conversa está ultrapassando limites, que um ambiente está despertando comportamentos antigos ou que uma relação está nos levando a agir de maneira contrária aos nossos valores.",
+              "Mas, em vez de interromper, pensamos:",
+              "“Eu sei até onde posso ir.”",
+              "Será mesmo?"
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Existe um detalhe interessante na atitude de José diante da mulher de Potifar.",
+              "Ele não tentou demonstrar que era forte o suficiente para permanecer naquela situação sem ceder.",
+              "José reconheceu que havia momentos em que a decisão mais sábia era simplesmente sair.",
+              "E talvez isso confronte uma ideia que muitas pessoas carregam: a de que maturidade significa conseguir enfrentar qualquer situação sem precisar se afastar.",
+              "Mas nem sempre é assim.",
+              "Imagine uma pessoa que está tentando abandonar o hábito de falar mal dos outros.",
+              "Ela reconhece que esse comportamento prejudica seus relacionamentos e decide mudar.",
+              "Entretanto, continua participando diariamente de conversas em que as pessoas são criticadas, expostas e ridicularizadas.",
+              "No começo, tenta apenas ouvir. Depois faz um comentário. Em seguida, já está participando como antes.",
+              "E termina dizendo: “Eu não sei por que faço isso novamente.”",
+              "Talvez porque esteja tentando mudar um comportamento sem modificar as condições que continuam alimentando esse comportamento.",
+              "Esse é um ponto importante.",
+              "Muitas vezes queremos vencer determinados padrões apenas pela força de vontade, mas continuamos nos expondo às mesmas situações que os fortalecem.",
+              "Queremos controlar a irritação, mas insistimos em discutir quando estamos emocionalmente alterados.",
+              "Queremos abandonar a comparação, mas continuamos acompanhando conteúdos que despertam constantemente a sensação de inferioridade.",
+              "Queremos desenvolver uma vida financeira equilibrada, mas mantemos hábitos que estimulam compras impulsivas.",
+              "Não basta desejar uma mudança se continuamos preservando tudo aquilo que favorece o comportamento que queremos abandonar.",
+              "É aqui que precisamos compreender a importância dos limites.",
+              "Limites não existem apenas para impedir que outras pessoas ultrapassem determinados espaços da nossa vida.",
+              "Eles também nos ajudam a reconhecer até onde podemos ir sem comprometer aquilo que estamos construindo dentro de nós.",
+              "José não esperou cometer o erro para estabelecer um limite.",
+              "Ele percebeu o perigo e tomou uma decisão antes.",
+              "E essa é uma dimensão importante do domínio próprio: não precisar chegar ao ponto de perder o controle para reconhecer que uma situação exige uma atitude.",
+              "Talvez você esteja insistindo em permanecer em determinados ambientes porque sair parece fraqueza.",
+              "Ou continue sustentando conversas que já deveriam ter sido encerradas porque tem dificuldade de desagradar.",
+              "Talvez ainda se exponha a situações que despertam antigos comportamentos porque acredita que, desta vez, conseguirá agir de maneira diferente.",
+              "Mas existe uma pergunta que precisa ser feita:",
+              "“Por que continuo me aproximando daquilo que depois preciso lutar tanto para vencer?”",
+              "Isso não significa fugir de toda situação desconfortável. Existem conversas difíceis que precisamos enfrentar, responsabilidades que não podemos abandonar e conflitos que exigem maturidade para serem resolvidos.",
+              "A questão é aprender a distinguir o desconforto que precisamos enfrentar da exposição que precisamos interromper.",
+              "José não fugiu de sua responsabilidade.",
+              "Ele fugiu de uma situação que ameaçava seus princípios.",
+              "E talvez a decisão mais madura que você precise tomar hoje não seja provar que consegue permanecer.",
+              "Talvez seja reconhecer que não precisa continuar ali."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Existe alguma situação à qual continuo me expondo, mesmo percebendo que ela desperta comportamentos que desejo abandonar?",
+              "Tenho dificuldade de estabelecer limites porque temo desagradar, perder oportunidades ou ser interpretado de maneira negativa?",
+              "Em qual área estou tentando vencer um padrão sem modificar os hábitos que continuam fortalecendo esse padrão?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "Hoje, identifique uma situação que costuma enfraquecer seu domínio próprio.",
+              "Pode ser uma conversa, um hábito, um ambiente ou até um horário em que você percebe maior vulnerabilidade.",
+              "Agora estabeleça um limite concreto.",
+              "Talvez seja encerrar uma conversa antes que ela se transforme em discussão, deixar de participar de determinados comentários ou modificar um hábito que tem alimentado comportamentos que você deseja abandonar.",
+              "Pergunte a si mesmo:",
+              "“Que limite posso estabelecer hoje para proteger aquilo que Deus está construindo em mim?”"
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Senhor, dá-me discernimento para reconhecer aquilo que fortalece minha vida e aquilo que enfraquece meus princípios.",
+              "Mostra-me onde tenho confundido maturidade com a necessidade de provar que consigo suportar qualquer situação.",
+              "Ensina-me a estabelecer limites sem culpa e a reconhecer quando preciso permanecer e quando preciso sair.",
+              "Que eu não espere perder o controle para tomar decisões que poderiam proteger meu coração.",
+              "Fortalece em mim o domínio próprio e a sabedoria para escolher aquilo que contribui para minha transformação.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "DOMÍNIO PRÓPRIO NÃO É APENAS RESISTIR AO QUE ME ENFRAQUECE.",
+              "É TAMBÉM TER SABEDORIA PARA NÃO CONTINUAR ME EXPONDO ÀQUILO QUE PRECISO VENCER."
+            ]
+          }
+        ]
+      },
+      "2026-10-15": {
+        "format": "document",
+        "label": "APROVADOS — DEVOCIONAL | SEMANA 2 — DIA 4",
+        "title": "NÃO ENTREGUE AO OUTRO O GOVERNO DE QUEM VOCÊ É",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“Não se deixem vencer pelo mal, mas vençam o mal com o bem.” (Romanos 12:21)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Você já percebeu que algumas pessoas conseguem despertar em você comportamentos que normalmente não gostaria de ter?",
+              "Alguém fala com grosseria, e você responde da mesma maneira.",
+              "Alguém demonstra indiferença, e você decide também ignorá-lo.",
+              "Alguém o fere, e você começa a pensar em como fazer aquela pessoa sentir o que você sentiu.",
+              "E, quando percebe, está agindo de uma maneira que antes condenava.",
+              "Em que momento o comportamento do outro começou a decidir o seu?"
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "José foi acusado injustamente pela mulher de Potifar e acabou na prisão.",
+              "Ele havia escolhido fazer o que era certo, mas recebeu uma consequência que não merecia.",
+              "Pense no que uma experiência como essa poderia produzir dentro de alguém.",
+              "José poderia ter concluído que não valia a pena ser honesto, que ninguém merecia sua confiança ou que, dali em diante, cuidaria apenas dos próprios interesses.",
+              "A injustiça que sofreu era real.",
+              "Mas aquilo que fizeram com ele não precisava determinar aquilo que sairia dele.",
+              "E aqui existe uma questão importante para nossa vida.",
+              "Às vezes, sem perceber, começamos a construir nosso comportamento como uma reação ao comportamento de outras pessoas.",
+              "“Se ele não me procura, também não vou procurar.”",
+              "“Se ela não reconhece o que faço, não farei mais nada.”",
+              "“Se me tratam com frieza, vou mostrar que também sei ser frio.”",
+              "Essas atitudes podem parecer apenas uma forma de proteção.",
+              "Mas precisamos perguntar:",
+              "“Estou escolhendo agir assim porque isso corresponde aos meus valores ou porque quero devolver aquilo que recebi?”",
+              "Existe uma diferença entre estabelecer um limite saudável e transformar o limite em uma forma de punição.",
+              "Uma pessoa pode decidir se afastar de uma relação porque reconheceu comportamentos prejudiciais. Isso pode ser necessário.",
+              "Mas também pode se afastar apenas para provocar culpa, despertar medo ou fazer o outro sofrer.",
+              "Externamente, as atitudes parecem iguais.",
+              "A diferença está na motivação que governa a decisão.",
+              "É por isso que o princípio de agir no espírito oposto precisa ser compreendido com profundidade.",
+              "Ele não significa fingir que nada aconteceu.",
+              "Não significa aceitar desrespeito, permanecer em ambientes abusivos ou abrir mão de limites.",
+              "Significa que o erro de alguém não precisa se transformar em autorização para que eu também abandone meus valores.",
+              "Se alguém mente sobre você, isso não exige que você minta para se defender.",
+              "Se alguém o trata com desrespeito, você pode se posicionar firmemente sem precisar humilhar.",
+              "Se alguém o decepciona, você pode rever a confiança depositada naquela pessoa sem transformar sua decepção em amargura contra todos.",
+              "Mas existe algo ainda mais profundo.",
+              "Quando começamos a viver apenas reagindo àquilo que nos fizeram, podemos continuar emocionalmente ligados a situações que já terminaram.",
+              "A pessoa que nos feriu talvez nem esteja mais presente.",
+              "Entretanto, continuamos tomando decisões tentando provar alguma coisa a ela.",
+              "Queremos demonstrar que somos melhores.",
+              "Que não precisamos de ninguém.",
+              "Que nunca mais seremos enganados.",
+              "E, sem perceber, nossa vida continua organizada em torno daquilo que aconteceu.",
+              "Isso é muito diferente de viver em liberdade.",
+              "Porque liberdade não é apenas conseguir se afastar de quem nos feriu.",
+              "É também deixar de permitir que aquela experiência determine quem precisamos ser daqui para a frente.",
+              "Romanos 12:21 nos apresenta um princípio desafiador: não sermos vencidos pelo mal, mas vencermos o mal com o bem.",
+              "Isso não significa que toda relação será restaurada ou que toda injustiça será reparada imediatamente.",
+              "Significa que podemos escolher não reproduzir aquilo que nos feriu.",
+              "José não tinha poder para mudar a mentira que haviam contado sobre ele.",
+              "Mas ainda podia decidir como viveria naquele novo ambiente.",
+              "E talvez essa seja uma das expressões mais profundas de maturidade:",
+              "Continuar sendo fiel aos próprios valores, mesmo quando outras pessoas não foram fiéis aos delas."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Existe alguém cujo comportamento ainda determina a maneira como eu ajo, mesmo quando sei que minha reação não corresponde aos meus valores?",
+              "Tenho estabelecido limites para me proteger ou, em algumas situações, utilizo esses limites para punir, controlar ou provocar culpa?",
+              "Existe alguma experiência de injustiça ou rejeição que ainda influencia a maneira como trato pessoas que não tiveram participação no que aconteceu?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "Hoje, observe uma situação em que você sinta vontade de devolver a alguém aquilo que recebeu.",
+              "Antes de agir, pergunte: “Se essa pessoa não tivesse me tratado dessa maneira, eu escolheria ter essa mesma atitude?”",
+              "Depois faça uma segunda pergunta: “Como posso responder de maneira coerente com meus valores, sem negar o que aconteceu e sem abandonar meus limites?”",
+              "Escolha uma atitude concreta.",
+              "Pode ser conversar com respeito, interromper uma discussão, estabelecer um limite com clareza ou simplesmente deixar de alimentar uma resposta motivada pelo desejo de ferir.",
+              "Hoje, não permita que a atitude de outra pessoa decida quem você será."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Senhor, mostra-me onde tenho permitido que as atitudes de outras pessoas governem minhas respostas.",
+              "Revela se ainda existem ofensas, injustiças ou decepções influenciando a maneira como me comporto.",
+              "Eu não quero negar aquilo que me feriu, mas também não quero continuar vivendo em função disso.",
+              "Ensina-me a estabelecer limites com sabedoria, responder com maturidade e permanecer fiel aos valores que o Senhor está formando em mim.",
+              "Que a dor que recebi não determine aquilo que entregarei às pessoas ao meu redor.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "O QUE FIZERAM COMIGO PODE TER ME FERIDO, MAS NÃO PRECISA DECIDIR QUEM EU VOU ME TORNAR."
+            ]
+          }
+        ]
+      },
+      "2026-10-16": {
+        "format": "document",
+        "label": "APROVADOS — DEVOCIONAL | SEMANA 2 — DIA 5",
+        "title": "QUANDO A DOR COMEÇA A ESCREVER NOSSA HISTÓRIA",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“O Senhor, porém, estava com José e lhe mostrou bondade, concedendo-lhe a simpatia do carcereiro.” (Gênesis 39:21)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Será que algumas das suas atitudes de hoje ainda são respostas a coisas que aconteceram há muito tempo?",
+              "Talvez você tenha aprendido a desconfiar porque alguém traiu sua confiança.",
+              "Talvez tenha dificuldade de receber uma correção porque, no passado, foi constantemente humilhado.",
+              "Ou talvez tenha se tornado uma pessoa que precisa controlar tudo porque, em algum momento, experimentou a insegurança de não saber o que aconteceria.",
+              "O tempo passou. As pessoas mudaram. Os ambientes são outros.",
+              "Mas será que algumas experiências continuam decidindo como você vive?"
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "José conheceu a dor de ser rejeitado por pessoas que deveriam protegê-lo.",
+              "Seus próprios irmãos o venderam como escravo. Mais tarde, quando escolheu agir corretamente na casa de Potifar, foi acusado injustamente e enviado à prisão.",
+              "José não tinha motivos para considerar justas aquelas experiências.",
+              "Entretanto, há algo que chama atenção em sua trajetória: mesmo depois de tantas injustiças, ele continuou assumindo responsabilidades e demonstrando fidelidade nos lugares onde estava.",
+              "A Bíblia não nos conta todos os sentimentos que José experimentou durante esses acontecimentos. Mas suas atitudes posteriores mostram que as injustiças sofridas não determinaram todas as suas escolhas futuras.",
+              "E aqui existe uma reflexão importante para nós.",
+              "Nem sempre percebemos quando uma experiência dolorosa deixa de ser apenas parte da nossa história e começa a se transformar em uma regra para nossa vida.",
+              "Uma criança que cresceu sendo constantemente criticada pode chegar à idade adulta acreditando que qualquer correção significa que ela não é boa o suficiente.",
+              "Alguém que sofreu uma traição pode começar a interpretar qualquer mudança de comportamento como sinal de que será enganado novamente.",
+              "Uma pessoa que foi abandonada pode desenvolver o hábito de se afastar primeiro, antes que alguém tenha a oportunidade de deixá-la.",
+              "Perceba o que acontece.",
+              "Aquilo que foi vivido em uma situação específica começa a ser aplicado a situações completamente diferentes.",
+              "A pessoa não está mais diante de quem a feriu, mas continua reagindo como se o perigo estivesse presente.",
+              "E talvez ela nem perceba isso.",
+              "Acredita que está apenas sendo cuidadosa, quando pode estar vivendo permanentemente na defensiva.",
+              "Acredita que é independente, quando talvez tenha aprendido que precisar de alguém é perigoso.",
+              "Acredita que está protegendo seu coração, quando pode estar impedindo que relacionamentos saudáveis se desenvolvam.",
+              "Nem toda atitude que chamamos de proteção está realmente nos protegendo. Algumas apenas mantêm nossas feridas no controle.",
+              "Isso não significa que devemos ignorar o que aconteceu ou voltar a confiar indiscriminadamente em quem nos machucou.",
+              "A cura não exige negar a realidade.",
+              "Mas precisamos aprender a distinguir o que a experiência nos ensinou daquilo que a dor nos fez acreditar.",
+              "Uma traição pode nos ensinar a desenvolver discernimento. Mas não precisa nos convencer de que ninguém é confiável.",
+              "Uma rejeição pode nos ensinar a reconhecer relacionamentos que não são saudáveis. Mas não precisa nos convencer de que não somos dignos de amor.",
+              "Uma injustiça pode nos ensinar a estabelecer limites. Mas não precisa nos transformar em pessoas amargas.",
+              "A experiência pode produzir aprendizado sem precisar se transformar em identidade.",
+              "Talvez hoje você esteja tentando mudar um comportamento que se repete há anos. Mas, antes de perguntar apenas como parar de agir daquela maneira, experimente perguntar: “O que aconteceu comigo que me fez acreditar que precisava agir assim para estar seguro?”",
+              "Essa pergunta pode abrir espaço para reconhecer uma raiz que até então permanecia escondida.",
+              "E aquilo que conseguimos reconhecer diante de Deus pode começar a ser tratado.",
+              "José não teve poder para mudar aquilo que seus irmãos fizeram.",
+              "Mas sua história nos mostra que o passado não precisava determinar todo o seu futuro.",
+              "Você não pode reescrever aquilo que aconteceu, mas pode permitir que Deus transforme a maneira como essa experiência continua influenciando sua vida."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Existe alguma reação minha que parece exagerada diante da situação atual, mas que pode estar relacionada a experiências anteriores?",
+              "Que conclusão sobre mim, sobre as pessoas ou sobre os relacionamentos eu passei a acreditar depois de uma experiência dolorosa?",
+              "Essa conclusão ainda me ajuda a viver com sabedoria ou tem limitado minha capacidade de confiar, amar e me relacionar?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "Hoje, escolha uma reação que costuma se repetir em sua vida.",
+              "Pode ser desconfiar rapidamente, afastar-se quando se sente rejeitado, precisar controlar tudo ou reagir defensivamente quando recebe uma correção.",
+              "Complete estas frases:",
+              "“Quando acontece __________, minha reação costuma ser __________.”",
+              "“Talvez eu tenha aprendido a reagir assim quando __________.”",
+              "“Mas hoje eu posso começar a responder de uma maneira diferente: __________.”",
+              "Não force lembranças nem tente encontrar uma explicação para tudo.",
+              "Apenas permita que Deus lhe mostre se existe alguma experiência antiga influenciando suas escolhas atuais."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Senhor, mostra-me se existem experiências do meu passado que ainda estão governando minhas atitudes.",
+              "Revela as conclusões que construí a partir da dor e que talvez não correspondam à verdade sobre quem sou e sobre as pessoas ao meu redor.",
+              "Eu não quero negar o que aconteceu, mas também não quero continuar vivendo como se aquilo ainda estivesse acontecendo.",
+              "Ensina-me a transformar experiências dolorosas em aprendizado, sem permitir que elas definam minha identidade.",
+              "Que minha história seja um lugar de testemunho da Tua restauração, e não uma prisão que determine quem estou me tornando.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "O QUE ACONTECEU COMIGO FAZ PARTE DA MINHA HISTÓRIA, MAS NÃO PRECISA CONTINUAR ESCREVENDO MINHAS ESCOLHAS."
+            ]
+          }
+        ]
+      },
+      "2026-10-17": {
+        "format": "document",
+        "label": "APROVADOS — DEVOCIONAL | SEMANA 2 — DIA 6",
+        "title": "CONTINUAR TAMBÉM É UMA FORMA DE VENCER",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“O chefe dos copeiros, porém, não se lembrou de José; ao contrário, esqueceu-se dele.” Gênesis 40:23 (NVI)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Você já começou alguma mudança com muita disposição, mas perdeu o entusiasmo quando percebeu que os resultados demorariam mais do que esperava?",
+              "Talvez tenha decidido cuidar melhor da sua vida espiritual, reorganizar suas finanças, mudar a maneira de se relacionar ou abandonar um comportamento antigo.",
+              "No começo, parecia possível.",
+              "Mas os dias passaram, as dificuldades continuaram e você começou a se perguntar:",
+              "“Será que todo esse esforço está adiantando?”",
+              "Existe uma dimensão da maturidade que não aparece no entusiasmo de começar.",
+              "Ela aparece na capacidade de continuar."
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Quando José interpretou o sonho do copeiro de Faraó, surgiu uma possibilidade de finalmente sair da prisão.",
+              "Ele pediu que o copeiro se lembrasse dele quando recuperasse sua posição.",
+              "Mas o homem foi restaurado ao cargo e se esqueceu de José.",
+              "Depois disso, passaram-se dois anos até que Faraó tivesse os sonhos que levariam José a ser chamado.",
+              "Imagine o que significa continuar vivendo quando uma possibilidade de mudança parece ter desaparecido.",
+              "A Bíblia não descreve tudo o que José pensou durante aquele período.",
+              "Mas sabemos que ele continuou na prisão, e que sua trajetória não terminou naquele esquecimento.",
+              "Essa parte da história nos apresenta uma verdade que precisamos compreender:",
+              "Nem toda prova exige uma decisão difícil em um momento específico. Algumas exigem que sustentemos a mesma decisão durante muito tempo.",
+              "E talvez essa seja uma das maiores dificuldades da nossa geração.",
+              "Estamos acostumados a desejar resultados rápidos.",
+              "Queremos resolver em poucos dias aquilo que levou anos para ser construído.",
+              "Queremos mudar um comportamento, mas nos frustramos quando descobrimos que ele continua aparecendo.",
+              "Queremos restaurar um relacionamento, mas nos desanimamos quando percebemos que reconstruir a confiança exige tempo.",
+              "Queremos amadurecer espiritualmente, mas esperamos que uma experiência intensa produza automaticamente uma transformação permanente.",
+              "Só que existe uma diferença entre experimentar uma mudança e consolidar uma mudança.",
+              "Uma pessoa pode decidir, durante um culto, que não permitirá mais que a raiva governe suas respostas.",
+              "Essa decisão é importante.",
+              "Mas o amadurecimento aparecerá quando ela estiver novamente diante de uma provocação.",
+              "Quando estiver cansada.",
+              "Quando for contrariada.",
+              "Quando precisar escolher pela décima vez não responder da maneira antiga.",
+              "A decisão inicia um novo caminho. A perseverança ajuda a transformar esse caminho em um novo modo de viver.",
+              "Pense em alguém que decidiu reconstruir a confiança dentro de um relacionamento.",
+              "Pedir perdão pode acontecer em uma conversa.",
+              "Mas demonstrar, ao longo do tempo, que determinados comportamentos realmente mudaram exigirá constância.",
+              "Da mesma forma, alguém pode reconhecer que precisa aprender a lidar com suas finanças.",
+              "Mas a transformação não estará apenas na decisão de organizar o orçamento.",
+              "Estará nas pequenas escolhas feitas quando surgir novamente a vontade de gastar impulsivamente.",
+              "Perceba: Não é porque você precisou escolher novamente que a primeira decisão foi inútil.",
+              "Às vezes, é justamente a repetição consciente de novas escolhas que fortalece aquilo que está sendo construído.",
+              "Isso não significa que perseverar seja insistir em ambientes abusivos, suportar injustiças sem buscar ajuda ou permanecer em situações que colocam sua segurança em risco.",
+              "Perseverança, aqui, significa não abandonar seus valores e seu crescimento porque os resultados ainda não apareceram.",
+              "José desejava sair da prisão.",
+              "Mas, enquanto isso não acontecia, continuou exercendo as responsabilidades que lhe foram confiadas.",
+              "E talvez essa seja uma pergunta importante para você hoje: “O que estou deixando de viver porque ainda estou esperando alguma coisa mudar?”",
+              "Talvez você não consiga determinar quando uma situação será resolvida.",
+              "Mas pode continuar desenvolvendo sua vida espiritual, cuidando de suas responsabilidades e praticando as mudanças que já reconheceu serem necessárias.",
+              "Você não precisa esperar que tudo ao seu redor mude para continuar crescendo por dentro."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Existe alguma mudança importante que comecei, mas estou pensando em abandonar porque os resultados ainda não apareceram?",
+              "Tenho confundido a demora dos resultados com a ausência de progresso?",
+              "Que pequena decisão preciso continuar sustentando, mesmo quando não sinto vontade ou entusiasmo?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "Hoje, identifique uma decisão importante que você tomou recentemente, mas que tem sido difícil sustentar.",
+              "Não tente resolver tudo de uma vez.",
+              "Escolha uma atitude pequena e concreta que represente continuidade.",
+              "Pode ser retomar um hábito espiritual, cumprir um compromisso, manter um limite saudável ou praticar uma resposta diferente diante de uma situação recorrente.",
+              "Depois, escreva: “Mesmo que os resultados ainda não apareçam, hoje eu escolho continuar __________.”",
+              "Lembre-se: perseverar não significa nunca precisar recomeçar.",
+              "Significa não transformar uma dificuldade em motivo para abandonar aquilo que precisa ser construído."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Senhor, ensina-me a permanecer fiel durante os processos que exigem tempo.",
+              "Perdoa-me pelas vezes em que abandonei mudanças importantes porque não vi resultados tão rapidamente quanto esperava.",
+              "Dá-me perseverança para sustentar as decisões que estão contribuindo para meu amadurecimento.",
+              "Ajuda-me a reconhecer os pequenos avanços e a não desprezar aquilo que está sendo construído dia após dia.",
+              "Que eu não dependa apenas do entusiasmo de começar, mas desenvolva o caráter necessário para continuar.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "NEM TODA VITÓRIA ACONTECE QUANDO UMA SITUAÇÃO MUDA.",
+              "ÀS VEZES, A VITÓRIA ESTÁ EM CONTINUAR SENDO FIEL ENQUANTO ELA AINDA NÃO MUDOU."
+            ]
+          }
+        ]
+      },
+      "2026-10-18": {
+        "format": "document",
+        "label": "APROVADOS — DEVOCIONAL | SEMANA 2 — DIA 7",
+        "title": "QUEM ESTOU ME TORNANDO DURANTE A PROVA?",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“Isso não depende de mim, mas Deus dará ao faraó uma resposta favorável.” (Gênesis 41:16)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "E se aquilo que você tanto deseja conquistar chegasse hoje? Você estaria preparado para lidar com o que viria junto?",
+              "Às vezes, desejamos uma posição sem pensar nas responsabilidades que ela exige.",
+              "Queremos reconhecimento sem considerar como reagiremos às críticas.",
+              "Desejamos prosperidade sem avaliar como administramos aquilo que já possuímos.",
+              "Pedimos novas oportunidades, mas raramente perguntamos:",
+              "“Quem eu preciso me tornar para viver bem aquilo que estou pedindo?”"
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Depois de tantos acontecimentos difíceis, José finalmente foi chamado para comparecer diante de Faraó.",
+              "Era uma oportunidade extraordinária.",
+              "O homem que havia sido vendido como escravo e passado anos na prisão agora estava diante da maior autoridade do Egito.",
+              "Faraó havia ouvido falar de sua capacidade de interpretar sonhos.",
+              "José poderia ter aproveitado aquele momento para destacar sua habilidade, impressionar o governante ou demonstrar que era alguém especial.",
+              "Mas sua resposta foi surpreendente: “Isso não depende de mim, mas Deus dará ao faraó uma resposta favorável.”",
+              "Existe algo importante nessa atitude.",
+              "José possuía uma capacidade que poderia abrir portas para ele.",
+              "Mas não precisava transformar aquela capacidade em motivo para exaltar a si mesmo.",
+              "Ele reconhecia a origem daquilo que havia recebido.",
+              "E isso nos leva a uma reflexão sobre o propósito dos processos de formação.",
+              "Não basta desenvolver capacidade para conquistar alguma coisa. Também precisamos desenvolver maturidade para não sermos governados por aquilo que conquistamos.",
+              "Pense em uma pessoa que sempre desejou ocupar uma posição de liderança.",
+              "Enquanto não consegue, acredita que sua maior dificuldade é a falta de oportunidade.",
+              "Mas, quando finalmente assume a posição, descobre que liderar envolve receber críticas, tomar decisões difíceis, lidar com conflitos e reconhecer os próprios erros.",
+              "Se sua identidade estiver construída apenas sobre a necessidade de ser admirada, aquela posição poderá se tornar um lugar de profunda insegurança.",
+              "Ela começará a interpretar qualquer discordância como ameaça.",
+              "Qualquer correção como desrespeito.",
+              "Qualquer erro como uma exposição intolerável.",
+              "A oportunidade não criou necessariamente essas fragilidades. Ela apenas colocou sobre a pessoa responsabilidades que tornaram essas fragilidades mais visíveis.",
+              "O mesmo pode acontecer em outras áreas.",
+              "Alguém deseja prosperar financeiramente, mas ainda não aprendeu a lidar com impulsos de consumo.",
+              "Deseja construir um relacionamento saudável, mas continua permitindo que o medo da rejeição governe suas atitudes.",
+              "Deseja ser reconhecido profissionalmente, mas ainda depende tanto da aprovação das pessoas que não consegue lidar com uma crítica.",
+              "Isso não significa que precisamos alcançar uma maturidade perfeita antes de receber qualquer oportunidade.",
+              "Significa que aquilo que desejamos viver também precisa ser acompanhado pelo desenvolvimento do caráter necessário para administrá-lo.",
+              "A história de José nos ajuda a enxergar essa relação.",
+              "O jovem que havia recebido sonhos precisou atravessar situações nas quais foram exigidas fidelidade, responsabilidade, domínio próprio e perseverança.",
+              "Essas experiências não justificam as injustiças que ele sofreu.",
+              "Mas mostram como Deus pôde agir em sua história, mesmo em meio àquilo que outras pessoas fizeram de errado.",
+              "E aqui está uma distinção importante: Deus não precisava da maldade dos irmãos para ser capaz de cumprir Seus propósitos. Mas a maldade dos irmãos também não conseguiu impedir que Ele continuasse trabalhando na vida de José.",
+              "Talvez você esteja tão concentrado em alcançar uma determinada conquista que ainda não percebeu o quanto precisa crescer para administrá-la.",
+              "Talvez sua oração seja para que Deus abra uma oportunidade.",
+              "Mas você também precise pedir sabedoria para lidar com ela.",
+              "Talvez esteja pedindo crescimento.",
+              "Mas precise desenvolver responsabilidade para sustentar esse crescimento.",
+              "Talvez esteja esperando uma mudança externa.",
+              "Mas exista uma transformação interior que não deveria continuar sendo adiada.",
+              "Ao longo desta semana, refletimos sobre a presença de Deus nas provas, o governo das emoções, a importância dos limites, nossas respostas diante das injustiças, as feridas que podem influenciar nossas escolhas e a perseverança durante a espera.",
+              "Agora todas essas reflexões nos conduzem a uma pergunta: “O que está sendo formado em mim enquanto caminho em direção àquilo que desejo viver?”",
+              "Porque a maior evidência de que uma experiência contribuiu para nosso amadurecimento não é apenas conseguir contar que sobrevivemos a ela.",
+              "É perceber que nossas respostas, escolhas e atitudes começaram a mudar.",
+              "O objetivo não é apenas chegar ao palácio. É não permitir que o palácio governe o coração quando finalmente chegarmos lá."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Existe alguma conquista que desejo muito, mas para a qual ainda preciso desenvolver maturidade, responsabilidade ou domínio próprio?",
+              "Se eu recebesse hoje aquilo que estou pedindo, quais fragilidades interiores poderiam dificultar minha capacidade de administrar essa conquista?",
+              "Ao olhar para os processos que já atravessei, consigo reconhecer mudanças reais na maneira como penso, escolho e respondo às situações?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "Hoje, escolha algo que você deseja conquistar ou viver no futuro.",
+              "Pode estar relacionado à família, ao trabalho, ao ministério, às finanças ou aos relacionamentos.",
+              "Agora complete:",
+              "“Eu desejo que Deus me confie __________.”",
+              "“Para administrar isso com maturidade, preciso continuar desenvolvendo __________.”",
+              "“Uma atitude que posso começar a praticar hoje é __________.”",
+              "Depois, apresente essas respostas a Deus.",
+              "Não transforme esse exercício em uma cobrança para se tornar perfeito.",
+              "Use-o como uma oportunidade de alinhar seus desejos com seu processo de crescimento.",
+              "Não espere chegar ao destino para começar a desenvolver o caráter que precisará ter quando chegar lá."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Senhor, obrigado porque Tua presença não depende das circunstâncias que estou vivendo.",
+              "Ao olhar para os processos da minha vida, ajuda-me a reconhecer aquilo que ainda precisa ser fortalecido em mim.",
+              "Eu não quero desejar apenas novas oportunidades, conquistas e responsabilidades sem permitir que meu caráter também amadureça.",
+              "Trabalha minhas motivações, minhas escolhas e a maneira como respondo às situações difíceis.",
+              "Prepara-me não apenas para receber aquilo que o Senhor deseja me confiar, mas também para administrar tudo isso com sabedoria, humildade e fidelidade.",
+              "Que cada processo contribua para que o caráter de Cristo seja formado em mim.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "A MAIOR CONQUISTA NÃO É APENAS CHEGAR ONDE EU DESEJO.",
+              "É ME TORNAR ALGUÉM CAPAZ DE VIVER ESSE NOVO TEMPO SEM PERDER OS PRINCÍPIOS QUE DEUS FORMOU EM MIM."
+            ]
+          }
+        ]
       }
-    },
+    }
   },
   { number: 3, startsOn: '2026-10-19', devotionals: {} },
   { number: 4, startsOn: '2026-10-26', devotionals: {} },
