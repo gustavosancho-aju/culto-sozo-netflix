@@ -7,12 +7,18 @@ import ExclusiveContent from '../components/ExclusiveContent';
 import { trpc } from '@/lib/trpc';
 import { parseEpisodeTitle } from '../constants';
 import { ArrowRight, BookOpen } from 'lucide-react';
+import { brazilToday, datesForWeek, october2026Weeks } from '../data/weeklyDevotionals';
+import { devotionalPath } from '../lib/devotionalNavigation';
 
 interface HomeProps {
   searchQuery?: string;
 }
 
 const Home: React.FC<HomeProps> = ({ searchQuery }) => {
+  const today = brazilToday();
+  const currentWeek = october2026Weeks.find(week => datesForWeek(week.startsOn).includes(today));
+  const todayDevotional = currentWeek?.devotionals[today];
+  const todayLabel = new Intl.DateTimeFormat('pt-BR', { day: '2-digit', month: '2-digit', timeZone: 'UTC' }).format(new Date(`${today}T12:00:00Z`));
   // Buscar séries e episódios do banco via tRPC
   const { data: allSeries, isLoading: loadingSeries } = trpc.content.series.useQuery(undefined, {
     staleTime: 2 * 60 * 1000,
@@ -66,12 +72,27 @@ const Home: React.FC<HomeProps> = ({ searchQuery }) => {
 
   // Filtro de busca
   if (searchQuery) {
+    const normalized = (value: string) => value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+    const term = normalized(searchQuery.trim());
     const filteredEpisodes = allEpisodes.filter(ep =>
-      ep.titulo.toLowerCase().includes(searchQuery.toLowerCase())
+      normalized(ep.titulo).includes(term)
     );
+    const filteredDevotionals = october2026Weeks.flatMap(week => Object.entries(week.devotionals).map(([date, item]) => ({ date, item, week: week.number })))
+      .filter(({ item }) => normalized(item.title).includes(term));
     return (
       <div className="min-h-screen bg-[#141414] pt-24 px-4 md:px-12">
         <h2 className="text-2xl text-white mb-6">Resultados para "{searchQuery}"</h2>
+        {filteredDevotionals.length > 0 && <section aria-label="Devocionais encontrados" className="mb-8">
+          <h3 className="mb-4 text-lg font-bold text-[#e4d2a6]">Devocionais</h3>
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">{filteredDevotionals.map(({ date, item, week }) => (
+            <Link key={date} href={devotionalPath(date)} className="rounded-xl border border-[#b79e68]/30 bg-[#202020] p-4 hover:border-[#b79e68] focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#b79e68]">
+              <p className="text-xs text-[#e4d2a6]">{date.slice(8)}/{date.slice(5, 7)} · Semana {week}</p>
+              <h4 className="mt-2 font-semibold text-white">{item.title}</h4>
+              <p className="mt-3 text-sm text-zinc-400">Abrir devocional →</p>
+            </Link>
+          ))}</div>
+        </section>}
+        {filteredEpisodes.length > 0 && <h3 className="mb-4 text-lg font-bold text-white">Mensagens</h3>}
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
           {filteredEpisodes.map(ep => (
             <Link key={ep.id} href={`/episodio/${ep.id}`} className="block bg-gray-800 rounded overflow-hidden hover:scale-105 transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-red-500">
@@ -80,7 +101,7 @@ const Home: React.FC<HomeProps> = ({ searchQuery }) => {
             </Link>
           ))}
         </div>
-        {filteredEpisodes.length === 0 && <p className="text-gray-400">Nenhum episódio encontrado para esta busca.</p>}
+        {filteredEpisodes.length === 0 && filteredDevotionals.length === 0 && <p className="text-gray-400">Nenhuma mensagem ou devocional encontrado. Tente outra palavra.</p>}
       </div>
     );
   }
@@ -92,15 +113,15 @@ const Home: React.FC<HomeProps> = ({ searchQuery }) => {
   return (
     <div className="min-h-screen bg-[#141414] pb-20 pt-16 overflow-x-hidden md:pt-[72px]">
       <div className="px-4 py-2 md:px-12">
-        <Link href="/semanal" className="group flex items-center justify-between gap-3 rounded border border-white/10 bg-[#202020] px-4 py-3 transition hover:border-[#E50914]/60 hover:bg-[#252525] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-500">
+        <Link href={currentWeek ? devotionalPath(today) : '/semanal'} className="group flex items-center justify-between gap-3 rounded border border-white/10 bg-[#202020] px-4 py-3 transition hover:border-[#b79e68]/60 hover:bg-[#252525] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#b79e68]">
           <div className="flex min-w-0 items-center gap-3">
-            <BookOpen className="h-5 w-5 shrink-0 text-[#E50914]" />
+            <BookOpen className="h-5 w-5 shrink-0 text-[#b79e68]" />
             <div className="flex min-w-0 flex-col gap-1 sm:flex-row sm:items-center sm:gap-4">
-              <h2 className="text-sm font-bold text-white md:text-base">Devocional semanal</h2>
-              <p className="text-xs text-gray-400">Semana 1 · Aprovado · 5 a 11 out</p>
+              <h2 className="text-sm font-bold text-white md:text-base">{todayDevotional ? 'Devocional de hoje' : 'Devocional semanal'}</h2>
+              <p className="text-xs text-gray-400">{currentWeek ? `${todayLabel} · Semana ${currentWeek.number} · ${todayDevotional?.title ?? 'Em preparação'}` : 'Explore os devocionais disponíveis'}</p>
             </div>
           </div>
-          <span className="inline-flex shrink-0 items-center gap-2 text-sm font-bold text-white transition group-hover:text-[#E50914]">
+          <span className="inline-flex shrink-0 items-center gap-2 text-sm font-bold text-white transition group-hover:text-[#e4d2a6]">
             <span className="hidden sm:inline">Abrir devocional</span>
             <span className="sm:hidden">Abrir</span>
             <ArrowRight className="h-4 w-4 transition group-hover:translate-x-1" />

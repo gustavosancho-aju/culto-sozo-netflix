@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Analytics } from '@vercel/analytics/react';
 import InteractionAnalytics from './components/InteractionAnalytics';
-import { Link, Route, Switch, useLocation } from 'wouter';
+import { Link, Route, Switch, useLocation, useSearch } from 'wouter';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import SeriesDetails from './pages/SeriesDetails';
@@ -18,14 +18,13 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import NotFound from "@/pages/NotFound";
 
 const Layout: React.FC = () => {
-  const [searchQuery, setSearchQuery] = useState('');
+  const [searchQuery, setSearchQuery] = useState(() => new URLSearchParams(window.location.search).get('busca') ?? '');
   const [location] = useLocation();
+  const search = useSearch();
   // Reset search when location changes
   React.useEffect(() => {
-     if(location !== '/') {
-         setSearchQuery('');
-     }
-  }, [location]);
+     setSearchQuery(location === '/' ? new URLSearchParams(search).get('busca') ?? '' : '');
+  }, [location, search]);
 
   // make sure to consider if you need authentication for certain routes
   return (

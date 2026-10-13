@@ -1,11 +1,13 @@
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { Link } from 'wouter';
-import { ArrowLeft, ArrowUpRight, CalendarDays, Play, Sparkles } from 'lucide-react';
+import { ArrowLeft, ArrowRight, ArrowUpRight, CalendarDays, Play, Share2, Sparkles } from 'lucide-react';
+import { toast } from 'sonner';
 import { brazilToday, datesForWeek, october2026Weeks, weekDays } from '../data/weeklyDevotionals';
 import { trpc } from '@/lib/trpc';
 import DevotionalSection, { type DevotionalSectionContent } from '../components/DevotionalSection';
 import { useDevotionalAnalytics } from '../hooks/useDevotionalAnalytics';
 import { recordEngagement } from '../lib/engagementAnalytics';
+import { devotionalPath, neighborDate, resolveDevotionalDate } from '../lib/devotionalNavigation';
 
 const monthNames = ['jan', 'fev', 'mar', 'abr', 'mai', 'jun', 'jul', 'ago', 'set', 'out', 'nov', 'dez'];
 
@@ -25,14 +27,30 @@ function dateRange(startsOn: string): string {
 
 const WeeklyDevotional: React.FC = () => {
   const today = brazilToday();
-  const [weekIndex, setWeekIndex] = useState(() => {
-    const current = october2026Weeks.findIndex(week => datesForWeek(week.startsOn).includes(today));
-    return current < 0 ? 0 : current;
-  });
-  const [selectedDate, setSelectedDate] = useState(() => {
-    const current = october2026Weeks.find(week => datesForWeek(week.startsOn).includes(today));
-    return current ? today : october2026Weeks[0].startsOn;
-  });
+  const [selectedDate, setSelectedDate] = useState(() => resolveDevotionalDate(window.location.search, today));
+  const weekIndex = october2026Weeks.findIndex(item => datesForWeek(item.startsOn).includes(selectedDate));
+  const readingHeaderRef = useRef<HTMLElement>(null);
+  const readingTitleRef = useRef<HTMLHeadingElement>(null);
+  const shouldScroll = useRef(new URLSearchParams(window.location.search).has('dia'));
+  const [shareBusy, setShareBusy] = useState(false);
+
+  useEffect(() => {
+    window.history.replaceState(window.history.state, '', devotionalPath(selectedDate));
+    if (shouldScroll.current) {
+      shouldScroll.current = false;
+      const frame = window.requestAnimationFrame(() => {
+        readingHeaderRef.current?.scrollIntoView({ block: 'start', behavior: 'auto' });
+        readingTitleRef.current?.focus({ preventScroll: true });
+      });
+      return () => window.cancelAnimationFrame(frame);
+    }
+  }, [selectedDate]);
+
+  useEffect(() => {
+    const onBack = () => setSelectedDate(resolveDevotionalDate(window.location.search, brazilToday()));
+    window.addEventListener('popstate', onBack);
+    return () => window.removeEventListener('popstate', onBack);
+  }, []);
 
   const week = october2026Weeks[weekIndex];
   const dates = datesForWeek(week.startsOn);
@@ -61,9 +79,50 @@ const WeeklyDevotional: React.FC = () => {
   function selectWeek(index: number) {
     recordEngagement('Semana selecionada', { semana: october2026Weeks[index].number, inicio: october2026Weeks[index].startsOn });
     const nextDates = datesForWeek(october2026Weeks[index].startsOn);
-    setWeekIndex(index);
-    setSelectedDate(nextDates.includes(today) ? today : nextDates[0]);
+    selectDate(nextDates.includes(today) ? today : nextDates[0]);
   }
+
+  function selectDate(date: string) {
+    shouldScroll.current = date !== selectedDate;
+    setSelectedDate(date);
+  }
+
+  function moveDay(offset: -1 | 1) {
+    const date = neighborDate(selectedDate, offset);
+    if (!date) return;
+    recordEngagement('Navegação entre dias', { data: date, direcao: offset === 1 ? 'próximo' : 'anterior' });
+    selectDate(date);
+  }
+
+  async function shareDevotional() {
+    if (shareBusy) return;
+    setShareBusy(true);
+    const url = new URL(devotionalPath(selectedDate), window.location.origin).href;
+    const title = `Culto Sozo · ${shortDate(selectedDate)}`;
+    try {
+      if (navigator.share) {
+        await navigator.share({ title, text: devotional?.title ?? `Devocional da Semana ${week.number}`, url });
+        recordEngagement('Devocional compartilhado', { data: selectedDate, metodo: 'compartilhamento nativo' });
+      } else {
+        await navigator.clipboard.writeText(url);
+        toast.success('Link deste devocional copiado. Cole no WhatsApp ou onde preferir.');
+        recordEngagement('Devocional compartilhado', { data: selectedDate, metodo: 'link copiado' });
+      }
+    } catch (error) {
+      if (!(error instanceof DOMException && error.name === 'AbortError')) toast.error('Não foi possível compartilhar. Você pode copiar o endereço da página.');
+    } finally { setShareBusy(false); }
+  }
+
+  const dayNavigation = (
+    <nav aria-label="Navegar entre dias do devocional" className="flex items-center justify-between gap-3">
+      <button type="button" onClick={() => moveDay(-1)} disabled={!neighborDate(selectedDate, -1)} className="inline-flex min-h-11 items-center gap-2 rounded-lg border border-white/15 bg-[#202020] px-4 py-2 text-sm text-zinc-200 transition hover:border-[#b79e68] disabled:cursor-not-allowed disabled:opacity-35 focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#b79e68]">
+        <ArrowLeft className="h-4 w-4" /> Dia anterior
+      </button>
+      <button type="button" onClick={() => moveDay(1)} disabled={!neighborDate(selectedDate, 1)} className="inline-flex min-h-11 items-center gap-2 rounded-lg border border-white/15 bg-[#202020] px-4 py-2 text-sm text-zinc-200 transition hover:border-[#b79e68] disabled:cursor-not-allowed disabled:opacity-35 focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#b79e68]">
+        Próximo dia <ArrowRight className="h-4 w-4" />
+      </button>
+    </nav>
+  );
 
   return (
     <main className="weekly-devotional min-h-screen bg-[#141414] pb-16 pt-24 md:pt-28">
@@ -130,7 +189,7 @@ const WeeklyDevotional: React.FC = () => {
                   type="button"
                   onClick={() => {
                     recordEngagement('Dia selecionado', { semana: week.number, data: date });
-                    setSelectedDate(date);
+                    selectDate(date);
                   }}
                   aria-pressed={isSelected}
                   aria-current={today === date ? 'date' : undefined}
@@ -146,13 +205,19 @@ const WeeklyDevotional: React.FC = () => {
         </section>
 
         <section className="mt-7" aria-live="polite" aria-label={`Devocional de ${selectedDay}, ${shortDate(selectedDate)}`}>
+          <div className="mb-5 flex flex-wrap items-center justify-between gap-3">
+            {dayNavigation}
+            <button type="button" onClick={shareDevotional} disabled={shareBusy} className="inline-flex min-h-11 items-center gap-2 rounded-lg border border-[#b79e68]/40 px-4 py-2 text-sm font-semibold text-[#e4d2a6] hover:bg-[#b79e68]/10 disabled:opacity-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#b79e68]">
+              <Share2 className="h-4 w-4" /> Compartilhar devocional
+            </button>
+          </div>
           {devotional ? (
             <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(280px,380px)]">
               <article ref={articleRef} className="min-w-0">
-                <header className="devotional-reading-header rounded-2xl p-6 md:p-8">
+                <header ref={readingHeaderRef} className="devotional-reading-header scroll-mt-28 rounded-2xl p-6 md:p-8">
                   <p className="text-xs font-bold uppercase tracking-[0.2em] text-[#e4d2a6]">{selectedDay} · {shortDate(selectedDate)}{devotional.format !== 'document' && ` · Devocional ${dates.indexOf(selectedDate) + 1}/7`}</p>
                   {devotional.format === 'document' && <p className="mt-5 text-sm font-bold uppercase tracking-wide text-[#b79e68]">{devotional.label}</p>}
-                  <h3 className="mt-4 text-3xl font-bold leading-tight tracking-tight text-[#f3efe5] md:text-4xl">{devotional.title}</h3>
+                  <h3 ref={readingTitleRef} tabIndex={-1} className="mt-4 text-3xl font-bold leading-tight tracking-tight text-[#f3efe5] outline-none md:text-4xl">{devotional.title}</h3>
                   <div className="mt-6 h-1 w-16 rounded-full bg-gradient-to-r from-[#e4d2a6] to-[#b79e68]" aria-hidden="true" />
                 </header>
                 <div className="mt-9 space-y-9">
@@ -160,6 +225,7 @@ const WeeklyDevotional: React.FC = () => {
                     <DevotionalSection key={`${selectedDate}-${section.title}`} section={section} index={index} id={`devotional-${selectedDate}-${index}`} />
                   ))}
                 </div>
+                <div className="mt-8">{dayNavigation}</div>
               </article>
 
               <>
@@ -205,7 +271,7 @@ const WeeklyDevotional: React.FC = () => {
               </>
             </div>
           ) : (
-            <div className="rounded-2xl border border-white/10 bg-[#202020] p-6 md:p-10">
+            <div ref={element => { readingHeaderRef.current = element; }} className="scroll-mt-28 rounded-2xl border border-white/10 bg-[#202020] p-6 md:p-10">
               <p className="text-xs font-bold uppercase tracking-[0.2em] text-[#e4d2a6]">{selectedDay} · {shortDate(selectedDate)}</p>
               <h3 className="mt-3 text-2xl font-bold text-white md:text-3xl">Devocional em preparação</h3>
               <p className="mt-4 max-w-2xl leading-relaxed text-zinc-300">Este dia já está reservado. Assim que o tema da Semana {week.number} for definido, o devocional aparecerá aqui.</p>
