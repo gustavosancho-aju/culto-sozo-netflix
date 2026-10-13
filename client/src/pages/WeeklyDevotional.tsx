@@ -45,9 +45,15 @@ const WeeklyDevotional: React.FC = () => {
       { title: 'Oração', kind: 'text', paragraphs: [devotional.prayer] },
     ];
   const { data: episodes } = trpc.content.allEpisodes.useQuery(undefined, { staleTime: 5 * 60 * 1000 });
-  const videoTitle = week.video
-    ? episodes?.find(episode => episode.youtubeVideoId === week.video?.youtubeId)?.titulo?.trim() || week.video.title
-    : '';
+  const weekEpisode = week.seriesId
+    ? episodes?.find(episode => episode.serieId === week.seriesId && episode.ordem === week.number)
+    : undefined;
+  const video = weekEpisode
+    ? { youtubeId: weekEpisode.youtubeVideoId, title: weekEpisode.titulo.trim() }
+    : week.video;
+  const videoTitle = video
+    ? episodes?.find(episode => episode.youtubeVideoId === video.youtubeId)?.titulo?.trim() || video.title
+    : 'Mensagem da semana';
 
   function selectWeek(index: number) {
     const nextDates = datesForWeek(october2026Weeks[index].startsOn);
@@ -149,30 +155,30 @@ const WeeklyDevotional: React.FC = () => {
                 </div>
               </article>
 
-              {week.video && (
+              <>
                 <aside className="self-start lg:sticky lg:top-24 overflow-hidden rounded-2xl border border-white/10 bg-[#202020]">
-                  <div className="aspect-video bg-black">
+                  {video ? <div className="aspect-video bg-black">
                     <iframe
                       className="h-full w-full"
-                      src={`https://www.youtube-nocookie.com/embed/${week.video.youtubeId}`}
+                      src={`https://www.youtube-nocookie.com/embed/${video.youtubeId}`}
                       title={videoTitle}
                       loading="lazy"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                       referrerPolicy="strict-origin-when-cross-origin"
                       allowFullScreen
                     />
-                  </div>
+                  </div> : <div className="flex aspect-video items-center justify-center bg-black p-6 text-center text-sm text-zinc-400">A mensagem desta semana aparecerá aqui assim que estiver disponível.</div>}
                   <div className="p-6">
                     <p className="text-xs font-bold uppercase tracking-widest text-[#e4d2a6]">Mensagem da semana</p>
                     <h4 className="mt-2 text-xl font-bold text-white">{videoTitle}</h4>
                     <p className="mt-3 text-sm leading-relaxed text-zinc-400">As reflexões desta semana foram inspiradas no tema da mensagem.</p>
                     <a
-                      href={`https://www.youtube.com/watch?v=${week.video.youtubeId}`}
+                      href={video ? `https://www.youtube.com/watch?v=${video.youtubeId}` : 'https://www.youtube.com/@Lorenaamelo'}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="mt-5 inline-flex items-center gap-2 rounded bg-white px-4 py-2.5 text-sm font-bold text-black transition hover:bg-zinc-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#b79e68]"
                     >
-                      <Play className="h-4 w-4 fill-current" /> Ver no YouTube <ArrowUpRight className="h-4 w-4" />
+                      <Play className="h-4 w-4 fill-current" /> {video ? 'Ver no YouTube' : 'Abrir canal no YouTube'} <ArrowUpRight className="h-4 w-4" />
                     </a>
                     <nav className="mt-7 border-t border-[#b79e68]/20 pt-5" aria-label="Índice do devocional">
                       <h5 className="mb-3 text-xs font-bold uppercase tracking-[0.15em] text-[#e4d2a6]">Neste devocional</h5>
@@ -189,7 +195,7 @@ const WeeklyDevotional: React.FC = () => {
                     </nav>
                   </div>
                 </aside>
-              )}
+              </>
             </div>
           ) : (
             <div className="rounded-2xl border border-white/10 bg-[#202020] p-6 md:p-10">

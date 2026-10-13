@@ -24,6 +24,7 @@ export interface DevotionalWeek {
   number: number;
   startsOn: string;
   theme?: string;
+  seriesId?: string;
   video?: { title: string; youtubeId: string };
   devotionals: Record<string, Devotional>;
 }
@@ -34,6 +35,7 @@ export const october2026Weeks: DevotionalWeek[] = [
   {
     number: 1,
     startsOn: '2026-10-05',
+    seriesId: 'aprovados-2026',
     theme: 'Aprovado',
     video: { title: 'SEMANA 1 | APROVADO', youtubeId: '80aB2_VlgNk' },
     devotionals: {
@@ -597,6 +599,8 @@ export const october2026Weeks: DevotionalWeek[] = [
   {
     "number": 2,
     "startsOn": "2026-10-12",
+    "seriesId": "aprovados-2026",
+    "video": { "title": "2º SEMANA | O QUE APARECE EM VOCE QUANDO A VIDA APERTA? | APROVADOS", "youtubeId": "zeTB8rOzuOs" },
     "theme": "Aprovados",
     "devotionals": {
       "2026-10-12": {
@@ -1321,8 +1325,8 @@ export const october2026Weeks: DevotionalWeek[] = [
       }
     }
   },
-  { number: 3, startsOn: '2026-10-19', devotionals: {} },
-  { number: 4, startsOn: '2026-10-26', devotionals: {} },
+  { number: 3, startsOn: '2026-10-19', seriesId: 'aprovados-2026', devotionals: {} },
+  { number: 4, startsOn: '2026-10-26', seriesId: 'aprovados-2026', devotionals: {} },
 ];
 
 export const weekDays = ['Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado', 'Domingo'] as const;
