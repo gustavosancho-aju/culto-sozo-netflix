@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Link } from 'wouter';
-import { ArrowLeft, ArrowRight, ArrowUpRight, CalendarDays, Play, Share2, Sparkles } from 'lucide-react';
+import { ArrowLeft, ArrowRight, ArrowUpRight, CalendarDays, Copy, Play, Share2, Sparkles } from 'lucide-react';
 import { toast } from 'sonner';
 import { brazilToday, datesForWeek, october2026Weeks, weekDays } from '../data/weeklyDevotionals';
 import { trpc } from '@/lib/trpc';
@@ -113,6 +113,16 @@ const WeeklyDevotional: React.FC = () => {
     } finally { setShareBusy(false); }
   }
 
+  async function copyDevotionalLink() {
+    try {
+      await navigator.clipboard.writeText(new URL(devotionalPath(selectedDate), window.location.origin).href);
+      toast.success('Link deste devocional copiado. Cole no WhatsApp ou onde preferir.');
+      recordEngagement('Devocional compartilhado', { data: selectedDate, metodo: 'link copiado' });
+    } catch {
+      toast.error('Não foi possível copiar. Use o endereço da página, que já contém a data selecionada.');
+    }
+  }
+
   const dayNavigation = (
     <nav aria-label="Navegar entre dias do devocional" className="flex items-center justify-between gap-3">
       <button type="button" onClick={() => moveDay(-1)} disabled={!neighborDate(selectedDate, -1)} className="inline-flex min-h-11 items-center gap-2 rounded-lg border border-white/15 bg-[#202020] px-4 py-2 text-sm text-zinc-200 transition hover:border-[#b79e68] disabled:cursor-not-allowed disabled:opacity-35 focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#b79e68]">
@@ -207,9 +217,12 @@ const WeeklyDevotional: React.FC = () => {
         <section className="mt-7" aria-live="polite" aria-label={`Devocional de ${selectedDay}, ${shortDate(selectedDate)}`}>
           <div className="mb-5 flex flex-wrap items-center justify-between gap-3">
             {dayNavigation}
+            <div className="flex flex-wrap items-center gap-2">
+            <button type="button" onClick={copyDevotionalLink} className="inline-flex min-h-11 items-center gap-2 rounded-lg border border-white/15 px-3 py-2 text-sm text-zinc-200 hover:bg-white/5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#b79e68]"><Copy className="h-4 w-4" /> Copiar link</button>
             <button type="button" onClick={shareDevotional} disabled={shareBusy} className="inline-flex min-h-11 items-center gap-2 rounded-lg border border-[#b79e68]/40 px-4 py-2 text-sm font-semibold text-[#e4d2a6] hover:bg-[#b79e68]/10 disabled:opacity-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#b79e68]">
               <Share2 className="h-4 w-4" /> Compartilhar devocional
             </button>
+            </div>
           </div>
           {devotional ? (
             <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(280px,380px)]">
