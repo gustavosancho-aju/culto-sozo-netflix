@@ -1325,7 +1325,391 @@ export const october2026Weeks: DevotionalWeek[] = [
       }
     }
   },
-  { number: 3, startsOn: '2026-10-19', seriesId: 'aprovados-2026', devotionals: {} },
+  {
+    "number": 3,
+    "startsOn": "2026-10-19",
+    "seriesId": "aprovados-2026",
+    "theme": "Aprovados",
+    "devotionals": {
+      "2026-10-19": {
+        "format": "document",
+        "label": "APROVADOS — DEVOCIONAL | SEMANA 3 — DIA 1",
+        "title": "QUANDO VOCÊ NÃO CONSEGUE RECEBER O QUE DEUS COLOCA DIANTE DE VOCÊ",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“Acaso não sou eu um benjamita, da menor das tribos de Israel, e não é o meu clã o menos importante de todos os clãs da tribo de Benjamim? Por que então estás me dizendo tudo isso?” 1 Samuel 9:21"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Você já recebeu um elogio e, em vez de simplesmente agradecer, sentiu necessidade de diminuir aquilo que fez?",
+              "Alguém diz que você realizou um excelente trabalho, e sua resposta é: “Imagina, nem ficou tão bom assim.”",
+              "Alguém reconhece uma qualidade sua, e você imediatamente aponta um defeito.",
+              "Alguém demonstra confiança em sua capacidade, e você começa a explicar por que talvez não seja a pessoa mais indicada.",
+              "Mas existe uma pergunta que raramente fazemos: Por que, às vezes, temos tanta dificuldade de receber algo bom a nosso respeito?"
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Quando Samuel começou a falar com Saul sobre o futuro que estava diante dele, Saul respondeu mencionando sua origem e a posição de sua família.",
+              "Não sabemos exatamente o que ele sentiu naquele momento. Sua resposta pode ter sido uma expressão sincera de humildade ou surpresa.",
+              "Mas essa passagem nos permite examinar uma dificuldade que muitas pessoas experimentam: receber algo que não combina com a maneira como aprenderam a se enxergar.",
+              "Pense em uma pessoa que passou muitos anos tentando conquistar o reconhecimento do pai. Ela estudava, esforçava-se, procurava fazer tudo corretamente, mas quase nunca recebia uma palavra de aprovação. Quando alcançava alguma coisa, ouvia apenas o que ainda poderia ter feito melhor. Com o tempo, começou a acreditar que precisava realizar algo extraordinário para merecer reconhecimento. Anos depois, essa pessoa constrói uma carreira, desenvolve habilidades e começa a receber elogios sinceros.",
+              "Mas existe um problema. Ela não consegue descansar em nenhuma conquista. Quando alguém reconhece seu trabalho, pensa que aquela pessoa ainda não percebeu suas limitações. Quando recebe uma nova responsabilidade, sente que precisa provar, mais uma vez, que merece estar ali. E, quando comete um erro, interpreta aquilo como confirmação de que nunca foi realmente capaz. Ela não está apenas tentando fazer bem o seu trabalho. Está tentando resolver, por meio do desempenho, uma questão antiga sobre seu próprio valor.",
+              "E aqui existe algo que precisamos compreender.",
+              "Às vezes, aquilo que chamamos de humildade pode esconder uma dificuldade de reconhecer o que existe de bom em nós.",
+              "É claro que humildade envolve reconhecer nossas limitações.",
+              "Mas também envolve reconhecer, sem orgulho e sem constrangimento, aquilo que Deus nos permitiu desenvolver.",
+              "Humildade não é negar nossas capacidades. É reconhecer que elas não nos tornam superiores a ninguém.",
+              "Uma pessoa pode ser humilde e reconhecer que sabe ensinar. Pode ser humilde e admitir que possui capacidade para liderar. Pode ser humilde e receber um elogio sem precisar imediatamente diminuir a si mesma.",
+              "O problema começa quando confundimos desvalorização com humildade.",
+              "E essa confusão pode produzir consequências importantes.",
+              "Porque, quando alguém não consegue reconhecer seu próprio valor, pode começar a depender excessivamente de outras pessoas para confirmá-lo.",
+              "Um elogio produz alívio.",
+              "Uma crítica provoca insegurança.",
+              "Um reconhecimento traz entusiasmo.",
+              "A ausência de reconhecimento desperta dúvidas.",
+              "A pessoa passa a viver emocionalmente dependente de avaliações que mudam o tempo inteiro.",
+              "E talvez você reconheça algo semelhante em sua própria vida.",
+              "Você consegue celebrar uma conquista ou imediatamente começa a pensar na próxima coisa que precisa realizar?",
+              "Consegue receber uma demonstração de amor ou sente que precisa fazer alguma coisa para merecê-la?",
+              "Consegue reconhecer suas capacidades ou acredita que isso seria arrogância?",
+              "Existe uma diferença entre desejar crescer e viver permanentemente tentando provar que possui valor.",
+              "O crescimento saudável nasce do reconhecimento de que ainda podemos amadurecer.",
+              "A necessidade constante de provar nosso valor pode nascer da crença de que, enquanto não formos suficientemente bons, não mereceremos ser aceitos.",
+              "E aqui está uma verdade importante: Você não precisa negar aquilo que Deus desenvolveu em sua vida para continuar sendo uma pessoa humilde.",
+              "Talvez seu processo de cura envolva aprender a receber. Receber uma palavra de reconhecimento sem desqualificá-la. Receber uma oportunidade sem começar imediatamente a procurar motivos pelos quais não a merece. Receber uma correção sem concluir que todo o seu valor foi colocado em questão. E receber o amor de Deus sem transformá-lo em mais uma recompensa que precisa conquistar por desempenho.",
+              "A história de Saul nos convida a observar como nos posicionamos diante daquilo que recebemos.",
+              "Porque uma identidade que ainda depende excessivamente da aprovação pode encontrar dificuldade tanto para receber reconhecimento quanto para lidar com sua ausência.",
+              "O problema não está em desejar ser reconhecido. Está em precisar desse reconhecimento para conseguir acreditar que possui valor.",
+              "Talvez hoje Deus esteja mostrando que você não precisa continuar vivendo como alguém que precisa convencer o mundo inteiro de que merece ocupar um lugar.",
+              "Você pode reconhecer suas limitações, continuar aprendendo e, ao mesmo tempo, receber com gratidão aquilo que lhe foi confiado."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Quando alguém reconhece uma qualidade minha, consigo receber esse reconhecimento ou sinto necessidade de diminuir aquilo que fiz?",
+              "Existe alguma área da minha vida em que continuo tentando provar meu valor para alguém, mesmo que essa pessoa já não esteja presente?",
+              "Quando cometo um erro, consigo reconhecer uma atitude que precisa ser corrigida ou começo a questionar todo o meu valor como pessoa?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "Hoje, observe como você reage quando recebe algo positivo: um elogio, um agradecimento, uma demonstração de carinho ou uma oportunidade. Se perceber vontade de diminuir aquilo que recebeu, faça uma pausa.",
+              "Em vez de responder automaticamente “Não foi nada”, experimente simplesmente dizer: “Muito obrigado. Fico feliz por isso.”",
+              "Depois, reserve alguns minutos e escreva: “O que eu sinto quando alguém reconhece algo bom em mim?” “Por que receber esse reconhecimento pode ser desconfortável?”. “O que preciso aprender sobre meu valor para não depender constantemente da confirmação das pessoas?”",
+              "O objetivo não é alimentar orgulho. É começar a reconhecer que você pode receber algo bom sem precisar desmerecer a si mesmo."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Senhor, mostra-me se tenho confundido humildade com desvalorização.",
+              "Revela as experiências que me ensinaram a acreditar que preciso provar constantemente meu valor.",
+              "Eu não quero viver dependendo da aprovação das pessoas para reconhecer quem sou.",
+              "Ensina-me a receber com gratidão aquilo que o Senhor tem colocado em minha vida, sem orgulho, mas também sem rejeitar minhas capacidades.",
+              "Cura a necessidade de desempenho que tem governado minhas escolhas e fortalece minha identidade em Ti.",
+              "Que eu aprenda a reconhecer aquilo que ainda precisa amadurecer, sem desprezar aquilo que o Senhor já desenvolveu em mim.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "HUMILDADE NÃO É DIMINUIR QUEM EU SOU. É RECONHECER, SEM ORGULHO E SEM MEDO, AQUILO QUE DEUS ESTÁ CONSTRUINDO EM MIM."
+            ]
+          }
+        ]
+      },
+      "2026-10-20": {
+        "format": "document",
+        "label": "APROVADOS — DEVOCIONAL | SEMANA 3 — DIA 2",
+        "title": "QUANDO O MEDO SE DISFARÇA DE NECESSIDADE",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“Ele esperou sete dias, o prazo estabelecido por Samuel; Samuel, porém, não chegou a Gilgal, e os soldados de Saul começaram a se dispersar.” (1 Samuel 13:8)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Você já tomou uma decisão dizendo que não tinha outra escolha, mas depois percebeu que, na verdade, tinha medo das consequências de agir de maneira diferente?",
+              "Talvez tenha aceitado uma responsabilidade que sabia não ter condições de assumir, apenas para não decepcionar alguém. Ou tenha escondido uma verdade porque não queria enfrentar uma discussão. Em outras situações, pode ter tomado uma decisão precipitada simplesmente porque não conseguia suportar a sensação de estar perdendo o controle.",
+              "Naquele momento, tudo parecia urgente, e agir daquela maneira parecia ser a única saída possível. Mas, quando a situação passou, talvez você tenha percebido que existiam outras alternativas que nem chegou a considerar.",
+              "E aqui está uma pergunta importante: será que aquela situação realmente exigia uma decisão imediata ou era o seu medo das consequências que estava determinando o que você deveria fazer?"
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Saul estava diante de uma situação difícil. Os filisteus representavam uma ameaça, seus soldados estavam amedrontados e muitos começavam a abandoná-lo. Samuel ainda não havia chegado e, diante daquela pressão, Saul decidiu oferecer o sacrifício sem esperar pelo profeta. Quando foi confrontado, apresentou suas razões: o exército estava diminuindo, o inimigo se aproximava e a situação parecia exigir uma resposta imediata.",
+              "Mas existe algo importante nessa história. Saul não estava apenas tentando resolver um problema externo. Ele também estava tentando aliviar a pressão que aquela situação produzia dentro dele. E isso nos leva a uma reflexão sobre nossas próprias decisões, porque, às vezes, acreditamos que estamos agindo para resolver determinada situação, quando, na verdade, estamos tentando nos livrar rapidamente de um sentimento desconfortável.",
+              "Imagine alguém que envia uma mensagem importante e não recebe resposta. Passam-se alguns minutos, depois algumas horas, e a pessoa começa a pensar que fez alguma coisa errada, que está sendo ignorada ou que o relacionamento está mudando. Então envia outra mensagem, depois mais uma, até que decide cobrar uma explicação. Quando finalmente recebe uma resposta, descobre que a outra pessoa estava apenas ocupada. O problema não era necessariamente a ausência de resposta, mas a dificuldade de permanecer diante de uma incerteza sem tentar controlá-la imediatamente.",
+              "Perceba como esse mecanismo funciona. A pessoa sente medo de ser ignorada, esse medo produz desconforto e o desconforto cria uma sensação de urgência que parece exigir alguma atitude. Nesse momento, ela acredita que precisa agir imediatamente, quando talvez precise apenas aprender a lidar com a espera. O sentimento começa a ser tratado como se fosse uma ordem, e não como algo que precisa ser compreendido.",
+              "Esse mesmo funcionamento pode aparecer em diferentes áreas da nossa vida. Uma mãe percebe que o filho está enfrentando uma dificuldade e imediatamente tenta resolver tudo por ele. Acredita que está apenas cuidando, mas talvez também esteja tentando aliviar a própria ansiedade de vê-lo enfrentar algo difícil. Um profissional recebe uma crítica e começa a apresentar inúmeras explicações. Acredita que está esclarecendo os fatos, mas talvez esteja tentando impedir que alguém forme uma opinião negativa sobre ele. Da mesma maneira, uma pessoa percebe que alguém está contrariado e imediatamente muda sua decisão. Acredita que está preservando a paz, mas talvez esteja tentando evitar o desconforto de não ser aprovada.",
+              "Esses exemplos revelam algo que precisamos examinar com atenção: nem toda decisão tomada para produzir alívio é uma decisão tomada com sabedoria. Quando não aprendemos a lidar com determinados sentimentos, podemos começar a organizar nossas escolhas em torno da necessidade de não experimentá-los. Fazemos qualquer coisa para não sentir rejeição, cedemos para não enfrentar conflitos, tentamos controlar situações para não experimentar insegurança e respondemos precipitadamente porque temos dificuldade de suportar a espera.",
+              "E, sem perceber, passamos a chamar de necessidade aquilo que muitas vezes é apenas uma tentativa de escapar do desconforto emocional. Isso não significa que toda urgência seja falsa ou que devemos permanecer passivos diante dos problemas. Existem situações que realmente exigem decisões imediatas. Entretanto, a maturidade envolve aprender a distinguir a urgência real de uma situação da urgência que sentimos dentro de nós.",
+              "Nem tudo o que provoca ansiedade precisa ser resolvido naquele instante. Nem toda discordância precisa ser encerrada imediatamente, assim como nem toda incerteza exige uma resposta. E, principalmente, nem toda possibilidade de desagradar alguém significa que precisamos abandonar nossas convicções. Às vezes, a decisão mais madura não é fazer alguma coisa rapidamente, mas conseguir permanecer firme enquanto o desconforto ainda está presente.",
+              "Saul não precisava ignorar a ameaça dos filisteus, mas precisava permanecer fiel à orientação que havia recebido, mesmo diante da pressão. Da mesma maneira, você não precisa negar seus sentimentos nem fingir que determinadas situações não o afetam. Precisa, porém, aprender a reconhecê-los sem permitir que determinem automaticamente suas escolhas. Afinal, sentir medo, ansiedade ou insegurança não significa que esses sentimentos precisam assumir o governo da sua vida.",
+              "Talvez hoje exista alguma situação que você esteja tentando resolver a qualquer custo. Antes de tomar sua próxima decisão, experimente perguntar: “Eu realmente preciso agir agora ou estou tentando fazer desaparecer um sentimento que ainda não aprendi a administrar?” Essa pergunta pode revelar motivações que você ainda não havia percebido e ajudá-lo a reconhecer se suas atitudes estão sendo conduzidas por seus princípios ou pela necessidade de encontrar alívio imediato.",
+              "Porque, muitas vezes, o primeiro sinal de maturidade não é conseguir mudar imediatamente aquilo que está acontecendo ao nosso redor, mas deixar de ser governado pela urgência que essa situação desperta dentro de nós."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Quando me sinto inseguro, rejeitado ou contrariado, costumo tomar decisões precipitadas apenas para aliviar o desconforto?",
+              "Existe alguma situação em que tenho dito “não tenho outra escolha”, quando, na verdade, tenho medo de enfrentar as consequências de uma decisão diferente?",
+              "Qual sentimento tenho mais dificuldade de suportar sem tentar controlar imediatamente a situação: medo, ansiedade, rejeição, frustração ou incerteza?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "Hoje, observe uma situação que desperte em você a necessidade de agir imediatamente.",
+              "Antes de tomar uma decisão, faça uma pausa e responda:",
+              "“O que realmente está acontecendo?”",
+              "“O que estou sentindo diante disso?”",
+              "“Minha decisão pretende resolver o problema ou apenas aliviar o que estou sentindo?”",
+              "Se não houver uma urgência real, permita-se esperar um pouco antes de responder. Não se trata de adiar responsabilidades ou evitar conversas necessárias. Trata-se de aprender que você pode sentir desconforto sem precisar obedecer imediatamente a ele."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Senhor, mostra-me onde o medo tem se apresentado como necessidade e influenciado minhas decisões.",
+              "Revela as situações em que tenho agido precipitadamente porque não consigo suportar a espera, a incerteza ou a possibilidade de desagradar alguém.",
+              "Ensina-me a reconhecer meus sentimentos sem entregar a eles o governo da minha vida.",
+              "Dá-me discernimento para identificar quando preciso agir e quando preciso permanecer firme.",
+              "Que minhas decisões sejam conduzidas pela Tua verdade e pelos princípios que estou aprendendo a viver, e não apenas pela necessidade de aliviar aquilo que sinto.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "NEM TUDO O QUE ME CAUSA DESCONFORTO EXIGE UMA RESPOSTA IMEDIATA. ÀS VEZES, O QUE PRECISA MUDAR NÃO É A SITUAÇÃO, MAS A MANEIRA COMO EU REAJO A ELA."
+            ]
+          }
+        ]
+      },
+      "2026-10-21": {
+        "format": "document",
+        "label": "APROVADOS — DEVOCIONAL | SEMANA 3 — DIA 3",
+        "title": "QUANDO A CONQUISTA DO OUTRO DESPERTA ALGO EM VOCÊ",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“Daí em diante Saul olhava com inveja para Davi.” (1 Samuel 18:9)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Você já percebeu que consegue admirar uma pessoa até o momento em que ela conquista algo que você também gostaria de ter?",
+              "Talvez seja alguém próximo que recebeu uma promoção, construiu um relacionamento, conquistou reconhecimento ou alcançou uma oportunidade pela qual você esperava há muito tempo. Você sabe que deveria ficar feliz e até consegue parabenizá-la, mas, quando fica sozinho, começa a experimentar um desconforto que não sabe explicar.",
+              "Talvez venha um pensamento como: “Por que aconteceu com ela e não comigo?” Ou, de maneira ainda mais silenciosa: “Será que eu não sou tão bom quanto pensava?”",
+              "O mais interessante é que aquela pessoa não fez necessariamente nada contra você. Ela apenas conquistou alguma coisa. Entretanto, a conquista dela parece ter despertado uma dúvida sobre o seu próprio valor.",
+              "E se aquilo que está incomodando você não for exatamente o que o outro conquistou, mas o significado que essa conquista passou a ter sobre quem você acredita ser?"
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "A história de Saul apresenta uma mudança importante na maneira como ele passou a enxergar Davi. Depois da vitória sobre Golias, o povo começou a celebrar os feitos dos dois homens, atribuindo a Davi um reconhecimento maior. Saul continuava sendo rei, sua posição não havia sido retirada e Davi não havia exigido seu trono. Entretanto, a Bíblia registra que, daquele momento em diante, Saul passou a olhar para Davi com inveja.",
+              "Existe algo profundamente revelador nessa mudança. O reconhecimento recebido por Davi não alterou imediatamente a posição de Saul, mas alterou a maneira como Saul passou a interpretar a presença de Davi. Alguém que poderia ser reconhecido como um aliado começou a ser visto como uma ameaça. E essa história nos ajuda a compreender um funcionamento interior que nem sempre conseguimos perceber em nós mesmos.",
+              "Imagine duas amigas que compartilham sonhos semelhantes. Durante muito tempo, elas conversam sobre seus projetos, incentivam uma à outra e celebram pequenas conquistas. Entretanto, uma delas consegue realizar primeiro aquilo que as duas desejavam. A outra a parabeniza sinceramente, mas, nos dias seguintes, começa a sentir certo desconforto. Passa a evitar conversas sobre aquela conquista, sente-se incomodada quando outras pessoas elogiam a amiga e começa a reparar em defeitos que antes não pareciam importantes.",
+              "O que aconteceu? Talvez a amizade não tenha mudado. Talvez a conquista da amiga tenha despertado uma comparação que até então não havia sido percebida.",
+              "E aqui existe uma questão importante: a comparação nem sempre começa com o desejo de possuir aquilo que o outro tem. Às vezes, começa com o medo de que aquilo que o outro conquistou revele alguma insuficiência em nós.",
+              "Quando isso acontece, deixamos de olhar para a conquista como parte da história daquela pessoa e começamos a utilizá-la como medida da nossa própria vida. Se ela avançou, sentimos que estamos atrasados. Se ela foi reconhecida, começamos a questionar por que não fomos. Se ela recebeu uma oportunidade, interpretamos nossa espera como sinal de que somos menos capazes.",
+              "Perceba como esse processo pode ser perigoso. A conquista do outro passa a funcionar como uma avaliação sobre nós, mesmo quando ninguém está nos avaliando. E, quanto mais permitimos que isso aconteça, mais difícil se torna celebrar sinceramente aquilo que as pessoas ao nosso redor estão vivendo.",
+              "Mas precisamos aprofundar essa questão. Nem sempre a comparação revela apenas inveja. Às vezes, ela expõe uma frustração que ainda não reconhecemos.",
+              "Uma mulher pode sentir desconforto ao ver outra pessoa vivendo um casamento saudável porque seu próprio relacionamento atravessa dificuldades. Alguém pode se incomodar com o crescimento profissional de um colega porque está frustrado com a estagnação da própria carreira. Uma pessoa pode ter dificuldade de celebrar a conquista de um amigo porque sente que seus esforços nunca são reconhecidos.",
+              "Nessas situações, o sentimento não deve ser automaticamente condenado, mas precisa ser compreendido. Existe uma diferença entre reconhecer a tristeza por algo que ainda não vivemos e transformar a conquista de outra pessoa em motivo de ressentimento. O problema não é perceber que também desejamos alguma coisa. O problema começa quando nossa frustração nos impede de reconhecer o valor daquilo que o outro recebeu.",
+              "E talvez exista algo ainda mais profundo.",
+              "Quando uma pessoa constrói sua identidade sobre a necessidade de ser especial, admirada ou reconhecida, o crescimento de alguém próximo pode provocar uma sensação de ameaça. Não porque exista uma competição real, mas porque, interiormente, ela aprendeu a acreditar que só possui valor enquanto consegue se destacar. É como se o reconhecimento fosse um espaço limitado: se alguém recebe mais, necessariamente sobra menos para ela.",
+              "Mas será que o valor de uma pessoa diminui porque outra também possui capacidades? Será que a conquista de alguém elimina tudo o que já construímos? Será que precisamos ocupar sempre o primeiro lugar para reconhecer que nossa vida possui significado?",
+              "Uma identidade amadurecida não precisa diminuir o outro para continuar reconhecendo seu próprio valor.",
+              "E existe outra consequência da comparação que merece nossa atenção: ela pode começar a modificar a maneira como interpretamos as intenções das pessoas. Aquele colega que antes parecia dedicado passa a ser visto como alguém que deseja aparecer. A amiga que compartilha uma conquista começa a ser interpretada como exibida. A pessoa que recebe reconhecimento passa a ser considerada arrogante, mesmo sem ter mudado seu comportamento.",
+              "É claro que existem situações reais de arrogância, injustiça e competição. Mas precisamos aprender a distinguir os fatos daquilo que nossa insegurança acrescenta à interpretação. Porque quando a comparação não é reconhecida, podemos começar a atribuir ao outro intenções que nasceram dentro da nossa própria insegurança.",
+              "Foi justamente essa mudança de percepção que marcou a relação de Saul com Davi. O jovem que havia contribuído para uma grande vitória de Israel começou a ser visto pelo rei como alguém perigoso.",
+              "Talvez hoje você precise examinar se existe alguma pessoa que passou a incomodá-lo depois de receber reconhecimento, conquistar algo importante ou desenvolver capacidades que você também gostaria de possuir.",
+              "Antes de concluir que essa pessoa mudou, pergunte a si mesmo: “O que a conquista dela despertou em mim que eu ainda não consegui reconhecer?” Talvez você descubra uma frustração que precisa ser acolhida, uma insegurança que precisa ser tratada ou uma expectativa que precisa ser reorganizada.",
+              "Reconhecer isso não diminui você. Pelo contrário, abre espaço para que aquilo que estava escondido deixe de governar suas atitudes.",
+              "A maturidade não consiste em nunca experimentar comparação, mas em reconhecer quando ela aparece e não permitir que transforme pessoas em adversárias apenas porque elas estão vivendo algo que também desejamos."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Existe alguma pessoa cuja conquista ou reconhecimento desperta em mim um desconforto que tenho dificuldade de admitir? O que exatamente me incomoda?",
+              "Quando alguém alcança algo que eu também desejo, consigo separar a alegria pela conquista dessa pessoa da frustração que sinto em relação à minha própria vida?",
+              "Já comecei a interpretar negativamente as atitudes de alguém depois que essa pessoa cresceu, recebeu reconhecimento ou passou a ocupar um lugar que eu gostaria de ocupar?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "Hoje, pense em uma pessoa cuja conquista tenha despertado algum tipo de comparação em você. Não procure justificar nem condenar imediatamente aquilo que sentiu. Apenas reconheça o sentimento com sinceridade.",
+              "Depois, escreva:",
+              "“Quando essa pessoa conquistou __________, eu senti __________.”",
+              "“A interpretação que fiz sobre mim foi __________.”",
+              "“Mas a conquista dessa pessoa não significa necessariamente que __________.”",
+              "Por exemplo: “Quando minha colega foi promovida, senti frustração. Interpretei que não sou suficientemente competente. Mas a promoção dela não significa necessariamente que eu não tenha capacidade ou que meu trabalho não possua valor.”",
+              "Em seguida, pergunte-se se existe alguma atitude que você precisa corrigir em relação a essa pessoa. Talvez seja deixar de fazer comentários negativos, abandonar uma comparação constante ou voltar a reconhecer sinceramente suas qualidades.",
+              "Você pode reconhecer aquilo que ainda deseja conquistar sem transformar em inimigo quem já chegou aonde você gostaria de estar."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Senhor, revela aquilo que acontece dentro de mim quando outras pessoas recebem reconhecimento, conquistam oportunidades ou vivem experiências que eu também desejo.",
+              "Mostra-me se existem inseguranças, frustrações ou sentimentos de inferioridade influenciando a maneira como enxergo as pessoas ao meu redor.",
+              "Eu não quero transformar a conquista de alguém em uma sentença sobre meu próprio valor. Também não quero permitir que a comparação produza inveja, ressentimento ou desconfiança em meus relacionamentos.",
+              "Ensina-me a reconhecer com sinceridade aquilo que ainda desejo viver, sem deixar de celebrar o bem que acontece na vida de outras pessoas.",
+              "Cura em mim a necessidade de competir para me sentir importante e fortalece uma identidade que não dependa de ser maior, melhor ou mais reconhecida do que alguém.",
+              "Que eu aprenda a valorizar minha própria caminhada sem desprezar a caminhada do outro.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "A CONQUISTA DO OUTRO NÃO É UMA MEDIDA DO MEU VALOR. EU POSSO CELEBRAR O CRESCIMENTO DE ALGUÉM SEM TRANSFORMAR MINHA PRÓPRIA HISTÓRIA EM UMA DERROTA."
+            ]
+          }
+        ]
+      },
+      "2026-10-22": {
+        "format": "document",
+        "label": "APROVADOS — DEVOCIONAL | SEMANA 3 — DIA 4",
+        "title": "QUANDO VOCÊ COMEÇA A REAGIR AO QUE IMAGINA",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“Daí em diante Saul olhava com inveja para Davi.” (1 Samuel 18:9)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Você já ficou magoado com alguém por uma situação que, depois, descobriu não ter acontecido exatamente como imaginava?",
+              "Talvez uma pessoa tenha passado por você sem cumprimentá-lo, e você concluiu que ela estava chateada. Ou alguém respondeu a uma mensagem de maneira mais breve, e você interpretou aquilo como frieza. Em outras situações, pode ter percebido duas pessoas conversando e imaginado que estavam falando a seu respeito.",
+              "O interessante é que, mesmo sem ter certeza do que estava acontecendo, você começou a sentir algo verdadeiro: tristeza, raiva, insegurança ou rejeição. E, dependendo da intensidade desses sentimentos, talvez tenha mudado a maneira de tratar aquela pessoa.",
+              "Mas será que você estava reagindo ao que realmente aconteceu ou ao significado que você atribuiu àquela situação?"
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "A história de Saul apresenta uma transformação preocupante na maneira como ele passou a enxergar Davi. Depois de ouvir o reconhecimento que o povo atribuía ao jovem, Saul começou a considerá-lo uma ameaça ao seu reino. A partir daquele momento, sua relação com Davi foi marcada por desconfiança, hostilidade e, posteriormente, tentativas de tirar-lhe a vida.",
+              "O que torna essa história especialmente importante para nosso crescimento é perceber que a maneira como Saul interpretava Davi passou a influenciar diretamente a maneira como o tratava. Aquilo que começou como uma percepção de ameaça não permaneceu apenas em seus pensamentos. Com o tempo, começou a aparecer em suas atitudes e decisões.",
+              "E aqui existe algo que precisamos compreender sobre o funcionamento da nossa vida interior: nem sempre reagimos apenas aos acontecimentos. Muitas vezes, reagimos à interpretação que fazemos deles.",
+              "Imagine uma mulher que chega em casa e percebe que seu marido está mais silencioso do que de costume. Ele teve um dia difícil no trabalho, mas ainda não comentou sobre isso. Ela, entretanto, começa a pensar que ele está insatisfeito com alguma coisa no relacionamento. Lembra-se de uma conversa que tiveram dias antes e conclui que talvez ele ainda esteja chateado.",
+              "Pouco tempo depois, ela também começa a ficar em silêncio. Quando o marido pergunta se está tudo bem, responde de maneira fria. Ele não entende o que aconteceu, e uma tensão começa a se formar entre os dois. Observe que, até aquele momento, o silêncio do marido era um fato. Mas a conclusão de que ele estava insatisfeito com o relacionamento era uma interpretação. E foi essa interpretação, não necessariamente o comportamento real do marido, que começou a determinar a reação dela.",
+              "Isso acontece com mais frequência do que imaginamos, especialmente quando determinadas situações encontram inseguranças que ainda não reconhecemos.",
+              "Uma pessoa que teme ser rejeitada pode interpretar uma ausência de resposta como desinteresse. Alguém que possui dificuldade de confiar pode enxergar segundas intenções em atitudes comuns. Uma pessoa que se sente constantemente desvalorizada pode interpretar uma sugestão como crítica ou uma discordância como tentativa de diminuí-la.",
+              "É importante perceber que os sentimentos despertados nessas situações são reais. A tristeza é verdadeira, a raiva é verdadeira e o medo também pode ser verdadeiro. Mas o fato de um sentimento ser verdadeiro não significa que a interpretação que o produziu esteja necessariamente correta.",
+              "Essa distinção é fundamental para nosso amadurecimento.",
+              "Às vezes, dizemos: “Eu senti que ela estava me desprezando.” E, porque sentimos aquilo com muita intensidade, começamos a tratar essa percepção como uma certeza. Mas sentir-se desprezado não é a mesma coisa que ter sido desprezado. Sentir-se ameaçado não significa necessariamente que alguém esteja tentando nos prejudicar. E sentir que estamos sendo rejeitados não prova, por si só, que essa seja a intenção da outra pessoa.",
+              "Isso não significa ignorar comportamentos realmente desrespeitosos, negar situações de manipulação ou deixar de reconhecer sinais concretos de deslealdade. Significa desenvolver maturidade para distinguir aquilo que observamos daquilo que concluímos a partir do que observamos.",
+              "E existe algo ainda mais profundo nesse processo.",
+              "Quando uma interpretação não é examinada, podemos começar a procurar evidências que confirmem aquilo que já acreditamos.",
+              "Se concluímos que alguém não gosta de nós, passamos a observar principalmente suas atitudes negativas. Se acreditamos que determinada pessoa deseja nos prejudicar, começamos a interpretar suas decisões a partir dessa suspeita. Se pensamos que estamos sendo desvalorizados, até comportamentos neutros podem parecer confirmações dessa ideia.",
+              "A partir desse momento, deixamos de observar a pessoa como ela realmente se apresenta e começamos a enxergá-la através da conclusão que já construímos sobre ela.",
+              "E isso pode comprometer profundamente nossos relacionamentos.",
+              "Uma amizade pode esfriar por causa de uma intenção que nunca existiu. Um casamento pode acumular conflitos porque os dois passaram a reagir às próprias suposições. Uma equipe pode desenvolver desconfiança porque determinadas atitudes começaram a ser interpretadas como disputas de poder.",
+              "Na história de Saul, essa dinâmica assumiu proporções graves. Sua desconfiança em relação a Davi cresceu a ponto de comprometer também sua relação com pessoas que tentavam ajudá-lo a enxergar a situação de outra maneira. Jônatas, seu próprio filho, chegou a defender Davi diante dele, lembrando que o jovem não havia cometido nenhum mal contra o rei. Mas Saul continuou permitindo que sua percepção de ameaça influenciasse suas atitudes.",
+              "Isso nos ensina que uma interpretação não examinada pode se tornar tão dominante que começamos a rejeitar até informações que poderiam nos ajudar a enxergar a realidade com mais clareza.",
+              "Talvez hoje exista alguém em sua vida cuja atitude você esteja interpretando de maneira negativa. Antes de concluir que essa pessoa deseja prejudicá-lo, rejeitá-lo ou diminuí-lo, experimente fazer uma pergunta:",
+              "“O que eu realmente sei sobre essa situação e o que estou apenas supondo?”",
+              "Essa pergunta não elimina a necessidade de conversar, estabelecer limites ou enfrentar problemas reais. Pelo contrário, ajuda-nos a fazer tudo isso a partir de uma compreensão mais clara da realidade. Porque uma pessoa madura não é aquela que nunca sente insegurança ou desconfiança. É aquela que aprende a não transformar automaticamente esses sentimentos em acusações, julgamentos ou atitudes contra os outros.",
+              "Nem tudo o que pensamos sobre alguém corresponde ao que essa pessoa realmente é. E nem tudo o que sentimos diante de uma situação revela, com precisão, o que está acontecendo. Às vezes, o primeiro passo para restaurar um relacionamento não é exigir que o outro mude. É reconhecer que talvez precisemos examinar a maneira como estamos interpretando suas atitudes."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Existe alguma pessoa que comecei a tratar de maneira diferente por causa de uma intenção que atribuí a ela, mas que nunca foi realmente esclarecida?",
+              "Quando me sinto rejeitado, ameaçado ou desvalorizado, costumo buscar compreender o que aconteceu ou rapidamente transformo minhas interpretações em certezas?",
+              "Tenho permitido que experiências anteriores influenciem a maneira como interpreto pessoas que não tiveram participação naquilo que vivi?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "Hoje, escolha uma situação recente em que você tenha se sentido magoado, rejeitado, ameaçado ou desvalorizado por alguém.",
+              "Em uma folha, divida sua reflexão em três partes:",
+              "1. O QUE REALMENTE ACONTECEU?",
+              "Descreva apenas os fatos que você observou, sem acrescentar intenções que não foram confirmadas.",
+              "2. O QUE EU INTERPRETEI?",
+              "Escreva o significado que atribuiu àquela situação. Por exemplo: “Ela não respondeu à minha mensagem porque não se importa comigo.”",
+              "3. O QUE EU AINDA PRECISO ESCLARECER?",
+              "Pergunte se existem outras explicações possíveis e se uma conversa respeitosa poderia ajudá-lo a compreender melhor o que aconteceu.",
+              "Se perceber que reagiu de maneira injusta, considere corrigir sua atitude. Se identificar um problema real, procure enfrentá-lo com clareza e limites saudáveis.",
+              "O objetivo não é desconfiar dos próprios sentimentos, mas aprender a não transformar toda interpretação em verdade absoluta."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Senhor, mostra-me se existem interpretações equivocadas influenciando a maneira como tenho tratado as pessoas.",
+              "Revela as inseguranças, os medos e as experiências que podem estar interferindo na minha percepção da realidade.",
+              "Eu não quero permitir que minhas suspeitas se transformem em acusações nem que minhas feridas determinem as intenções que atribuo aos outros.",
+              "Ensina-me a distinguir fatos de interpretações, a ouvir antes de concluir e a reconhecer quando preciso rever meus próprios pensamentos.",
+              "Dá-me discernimento para identificar situações que realmente exigem posicionamento, mas também humildade para admitir quando posso estar enxergando algo de maneira equivocada.",
+              "Que minhas atitudes sejam conduzidas pela verdade, e não apenas pelo significado que meus medos atribuem às situações.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "NEM TUDO O QUE SINTO SOBRE UMA SITUAÇÃO CORRESPONDE AO QUE REALMENTE ACONTECEU. ANTES DE REAGIR, PRECISO APRENDER A DISTINGUIR OS FATOS DAS INTERPRETAÇÕES QUE CONSTRUÍ."
+            ]
+          }
+        ]
+      }
+    }
+  },
   { number: 4, startsOn: '2026-10-26', seriesId: 'aprovados-2026', devotionals: {} },
 ];
 
