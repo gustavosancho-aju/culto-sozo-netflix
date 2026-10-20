@@ -1707,6 +1707,348 @@ export const october2026Weeks: DevotionalWeek[] = [
             ]
           }
         ]
+      },
+      "2026-10-23": {
+        "format": "document",
+        "label": "APROVADOS — DEVOCIONAL | SEMANA 3 — DIA 5",
+        "title": "QUANDO VOCÊ PASSA A VIDA TENTANDO PROVAR SEU VALOR",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“Acaso não sou eu um benjamita, da menor das tribos de Israel, e não é o meu clã o menos importante de todos os clãs da tribo de Benjamim? Por que então estás me dizendo tudo isso?” (1 Samuel 9:21)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Você já percebeu que algumas pessoas precisam ser constantemente reconhecidas para se sentirem importantes, enquanto outras têm tanta dificuldade de reconhecer seu próprio valor que se consideram incapazes mesmo quando demonstram competência?",
+              "À primeira vista, esses comportamentos parecem completamente diferentes. Uma pessoa evita responsabilidades porque acredita que não é suficientemente boa. Outra assume responsabilidades excessivas, precisa demonstrar competência o tempo inteiro e se incomoda profundamente quando não recebe reconhecimento. Entretanto, apesar das diferenças, ambas podem estar enfrentando uma questão semelhante: a dificuldade de reconhecer seu valor sem depender da maneira como os outros as enxergam.",
+              "E talvez exista algo ainda mais profundo por trás desses comportamentos. O que acontece com uma criança que cresce sem ouvir de seu pai que é amada, importante, capaz e digna de reconhecimento? Como essa ausência pode influenciar a maneira como ela passa a se enxergar e a se relacionar com as pessoas na vida adulta?"
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Quando Samuel comunicou a Saul aquilo que Deus estava fazendo em sua vida, sua primeira resposta foi mencionar a origem de sua família. Saul lembrou que pertencia à tribo de Benjamim, considerada pequena entre as tribos de Israel, e que seu clã era pouco importante. A Bíblia não esclarece todas as motivações por trás daquela resposta. Ela pode expressar surpresa, humildade ou uma percepção de sua posição social. Também não encontramos no texto qualquer informação que permita afirmar que Saul tenha sofrido rejeição paterna ou ausência de afirmação por parte de seu pai, Quis.",
+              "Entretanto, essa declaração nos oferece um ponto de partida para refletirmos sobre uma questão que atravessa a história de muitas pessoas: a maneira como aprendemos a enxergar nosso próprio valor. Porque existe uma diferença importante entre reconhecer nossas limitações e construir uma identidade marcada pela convicção de que somos inferiores aos outros.",
+              "O sentimento de inferioridade não significa simplesmente reconhecer que alguém possui mais experiência, conhecimento ou habilidade em determinada área. Isso faz parte de uma avaliação saudável da realidade. A inferioridade começa a se tornar um problema quando essas diferenças passam a ser interpretadas como evidências de que somos menos importantes, menos dignos de amor ou menos capazes de ocupar determinados lugares.",
+              "E, para compreender como esse sentimento pode se desenvolver, precisamos olhar para uma das experiências mais importantes na formação da identidade: a maneira como fomos vistos, tratados e afirmados durante a infância.",
+              "Uma criança não nasce sabendo avaliar plenamente seu próprio valor. Ela começa a construir essa percepção também a partir das relações que estabelece com as pessoas responsáveis por seu cuidado. Quando é amada, respeitada, encorajada e reconhecida, recebe experiências que contribuem para a formação de uma identidade mais segura. Mas, quando cresce em um ambiente marcado por críticas constantes, indiferença, comparações ou ausência de reconhecimento, pode começar a desenvolver conclusões negativas sobre si mesma.",
+              "Imagine um menino que passa a infância tentando conquistar a atenção do pai. Ele mostra um desenho, mas o pai está ocupado demais para olhar. Consegue uma boa nota, mas escuta que poderia ter feito melhor. Tenta realizar alguma atividade e recebe críticas pelos erros, enquanto seus esforços raramente são reconhecidos. Talvez esse pai não tenha a intenção de ferir o filho. Pode até trabalhar intensamente para oferecer tudo o que considera necessário à família. Entretanto, aquele menino pode crescer sem experimentar algo fundamental: a segurança de saber que é amado e valorizado não apenas pelo que consegue fazer, mas por quem ele é.",
+              "Com o passar do tempo, essa criança pode começar a construir uma interpretação silenciosa sobre si mesma: “Talvez eu não seja suficientemente bom. Talvez precise fazer mais para ser percebido. Talvez só mereça reconhecimento quando acertar.”",
+              "Essas conclusões não são inevitáveis, e a ausência de afirmação paterna não explica todos os casos de inferioridade. Outras experiências familiares, sociais e relacionais também podem contribuir para esse sentimento. Mas, quando essa ferida se desenvolve, ela pode acompanhar a pessoa por muitos anos, mesmo depois que sua realidade externa muda completamente.",
+              "É aqui que precisamos compreender o que, na perspectiva da cura da alma, podemos chamar de orfandade emocional. Não estamos falando necessariamente de uma criança que cresceu sem pai, mas de alguém que, mesmo tendo um pai fisicamente presente, pode não ter experimentado suficientemente sua presença afetiva, seu encorajamento e sua afirmação.",
+              "A pessoa cresce, amadurece, conquista uma profissão, constitui uma família e assume responsabilidades. Entretanto, em determinadas situações, continua reagindo a partir daquela antiga percepção de insuficiência. O adulto pode ter desenvolvido inúmeras capacidades, mas ainda carregar a necessidade de provar aquilo que não conseguiu acreditar sobre si mesmo.",
+              "E existe algo especialmente importante nessa dinâmica: a inferioridade nem sempre produz comportamentos que parecem inferiores.",
+              "Algumas pessoas desenvolvem uma postura retraída. Evitam desafios, têm dificuldade de se posicionar, sentem-se intimidadas diante de pessoas que admiram e precisam de confirmação constante antes de tomar decisões. Mesmo quando possuem capacidade, acreditam que alguém sempre será melhor ou mais preparado.",
+              "Outras, porém, desenvolvem uma resposta aparentemente oposta. Tornam-se extremamente competitivas, exigentes consigo mesmas, preocupadas com reconhecimento e sensíveis a qualquer situação em que não recebam a valorização esperada. Podem apresentar uma postura de superioridade, não necessariamente porque se considerem verdadeiramente superiores, mas porque a possibilidade de parecerem inferiores desperta um desconforto que não conseguem administrar.",
+              "Pense em um homem que se tornou um profissional respeitado. Ele possui conhecimento, experiência e ocupa uma posição importante. Entretanto, quando alguém questiona uma de suas decisões, reage como se sua competência inteira estivesse sendo colocada em dúvida. Tem dificuldade de admitir erros, sente necessidade de justificar cada atitude e interpreta algumas discordâncias como desrespeito. Talvez ele não esteja apenas defendendo uma decisão. Pode estar tentando proteger uma imagem de competência da qual depende para se sentir valorizado.",
+              "Quando nosso valor está condicionado ao desempenho, qualquer erro pode parecer uma ameaça à nossa identidade.",
+              "Isso ajuda a compreender por que algumas pessoas precisam vencer todas as discussões, demonstrar que sabem mais, controlar determinadas situações ou receber reconhecimento constante. Em alguns casos, esses comportamentos podem funcionar como tentativas de compensar uma percepção interior de insuficiência.",
+              "Mas precisamos ter cuidado: nem toda pessoa competitiva, controladora ou resistente à correção possui uma ferida de rejeição paterna. Comportamentos semelhantes podem ter origens diferentes. O propósito dessa reflexão não é diagnosticar as pessoas ao nosso redor, mas oferecer uma oportunidade de examinarmos nossas próprias motivações.",
+              "E talvez uma das perguntas mais importantes seja esta: “Eu desejo crescer porque reconheço meu valor e minhas responsabilidades ou porque acredito que só terei valor quando conseguir provar alguma coisa?”",
+              "Existe uma diferença profunda entre essas duas motivações. Uma pessoa pode buscar excelência porque deseja desenvolver aquilo que recebeu, contribuir com outras pessoas e cumprir suas responsabilidades. Outra pode buscar exatamente os mesmos resultados porque acredita que, se não for admirada, reconhecida ou considerada indispensável, perderá sua importância.",
+              "Por fora, ambas podem apresentar grandes conquistas. Mas, interiormente, vivem experiências muito diferentes.",
+              "Uma está desenvolvendo suas capacidades. A outra pode estar tentando conquistar, por meio das capacidades, o valor que ainda não conseguiu reconhecer em si mesma.",
+              "E é aqui que precisamos voltar à questão da paternidade.",
+              "Quando uma pessoa cresceu sem receber afirmação suficiente de seu pai, pode passar a procurar essa afirmação em outras figuras de autoridade. Um chefe, um líder, um professor ou até o cônjuge pode acabar ocupando, emocionalmente, o lugar de alguém de quem ela espera ouvir aquilo que desejou escutar durante a infância.",
+              "O problema não está em desejar reconhecimento. Todos precisamos, em alguma medida, ser vistos, respeitados e valorizados. A dificuldade começa quando nossa estabilidade emocional passa a depender continuamente dessa confirmação.",
+              "Porque nenhuma pessoa conseguirá oferecer reconhecimento suficiente para sustentar uma identidade que permanece inteiramente dependente da aprovação externa.",
+              "Enquanto eu precisar que alguém confirme constantemente meu valor, minha segurança continuará vulnerável à opinião dessa pessoa.",
+              "Na perspectiva da fé cristã, a restauração dessa identidade envolve aprender a receber e compreender aquilo que Deus revela sobre nossa condição de filhos. Em Romanos 8:15, Paulo afirma que não recebemos um espírito que nos escravize novamente ao medo, mas o Espírito de adoção, por meio do qual clamamos: “Aba, Pai”.",
+              "Essa verdade não apaga automaticamente as experiências dolorosas da infância, nem significa que todas as consequências emocionais desaparecerão apenas porque conhecemos um versículo. Algumas feridas exigem um processo de reconhecimento, elaboração, perdão quando possível, estabelecimento de limites e reconstrução de crenças profundamente enraizadas.",
+              "Mas a filiação em Deus oferece uma referência fundamental para esse processo: nosso valor diante do Pai não precisa ser conquistado por meio de uma performance permanente.",
+              "Talvez seu pai não tenha reconhecido suas capacidades. Talvez você tenha crescido ouvindo mais críticas do que palavras de encorajamento. Talvez tenha aprendido que precisava acertar sempre para receber atenção ou que demonstrar fragilidade significava decepcionar alguém.",
+              "Você não pode mudar aquilo que deixou de receber naquela fase da vida. Mas pode começar a examinar as conclusões que construiu a partir dessa ausência. Porque o fato de alguém não ter reconhecido seu valor não significa que você não o possuía.",
+              "E aqui existe uma diferença importante entre compreender a origem de uma ferida e continuar vivendo sob seu governo. Reconhecer que a ausência de afirmação paterna pode ter contribuído para sua insegurança não significa que você esteja condenado a repetir os mesmos comportamentos. Essa compreensão pode ajudá-lo a identificar por que determinadas situações despertam reações tão intensas e quais crenças precisam ser revistas.",
+              "Talvez você precise aprender a receber uma correção sem interpretá-la como rejeição. Talvez precise reconhecer a capacidade de outra pessoa sem sentir que a sua está sendo diminuída. Talvez precise admitir um erro sem concluir que perdeu seu valor. Ou talvez precise aceitar uma oportunidade sem acreditar que alguém certamente descobrirá que você não é suficientemente bom.",
+              "A cura da inferioridade não consiste em convencer a si mesmo de que é melhor do que os outros. Consiste em deixar de precisar dessa comparação para reconhecer que possui valor.",
+              "Você pode ter limitações sem ser inferior. Pode precisar aprender sem ser incapaz. Pode ser corrigido sem ser rejeitado. Pode reconhecer o crescimento de alguém sem perder sua importância.",
+              "E, principalmente, pode parar de transformar cada conquista em uma tentativa de provar que merece ser amado.",
+              "Talvez o diagnóstico de hoje revele que, por trás da sua necessidade de reconhecimento, exista uma criança que desejou ouvir de seu pai: “Eu vejo você. Você é importante para mim. Eu me alegro com quem você é.”",
+              "Se essa foi parte da sua história, não é necessário negar a dor nem minimizar aquilo que faltou. Mas também não é preciso permitir que essa ausência continue determinando todas as suas decisões.",
+              "O que você não recebeu em sua história merece ser reconhecido e cuidado. Mas não precisa continuar definindo quem você acredita ser."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Durante minha infância, especialmente na relação com meu pai ou com quem exerceu essa função, eu me sentia valorizado por quem era ou precisava conquistar reconhecimento por meio do meu comportamento e dos meus resultados?",
+              "Quando sou corrigido, contrariado ou não recebo o reconhecimento que esperava, o que isso desperta em mim? Consigo separar uma situação específica do valor que atribuo a mim mesmo?",
+              "Minha necessidade de demonstrar competência, controlar situações, competir ou agradar às pessoas pode estar relacionada ao medo de não ser considerado suficientemente bom?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "Hoje, reserve alguns minutos para refletir sobre as mensagens que você recebeu durante sua formação.",
+              "Complete as seguintes frases com sinceridade:",
+              "“Quando eu era criança, uma das coisas que mais desejava ouvir era...”",
+              "“Por não receber isso, ou por recebê-lo de maneira insuficiente, posso ter começado a acreditar que...”",
+              "“Hoje percebo que essa crença aparece na minha vida quando...”",
+              "Depois, escreva uma verdade que precisa começar a substituir essa antiga conclusão.",
+              "Por exemplo: “Aprendi que precisava acertar sempre para ser valorizado. Hoje quero aprender que posso reconhecer meus erros, desenvolver minhas capacidades e continuar sendo digno de amor e respeito.”",
+              "Se sua experiência com seu pai foi positiva, não tente encontrar uma ferida que não existiu. Utilize a atividade para identificar outras experiências que possam ter influenciado sua percepção de valor.",
+              "Por fim, observe durante o dia uma situação em que você sinta necessidade de provar alguma coisa. Antes de agir, pergunte-se: “Estou fazendo isso porque é necessário e correto ou porque preciso que alguém reconheça meu valor?”",
+              "O objetivo não é abandonar a excelência, mas começar a separar seu valor pessoal dos resultados que consegue alcançar."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Pai, hoje quero permitir que Tua verdade alcance a maneira como aprendi a enxergar a mim mesmo.",
+              "Se existem marcas de rejeição, ausência de reconhecimento ou falta de afirmação na minha história, ajuda-me a reconhecê-las sem negar a dor que produziram.",
+              "Mostra-me se tenho passado a vida tentando conquistar, por meio do desempenho, da aprovação ou do controle, o valor que ainda não consegui reconhecer em mim.",
+              "Eu renuncio à mentira de que preciso ser melhor do que os outros para ser importante e à crença de que meus erros me tornam indigno de amor.",
+              "Ensina-me a receber correção sem me sentir rejeitado, a reconhecer minhas limitações sem me diminuir e a celebrar as conquistas de outras pessoas sem questionar meu próprio valor.",
+              "Que minha identidade seja fortalecida na verdade de que sou Teu filho e que não preciso viver tentando conquistar, todos os dias, o direito de ser amado.",
+              "Conduze-me em um processo verdadeiro de restauração, para que as ausências da minha história não continuem governando minhas atitudes e meus relacionamentos.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "QUANDO EU NÃO RECONHEÇO MEU VALOR, POSSO PASSAR A VIDA TENTANDO PROVÁ-LO. MAS A CURA COMEÇA QUANDO DEIXO DE BUSCAR NOS OUTROS A CONFIRMAÇÃO DA IDENTIDADE QUE PRECISO APRENDER A VIVER COMO FILHO."
+            ]
+          }
+        ]
+      },
+      "2026-10-24": {
+        "format": "document",
+        "label": "APROVADOS — DEVOCIONAL | SEMANA 3 — DIA 6",
+        "title": "QUANDO A SUA HISTÓRIA COMEÇA A JUSTIFICAR SUAS ATITUDES",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“Então Saul disse a Samuel: ‘Pequei! Violei a ordem do Senhor e as tuas instruções. Tive medo dos soldados e lhes atendi.’” (1 Samuel 15:24)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Você já percebeu que algumas pessoas conseguem explicar muito bem por que se comportam de determinada maneira, mas continuam repetindo exatamente os mesmos comportamentos?",
+              "Talvez você conheça alguém que reconhece ser uma pessoa controladora, mas explica que precisa agir assim porque já foi muito decepcionada. Ou alguém que admite ter dificuldade de confiar, mas atribui todas as suas reações às experiências dolorosas que viveu. Em outras situações, a própria pessoa reconhece que suas palavras machucam, mas acredita que seu passado explica suficientemente a maneira como trata os outros.",
+              "Compreender nossa história é importante, especialmente quando existem feridas que ainda precisam de cuidado. Entretanto, existe uma diferença fundamental entre identificar a origem de um comportamento e assumir a responsabilidade por aquilo que fazemos com ele.",
+              "Será que, em algum momento, aquilo que você descobriu sobre sua história deixou de ser uma oportunidade de transformação e começou a funcionar como uma justificativa para continuar agindo da mesma maneira?"
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Quando Samuel confrontou Saul por sua desobediência, o rei inicialmente afirmou que havia cumprido a ordem recebida. Diante da insistência do profeta, apresentou explicações sobre os animais preservados e atribuiu ao povo parte da responsabilidade pelas decisões tomadas. Somente depois reconheceu que havia pecado e admitiu que teve medo dos soldados e lhes atendeu.",
+              "Essa declaração revela algo importante: Saul conseguiu identificar uma motivação que havia influenciado seu comportamento. O medo das pessoas teve participação em sua decisão. Entretanto, reconhecer essa motivação não significava que sua desobediência deixava de ser sua responsabilidade. O medo ajudava a explicar sua escolha, mas não transformava aquela escolha em obediência.",
+              "Essa distinção é fundamental para quem deseja amadurecer emocional e espiritualmente, porque nem sempre conseguimos perceber quando uma explicação legítima começa a funcionar como uma justificativa para comportamentos que precisam ser transformados.",
+              "Imagine uma mulher que cresceu em um ambiente familiar marcado por instabilidade. Durante a infância, nunca sabia como encontraria seus pais ao chegar em casa. Em alguns dias havia tranquilidade; em outros, discussões e mudanças repentinas de humor. Com o passar do tempo, ela aprendeu a observar tudo ao redor, antecipar problemas e tentar evitar situações que poderiam produzir conflitos.",
+              "Na vida adulta, essa mulher percebe que tem dificuldade de lidar com imprevistos. Precisa organizar cada detalhe da rotina, fica profundamente irritada quando alguém altera seus planos e tenta controlar decisões que também dizem respeito a outras pessoas. Quando seu marido ou seus filhos questionam essa postura, ela responde que sempre foi assim porque cresceu em uma casa onde nunca havia segurança.",
+              "E existe verdade nessa explicação. Sua história pode ter contribuído para que desenvolvesse uma necessidade intensa de previsibilidade e controle. O problema começa quando ela passa a acreditar que, por ter vivido aquelas experiências, as pessoas ao seu redor precisam aceitar indefinidamente suas reações.",
+              "Sua história merece ser compreendida, mas as pessoas que convivem com você não devem ser obrigadas a carregar continuamente as consequências de feridas que ainda precisam de tratamento.",
+              "Isso não significa desconsiderar o sofrimento que alguém experimentou. Pelo contrário, significa reconhecer que a dor precisa ser cuidada justamente porque seus efeitos podem continuar alcançando outras áreas da vida.",
+              "Uma pessoa que cresceu sendo constantemente criticada pode desenvolver uma sensibilidade intensa à correção. Alguém que experimentou abandono pode sentir grande ansiedade diante de afastamentos. Uma pessoa que viveu situações de humilhação pode reagir de maneira defensiva quando acredita que está sendo desrespeitada.",
+              "Essas experiências podem ajudar a compreender por que determinadas situações provocam reações tão intensas. Entretanto, compreender não significa concluir que toda reação produzida por essas experiências seja adequada.",
+              "Existe uma diferença entre dizer “agora compreendo por que reajo assim” e dizer “por isso, não posso agir de outra maneira”.",
+              "A primeira afirmação pode abrir um caminho de transformação. A segunda pode nos manter presos ao mesmo funcionamento.",
+              "E aqui encontramos uma das dificuldades mais sutis do processo de cura: às vezes, depois que identificamos uma ferida, começamos a utilizá-la como explicação para praticamente tudo o que fazemos. Se sentimos ciúmes, atribuímos ao abandono. Se controlamos, atribuímos à insegurança. Se reagimos agressivamente, atribuímos à rejeição. Se temos dificuldade de confiar, atribuímos às decepções anteriores.",
+              "Essas relações podem fazer sentido em determinadas situações, mas não devem se transformar em respostas automáticas que dispensam uma avaliação mais cuidadosa de nossas escolhas.",
+              "Porque conhecer a origem de um comportamento não significa que já aprendemos a governá-lo.",
+              "Uma pessoa pode compreender perfeitamente por que tem dificuldade de receber correção e, ainda assim, continuar tratando mal quem a confronta. Pode reconhecer que sente medo de abandono e continuar tentando controlar os relacionamentos. Pode identificar que busca aprovação porque não recebeu afirmação suficiente na infância e continuar comprometendo seus valores para agradar às pessoas.",
+              "O conhecimento sobre nossa história é uma parte importante do processo, mas não substitui a necessidade de desenvolver novas atitudes.",
+              "E existe outra questão que precisamos examinar: muitas vezes, temos mais facilidade de reconhecer aquilo que fizeram conosco do que aquilo que estamos fazendo com os outros.",
+              "Conseguimos descrever detalhadamente as palavras que nos machucaram, as ausências que experimentamos e as situações em que fomos injustiçados. Entretanto, quando alguém aponta um comportamento nosso que também está produzindo sofrimento, podemos reagir imediatamente apresentando as razões pelas quais agimos daquela maneira.",
+              "É como se nossa dor precisasse ser compreendida, mas o sofrimento que nossas atitudes provocam nos outros fosse menos importante.",
+              "O fato de termos sido feridos não nos torna incapazes de ferir. E reconhecer isso não diminui a legitimidade daquilo que sofremos.",
+              "Pelo contrário, essa consciência representa um passo importante em direção à maturidade. Podemos reconhecer que determinada reação possui raízes em nossa história e, ao mesmo tempo, admitir que precisamos aprender uma maneira diferente de agir.",
+              "Talvez você tenha crescido em um ambiente onde ninguém conversava sobre sentimentos e, por isso, hoje encontre dificuldade para se comunicar. Essa compreensão é importante, mas não significa que seu cônjuge precise conviver indefinidamente com o silêncio diante de todos os conflitos.",
+              "Talvez tenha aprendido a se defender atacando, porque foi assim que precisou sobreviver emocionalmente em determinadas situações. Isso merece cuidado e compreensão, mas não significa que você não possa desenvolver outras formas de se posicionar.",
+              "Talvez tenha passado muitos anos tentando conquistar reconhecimento e hoje sinta necessidade de demonstrar competência o tempo inteiro. Reconhecer essa raiz pode ajudá-lo, mas não elimina a responsabilidade de aprender a receber críticas sem transformar toda discordância em uma disputa.",
+              "A maturidade começa a se desenvolver quando deixamos de utilizar nossa história apenas para explicar quem nos tornamos e começamos a utilizá-la também para compreender o que precisamos transformar.",
+              "Na trajetória de Saul, vemos que reconhecer o medo não foi suficiente para produzir uma mudança consistente em sua maneira de governar. Sua história nos alerta para a distância que pode existir entre admitir um problema e abandonar os comportamentos que ele alimenta.",
+              "E talvez essa seja uma das perguntas mais importantes do devocional de hoje: “O que eu já compreendi sobre mim, mas ainda não transformei na maneira como vivo?”",
+              "Talvez você já saiba que precisa aprender a lidar com a frustração, mas continua reagindo com agressividade quando é contrariado. Talvez reconheça que sua necessidade de aprovação o leva a assumir responsabilidades excessivas, mas continua dizendo sim quando deveria estabelecer limites. Ou talvez compreenda que experiências anteriores prejudicaram sua confiança, mas ainda não aprendeu a distinguir os fatos presentes dos medos que sua história desperta.",
+              "Perceba que não estamos falando de uma transformação instantânea. Algumas mudanças exigem tempo, apoio, acompanhamento e a construção gradual de novas maneiras de pensar e agir. Entretanto, um processo de cura não precisa estar concluído para que comecemos a assumir responsabilidade por nossas atitudes.",
+              "Você pode ainda sentir medo e aprender a não decidir apenas a partir dele. Pode continuar experimentando insegurança e desenvolver maneiras mais saudáveis de se relacionar. Pode reconhecer que determinadas situações despertam feridas antigas e, mesmo assim, escolher não reproduzir comportamentos que machucam outras pessoas.",
+              "A história que você viveu merece respeito. As dores que experimentou não precisam ser negadas nem minimizadas. Mas também existe uma vida diante de você que não precisa continuar sendo conduzida pelos mesmos padrões.",
+              "O passado pode ajudar a compreender como determinados comportamentos foram aprendidos, mas não precisa determinar quais comportamentos você continuará praticando.",
+              "E talvez a verdadeira mudança comece quando, diante de uma atitude que precisa ser corrigida, você consiga dizer:",
+              "“Eu compreendo por que isso acontece comigo. Sei que existe uma história por trás dessa reação. Mas também reconheço que preciso aprender a responder de outra maneira.”",
+              "Porque a cura não consiste apenas em descobrir por que nos tornamos assim. Ela também envolve assumir a responsabilidade de não continuar vivendo da mesma maneira."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Existe algum comportamento que reconheço precisar mudar, mas que continuo justificando por causa das experiências que vivi?",
+              "Quando alguém me mostra que minhas atitudes estão causando sofrimento, procuro compreender o que preciso corrigir ou imediatamente apresento explicações sobre minha história?",
+              "O que já consegui identificar sobre minhas feridas emocionais, mas ainda preciso transformar em atitudes concretas nos meus relacionamentos?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "Hoje, escolha um comportamento que você costuma justificar a partir de sua história. Pode ser a necessidade de controlar, a dificuldade de confiar, a reação agressiva diante de críticas ou o hábito de evitar conversas difíceis.",
+              "Em seguida, complete estas três frases:",
+              "“Eu compreendo que aprendi a agir assim porque...”",
+              "“Entretanto, quando ajo dessa maneira, posso produzir as seguintes consequências...”",
+              "“A partir de hoje, uma atitude diferente que posso começar a praticar é...”",
+              "Procure escolher uma mudança pequena, concreta e possível de ser observada.",
+              "Por exemplo, se você costuma reagir defensivamente quando recebe uma crítica, comprometa-se a ouvir até o fim antes de apresentar explicações. Se percebe que tenta controlar decisões por medo de que algo dê errado, experimente permitir que outra pessoa assuma uma responsabilidade sem interferir constantemente.",
+              "O objetivo não é negar sua história, mas começar a construir uma resposta diferente daquela que você aprendeu a repetir."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Senhor, obrigado porque posso olhar para minha história sem precisar esconder as dores que vivi. Tu conheces as experiências que me marcaram, as ausências que senti e os comportamentos que aprendi ao longo da vida.",
+              "Mas hoje quero Te pedir algo além da compreensão sobre minhas feridas. Quero amadurecer na maneira como respondo àquilo que acontece comigo.",
+              "Mostra-me onde tenho utilizado meu passado para justificar atitudes que precisam ser transformadas. Revela as situações em que tenho exigido compreensão para minhas dores, mas deixado de reconhecer o sofrimento que minhas reações podem produzir nos outros.",
+              "Dá-me humildade para receber correção, coragem para assumir minhas responsabilidades e perseverança para desenvolver novos comportamentos.",
+              "Que a minha história seja um lugar de aprendizado e restauração, e não uma justificativa permanente para continuar repetindo aquilo que precisa mudar.",
+              "Ensina-me a viver de maneira coerente com a identidade que estou aprendendo a desenvolver em Ti.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "MINHA HISTÓRIA PODE EXPLICAR POR QUE APRENDI A AGIR DE DETERMINADA MANEIRA, MAS NÃO PRECISA CONTINUAR DECIDINDO COMO VOU AGIR DAQUI PARA FRENTE."
+            ]
+          }
+        ]
+      },
+      "2026-10-25": {
+        "format": "document",
+        "label": "APROVADOS — DEVOCIONAL | SEMANA 3 — DIA 7",
+        "title": "QUANDO ENXERGAR SEUS ERROS SE TORNA UMA OPORTUNIDADE DE CURA",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“Examinem-se para ver se vocês estão na fé; provem-se a si mesmos.” (2 Coríntios 13:5)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "O que acontece dentro de você quando alguém aponta uma atitude sua que precisa ser corrigida?",
+              "Algumas pessoas reagem imediatamente tentando se defender. Outras ficam profundamente envergonhadas, começam a se condenar e passam horas pensando no que fizeram de errado. Há também aquelas que reconhecem a falha, pedem desculpas, mas continuam se sentindo tão incapazes de mudar que acabam repetindo os mesmos comportamentos.",
+              "Embora essas reações pareçam diferentes, elas podem revelar uma dificuldade semelhante: não saber o que fazer com a verdade quando ela expõe algo que gostaríamos de não encontrar em nós mesmos.",
+              "Entretanto, existe uma pergunta que precisamos fazer ao encerrar esta semana: será que descobrir algo que precisa ser transformado significa que fracassamos ou pode ser justamente o início de um processo de amadurecimento que ainda não havíamos conseguido viver?"
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Ao longo de sua trajetória, Saul recebeu oportunidades de reconhecer atitudes que precisavam ser corrigidas. Quando Samuel o confrontou por sua desobediência, o rei apresentou explicações, reconheceu seu pecado e demonstrou preocupação com a maneira como seria visto diante do povo. Entretanto, os acontecimentos posteriores de sua história revelam que admitir uma falha não significa, necessariamente, abandonar os comportamentos que a produziram.",
+              "Essa diferença nos conduz a uma questão importante. Existe uma distância entre reconhecer que fizemos alguma coisa errada e permitir que esse reconhecimento produza uma transformação verdadeira em nossa maneira de viver. E nem sempre essa distância acontece porque não desejamos mudar. Às vezes, ela existe porque não aprendemos a lidar de maneira saudável com aquilo que descobrimos sobre nós mesmos.",
+              "Imagine uma mulher que, durante uma conversa com sua filha adolescente, percebe que costuma interrompê-la antes que termine de falar. A filha finalmente encontra coragem para dizer que não se sente ouvida e que, muitas vezes, prefere guardar seus problemas porque acredita que a mãe sempre terá uma resposta pronta antes mesmo de compreender o que aconteceu.",
+              "Aquela mãe pode reagir de diferentes maneiras. Pode começar a justificar sua postura, lembrando tudo o que faz pela filha e afirmando que suas interrupções são apenas uma forma de cuidado. Pode também sentir uma vergonha tão intensa que passa a pensar que é uma mãe terrível, incapaz de construir um relacionamento saudável.",
+              "Mas existe uma terceira possibilidade. Ela pode reconhecer que a filha está apontando algo importante, admitir que sua maneira de conversar precisa mudar e começar a desenvolver uma postura diferente.",
+              "Perceba que, nas três situações, a informação recebida foi a mesma. O que mudou foi a maneira como aquela mulher respondeu à verdade que lhe foi apresentada.",
+              "Isso revela uma distinção essencial para nosso amadurecimento: reconhecer um comportamento inadequado não precisa nos conduzir nem à defesa permanente nem à condenação de nós mesmos. Pode nos conduzir à responsabilidade e à transformação.",
+              "Entretanto, muitas pessoas têm dificuldade de fazer essa separação porque aprenderam a confundir seus erros com sua identidade.",
+              "Quando recebem uma correção, não conseguem ouvir apenas que determinada atitude foi inadequada. Interiormente, interpretam aquela observação como uma declaração sobre quem são. Se alguém diz que foram impacientes, concluem que são pessoas ruins. Se cometem um erro profissional, sentem que são incompetentes. Se falham em um relacionamento, começam a acreditar que não merecem ser amadas.",
+              "O problema é que, quando transformamos um comportamento em uma definição sobre quem somos, podemos perder a capacidade de examiná-lo com clareza.",
+              "Em vez de perguntar o que precisamos corrigir, começamos a questionar nosso próprio valor. E, quando isso acontece, toda correção pode se tornar emocionalmente ameaçadora.",
+              "Talvez essa dificuldade esteja relacionada a experiências anteriores. Uma pessoa que cresceu ouvindo críticas dirigidas à sua identidade, e não apenas às suas atitudes, pode ter aprendido que errar significa decepcionar, perder reconhecimento ou deixar de ser aceita. Por isso, mesmo na vida adulta, pode reagir a uma observação simples como se estivesse diante de uma ameaça muito maior.",
+              "Mas existe algo que precisamos compreender: uma atitude errada precisa ser reconhecida e corrigida, mas não precisa se transformar na única definição da nossa identidade.",
+              "Se você agiu com impaciência, precisa assumir a responsabilidade por isso. Entretanto, reconhecer essa atitude não significa concluir que será uma pessoa impaciente pelo restante da vida. Se reagiu com insegurança, precisa compreender o que aconteceu e aprender a responder de outra maneira. Mas isso não significa que sua identidade esteja permanentemente definida pela insegurança.",
+              "Essa compreensão não diminui a gravidade de nossos erros nem elimina suas consequências. Pelo contrário, cria condições para que possamos enfrentá-los sem precisar fugir da verdade.",
+              "E aqui precisamos distinguir duas experiências que frequentemente confundimos: a culpa e o arrependimento.",
+              "A culpa pode funcionar como um sinal importante de que agimos contra nossos valores ou causamos algum prejuízo. Mas, quando permanecemos presos à autocondenação, nossa atenção pode ficar concentrada apenas no sofrimento que sentimos por ter errado. Pensamos repetidamente no que aconteceu, lamentamos nossas atitudes e nos sentimos profundamente mal, mas nem sempre avançamos para aquilo que precisa ser feito.",
+              "O arrependimento, por sua vez, não se limita ao desconforto de reconhecer um erro. Ele envolve uma mudança de entendimento que começa a produzir uma nova direção.",
+              "Sentir-se mal pelo que fizemos não é a mesma coisa que assumir o compromisso de agir de maneira diferente.",
+              "Essa distinção aparece em 2 Coríntios 7:10, quando Paulo ensina que a tristeza segundo Deus produz arrependimento que conduz à salvação, enquanto a tristeza do mundo produz morte. O texto nos ajuda a perceber que nem toda tristeza diante do erro conduz ao mesmo resultado. Existe uma tristeza que nos aproxima da verdade e nos mobiliza para a mudança, mas também podemos permanecer presos a um sofrimento que não produz transformação.",
+              "E talvez seja aqui que muitas pessoas interrompam seu processo de cura.",
+              "Elas reconhecem que precisam mudar, sentem vergonha do comportamento, prometem que não farão novamente e, por algum tempo, conseguem agir de maneira diferente. Entretanto, quando a mesma situação acontece, repetem a antiga reação.",
+              "Isso pode ocorrer porque o arrependimento precisa ultrapassar o momento emocional e alcançar os padrões que organizam nossas escolhas.",
+              "Uma pessoa que reconhece sua dificuldade de ouvir não muda apenas porque chorou depois de uma discussão. Precisa aprender a escutar sem interromper, suportar opiniões diferentes e permitir que o outro termine de falar. Alguém que percebe sua necessidade de controle não muda apenas porque admite que está exagerando. Precisa praticar novas maneiras de lidar com a insegurança e respeitar responsabilidades que pertencem a outras pessoas.",
+              "Da mesma forma, uma pessoa que reconhece sua dificuldade de receber correção precisa aprender a permanecer diante de uma observação desconfortável sem transformá-la imediatamente em rejeição.",
+              "A transformação começa a se tornar visível quando aquilo que reconhecemos sobre nós passa a modificar a maneira como respondemos às situações da vida.",
+              "E existe outra dimensão importante nesse processo: aprender a receber a verdade sem confundir confronto com ausência de amor.",
+              "Em Hebreus 12, a disciplina do Senhor é apresentada no contexto de sua relação com os filhos. Isso não significa que toda crítica humana seja correta ou que devamos aceitar tratamentos humilhantes em nome da correção. Significa que, na relação com Deus, ser confrontado não é necessariamente sinal de rejeição. A correção pode fazer parte de um processo de formação e amadurecimento.",
+              "Pense na diferença entre alguém que deseja apenas expor seu erro e alguém que, com respeito e responsabilidade, deseja ajudá-lo a reconhecer uma atitude que está prejudicando sua vida. Embora a verdade apresentada possa ser desconfortável nas duas situações, o propósito e a maneira como ela é comunicada fazem diferença.",
+              "E, quando Deus nos conduz a examinar nosso coração à luz de sua Palavra, o objetivo não é nos aprisionar à vergonha, mas nos chamar ao arrependimento e a uma vida transformada.",
+              "O diagnóstico revela aquilo que precisa de tratamento; ele não precisa se tornar uma sentença definitiva sobre quem podemos ser.",
+              "Talvez, durante esta semana, você tenha identificado comportamentos que não gostaria de reconhecer. Pode ter percebido uma necessidade excessiva de aprovação, uma tendência à comparação, dificuldades para confiar, sentimentos de inferioridade ou justificativas que têm impedido determinadas mudanças.",
+              "Diante dessas descobertas, existe uma escolha importante.",
+              "Você pode tentar esquecer aquilo que percebeu, encontrar explicações que diminuam sua responsabilidade ou começar a se condenar por ainda apresentar esses comportamentos. Mas também pode reconhecer a verdade, buscar ajuda quando necessário e assumir um compromisso concreto com sua transformação.",
+              "E aqui está uma pergunta que merece acompanhar você depois que este devocional terminar: “O que vou fazer de diferente agora que consigo enxergar algo que antes não percebia?”",
+              "Talvez a resposta envolva pedir perdão a alguém, estabelecer um limite, procurar acompanhamento, desenvolver uma nova maneira de conversar ou abandonar uma justificativa que você vem utilizando há muito tempo.",
+              "Não precisa ser uma mudança grandiosa. Mas precisa representar uma decisão verdadeira.",
+              "Porque o amadurecimento não acontece apenas quando descobrimos algo sobre nós mesmos. Ele começa a ganhar forma quando essa descoberta modifica nossas escolhas.",
+              "Ao encerrarmos esta semana, não precisamos sair dela com a sensação de que encontramos apenas defeitos em nós. Podemos reconhecer que enxergar áreas que precisam de transformação é parte de um processo necessário de crescimento.",
+              "Você não precisa negar aquilo que precisa mudar. Também não precisa transformar cada dificuldade em uma condenação sobre sua identidade.",
+              "Pode olhar para a verdade, assumir sua responsabilidade e permitir que aquilo que foi revelado se torne o início de uma nova maneira de viver."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Quando reconheço um erro, minha tendência é justificar minhas atitudes, condenar a mim mesmo ou assumir a responsabilidade de construir uma resposta diferente?",
+              "Existe algum comportamento que já reconheci diversas vezes, mas que ainda não transformei em uma mudança concreta na maneira como vivo?",
+              "Qual verdade sobre mim ficou mais evidente durante esta semana de devocionais, e o que preciso fazer para que essa descoberta não permaneça apenas no campo da consciência?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "Hoje, vamos encerrar a semana com um exercício chamado DO DIAGNÓSTICO À TRANSFORMAÇÃO.",
+              "Reserve alguns minutos para rever aquilo que você percebeu sobre si mesmo ao longo dos últimos sete dias. Escolha apenas uma área que precisa de atenção neste momento e responda por escrito:",
+              "1. O QUE EU CONSEGUI ENXERGAR?",
+              "Identifique um comportamento ou padrão que antes você não percebia com tanta clareza.",
+              "2. COMO ESSE COMPORTAMENTO TEM AFETADO MINHA VIDA?",
+              "Reconheça suas consequências sobre suas decisões, seus relacionamentos ou sua maneira de enxergar a si mesmo.",
+              "3. QUAL RESPONSABILIDADE PRECISO ASSUMIR?",
+              "Descreva aquilo que depende de você, sem negar sua história e sem transferir aos outros a responsabilidade por suas escolhas.",
+              "4. O QUE FAREI DE DIFERENTE A PARTIR DE AGORA?",
+              "Estabeleça uma atitude concreta para praticar nos próximos sete dias. Escolha algo possível de observar, como ouvir antes de responder, deixar de fazer determinado comentário, conversar com alguém ou procurar apoio para trabalhar uma dificuldade recorrente.",
+              "Ao terminar, faça uma oração sobre essa decisão.",
+              "Não encerre esta semana apenas com uma descoberta sobre você. Encerre com um compromisso de transformação."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Pai, ao encerrar esta semana, quero Te agradecer porque Tua Palavra me convida a examinar meu coração e reconhecer aquilo que ainda precisa ser transformado.",
+              "Se durante esses dias percebi inseguranças, medos, comparações, sentimentos de inferioridade ou comportamentos que tenho tentado justificar, ajuda-me a não fugir dessas descobertas.",
+              "Eu não quero responder à verdade com resistência, mas também não quero permanecer preso à vergonha e à autocondenação.",
+              "Ensina-me a reconhecer meus erros sem transformar minhas falhas na definição da minha identidade. Dá-me humildade para receber correção, coragem para assumir responsabilidades e perseverança para desenvolver atitudes diferentes.",
+              "Que aquilo que foi revelado nesta semana não permaneça apenas como conhecimento, mas produza arrependimento, restauração e mudanças reais na maneira como vivo.",
+              "Conduze-me no processo de amadurecimento que ainda preciso experimentar. E, quando eu perceber que voltei a repetir antigos comportamentos, ajuda-me a reconhecer, corrigir e continuar avançando.",
+              "Eu não quero apenas compreender minha história. Quero permitir que Tua verdade transforme a maneira como vivo a partir de agora.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "O DIAGNÓSTICO REVELA O QUE PRECISA MUDAR, MAS NÃO DEFINE QUEM EU ESTOU CONDENADO A SER. A TRANSFORMAÇÃO COMEÇA QUANDO TENHO CORAGEM DE ENXERGAR A VERDADE E ASSUMIR A RESPONSABILIDADE DE VIVER DE OUTRA MANEIRA."
+            ]
+          }
+        ]
       }
     }
   },
