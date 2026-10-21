@@ -7,9 +7,11 @@ import {
   createTestimonial, getApprovedTestimonials, getAllTestimonials,
   moderateTestimonial, deleteTestimonial, likeTestimonial,
   getVisitorLikes, countTestimonialsByStatus,
-  getAllSeries, getSeriesById, getEpisodesBySeries, getEpisodeById, getAllEpisodes
+  getAllSeries, getSeriesById, getEpisodesBySeries, getEpisodeById, getEpisodeByVideoId, getAllEpisodes
 } from "./db";
 import { runYouTubeSync } from "./youtubeSync";
+import { getYouTubeSyncStatus } from "./youtubeSyncStatus";
+import { latestPublishedVideo, mergePublishedEpisodes, mergePublishedSeries, publishedEpisodes, publishedSeries } from "./catalogUpdates";
 import { z } from "zod";
 import { TRPCError } from "@trpc/server";
 import crypto from "crypto";
@@ -46,16 +48,16 @@ export const appRouter = router({
   content: router({
     // Listar todas as séries
     series: publicProcedure.query(async () => {
-      return getAllSeries();
+      return mergePublishedSeries(await getAllSeries());
     }),
 
     // Buscar série por ID com seus episódios
     seriesById: publicProcedure
       .input(z.object({ id: z.string() }))
       .query(async ({ input }) => {
-        const serie = await getSeriesById(input.id);
+        const serie = await getSeriesById(input.id) ?? publishedSeries.find(item => item.id === input.id);
         if (!serie) return null;
-        const eps = await getEpisodesBySeries(input.id);
+        const eps = mergePublishedEpisodes(await getEpisodesBySeries(input.id), input.id);
         return { ...serie, episodes: eps };
       }),
 
@@ -63,19 +65,23 @@ export const appRouter = router({
     episodeById: publicProcedure
       .input(z.object({ id: z.string() }))
       .query(async ({ input }) => {
-        return getEpisodeById(input.id);
+        const episode = await getEpisodeById(input.id);
+        if (episode) return episode;
+        const published = publishedEpisodes.find(item => item.id === input.id);
+        if (!published) return null;
+        return await getEpisodeByVideoId(published.youtubeVideoId) ?? published;
       }),
 
     // Listar todos os episódios (para o select de depoimentos)
     allEpisodes: publicProcedure.query(async () => {
-      return getAllEpisodes();
+      return mergePublishedEpisodes(await getAllEpisodes());
     }),
   }),
 
   // Endpoint público: retorna o ID do último vídeo sincronizado (para o selo 'Novo')
   latestVideoId: publicProcedure.query(async () => {
     const config = await getSyncConfig();
-    return { lastVideoId: config?.lastVideoId ?? null };
+    return { lastVideoId: latestPublishedVideo(config) };
   }),
 
   // === DEPOIMENTOS (público) ===
@@ -176,6 +182,7 @@ export const appRouter = router({
 
   // Admin: Gerenciamento de sincronização com YouTube
   sync: router({
+    status: publicProcedure.query(() => getYouTubeSyncStatus()),
     history: protectedProcedure.query(async ({ ctx }) => {
       if (ctx.user?.role !== "admin") throw new TRPCError({ code: "FORBIDDEN" });
       return getSyncHistory(50);

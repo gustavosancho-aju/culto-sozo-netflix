@@ -1,6 +1,7 @@
 import { beforeEach, describe, expect, it, vi } from "vitest";
 
-const { getEpisodeByVideoId, updateEpisodeTitleByVideoId, insertSyncHistory, upsertSyncConfig } = vi.hoisted(() => ({
+const { getSyncConfig, getEpisodeByVideoId, updateEpisodeTitleByVideoId, insertSyncHistory, upsertSyncConfig } = vi.hoisted(() => ({
+  getSyncConfig: vi.fn(),
   getEpisodeByVideoId: vi.fn(),
   updateEpisodeTitleByVideoId: vi.fn(),
   insertSyncHistory: vi.fn(),
@@ -8,7 +9,7 @@ const { getEpisodeByVideoId, updateEpisodeTitleByVideoId, insertSyncHistory, ups
 }));
 
 vi.mock("./db", () => ({
-  getSyncConfig: async () => ({ channelUrl: "UCabcdefghijklmnopqrstuv" }),
+  getSyncConfig,
   getEpisodeByVideoId,
   updateEpisodeTitleByVideoId,
   insertSyncHistory,
@@ -27,10 +28,18 @@ import { runYouTubeSync } from "./youtubeSync";
 
 beforeEach(() => {
   vi.clearAllMocks();
+  getSyncConfig.mockResolvedValue({ channelUrl: "UCabcdefghijklmnopqrstuv", enabled: true });
   getEpisodeByVideoId.mockResolvedValue({ titulo: "1º SEMAMA" });
 });
 
 describe("sincronização de títulos", () => {
+  it("respects a paused schedule while allowing an explicit manual sync", async () => {
+    getSyncConfig.mockResolvedValue({ channelUrl: "UCabcdefghijklmnopqrstuv", enabled: false });
+    expect(await runYouTubeSync({ scheduled: true })).toMatchObject({ status: "paused" });
+    expect(getEpisodeByVideoId).not.toHaveBeenCalled();
+    expect(upsertSyncConfig).not.toHaveBeenCalled();
+    expect(await runYouTubeSync()).toMatchObject({ status: "success" });
+  });
   it("atualiza o nome de um vídeo existente mesmo com título de duas partes", async () => {
     const result = await runYouTubeSync();
     expect(updateEpisodeTitleByVideoId).toHaveBeenCalledWith("80aB2_VlgNk", "SEMANA 1 | APROVADO");

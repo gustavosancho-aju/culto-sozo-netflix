@@ -4,31 +4,35 @@ Este documento registra o funcionamento operacional da plataforma **Culto Sozo N
 
 ## Conteúdo e catálogo
 
-O catálogo em produção é armazenado no banco de dados e disponibilizado ao frontend por meio das rotas tRPC. Como referência versionada, o arquivo [`data/catalogo-conteudo.json`](../data/catalogo-conteudo.json) contém uma fotografia do catálogo de séries, episódios e identificadores de vídeos do YouTube no momento deste commit. As capas dos episódios são formadas a partir do identificador do vídeo pela URL `https://img.youtube.com/vi/{videoId}/maxresdefault.jpg`.
+O catálogo é disponibilizado pelas rotas tRPC. Com `DATABASE_URL`, a fonte principal é PostgreSQL; sem essa variável, a API lê o catálogo histórico de `data/catalogo-conteudo.json`. Cadastros editoriais confirmados em `data/catalogo-atualizacoes.json` complementam as leituras bem-sucedidas das duas fontes. Um registro sincronizado no banco prevalece pelo identificador do vídeo, evitando duplicatas e preservando seu link. Erros de banco continuam sendo reportados, sem substituição silenciosa pelo catálogo histórico. As capas são formadas pelo identificador do vídeo em `https://img.youtube.com/vi/{videoId}/maxresdefault.jpg`.
 
 | Elemento | Origem operacional | Registro no repositório |
 |---|---|---|
-| Séries e episódios | Banco de dados MySQL/TiDB | `data/catalogo-conteudo.json` e schema em `drizzle/schema.ts` |
+| Séries e episódios | PostgreSQL ou catálogo histórico, com cadastros editoriais complementares | `data/catalogo-conteudo.json`, `data/catalogo-atualizacoes.json` e schema em `drizzle/schema.ts` |
 | Vídeos | Canal [@Lorenaamelo](https://www.youtube.com/@Lorenaamelo) | `youtubeVideoId` e links geráveis pelo catálogo |
 | Informações exibidas | API tRPC | `server/db.ts` e `server/routers.ts` |
 | Títulos normalizados | Serviço de sincronização | `server/youtubeSync.ts` |
 
 ## Sincronização automática com YouTube
 
-A automação consulta o feed RSS público do canal e identifica o vídeo mais recente. Quando encontra conteúdo ainda não cadastrado, ela associa o vídeo a uma série existente ou cria uma nova série com o mês e ano de publicação. O processo mantém o episódio recém-sincronizado como destaque e registra o resultado no histórico de sincronizações.
+A automação consulta os vídeos recentes disponíveis no feed RSS público do canal, em ordem cronológica. Quando encontra um episódio ainda não cadastrado, associa-o a uma série existente ou cria uma nova série com o mês e ano de publicação. Vídeos avulsos sem série reconhecível no título são ignorados. O episódio recém-sincronizado fica em destaque e o resultado é registrado no histórico. O feed é uma janela dos vídeos recentes, não um mecanismo para recuperar todo o histórico do canal.
 
-> O formato prioritário de título é `Nº SEMANA | TÍTULO DO VÍDEO | NOME DA SÉRIE`. O sistema salva no catálogo apenas o **título do vídeo**, sem o número da semana nem o nome da série.
+> O formato prioritário de título é `Nº SEMANA | TÍTULO DO VÍDEO | NOME DA SÉRIE`. O sistema preserva o título completo recebido do YouTube; a interface extrai o título para exibição. Títulos de vídeos existentes também são atualizados.
 
 | Configuração | Definição |
 |---|---|
 | Canal monitorado | `https://www.youtube.com/@Lorenaamelo` |
-| Endpoint agendado | `POST /api/scheduled/youtube-sync` |
-| Frequência prevista | Toda terça-feira, às 06:00, horário de Brasília |
-| Proteção do endpoint | Execução limitada a chamadas autenticadas do agendador |
+| Endpoint agendado Vercel | `GET /api/scheduled/youtube-sync` |
+| Frequência configurada | Diária, às 06:00 de Brasília (`0 9 * * *`, UTC), sujeita à janela de execução do plano Vercel |
+| Proteção do endpoint | Bearer token correspondente a `CRON_SECRET`, configurado no projeto Vercel |
 | Execução manual | Painel administrativo em `/admin`, ação “Sincronizar Agora” |
 | Registro operacional | Tabelas `sync_config` e `sync_history` |
 
-O endpoint do agendador é definido em `server/_core/index.ts`; a lógica de captura, parsing, criação de série e persistência está em `server/youtubeSync.ts`. A infraestrutura de Heartbeat está em `server/_core/heartbeat.ts`. A configuração ativa do cron e seu identificador são dados gerenciados pelo serviço e permanecem no banco, não em código.
+O endpoint é definido em `server/app.ts`; a lógica de captura e persistência está em `server/youtubeSync.ts`. O cron Vercel está em `vercel.json` e requer deploy de produção, agendamentos habilitados na Vercel, `CRON_SECRET` e `DATABASE_URL` válidos, com schema preparado. A execução agendada respeita `sync_config.enabled`; uma execução manual explícita continua possível quando o agendamento estiver pausado. O adaptador de Heartbeat da Manus permanece como código legado, sem registro automático de tarefas no fluxo Vercel.
+
+`GET /api/trpc/sync.status` informa a configuração disponível, a última verificação bem-sucedida e o último resultado registrado. Os motivos `database_missing`, `cron_secret_missing`, `paused` e `database_unavailable` identificam impedimentos. `configured: true` indica pré-requisitos detectados, não comprova que o cron esteja habilitado nem que uma execução tenha ocorrido. Nenhuma credencial ou detalhe de erro de conexão é exposto.
+
+Para validar a operação, consulte esse diagnóstico em produção e confirme a execução nos logs de Cron Jobs da Vercel. Uma publicação de código ou um cadastro editorial não conta como execução automática. Nunca envie tokens ou URLs de banco no chat ou no Git.
 
 ## Administração e participação pública
 

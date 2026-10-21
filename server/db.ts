@@ -14,7 +14,7 @@ let _db: ReturnType<typeof drizzle> | null = null;
 export async function getDb() {
   if (!_db && process.env.DATABASE_URL) {
     try {
-      const pool = new Pool({ connectionString: process.env.DATABASE_URL, max: 5 });
+      const pool = new Pool({ connectionString: process.env.DATABASE_URL, max: 5, connectionTimeoutMillis: 10_000 });
       if (process.env.VERCEL) attachDatabasePool(pool);
       _db = drizzle(pool);
     } catch (error) {

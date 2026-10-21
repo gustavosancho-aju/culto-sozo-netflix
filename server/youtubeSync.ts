@@ -142,8 +142,8 @@ async function fetchRecentVideos(channelUrl: string): Promise<YouTubeVideoInfo[]
   return videos;
 }
 
-export async function runYouTubeSync(): Promise<{
-  status: "success" | "error" | "no_new_videos";
+export async function runYouTubeSync(options: { scheduled?: boolean } = {}): Promise<{
+  status: "success" | "error" | "no_new_videos" | "paused";
   message: string;
   videoId?: string;
   videoTitle?: string;
@@ -154,15 +154,20 @@ export async function runYouTubeSync(): Promise<{
 
   try {
     const config = await getSyncConfig();
+    if (options.scheduled && config?.enabled === false) {
+      return { status: "paused", message: "Sincronização automática pausada na configuração." };
+    }
     const channelUrl = config?.channelUrl || "https://www.youtube.com/@Lorenaamelo";
 
     const recentVideos = await fetchRecentVideos(channelUrl);
     let newestAdded: Awaited<ReturnType<typeof addVideo>> | null = null;
+    let newestCatalogVideo: YouTubeVideoInfo | undefined;
     let count = 0;
     let updatedCount = 0;
     for (const video of recentVideos) {
       const existing = await getEpisodeByVideoId(video.videoId);
       if (existing) {
+        newestCatalogVideo = video;
         if (existing.titulo !== video.rawTitle) {
           await updateEpisodeTitleByVideoId(video.videoId, video.rawTitle);
           updatedCount++;
@@ -172,10 +177,11 @@ export async function runYouTubeSync(): Promise<{
       // Vídeos avulsos não fazem parte do catálogo de séries do Sozo.
       if (!video.seriesName) continue;
       newestAdded = await addVideo(video);
+      newestCatalogVideo = video;
       count++;
     }
     const latestVideo = recentVideos[recentVideos.length - 1];
-    await upsertSyncConfig({ lastSyncAt: new Date(), lastVideoId: latestVideo.videoId });
+    await upsertSyncConfig({ lastSyncAt: new Date(), lastVideoId: newestCatalogVideo?.videoId ?? config?.lastVideoId ?? null });
     if (count || updatedCount) {
       if (updatedCount) await insertSyncHistory({ status: 'success', action: 'none',
         details: `${updatedCount} título(s) atualizado(s) conforme o YouTube` });

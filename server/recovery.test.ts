@@ -20,8 +20,10 @@ describe("public catalog recovery without managed services", () => {
     const caller = appRouter.createCaller(anonymousContext);
     const series = await caller.content.series();
     const episodes = await caller.content.allEpisodes();
-    expect(series).toHaveLength(17);
-    expect(episodes).toHaveLength(67);
+    expect(series).toHaveLength(18);
+    expect(episodes).toHaveLength(68);
+    expect(episodes.find(episode => episode.youtubeVideoId === "GIzggcamUQM"))
+      .toMatchObject({ serieId: "aprovados-2026", ordem: 3 });
     expect(new Set(episodes.map(ep => ep.id)).size).toBe(episodes.length);
     expect(new Set(episodes.map(ep => ep.youtubeVideoId)).size).toBe(episodes.length);
 
@@ -47,7 +49,7 @@ describe("public catalog recovery without managed services", () => {
       .rejects.toMatchObject({ code: "SERVICE_UNAVAILABLE" });
     await expect(caller.sync.runNow()).rejects.toMatchObject({ code: "UNAUTHORIZED" });
     await expect(caller.admin.testimonialCounts()).rejects.toMatchObject({ code: "UNAUTHORIZED" });
-    expect(await caller.latestVideoId()).toEqual({ lastVideoId: null });
+    expect(await caller.latestVideoId()).toEqual({ lastVideoId: "GIzggcamUQM" });
   });
 
   it("does not report snapshot data as a working database", async () => {

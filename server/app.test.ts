@@ -21,7 +21,7 @@ describe("Vercel-compatible HTTP application", () => {
   it("serves the recovered catalog over tRPC", async () => {
     const response = await fetch(`${baseUrl}/api/trpc/content.series`);
     expect(response.status).toBe(200);
-    expect((await response.json()).result.data.json).toHaveLength(17);
+    expect((await response.json()).result.data.json).toHaveLength(18);
   });
   it("protects scheduled sync, and refuses to sync without persistence", async () => {
     const unauthorized = await fetch(`${baseUrl}/api/scheduled/youtube-sync`);

@@ -45,7 +45,7 @@ app.all("/api/scheduled/youtube-sync", async (req, res) => {
   }
 
   try {
-    const result = await runYouTubeSync();
+    const result = await runYouTubeSync({ scheduled: true });
     return res.status(result.status === "error" ? 502 : 200).json({ ok: result.status !== "error", result });
   } catch (error) {
     console.error("[YouTube Sync] Execution failed", error);

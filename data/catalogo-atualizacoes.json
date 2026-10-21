@@ -1,0 +1,26 @@
+{
+  "updatedAt": "2026-10-21T16:14:09.000Z",
+  "source": "Cadastro editorial confirmado pelo responsável pelo site",
+  "latestVideoId": "GIzggcamUQM",
+  "series": [
+    {
+      "id": "aprovados-2026",
+      "titulo": "APROVADOS - Outubro 2026",
+      "descricao": "Série Aprovados de Outubro de 2026.",
+      "destaque": true,
+      "ordem": 10,
+      "ano": 2026
+    }
+  ],
+  "episodes": [
+    {
+      "id": "aprovados-2026-ep3-GIzggcamUQM",
+      "serieId": "aprovados-2026",
+      "ordem": 3,
+      "titulo": "3º SEMANA | PORQUE É TAO DIFICIL RECONHECER NOSSOS ERROS? | APROVADOS",
+      "youtubeVideoId": "GIzggcamUQM",
+      "duracao": null,
+      "descricaoCurta": "Episódio 3 da série Aprovados — Outubro 2026."
+    }
+  ]
+}
