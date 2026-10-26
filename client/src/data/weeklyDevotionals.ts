@@ -2052,7 +2052,330 @@ export const october2026Weeks: DevotionalWeek[] = [
       }
     }
   },
-  { number: 4, startsOn: '2026-10-26', seriesId: 'aprovados-2026', devotionals: {} },
+  {
+    "number": 4,
+    "startsOn": "2026-10-26",
+    "seriesId": "aprovados-2026",
+    "theme": "Aprovados",
+    "devotionals": {
+      "2026-10-26": {
+        "format": "document",
+        "label": "APROVADOS — DEVOCIONAL | SEMANA 4 — DIA 1",
+        "title": "QUANDO VOCÊ PRECISA CONTROLAR TUDO PARA SE SENTIR SEGURO",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“Venda-me primeiro o seu direito de filho mais velho.” (Gênesis 25:31)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Você já percebeu como algumas pessoas têm dificuldade de ficar tranquilas quando as coisas não acontecem exatamente da maneira que planejaram?",
+              "Elas precisam saber antecipadamente o que vai acontecer, como as pessoas vão reagir e quais serão os resultados de cada decisão. Quando alguma situação foge ao planejamento, experimentam ansiedade, irritação ou uma necessidade imediata de encontrar uma solução. Muitas vezes, acreditam que estão apenas sendo responsáveis, cuidadosas ou organizadas, mas talvez exista algo mais profundo por trás dessa postura.",
+              "Existe uma diferença importante entre assumir a responsabilidade por aquilo que nos pertence e tentar controlar tudo para impedir que algo indesejado aconteça. Será que você tem conduzido sua vida com responsabilidade ou tem tentado controlar situações e pessoas porque não consegue se sentir seguro diante daquilo que não depende de você?"
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "A história de Jacó começa em um contexto familiar marcado por expectativas e diferenças entre dois irmãos. Antes mesmo de seu nascimento, Deus havia anunciado a Rebeca que o mais velho serviria ao mais novo. Entretanto, quando acompanhamos os acontecimentos posteriores, encontramos Jacó tomando decisões que revelam sua disposição de interferir nas circunstâncias para alcançar aquilo que desejava.",
+              "Em Gênesis 25, Esaú retorna do campo exausto e pede um pouco do ensopado que Jacó estava preparando. Diante daquela necessidade, Jacó apresenta uma condição: seu irmão deveria vender-lhe o direito de primogenitura. Anos depois, em Gênesis 27, ele participa do plano elaborado por Rebeca para enganar Isaque e receber a bênção destinada a Esaú.",
+              "A Bíblia relata essas escolhas, mas não explica todas as motivações emocionais de Jacó. Por isso, não podemos afirmar que suas atitudes nasceram necessariamente de uma ferida de insegurança ou de uma necessidade psicológica de controle. Entretanto, sua história nos oferece uma oportunidade de examinar algo que também pode acontecer conosco: a tentativa de garantir determinados resultados por meio de estratégias que ultrapassam os limites da nossa responsabilidade.",
+              "E aqui precisamos compreender uma questão importante. Nem toda pessoa controladora deseja dominar os outros ou se considera superior. Em alguns casos, a necessidade de controle está relacionada à dificuldade de lidar com a possibilidade de que algo aconteça de maneira diferente daquela que espera.",
+              "Imagine uma mulher que cresceu em uma família onde as situações mudavam constantemente. Os compromissos eram cancelados sem explicação, as promessas nem sempre eram cumpridas e ela nunca sabia exatamente o que esperar das pessoas responsáveis por seu cuidado. Com o passar do tempo, aprendeu que precisava antecipar problemas e prestar atenção a todos os detalhes para evitar decepções.",
+              "Na vida adulta, essa mulher se tornou extremamente organizada. Planeja a rotina da família, acompanha os compromissos dos filhos e procura garantir que tudo funcione corretamente. Entretanto, quando alguém decide fazer alguma coisa de maneira diferente, ela se sente profundamente incomodada. Se o marido assume uma responsabilidade, precisa conferir se ele está fazendo tudo conforme suas orientações. Se os filhos enfrentam alguma dificuldade, imediatamente interfere para evitar que cometam erros.",
+              "Ela acredita que está apenas cuidando da família. E, em muitas situações, seu cuidado é verdadeiro. Mas talvez também esteja tentando evitar uma sensação antiga de insegurança que aparece sempre que não consegue prever o que acontecerá.",
+              "Nesse caso, o controle deixa de ser apenas uma maneira de organizar a vida e passa a funcionar como uma tentativa de produzir segurança emocional.",
+              "Essa distinção é importante porque podemos desenvolver comportamentos aparentemente positivos a partir de motivações que precisam ser examinadas. Uma pessoa pode ser dedicada, responsável, cuidadosa e comprometida, mas também pode experimentar uma necessidade excessiva de acompanhar tudo, decidir tudo e impedir que os outros façam escolhas diferentes das suas.",
+              "O problema não está em planejar, estabelecer prioridades ou agir com responsabilidade. Essas atitudes são necessárias para uma vida organizada. A dificuldade começa quando acreditamos que somente estaremos seguros se conseguirmos determinar como tudo deverá acontecer.",
+              "E existe algo ainda mais profundo nesse funcionamento: quanto mais uma pessoa depende do controle para se sentir segura, mais ameaçadora pode se tornar qualquer situação que escape às suas expectativas.",
+              "Uma mudança de planos deixa de ser apenas um imprevisto e passa a provocar irritação intensa. Uma decisão diferente tomada pelo cônjuge pode ser interpretada como desconsideração. Um filho que começa a desenvolver autonomia pode despertar medo, porque já não será possível acompanhar todas as suas escolhas.",
+              "Perceba que, nessas situações, o sofrimento não está necessariamente relacionado à gravidade do acontecimento. Muitas vezes, está relacionado ao significado que a pessoa atribui à perda de controle.",
+              "Ela pode pensar: “Se eu não acompanhar, alguma coisa vai dar errado.” Ou: “Se eu permitir que decidam sozinhos, depois terei que lidar com as consequências.”",
+              "Esses pensamentos podem produzir uma sensação constante de responsabilidade por situações que não dependem inteiramente dela.",
+              "E uma das consequências mais difíceis desse funcionamento é que a pessoa começa a carregar responsabilidades que nunca foram exclusivamente suas. Ela se sente responsável pelo humor do cônjuge, pelas decisões dos filhos adultos, pela maneira como os colegas trabalham e até pelas reações das pessoas quando precisa estabelecer limites. Com o tempo, pode se tornar emocionalmente sobrecarregada, porque está tentando administrar uma quantidade de situações que nenhuma pessoa consegue controlar completamente.",
+              "Mas existe outra consequência que nem sempre percebemos: a necessidade de controle pode comprometer os relacionamentos.",
+              "Quando tentamos decidir tudo, podemos impedir que outras pessoas desenvolvam autonomia. Quando corrigimos constantemente a maneira como alguém realiza uma tarefa, podemos transmitir a mensagem de que não confiamos em sua capacidade. E, quando insistimos que as coisas aconteçam apenas conforme nossa vontade, podemos transformar diferenças legítimas em conflitos desnecessários.",
+              "Às vezes, na tentativa de impedir que algo dê errado, acabamos prejudicando justamente os relacionamentos que desejávamos proteger. Por isso, precisamos aprender a distinguir aquilo que está sob nossa responsabilidade daquilo que pertence à responsabilidade de outras pessoas.",
+              "Você pode orientar um filho, mas não pode viver todas as experiências por ele. Pode conversar com seu cônjuge sobre uma preocupação, mas não pode controlar cada pensamento ou decisão que ele terá. Pode desempenhar seu trabalho com excelência, mas não pode garantir que todas as pessoas agirão conforme suas expectativas.",
+              "Isso não significa abandonar responsabilidades, aceitar comportamentos prejudiciais ou deixar de estabelecer limites. Significa reconhecer que responsabilidade não é a mesma coisa que controle absoluto.",
+              "E é nesse ponto que a confiança em Deus precisa alcançar nossa maneira de viver.",
+              "Em Provérbios 3:5-6, somos orientados a confiar no Senhor de todo o coração e a não depender exclusivamente do nosso próprio entendimento. Essa orientação não nos convida à passividade, mas a reconhecer que nossa compreensão é limitada e que nem todos os resultados estarão sob nosso domínio.",
+              "Confiar em Deus não significa deixar de planejar ou esperar que Ele resolva aquilo que precisamos enfrentar. Significa aprender a fazer nossa parte sem acreditar que precisamos controlar todas as circunstâncias para que nossa vida tenha direção.",
+              "Existe uma diferença entre agir com sabedoria e viver como se tudo dependesse exclusivamente da nossa capacidade de impedir que algo dê errado.",
+              "Talvez você esteja tão acostumado a antecipar problemas que já não consegue perceber o quanto isso tem consumido suas forças. Talvez tenha dificuldade de delegar responsabilidades, aceitar decisões diferentes das suas ou permitir que as pessoas aprendam com suas próprias experiências. E talvez, por trás dessa necessidade de controle, exista um medo que você ainda não conseguiu reconhecer.",
+              "Medo de ser decepcionado. Medo de perder algo importante. Medo de que as pessoas não correspondam às suas expectativas. Ou simplesmente medo de não conseguir lidar com aquilo que acontecerá se as coisas saírem do planejado. Esses sentimentos merecem ser compreendidos, mas não precisam continuar determinando todas as suas atitudes.",
+              "A maturidade não consiste em conseguir controlar cada circunstância da vida, mas em desenvolver segurança suficiente para agir com responsabilidade mesmo quando não temos garantia de todos os resultados.",
+              "Talvez hoje você precise fazer uma pergunta que nunca considerou com profundidade: “O que eu acredito que vai acontecer se deixar de controlar essa situação?” Sua resposta pode revelar um medo que está influenciando suas decisões há muito tempo.",
+              "E, quando esse medo é reconhecido, começa a surgir a possibilidade de construir uma maneira diferente de viver: com responsabilidade, discernimento, limites e confiança, mas sem a necessidade de administrar tudo e todos.",
+              "Porque nem sempre precisamos mudar aquilo que está acontecendo ao nosso redor. Às vezes, precisamos transformar a maneira como lidamos com aquilo que não podemos controlar."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Em quais situações tenho mais dificuldade de permitir que as coisas aconteçam de maneira diferente daquela que planejei? O que sinto quando isso acontece?",
+              "Minha necessidade de acompanhar, corrigir ou decidir tudo está relacionada apenas à responsabilidade ou também ao medo de que algo dê errado se eu não estiver no controle?",
+              "Existe alguma pessoa cuja autonomia tenho dificultado porque acredito que somente minha maneira de fazer as coisas é suficientemente segura?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "Hoje, vamos realizar um exercício chamado O QUE REALMENTE ESTÁ SOB MINHA RESPONSABILIDADE?",
+              "Escolha uma situação que esteja provocando preocupação ou despertando sua necessidade de controle. Pode estar relacionada à família, ao trabalho, a um relacionamento ou a uma decisão importante.",
+              "Em seguida, responda por escrito:",
+              "1. O QUE DEPENDE DE MIM?",
+              "Identifique as atitudes que realmente pertencem à sua responsabilidade, como conversar, orientar, planejar, cumprir um compromisso ou estabelecer um limite.",
+              "2. O QUE NÃO DEPENDE EXCLUSIVAMENTE DE MIM?",
+              "Reconheça aquilo que envolve decisões de outras pessoas, circunstâncias externas ou resultados que você não consegue garantir.",
+              "3. O QUE ESTOU TENTANDO CONTROLAR POR MEDO?",
+              "Pergunte a si mesmo qual consequência teme enfrentar caso não consiga determinar como a situação acontecerá.",
+              "Depois, escolha uma atitude prática para exercitar a confiança.",
+              "Talvez seja delegar uma responsabilidade sem interferir constantemente, permitir que alguém resolva um problema à sua maneira ou deixar de insistir em uma decisão que não pertence exclusivamente a você.",
+              "O objetivo não é abandonar o cuidado, mas aprender a cuidar sem transformar o controle em uma condição para se sentir seguro."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Pai, hoje quero examinar as situações em que tenho tentado controlar tudo porque não consigo lidar com a possibilidade de que algo aconteça de maneira diferente daquela que espero",
+              "Mostra-me se existem medos, inseguranças ou experiências anteriores influenciando minha necessidade de acompanhar, decidir e antecipar todas as coisas.",
+              "Eu não quero abandonar minhas responsabilidades, mas também não quero continuar carregando aquilo que não pertence a mim.",
+              "Ensina-me a reconhecer meus limites, respeitar a autonomia das pessoas e agir com sabedoria diante das situações que preciso enfrentar.",
+              "Que minha segurança não dependa da capacidade de controlar todas as circunstâncias, mas de aprender a confiar em Ti enquanto assumo as responsabilidades que realmente me pertencem.",
+              "Ajuda-me a desenvolver uma postura mais madura diante dos imprevistos, das diferenças e das situações que não posso modificar.",
+              "Que meu desejo de cuidar não se transforme em controle e que minha necessidade de segurança não comprometa meus relacionamentos.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "NEM TUDO O QUE EU TENTO CONTROLAR ESTÁ SOB MINHA RESPONSABILIDADE. AMADURECER TAMBÉM É APRENDER A FAZER MINHA PARTE SEM PRECISAR GARANTIR TODOS OS RESULTADOS."
+            ]
+          }
+        ]
+      },
+      "2026-10-27": {
+        "format": "document",
+        "label": "APROVADOS — DEVOCIONAL | SEMANA 4 — DIA 2",
+        "title": "QUANDO VOCÊ ACREDITA QUE PRECISA SER OUTRA PESSOA PARA SER ACEITO",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“Jacó disse a seu pai: ‘Sou Esaú, seu filho mais velho’.” (Gênesis 27:19)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Você já percebeu que, em determinados ambientes, começa a modificar sua maneira de falar, agir ou se posicionar porque tem medo de não ser aceito como realmente é?",
+              "Talvez você seja uma pessoa que consegue expressar suas opiniões com facilidade, mas, diante de alguém que admira, prefere concordar com tudo para não correr o risco de decepcioná-lo. Ou talvez tenha aprendido a esconder suas dificuldades, apresentar uma imagem de segurança e demonstrar que está sempre bem, porque acredita que as pessoas perderão a admiração por você se conhecerem suas fragilidades.",
+              "Em algumas situações, essa adaptação parece tão natural que você nem percebe quando começa a acontecer. Entretanto, existe uma diferença importante entre ajustar nosso comportamento com maturidade aos diferentes ambientes e abandonar aquilo que pensamos, sentimos ou valorizamos apenas para conquistar aprovação.",
+              "Será que você tem construído relacionamentos nos quais pode ser verdadeiro ou tem aprendido a apresentar diferentes versões de si mesmo para garantir que as pessoas continuem aceitando você?"
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Em Gênesis 27, encontramos um dos episódios mais marcantes da história de Jacó. Isaque estava idoso e sua visão já estava comprometida. Desejava abençoar Esaú, seu filho mais velho, mas Rebeca ouviu a conversa e organizou um plano para que Jacó recebesse aquela bênção. Seguindo as orientações da mãe, Jacó vestiu as roupas do irmão, cobriu partes do corpo para imitar sua aparência e levou ao pai a refeição que havia sido preparada.",
+              "Quando Isaque perguntou quem estava diante dele, Jacó respondeu: “Sou Esaú, seu filho mais velho”.",
+              "Naquele momento, Jacó não estava apenas escondendo uma informação. Ele estava assumindo deliberadamente a identidade do irmão para conseguir uma bênção. O texto bíblico apresenta essa atitude como parte de um engano, e não afirma que Jacó agiu motivado por uma ferida de rejeição ou por um sentimento de inferioridade. Entretanto, essa cena nos oferece uma oportunidade de refletir sobre algo que pode acontecer em nossa própria vida: a tentativa de conquistar aceitação, reconhecimento ou oportunidades apresentando aos outros uma versão de nós mesmos que não corresponde à verdade.",
+              "É importante compreender que nem sempre esse comportamento envolve uma mentira tão explícita quanto a de Jacó. Muitas vezes, ele aparece em pequenas atitudes que aprendemos a repetir sem perceber.",
+              "Imagine uma jovem que cresceu em um ambiente familiar onde suas opiniões eram frequentemente desconsideradas. Quando discordava de alguma decisão, ouvia que estava sendo difícil, ingrata ou desrespeitosa. Com o passar do tempo, aprendeu que expressar aquilo que realmente pensava poderia produzir conflitos e comprometer a aceitação que desejava receber.",
+              "Na vida adulta, tornou-se uma pessoa considerada agradável, compreensiva e fácil de conviver. Raramente discorda, evita demonstrar insatisfação e costuma aceitar responsabilidades mesmo quando está sobrecarregada. As pessoas a elogiam por sua disponibilidade, mas poucas conhecem suas verdadeiras preferências, necessidades e limites.",
+              "Ela não está necessariamente tentando enganar alguém de maneira consciente. Talvez tenha aprendido que ser aceita exige esconder determinadas partes de si mesma.",
+              "E aqui encontramos uma questão importante para nosso amadurecimento: quando uma pessoa acredita que precisa corresponder constantemente às expectativas dos outros, pode começar a construir seus relacionamentos sobre a necessidade de aprovação, e não sobre a liberdade de ser verdadeira.",
+              "Isso acontece porque todos nós possuímos uma necessidade legítima de pertencimento. Desejamos ser amados, respeitados e reconhecidos pelas pessoas que fazem parte da nossa vida. O problema não está nesse desejo, mas na conclusão de que somente seremos aceitos se conseguirmos nos tornar exatamente aquilo que os outros esperam.",
+              "Quando a aceitação se transforma em uma condição para reconhecermos nosso próprio valor, podemos começar a negociar aspectos importantes da nossa identidade para não correr o risco de perdê-la.",
+              "Uma pessoa pode esconder suas opiniões para preservar um relacionamento. Outra pode assumir compromissos que não deseja porque tem medo de decepcionar. Alguém pode exagerar suas conquistas para parecer mais competente ou esconder dificuldades porque acredita que demonstrar vulnerabilidade significa perder respeito.",
+              "Esses comportamentos podem produzir resultados imediatos. A pessoa evita conflitos, recebe elogios e consegue manter determinada imagem diante dos outros. Entretanto, com o passar do tempo, pode experimentar uma sensação de desgaste, porque precisa permanecer constantemente atenta à maneira como está sendo percebida.",
+              "E existe algo ainda mais profundo nesse funcionamento.",
+              "Quando precisamos representar uma versão de nós mesmos para receber aceitação, podemos começar a duvidar se seríamos amados caso as pessoas conhecessem quem realmente somos.",
+              "Pense nisso. Se alguém acredita que só será valorizado enquanto demonstrar competência, cada dificuldade pode se transformar em uma ameaça. Se acredita que precisa agradar para ser amado, cada discordância pode despertar medo. Se acredita que não pode demonstrar tristeza ou fragilidade, pode passar anos cercado de pessoas sem conseguir compartilhar aquilo que verdadeiramente está vivendo. O relacionamento existe, mas a pessoa não consegue experimentar plenamente a segurança de ser conhecida.",
+              "E talvez essa seja uma das consequências mais dolorosas de viver tentando corresponder às expectativas dos outros: podemos conquistar aprovação por uma imagem que construímos e, ainda assim, continuar inseguros sobre nosso próprio valor.",
+              "Mas precisamos fazer uma distinção importante. Ser verdadeiro não significa dizer tudo o que pensamos sem considerar as consequências, agir de acordo com qualquer sentimento ou exigir que as pessoas aceitem todos os nossos comportamentos. A autenticidade não elimina a necessidade de maturidade, respeito e responsabilidade.",
+              "Também não significa que devemos permanecer em ambientes onde nossa segurança ou dignidade estejam ameaçadas. Existem situações em que precisamos preservar nossa intimidade, estabelecer limites e agir com prudência.",
+              "A questão é outra: estou ajustando minha maneira de me comunicar por sabedoria ou estou abandonando minhas convicções porque tenho medo de não ser aceito? Essa pergunta pode revelar motivações que normalmente permanecem escondidas.",
+              "Às vezes, uma pessoa diz que não gosta de conflitos, mas, na verdade, tem medo de ser rejeitada quando discorda. Afirma que prefere ajudar todo mundo, mas não consegue dizer não porque teme deixar de ser considerada importante. Ou acredita que precisa demonstrar força o tempo inteiro porque aprendeu que pessoas vulneráveis não recebem respeito. O problema não está necessariamente nas atitudes isoladas, mas naquilo que está governando essas escolhas.",
+              "E, quando essa necessidade de aprovação se torna constante, podemos perder o contato com nossos próprios desejos, limites e valores. Passamos tanto tempo tentando compreender o que os outros esperam que deixamos de perguntar o que realmente pensamos sobre determinada situação.",
+              "Uma identidade amadurecida não é aquela que nunca considera a opinião dos outros, mas aquela que consegue ouvir, aprender e se relacionar sem precisar abandonar a verdade sobre si mesma.",
+              "Na perspectiva da fé cristã, essa reflexão encontra um fundamento importante em Gálatas 1:10, quando Paulo questiona se está procurando agradar às pessoas ou a Deus. Ele não está ensinando que devemos desprezar os outros, mas demonstrando que a necessidade de aprovação humana não pode ocupar o lugar da fidelidade a Deus.",
+              "Isso significa que nem sempre conseguiremos corresponder às expectativas das pessoas e permanecer fiéis àquilo que reconhecemos como correto. Em determinados momentos, amadurecer exigirá suportar uma discordância, admitir uma limitação ou estabelecer um limite que alguém talvez não compreenda. E isso pode ser especialmente difícil para quem aprendeu, desde cedo, que contrariar alguém significa correr o risco de perder amor ou reconhecimento.",
+              "Talvez hoje você precise examinar em quais relacionamentos sente liberdade para ser verdadeiro e em quais continua tentando representar uma versão de si mesmo que acredita ser mais aceitável.",
+              "Pode ser que você tenha aprendido a parecer sempre forte, mesmo quando precisa de ajuda. Talvez se considere responsável por manter todos satisfeitos. Ou talvez tenha desenvolvido uma necessidade tão intensa de demonstrar competência que já não consegue admitir quando não sabe alguma coisa. Se você se reconhece em alguma dessas situações, não precisa se condenar. Mas precisa começar a compreender o que está por trás desse funcionamento.",
+              "Talvez o problema não seja apenas aquilo que você está escondendo dos outros, mas a crença de que, se mostrar quem realmente é, deixará de ser amado ou valorizado. E essa crença merece ser examinada.",
+              "Porque relacionamentos saudáveis não exigem que abandonemos continuamente nossa identidade para preservar a aceitação. Eles precisam oferecer espaço para a verdade, para as diferenças, para o reconhecimento das limitações e para o desenvolvimento de cada pessoa.",
+              "Você pode aprender sem precisar fingir que sabe tudo. Pode discordar sem desrespeitar. Pode estabelecer limites sem deixar de amar. E pode reconhecer suas fragilidades sem concluir que perdeu seu valor.",
+              "Talvez a transformação que Deus deseja desenvolver em você comece justamente nesse lugar: deixar de organizar suas atitudes em torno da necessidade de ser aprovado por todos e aprender a viver com integridade, mesmo quando isso significa não corresponder a todas as expectativas.",
+              "Jacó se apresentou ao pai dizendo ser Esaú para receber uma bênção. Sua história nos convida a examinar uma pergunta que continua profundamente atual:",
+              "“Em quais situações tenho acreditado que preciso ser diferente de quem sou para receber aquilo que desejo?”",
+              "A resposta pode revelar áreas da sua identidade que ainda precisam ser fortalecidas.",
+              "Porque não existe liberdade verdadeira quando precisamos esconder constantemente quem somos para garantir que os outros permaneçam ao nosso lado."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Em quais relacionamentos ou ambientes sinto necessidade de modificar minhas opiniões, esconder minhas dificuldades ou demonstrar uma imagem diferente para ser aceito?",
+              "Quando preciso discordar, estabelecer um limite ou admitir que não consigo fazer alguma coisa, qual é o meu maior medo sobre a reação das pessoas?",
+              "Existe alguma expectativa que tenho tentado cumprir há muito tempo, mesmo percebendo que ela não corresponde aos meus valores, às minhas capacidades ou àquilo que realmente desejo?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "Hoje, vamos realizar um exercício chamado QUEM EU ACREDITO QUE PRECISO SER PARA SER ACEITO?",
+              "Escolha um relacionamento ou ambiente em que você perceba dificuldade de agir com naturalidade e sinceridade.",
+              "Depois, complete as seguintes frases:",
+              "1. “Nesse ambiente, sinto que preciso parecer...”",
+              "Identifique a imagem que tenta transmitir. Talvez seja alguém sempre forte, disponível, competente, alegre ou incapaz de cometer erros.",
+              "2. “Tenho medo de que, se eu demonstrar __________, as pessoas...”",
+              "Procure reconhecer aquilo que teme perder: respeito, reconhecimento, admiração, oportunidades ou aceitação.",
+              "3. “Uma atitude mais verdadeira e madura que posso começar a praticar é...”",
+              "Escolha uma mudança pequena e concreta. Pode ser admitir que precisa de ajuda, expressar uma opinião com respeito, reconhecer uma limitação ou estabelecer um limite necessário.",
+              "Não se trata de revelar sua intimidade a qualquer pessoa nem de provocar conflitos desnecessários. O objetivo é começar a perceber onde o medo da rejeição tem determinado sua maneira de agir.",
+              "Você não precisa abandonar a prudência para ser verdadeiro, mas também não precisa abandonar sua identidade para ser aceito."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Pai, hoje quero permitir que Tua verdade alcance as áreas da minha vida em que tenho tentado corresponder às expectativas das pessoas para me sentir amado, respeitado ou valorizado.",
+              "Mostra-me se existem medos de rejeição, experiências de desvalorização ou inseguranças que me levam a esconder minhas dificuldades, negar minhas necessidades ou abandonar minhas convicções.",
+              "Eu não quero construir relacionamentos baseados na necessidade constante de agradar, nem viver tentando sustentar uma imagem que não corresponde àquilo que realmente sou.",
+              "Ensina-me a reconhecer meu valor sem depender exclusivamente da aprovação das pessoas. Dá-me coragem para expressar a verdade com respeito, humildade para admitir minhas limitações e maturidade para estabelecer limites quando forem necessários.",
+              "Que minha identidade seja fortalecida em Ti, para que eu não precise me tornar outra pessoa na tentativa de conquistar amor, reconhecimento ou aceitação.",
+              "Ajuda-me a desenvolver relacionamentos nos quais a verdade, o respeito e a responsabilidade tenham mais importância do que a necessidade de manter uma aparência.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "QUANDO ACREDITO QUE PRECISO SER OUTRA PESSOA PARA SER ACEITO, POSSO ATÉ CONQUISTAR APROVAÇÃO, MAS CONTINUAREI INSEGURO SOBRE MEU PRÓPRIO VALOR. A MATURIDADE COMEÇA QUANDO APRENDO A VIVER COM VERDADE, SEM NEGOCIAR MINHA IDENTIDADE PARA AGRADAR AOS OUTROS."
+            ]
+          }
+        ]
+      },
+      "2026-10-28": {
+        "format": "document",
+        "label": "APROVADOS — DEVOCIONAL | SEMANA 4 — DIA 3",
+        "title": "QUANDO VOCÊ RECONHECE NO OUTRO O QUE NÃO CONSEGUE ENXERGAR EM SI",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“Quando chegou a manhã, lá estava Lia. Então Jacó disse a Labão: ‘Que foi que você me fez? Eu não trabalhei por Raquel? Por que você me enganou?’” (Gênesis 29:25)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Você já percebeu como conseguimos identificar rapidamente uma atitude errada quando somos prejudicados por ela, mas nem sempre temos a mesma facilidade de reconhecer esse comportamento quando somos nós que o praticamos?",
+              "Quando alguém nos trata com indiferença, percebemos a falta de consideração. Quando somos interrompidos durante uma conversa, sentimos que nossa opinião não está sendo respeitada. Quando uma pessoa manipula uma situação para conseguir aquilo que deseja, conseguimos identificar a injustiça e até questionar seu caráter. Entretanto, nem sempre percebemos quando nossas próprias atitudes produzem experiências semelhantes na vida de outras pessoas.",
+              "Essa dificuldade merece atenção porque, muitas vezes, avaliamos o comportamento dos outros a partir das consequências que sofremos, enquanto avaliamos nossas próprias atitudes a partir das intenções que acreditamos possuir. Podemos condenar no outro uma atitude que justificamos em nós mesmos, simplesmente porque conhecemos nossas razões, mas experimentamos apenas os efeitos das escolhas dele."
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Depois de deixar a casa de seus pais, Jacó chegou à região onde vivia Labão, irmão de Rebeca. Ali conheceu Raquel, por quem se apaixonou, e concordou em trabalhar sete anos para se casar com ela. Gênesis 29:20 relata que aqueles anos lhe pareceram poucos dias, tamanho era o amor que sentia. Entretanto, quando chegou o momento do casamento, Labão o enganou e, durante a noite, entregou-lhe Lia, sua filha mais velha, em lugar de Raquel.",
+              "Na manhã seguinte, ao perceber o que havia acontecido, Jacó confrontou Labão e perguntou por que havia sido enganado. Sua indignação era compreensível. Ele havia cumprido o acordo estabelecido e esperava que Labão também cumprisse sua palavra. O que torna esse episódio especialmente significativo é o fato de que Jacó, anos antes, havia participado de um engano contra o próprio pai para receber a bênção destinada ao irmão.",
+              "O texto não afirma que Jacó reconheceu naquele momento uma semelhança entre o que havia feito e aquilo que acabara de sofrer. Também não podemos concluir que Deus tenha provocado o engano de Labão como uma punição específica por sua conduta anterior. Entretanto, a narrativa apresenta duas experiências que nos convidam a refletir sobre uma dificuldade humana bastante comum: somos capazes de reconhecer a gravidade de determinados comportamentos quando ocupamos o lugar de quem sofre suas consequências, mas podemos ter dificuldade de avaliar nossas próprias atitudes com o mesmo critério.",
+              "Pense em um homem que considera extremamente desrespeitoso quando sua esposa eleva o tom de voz durante uma discussão. Ele se sente agredido, interrompe a conversa e afirma que não aceita ser tratado daquela maneira. Entretanto, quando está irritado, costuma falar de forma ríspida, fazer comentários que diminuem a opinião da esposa e utilizar um tom de superioridade para encerrar os assuntos. Se ela questiona esse comportamento, ele explica que apenas está tentando ser firme ou que precisa falar daquela maneira porque ela não compreende o que está dizendo.",
+              "Observe que ele reconhece o desrespeito quando se sente atingido, mas interpreta sua própria postura de maneira diferente. Na sua avaliação, a esposa é agressiva; ele é apenas firme. Ela é desrespeitosa; ele está tentando resolver um problema. Essa diferença de julgamento pode impedir que perceba como suas atitudes também contribuem para o desgaste do relacionamento.",
+              "Na psicologia, esse funcionamento pode ser compreendido, em parte, pela tendência de atribuirmos nossas próprias atitudes às circunstâncias em que nos encontramos, enquanto explicamos o comportamento dos outros por características pessoais. Quando agimos de maneira inadequada, lembramos do cansaço, da pressão, das preocupações e das dificuldades que estávamos enfrentando. Mas, quando alguém age de maneira semelhante conosco, nem sempre consideramos com a mesma disposição o contexto em que aquela pessoa se encontrava.",
+              "Isso não significa que todas as atitudes sejam equivalentes ou que as circunstâncias deixem de importar. Existem situações em que uma pessoa realmente age de maneira abusiva ou injusta, e reconhecer nossos próprios erros não exige minimizar aquilo que sofremos. A questão é compreender que nossas intenções não eliminam automaticamente as consequências dos nossos comportamentos, assim como as dificuldades que enfrentamos não tornam corretas todas as nossas reações.",
+              "Essa compreensão pode ser desconfortável porque estamos acostumados a construir explicações sobre nossas atitudes. Quando nos atrasamos, lembramos dos imprevistos que enfrentamos. Quando outra pessoa se atrasa, podemos concluir que ela é irresponsável. Quando esquecemos um compromisso, justificamos que estamos sobrecarregados. Quando alguém esquece algo importante para nós, podemos interpretar o esquecimento como falta de consideração.",
+              "Em muitos casos, essas diferenças acontecem sem que percebamos. Não estamos necessariamente tentando enganar os outros; simplesmente temos acesso a informações sobre nossas próprias motivações que não possuímos sobre as motivações alheias. O problema surge quando essa diferença nos leva a utilizar critérios mais flexíveis para avaliar nossos comportamentos e critérios mais rígidos para julgar as pessoas ao redor.",
+              "Uma das evidências de amadurecimento é desenvolver a capacidade de examinar nossas atitudes com a mesma seriedade com que avaliamos aquilo que nos incomoda no comportamento dos outros.",
+              "E isso exige mais do que reconhecer que também cometemos erros. Precisamos aprender a observar o efeito que nossas atitudes produzem nas pessoas, mesmo quando nossas intenções parecem legítimas. Alguém pode desejar proteger a família e, ainda assim, agir de maneira controladora. Pode querer ajudar um amigo e acabar desrespeitando seus limites. Pode acreditar que está defendendo a verdade, mas utilizar palavras que humilham ou desqualificam quem pensa de maneira diferente.",
+              "A intenção pode ser importante para compreendermos o comportamento, mas não deve ser utilizada para ignorar suas consequências. Se uma pessoa diz que se sentiu desrespeitada pela maneira como falamos, nossa primeira reação não precisa ser apresentar uma explicação detalhada sobre o que pretendíamos dizer. Podemos começar procurando compreender o que aconteceu, avaliando se nossa postura foi adequada e reconhecendo aquilo que precisa ser corrigido.",
+              "Entretanto, esse exercício se torna ainda mais difícil quando a crítica toca em algo que valorizamos sobre nós mesmos. Uma pessoa que se considera justa pode resistir a reconhecer uma atitude injusta. Alguém que se orgulha de ser cuidadoso pode ter dificuldade de admitir que seu cuidado se tornou invasivo. Uma pessoa que acredita ser generosa pode reagir defensivamente quando alguém aponta que suas ajudas costumam vir acompanhadas de cobranças.",
+              "Nessas situações, a dificuldade não está apenas em reconhecer o comportamento, mas em aceitar que podemos agir de maneira contrária à imagem que construímos sobre nós mesmos. Reconhecer uma atitude inadequada não significa negar todas as nossas qualidades; significa admitir que possuir boas intenções ou valores importantes não nos torna incapazes de agir em desacordo com eles.",
+              "Jesus confrontou essa tendência em Mateus 7:3-5, quando perguntou por que alguém observa o cisco no olho do irmão, mas não percebe a viga no próprio olho. A imagem utilizada por Jesus não significa que nunca podemos reconhecer ou corrigir o erro de outra pessoa. O próprio texto orienta que primeiro retiremos a viga do nosso olho para então enxergarmos claramente e ajudarmos o irmão.",
+              "O princípio é importante: antes de assumirmos a posição de quem avalia o comportamento alheio, precisamos estar dispostos a examinar aquilo que pode estar comprometendo nossa própria percepção. Isso exige humildade, porque nem sempre aquilo que precisamos reconhecer em nós será agradável ou corresponderá à imagem que gostaríamos de apresentar.",
+              "Talvez você seja uma pessoa que se incomoda profundamente quando não é ouvida, mas costuma interromper os outros. Talvez considere a falta de reconhecimento uma grande injustiça, mas raramente demonstra gratidão pelo esforço das pessoas que convivem com você. Ou talvez tenha dificuldade de perdoar alguém que o decepcionou, enquanto espera compreensão imediata quando suas próprias atitudes provocam sofrimento.",
+              "Essas possibilidades não devem ser utilizadas para produzir culpa indiscriminada, mas para estimular uma avaliação mais honesta. Nem toda crítica que recebemos é correta, e nem toda semelhança aparente entre dois comportamentos significa que sejam igualmente graves. Ainda assim, vale perguntar se estamos dispostos a reconhecer nossos erros mesmo quando conseguimos apresentar explicações convincentes para eles.",
+              "Na história de Jacó, o engano de Labão não deixou de ser errado porque Jacó havia enganado anteriormente. Uma injustiça não se torna aceitável porque a pessoa prejudicada também possui falhas. Entretanto, o contraste entre os episódios nos oferece uma oportunidade de examinar como reagimos quando experimentamos, na posição de quem sofre, algo semelhante ao que já fizemos a outras pessoas.",
+              "Às vezes, aquilo que mais nos incomoda no comportamento de alguém pode se tornar uma oportunidade de investigar se existe alguma atitude semelhante que ainda não conseguimos reconhecer em nós mesmos.",
+              "Isso não significa transformar toda experiência dolorosa em uma acusação contra nós. Significa permitir que situações difíceis também produzam perguntas importantes sobre nossa maneira de viver. Quando nos sentimos desrespeitados, podemos avaliar não apenas a atitude de quem nos desrespeitou, mas também a maneira como demonstramos respeito. Quando desejamos compreensão, podemos examinar nossa disposição de compreender. Quando esperamos que alguém reconheça um erro, podemos perguntar como costumamos reagir diante dos nossos próprios erros.",
+              "A transformação começa a ganhar profundidade quando deixamos de utilizar a consciência das falhas alheias como uma maneira de evitar o confronto com as nossas. Isso não nos torna responsáveis pelas escolhas dos outros, mas nos ajuda a assumir a responsabilidade por aquilo que realmente nos pertence.",
+              "Talvez o desafio de hoje seja abandonar uma pergunta que fazemos com muita facilidade — “Como aquela pessoa pôde agir assim comigo?” — e acrescentar outra, igualmente necessária: “Existe alguma situação em que minhas atitudes também tenham produzido esse tipo de sofrimento em alguém?”",
+              "Responder a essa pergunta com sinceridade pode revelar comportamentos que precisam ser corrigidos, conversas que precisam acontecer e responsabilidades que ainda não assumimos. Porque amadurecer não significa apenas desenvolver discernimento para identificar aquilo que está errado ao nosso redor, mas também permitir que esse discernimento alcance nossa própria maneira de viver."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Qual comportamento das pessoas costuma me incomodar profundamente? Já examinei se, em alguma circunstância, apresento atitudes semelhantes, mesmo que de outra maneira?",
+              "Quando alguém questiona meu comportamento, tenho disposição para compreender como minhas atitudes foram percebidas ou imediatamente procuro explicar por que agi daquela forma?",
+              "Existe alguma situação em que espero dos outros uma compreensão, um respeito ou uma consideração que nem sempre tenho oferecido com a mesma disposição?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "Hoje, vamos realizar um exercício chamado OS DOIS LADOS DA MESMA ATITUDE.",
+              "Escolha um comportamento que costuma provocar incômodo em você. Pode ser a falta de consideração, a impaciência, a dificuldade de ouvir, a ausência de reconhecimento ou qualquer outra atitude que considere prejudicial aos relacionamentos.",
+              "Em seguida, responda por escrito:",
+              "1. QUANDO ALGUÉM AGE ASSIM COMIGO, O QUE EU SINTO?",
+              "Descreva o efeito que esse comportamento produz em você, procurando identificar por que ele é tão significativo.",
+              "2. EXISTE ALGUMA SITUAÇÃO EM QUE EU TAMBÉM POSSO AGIR DESSA MANEIRA?",
+              "Examine suas atitudes com sinceridade, sem forçar uma semelhança que não existe e sem utilizar suas intenções para descartar automaticamente essa possibilidade.",
+              "3. COMO POSSO AGIR DE MANEIRA MAIS COERENTE COM AQUILO QUE ESPERO DOS OUTROS?",
+              "Escolha uma atitude concreta para praticar hoje. Talvez seja ouvir alguém com mais atenção, reconhecer um esforço que passou despercebido, cumprir um compromisso ou pedir desculpas por uma postura inadequada.",
+              "Se identificar que prejudicou alguém, considere uma conversa de reparação, respeitando as circunstâncias e os limites envolvidos.",
+              "O objetivo não é deixar de reconhecer os erros dos outros, mas aprender a aplicar aos nossos próprios comportamentos os princípios que consideramos importantes nos relacionamentos."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Pai, hoje quero Te pedir que me ajudes a enxergar minhas atitudes com mais clareza. Reconheço que muitas vezes consigo perceber facilmente aquilo que me incomoda no comportamento das pessoas, mas nem sempre examino minhas próprias escolhas com a mesma disposição.",
+              "Mostra-me se tenho utilizado minhas intenções, minhas dificuldades ou as circunstâncias que enfrento para justificar atitudes que precisam ser corrigidas. Dá-me humildade para reconhecer quando minhas palavras ou decisões produzem sofrimento, mesmo que essa não tenha sido minha intenção.",
+              "Eu não quero viver exigindo dos outros aquilo que não estou disposto a praticar. Ensina-me a desenvolver coerência entre os valores que defendo e a maneira como trato as pessoas que fazem parte da minha vida.",
+              "Que eu tenha discernimento para reconhecer o que é errado, mas também coragem para admitir quando esse erro está presente nas minhas próprias atitudes.",
+              "Ajuda-me a receber correção sem resistência, assumir minhas responsabilidades sem transferi-las aos outros e construir relacionamentos marcados por respeito, verdade e maturidade.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "AMADURECER É APRENDER A EXAMINAR MINHAS PRÓPRIAS ATITUDES COM A MESMA SERIEDADE COM QUE AVALIO AQUILO QUE ME INCOMODA NO COMPORTAMENTO DOS OUTROS."
+            ]
+          }
+        ]
+      }
+    }
+  },
 ];
 
 export const weekDays = ['Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado', 'Domingo'] as const;
