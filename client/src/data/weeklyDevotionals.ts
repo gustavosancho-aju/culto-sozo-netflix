@@ -2373,6 +2373,187 @@ export const october2026Weeks: DevotionalWeek[] = [
             ]
           }
         ]
+      },
+      "2026-10-29": {
+        "format": "document",
+        "label": "APROVADOS — DEVOCIONAL | SEMANA 4 — DIA 4",
+        "title": "QUANDO VOCÊ SEGUE EM FRENTE, MAS ALGO EM VOCÊ CONTINUA PRESO AO PASSADO",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“Volte para a terra de seus pais e de seus parentes, e eu estarei com você.” (Gênesis 31:3)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Você já percebeu que algumas situações continuam provocando reações em nós, mesmo depois de muitos anos?",
+              "Talvez você tenha construído uma nova família, mudado de cidade, conquistado estabilidade profissional ou desenvolvido relacionamentos diferentes daqueles que fizeram parte de sua história. Entretanto, basta determinada pessoa, conversa ou circunstância aparecer para que sentimentos antigos voltem com uma intensidade que você não esperava.",
+              "Isso acontece porque o tempo pode modificar nossas circunstâncias sem necessariamente transformar a maneira como interpretamos aquilo que vivemos. Podemos ter seguido em frente em muitas áreas e, ainda assim, continuar carregando medos, ressentimentos ou questões que nunca conseguimos elaborar. Nem tudo o que ficou para trás na nossa história deixou de exercer influência sobre nossa vida."
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Depois de deixar a casa dos pais, Jacó passou muitos anos trabalhando para Labão. Nesse período, constituiu família, teve filhos, adquiriu rebanhos e construiu uma nova realidade. Entretanto, chegou o momento em que Deus lhe deu uma direção: deveria retornar à terra de seus pais. Aquele retorno significava também a possibilidade de reencontrar Esaú, de quem havia fugido depois dos acontecimentos envolvendo a bênção de Isaque.",
+              "A Bíblia não afirma que Jacó passou todos aqueles anos emocionalmente preso ao conflito com o irmão. Entretanto, quando soube que Esaú vinha ao seu encontro acompanhado de quatrocentos homens, o texto registra que ficou com muito medo e angustiado (Gênesis 32:6-7). Sua reação é compreensível, considerando que, na última vez em que soubera das intenções do irmão, Esaú desejava matá-lo.",
+              "Essa parte da história nos ajuda a compreender que construir uma nova vida não significa, necessariamente, que todas as experiências anteriores tenham sido resolvidas dentro de nós. Às vezes, conseguimos reorganizar nossas circunstâncias, mas continuamos reagindo a determinadas situações a partir de experiências que deixaram marcas profundas.",
+              "Imagine uma mulher que viveu um relacionamento marcado por críticas e desvalorização. Depois da separação, reconstruiu sua vida, desenvolveu sua carreira e iniciou um relacionamento saudável. Entretanto, quando seu atual companheiro faz uma observação sobre alguma decisão, ela imediatamente se sente diminuída e reage de maneira defensiva. Mesmo quando a conversa não envolve humilhação ou desrespeito, sua interpretação pode ser influenciada pelas experiências anteriores.",
+              "O problema não está necessariamente na observação que recebeu, mas no significado que aprendeu a atribuir a situações semelhantes. Quando uma experiência dolorosa não foi suficientemente elaborada, podemos começar a responder ao presente como se ainda estivéssemos vivendo determinadas ameaças do passado.",
+              "Isso não significa que toda reação intensa seja consequência de uma ferida antiga. Algumas situações atuais realmente apresentam riscos, injustiças ou comportamentos inadequados. Por isso, amadurecer também envolve aprender a distinguir aquilo que está acontecendo agora daquilo que nossa história nos ensinou a temer.",
+              "Essa distinção é importante porque nem sempre percebemos quando uma experiência anterior está influenciando nossas decisões. Podemos evitar conversas difíceis porque, no passado, expressar nossa opinião produzia conflitos. Podemos desconfiar de pessoas que não demonstraram motivos concretos para desconfiança ou sentir necessidade de controlar determinadas situações porque já experimentamos perdas que não conseguimos impedir.",
+              "Em alguns casos, desenvolvemos comportamentos que inicialmente funcionaram como formas de proteção. O problema aparece quando continuamos utilizando essas mesmas respostas em contextos diferentes, mesmo quando elas já não são necessárias ou começam a prejudicar nossos relacionamentos.",
+              "Aquilo que um dia nos ajudou a enfrentar uma situação difícil pode se tornar uma limitação quando passa a determinar todas as nossas respostas.",
+              "É possível, por exemplo, que uma pessoa tenha aprendido a não depender de ninguém porque, em determinado momento, precisou enfrentar dificuldades sozinha. Essa postura pode ter contribuído para que desenvolvesse autonomia e resistência. Entretanto, se continuar acreditando que depender de alguém significa necessariamente ser decepcionada, poderá encontrar dificuldades para construir relações de confiança e receber ajuda quando precisar.",
+              "A transformação exige que examinemos não apenas aquilo que aconteceu conosco, mas também as conclusões que construímos a partir dessas experiências. Talvez o abandono tenha produzido a crença de que ninguém permanece. Talvez uma traição tenha fortalecido a ideia de que confiar é perigoso. Ou talvez anos de críticas tenham levado alguém a acreditar que qualquer correção representa uma ameaça ao seu valor.",
+              "Essas conclusões podem parecer verdadeiras porque nasceram de experiências reais. Entretanto, uma experiência verdadeira não significa que todas as conclusões construídas a partir dela sejam igualmente verdadeiras.",
+              "Na perspectiva da fé cristã, essa reflexão encontra um princípio importante em Romanos 12:2, quando Paulo fala sobre a transformação pela renovação da mente. Não se trata simplesmente de esquecer o passado ou substituir sentimentos difíceis por pensamentos positivos, mas de permitir que nossa maneira de interpretar a vida seja examinada e transformada à luz da verdade.",
+              "Isso também significa reconhecer que algumas experiências exigem um processo mais cuidadoso de restauração. Dependendo da profundidade das feridas, pode ser necessário buscar acompanhamento e apoio para compreender seus efeitos. A fé não exige que neguemos a dor nem que nos exponhamos novamente a relacionamentos prejudiciais para demonstrar que fomos curados.",
+              "No caso de Jacó, o retorno à sua terra fazia parte de uma direção específica que Deus lhe havia dado. Não devemos transformar essa experiência em uma regra segundo a qual toda pessoa precisa reencontrar alguém que a feriu. Enfrentar o passado nem sempre significa procurar quem participou dele; muitas vezes, significa reconhecer e trabalhar aquilo que essa experiência continua produzindo dentro de nós.",
+              "Talvez você não precise retornar a determinado lugar ou restabelecer um relacionamento. Pode ser que o passo necessário seja reconhecer um medo, abandonar uma crença sobre si mesmo, estabelecer limites mais saudáveis ou aprender a interpretar uma situação presente sem permitir que uma experiência anterior determine automaticamente sua reação.",
+              "Ao olhar para sua própria história, procure perceber se existem situações em que você continua se comportando como alguém que precisa se proteger de uma ameaça que já não está presente. Talvez tenha avançado profissionalmente, desenvolvido sua vida espiritual e construído novos relacionamentos, mas ainda exista uma área em que suas decisões continuam sendo governadas por experiências antigas.",
+              "A transformação não exige apagar o que aconteceu. Ela envolve aprender a viver no presente sem permitir que o passado continue determinando todas as nossas escolhas."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Existe alguma experiência do passado que ainda influencia intensamente minhas reações, mesmo quando a situação atual é diferente daquela que vivi?",
+              "Que conclusão construí sobre mim, sobre as pessoas ou sobre os relacionamentos a partir dessa experiência? Essa conclusão continua sendo verdadeira em todas as situações?",
+              "Existe algum comportamento que desenvolvi para me proteger, mas que hoje pode estar dificultando meu amadurecimento ou meus relacionamentos?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "EXERCÍCIO — O PASSADO NÃO PRECISA DECIDIR PELO PRESENTE",
+              "Escolha uma situação recente em que sua reação tenha sido mais intensa do que você esperava. Em seguida, responda:",
+              "1. O QUE ACONTECEU? Descreva os fatos, procurando separá-los das interpretações que você fez.",
+              "2. O QUE ESSA SITUAÇÃO DESPERTOU EM MIM? Identifique os sentimentos e observe se eles se relacionam com alguma experiência anterior.",
+              "3. O QUE PRECISO REAVALIAR? Pergunte se está respondendo ao que realmente aconteceu ou a uma conclusão que construiu no passado.",
+              "Por fim, escreva uma atitude diferente que poderá praticar caso uma situação semelhante aconteça novamente. Pode ser pedir esclarecimentos antes de tirar conclusões, comunicar um sentimento sem acusar alguém ou reconhecer que determinada circunstância não representa necessariamente a mesma ameaça que você enfrentou anteriormente."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Pai, hoje quero olhar para minha história com sinceridade e reconhecer aquilo que ainda precisa ser cuidado dentro de mim. Tu conheces as experiências que vivi, as dores que enfrentei e as conclusões que construí ao longo do caminho.",
+              "Mostra-me se existem medos, ressentimentos ou crenças antigas influenciando a maneira como interpreto as situações e me relaciono com as pessoas. Ajuda-me a distinguir os acontecimentos do presente das experiências que ainda despertam insegurança em meu coração.",
+              "Eu não quero negar minha história, mas também não quero continuar permitindo que ela determine todas as minhas escolhas. Renova minha maneira de pensar, fortalece minha identidade em Ti e conduz-me em um processo verdadeiro de restauração.",
+              "Ensina-me a reconhecer o que precisa ser tratado, a assumir as responsabilidades que me pertencem e a desenvolver respostas mais maduras diante da vida.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "SEGUIR EM FRENTE NÃO SIGNIFICA QUE TUDO FICOU RESOLVIDO. A TRANSFORMAÇÃO COMEÇA QUANDO DEIXAMOS DE PERMITIR QUE AS EXPERIÊNCIAS DO PASSADO GOVERNEM NOSSAS REAÇÕES NO PRESENTE."
+            ]
+          }
+        ]
+      },
+      "2026-10-30": {
+        "format": "document",
+        "label": "APROVADOS — DEVOCIONAL | SEMANA 4 — DIA 5",
+        "title": "QUANDO AQUILO QUE VOCÊ APRENDEU A SER JÁ NÃO COMBINA COM QUEM PRECISA SE TORNAR",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“O homem lhe perguntou: ‘Qual é o seu nome?’ ‘Jacó’, respondeu ele.” (Gênesis 32:27)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Você já percebeu que, mesmo reconhecendo a necessidade de mudar determinado comportamento, continua reagindo da mesma maneira quando enfrenta situações semelhantes?",
+              "Talvez você saiba que precisa deixar de controlar tudo, mas continua interferindo nas decisões das pessoas. Reconhece que precisa aprender a ouvir, mas interrompe quando alguém apresenta uma opinião diferente. Ou compreende que sua necessidade de aprovação tem prejudicado suas escolhas, mas ainda encontra dificuldade de dizer não.",
+              "Em muitos casos, determinados comportamentos foram repetidos durante tanto tempo que passaram a fazer parte da maneira como nos reconhecemos. Deixamos de percebê-los como atitudes que aprendemos e começamos a considerá-los características permanentes da nossa personalidade. Quando acreditamos que um comportamento define quem somos, podemos ter dificuldade de imaginar que existe outra maneira de viver."
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Em Gênesis 32, Jacó estava retornando à terra de seus pais depois de muitos anos. Sabia que Esaú vinha ao seu encontro acompanhado de quatrocentos homens e não tinha certeza de como seria recebido. Naquela noite, depois de fazer sua família e seus bens atravessarem o ribeiro de Jaboque, ficou sozinho e viveu um encontro extraordinário com Deus.",
+              "Durante aquele encontro, perguntaram seu nome, e ele respondeu: “Jacó”. Em seguida, recebeu um novo nome: Israel. Essa cena se torna especialmente significativa quando lembramos que, anos antes, diante de Isaque, Jacó havia afirmado ser Esaú para receber a bênção do pai. Agora, quando novamente lhe perguntam quem ele é, responde com seu verdadeiro nome.",
+              "O texto não apresenta essa resposta como uma confissão explícita de todos os seus erros, mas o contraste entre os episódios nos convida a refletir sobre a relação entre identidade e transformação. A mudança não envolve apenas reconhecer comportamentos inadequados, mas também abandonar a crença de que estamos condenados a continuar agindo da mesma maneira.",
+              "Imagine uma mulher que cresceu em um ambiente onde precisava demonstrar força o tempo inteiro. Quando enfrentava dificuldades, aprendia que não deveria depender de ninguém. Com o passar dos anos, desenvolveu uma postura independente, tornou-se responsável e passou a resolver praticamente tudo sozinha.",
+              "Entretanto, na vida adulta, essa mesma mulher encontra dificuldade para pedir ajuda, compartilhar preocupações e permitir que outras pessoas participem de suas decisões. Mesmo quando está sobrecarregada, continua afirmando que consegue dar conta de tudo. Quando questionada, costuma responder: “Eu sou assim mesmo. Sempre fui muito independente.”",
+              "Talvez ela realmente tenha desenvolvido uma grande capacidade de enfrentar dificuldades. O problema começa quando essa característica se torna tão rígida que já não permite reconhecer necessidades legítimas, receber apoio ou construir relacionamentos mais profundos.",
+              "Aquilo que aprendemos a fazer para enfrentar determinadas experiências pode continuar funcionando em nossa vida mesmo depois que já não precisamos responder às situações da mesma maneira.",
+              "Uma pessoa que aprendeu a evitar conflitos pode se tornar um adulto que concorda com tudo, mesmo quando precisa se posicionar. Alguém que cresceu sendo constantemente comparado pode desenvolver uma necessidade intensa de demonstrar competência. Outra pessoa, que experimentou situações de instabilidade, pode aprender a controlar cada detalhe da rotina para reduzir sua ansiedade.",
+              "Esses comportamentos podem ter feito sentido em determinados momentos da história. Entretanto, o fato de uma atitude ter sido aprendida como forma de proteção não significa que ela continue sendo necessária ou saudável em todas as fases da vida.",
+              "Abandonar um comportamento antigo pode produzir desconforto, mesmo quando sabemos que ele está nos prejudicando. Para alguém que sempre tentou agradar, estabelecer um limite pode despertar culpa. Para quem aprendeu a controlar tudo, delegar uma responsabilidade pode provocar ansiedade. Para uma pessoa acostumada a se defender imediatamente, ouvir uma correção sem apresentar justificativas pode parecer ameaçador.",
+              "Nem sempre aquilo que parece natural em nós representa nossa maneira mais saudável de viver. Às vezes, representa apenas aquilo que praticamos por mais tempo.",
+              "Por isso, precisamos ter cuidado com afirmações como: “Eu não consigo confiar em ninguém.” “Sempre fui explosivo.” “Não sei demonstrar sentimentos.” “Sou uma pessoa que precisa controlar tudo.”",
+              "Essas frases podem expressar dificuldades reais, mas, quando se transformam em definições permanentes, corremos o risco de tratar comportamentos aprendidos como características impossíveis de modificar.",
+              "Existe uma diferença entre reconhecer “tenho dificuldade de confiar” e concluir “sou incapaz de confiar”. A primeira afirmação identifica uma área que precisa de atenção. A segunda pode nos levar a acreditar que nenhuma transformação é possível.",
+              "Em Efésios 4:22-24, Paulo apresenta a transformação cristã como um processo que envolve abandonar a antiga maneira de viver, ser renovado no modo de pensar e revestir-se do novo homem. Esse princípio nos ensina que a mudança precisa alcançar não apenas nossas atitudes, mas também as crenças que continuam sustentando nossos comportamentos.",
+              "Se acredito que preciso agradar para ser amado, estabelecer limites será difícil. Se acredito que qualquer erro compromete meu valor, receber correção será ameaçador. Se acredito que somente estarei seguro quando controlar tudo, confiar continuará parecendo arriscado.",
+              "Mudar uma atitude se torna mais difícil quando continuamos acreditando naquilo que nos levou a desenvolvê-la.",
+              "Na história de Jacó, receber o nome Israel não significou que todos os desafios de sua vida desapareceram. Ele ainda precisaria encontrar Esaú e enfrentar as circunstâncias que estavam diante dele. Entretanto, aquele encontro marcou uma nova etapa em sua trajetória.",
+              "Da mesma maneira, uma experiência com Deus não elimina automaticamente todos os comportamentos que desenvolvemos ao longo da vida. A transformação precisa continuar alcançando nossas decisões, especialmente quando enfrentamos situações que antes despertavam nossas antigas reações.",
+              "Talvez você ainda sinta vontade de controlar, mas possa começar a respeitar a autonomia de alguém. Talvez continue experimentando medo de rejeição, mas consiga estabelecer um limite necessário. Ou talvez ainda sinta desconforto diante de uma correção, mas aprenda a ouvir antes de se defender.",
+              "A mudança começa a se tornar visível quando deixamos de responder automaticamente a partir daquilo que sempre fomos e começamos a praticar aquilo que precisamos desenvolver.",
+              "Ao encerrar esta reflexão, considere uma pergunta: qual comportamento você continua chamando de personalidade, mas que talvez seja uma resposta aprendida que precisa ser transformada?"
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Existe algum comportamento que costumo justificar dizendo “eu sou assim mesmo”, embora reconheça que ele tem prejudicado minha vida ou meus relacionamentos?",
+              "O que aprendi ao longo da minha história que pode ter contribuído para desenvolver esse comportamento? Ele continua sendo necessário na minha realidade atual?",
+              "Qual desconforto preciso aprender a enfrentar para deixar de repetir essa antiga maneira de agir?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "EXERCÍCIO — DO “EU SOU ASSIM” PARA “EU POSSO APRENDER”",
+              "Escolha um comportamento que você reconhece precisar transformar e complete estas três frases:",
+              "1. “Durante muito tempo, tenho dito que sou uma pessoa que...”",
+              "Identifique a característica que costuma utilizar para justificar suas reações.",
+              "2. “Talvez eu tenha aprendido a agir dessa maneira porque...”",
+              "Reflita sobre experiências que podem ter contribuído para esse comportamento, sem transformar sua história em uma justificativa para continuar repetindo-o.",
+              "3. “Uma resposta diferente que posso começar a desenvolver é...”",
+              "Estabeleça uma atitude concreta para praticar nos próximos dias.",
+              "Por exemplo, substitua “sou uma pessoa que não consegue confiar” por “tenho dificuldade de confiar, mas posso aprender a construir confiança de maneira gradual, observando atitudes e estabelecendo limites saudáveis”.",
+              "O objetivo não é negar suas dificuldades, mas deixar de tratá-las como definições permanentes da sua identidade."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Pai, hoje quero reconhecer que existem comportamentos que aprendi ao longo da vida e que, muitas vezes, passei a considerar parte definitiva de quem sou.",
+              "Mostra-me quais atitudes tenho justificado como características da minha personalidade, mesmo percebendo que precisam ser transformadas. Ajuda-me a compreender as experiências que contribuíram para desenvolvê-las, sem permanecer preso às mesmas respostas.",
+              "Eu não quero continuar utilizando minha história para limitar aquilo que ainda posso me tornar.",
+              "Renova minha maneira de pensar, fortalece minha identidade em Ti e dá-me coragem para abandonar comportamentos que já não correspondem à vida que desejo construir.",
+              "Ensina-me a enfrentar o desconforto das mudanças e a desenvolver atitudes mais maduras nos meus relacionamentos e decisões.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "NEM TUDO O QUE APRENDI A SER PRECISA CONTINUAR DEFININDO QUEM SOU. A TRANSFORMAÇÃO COMEÇA QUANDO DEIXO DE JUSTIFICAR MINHAS ANTIGAS REAÇÕES E PASSO A DESENVOLVER UMA NOVA MANEIRA DE VIVER."
+            ]
+          }
+        ]
       }
     }
   },
