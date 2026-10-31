@@ -235,7 +235,7 @@ const WeeklyDevotional: React.FC = () => {
                 </header>
                 <div className="mt-9 space-y-9">
                   {devotionalSections.map((section, index) => (
-                    <DevotionalSection key={`${selectedDate}-${section.title}`} section={section} index={index} id={`devotional-${selectedDate}-${index}`} />
+                    <DevotionalSection key={`${selectedDate}-${section.title}`} section={section} index={index} date={selectedDate} id={`devotional-${selectedDate}-${index}`} />
                   ))}
                 </div>
                 <div className="mt-8">{dayNavigation}</div>

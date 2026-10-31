@@ -148,3 +148,17 @@
   .weekly-devotional .devotional-questions li { gap: 10px; padding: 12px; }
   .weekly-devotional .devotional-verse { padding-left: 14px; font-size: 17px; }
 }
+
+.weekly-devotional .prayer-audio { margin: 0 0 24px; }
+.weekly-devotional .prayer-audio-button {
+  display: inline-flex; align-items: center; gap: 8px; min-height: 44px;
+  padding: 10px 18px; border: 1px solid #edddb9; border-radius: 8px;
+  background: #d0ba89; color: #211c12; font-weight: 700; cursor: pointer;
+}
+.weekly-devotional .prayer-audio audio { max-width: 100%; width: 360px; }
+.weekly-devotional .prayer-audio p { color: #f3d9a3; margin-top: 10px; }
+.weekly-devotional .prayer-audio p button { text-decoration: underline; }
+.weekly-devotional .prayer-audio button:focus-visible { outline: 2px solid white; outline-offset: 3px; }
+.weekly-devotional .prayer-audio label { display: block; color: #e4d2a6; font-weight: 600; margin-bottom: 8px; }
+.weekly-devotional .prayer-audio select { display: block; min-height: 44px; margin-bottom: 12px; padding: 8px 36px 8px 12px; border: 1px solid #b79e68; border-radius: 8px; background: #26231d; color: #f3efe5; }
+.weekly-devotional .prayer-audio select:focus-visible { outline: 2px solid white; outline-offset: 3px; }

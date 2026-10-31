@@ -1,6 +1,8 @@
 import { BookOpen, CircleHelp, Footprints, Heart, Quote, Sunrise } from 'lucide-react';
 import type { DocumentDevotional } from '../data/weeklyDevotionals';
 import './DevotionalSection.css';
+import PrayerAudio from './PrayerAudio';
+import audioManifest from '../data/prayerAudio.json';
 
 export type DevotionalSectionContent = DocumentDevotional['sections'][number];
 
@@ -16,12 +18,14 @@ interface Props {
   section: DevotionalSectionContent;
   index: number;
   id: string;
+  date: string;
 }
 
-export default function DevotionalSection({ section, index, id }: Props) {
+export default function DevotionalSection({ section, index, id, date }: Props) {
   const title = section.title.toUpperCase();
   const Icon = sectionIcons[title as keyof typeof sectionIcons]
     ?? (section.kind === 'takeaway' ? Quote : BookOpen);
+  const audio = (audioManifest as Record<string, Record<string, { src: string; text: string }>>)[date];
   const variant = title === 'ORAÇÃO' ? 'prayer' : section.kind;
 
   return (
@@ -31,6 +35,7 @@ export default function DevotionalSection({ section, index, id }: Props) {
         <Icon className="h-5 w-5 shrink-0" aria-hidden="true" />
         <span>{section.title}</span>
       </h4>
+      {title === 'ORAÇÃO' && audio?.feminina?.text === section.paragraphs.join('\n\n') && audio?.masculina?.text === section.paragraphs.join('\n\n') && <PrayerAudio date={date} voices={{ feminina: audio.feminina.src, masculina: audio.masculina.src }} />}
       <div className="devotional-panel-body">
         {section.kind === 'questions' ? (
           <ol className="devotional-questions">
