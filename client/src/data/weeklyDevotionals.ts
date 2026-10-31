@@ -2554,6 +2554,199 @@ export const october2026Weeks: DevotionalWeek[] = [
             ]
           }
         ]
+      },
+      "2026-10-31": {
+        "format": "document",
+        "label": "APROVADOS — DEVOCIONAL | SEMANA 4 — DIA 6",
+        "title": "QUANDO O ARREPENDIMENTO PRECISA ALCANÇAR NOSSOS RELACIONAMENTOS",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“Ele mesmo passou à frente e, ao aproximar-se do seu irmão, curvou-se até o chão sete vezes.” Gênesis 33:3"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Você já percebeu que algumas pessoas reconhecem seus erros, dizem que mudaram, mas continuam esperando que os relacionamentos sejam restaurados sem precisar enfrentar as consequências daquilo que fizeram?",
+              "Às vezes, alguém admite que foi agressivo, desrespeitoso ou negligente, mas se incomoda quando a pessoa que foi ferida ainda demonstra insegurança. Pode até pedir perdão, mas espera que tudo volte imediatamente ao que era antes, como se o reconhecimento do erro fosse suficiente para reconstruir aquilo que foi comprometido.",
+              "Isso acontece porque nem sempre compreendemos que o arrependimento é uma decisão pessoal, mas a restauração da confiança envolve também a experiência de quem foi ferido. Podemos reconhecer nossos erros em um momento, mas talvez precisemos demonstrar durante muito tempo que estamos aprendendo a agir de maneira diferente."
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Depois do encontro em Jaboque, Jacó continuou sua caminhada em direção à terra de seus pais. Entretanto, ainda precisava encontrar Esaú, o irmão de quem havia fugido muitos anos antes. A última notícia que tivera sobre suas intenções era que Esaú desejava matá-lo, e agora Jacó sabia que ele vinha ao seu encontro acompanhado de quatrocentos homens.",
+              "Em Gênesis 33, encontramos uma cena significativa. Ao perceber a aproximação do irmão, Jacó passa à frente de sua família e se curva sete vezes até chegar perto dele. O homem que anteriormente havia participado de um engano para receber a bênção de Isaque agora se aproxima de Esaú demonstrando respeito e humildade.",
+              "O texto não apresenta esse gesto como uma confissão verbal detalhada de todos os erros de Jacó. Entretanto, sua postura contrasta com atitudes anteriores e nos permite refletir sobre uma verdade importante: a transformação precisa alcançar a maneira como nos posicionamos diante das pessoas que foram afetadas pelas nossas escolhas.",
+              "Imagine um pai que passou muitos anos sendo excessivamente crítico com os filhos. Ele cobrava resultados, comparava desempenhos e raramente demonstrava satisfação com aquilo que eles realizavam. Com o tempo, reconheceu que sua maneira de agir havia produzido insegurança e distanciamento emocional.",
+              "Depois de participar de um processo de restauração, esse pai decide mudar. Começa a demonstrar mais afeto, procura ouvir os filhos e evita as críticas que costumava fazer. Entretanto, percebe que eles continuam reservados e não compartilham suas dificuldades com facilidade. Diante disso, sente-se frustrado e afirma: “Mas eu já mudei! Por que vocês continuam me tratando como antes?”",
+              "O que esse pai talvez ainda precise compreender é que a decisão de mudar não elimina automaticamente os efeitos de comportamentos repetidos durante muitos anos. Seus filhos podem precisar de tempo para reconhecer que aquela nova postura é consistente e que podem se aproximar sem experimentar novamente as mesmas reações.",
+              "Isso não significa que uma pessoa deva ser punida indefinidamente por erros que reconheceu. Significa compreender que confiança não é uma obrigação que podemos exigir dos outros; ela se desenvolve a partir de experiências de segurança, respeito e coerência.",
+              "Existe uma diferença entre pedir perdão e reparar um relacionamento. Pedir perdão envolve reconhecer a responsabilidade pelo que fizemos e expressar arrependimento. Reparar, quando possível, exige considerar as consequências das nossas atitudes e assumir compromissos concretos para não continuar produzindo os mesmos danos.",
+              "Uma pessoa que foi desonesta precisa compreender que sua palavra talvez não seja imediatamente recebida com a mesma confiança. Alguém que repetidamente desrespeitou limites precisa demonstrar que aprendeu a respeitá-los. E quem costumava reagir com agressividade não pode esperar que as pessoas deixem de sentir receio apenas porque prometeu que não agirá mais daquela maneira.",
+              "O arrependimento verdadeiro não se preocupa apenas em deixar de sentir culpa; ele também se importa com aquilo que precisa ser reconstruído.",
+              "Em Lucas 19:1-10, encontramos um exemplo importante na história de Zaqueu. Depois de receber Jesus, ele manifesta disposição para repartir seus bens com os pobres e restituir aqueles que havia prejudicado. Sua resposta demonstra que a transformação alcançou também a maneira como lidava com as consequências de suas escolhas.",
+              "Nem todos os erros podem ser reparados da mesma forma. Existem palavras que não podem ser retiradas, oportunidades que foram perdidas e situações cujas consequências permanecem. Ainda assim, podemos assumir responsabilidade por nossas atitudes, reconhecer os danos produzidos e desenvolver uma postura diferente no presente.",
+              "Também precisamos compreender que reconciliação não depende exclusivamente de quem deseja reparar o relacionamento. Podemos pedir perdão, mudar comportamentos e demonstrar disposição para reconstruir uma relação, mas não podemos obrigar a outra pessoa a restabelecer a proximidade ou a confiança.",
+              "Em alguns casos, especialmente quando houve violência, abuso ou desrespeito persistente, a restauração pode exigir limites firmes e até a manutenção da distância. Perdoar não significa abrir mão da segurança, e reconhecer um erro não garante o direito de recuperar o acesso à vida de alguém.",
+              "Na história de Jacó, o reencontro terminou de maneira surpreendente. Gênesis 33:4 relata que Esaú correu ao encontro do irmão, abraçou-o, beijou-o e ambos choraram. Aquela reconciliação foi possível porque Esaú também respondeu de maneira favorável. Jacó podia escolher como se aproximaria, mas não podia determinar qual seria a reação do irmão.",
+              "Essa distinção nos ensina que amadurecer envolve assumir nossa responsabilidade sem tentar controlar a resposta das outras pessoas. Podemos escolher agir com humildade, reconhecer erros e construir novas atitudes, mas precisamos respeitar o tempo, os sentimentos e as decisões de quem também participou daquela história.",
+              "Talvez exista alguém em sua vida que ainda esteja lidando com as consequências de comportamentos que você já reconheceu como inadequados. Em vez de exigir que essa pessoa perceba imediatamente sua mudança, procure compreender o que ela precisa observar para experimentar mais segurança na relação.",
+              "A transformação não se torna verdadeira porque conseguimos convencer alguém de que mudamos, mas porque nossas atitudes começam a demonstrar, de maneira consistente, que já não estamos escolhendo agir como antes."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Existe alguém de quem tenho esperado confiança, proximidade ou reconhecimento da minha mudança sem considerar as consequências das minhas atitudes anteriores?",
+              "Quando reconheço que errei, procuro compreender como minhas atitudes afetaram a outra pessoa ou fico preocupado principalmente em ser perdoado?",
+              "Que comportamento preciso demonstrar de maneira consistente para que minha transformação alcance meus relacionamentos?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "EXERCÍCIO — DO ARREPENDIMENTO À REPARAÇÃO",
+              "Pense em um relacionamento que tenha sido afetado por alguma atitude sua e responda:",
+              "1. O QUE PRECISO RECONHECER? Identifique uma atitude pela qual precisa assumir responsabilidade, sem justificá-la pelas circunstâncias ou pelo comportamento da outra pessoa.",
+              "2. QUE CONSEQUÊNCIAS ESSA ATITUDE PRODUZIU? Considere como suas palavras ou decisões podem ter afetado a confiança, a segurança ou a proximidade naquele relacionamento.",
+              "3. COMO POSSO DEMONSTRAR MUDANÇA? Escolha uma atitude concreta que expresse respeito, responsabilidade e coerência.",
+              "Se for apropriado e seguro, considere uma conversa sincera. Caso a outra pessoa não deseje essa aproximação, respeite seus limites e concentre-se em desenvolver as mudanças que dependem de você."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Pai, hoje quero reconhecer que minhas escolhas não afetam apenas minha própria vida, mas também as pessoas com quem me relaciono. Mostra-me se existem atitudes pelas quais ainda preciso assumir responsabilidade e consequências que tenho evitado reconhecer.",
+              "Ensina-me a pedir perdão com sinceridade, sem utilizar justificativas para diminuir aquilo que fiz. Dá-me humildade para compreender que as pessoas podem precisar de tempo para reconhecer minha mudança e maturidade para respeitar seus limites.",
+              "Que meu arrependimento não permaneça apenas nas palavras, mas produza atitudes capazes de demonstrar uma transformação verdadeira.",
+              "Ajuda-me a reparar aquilo que for possível, aceitar aquilo que não posso controlar e construir relacionamentos marcados por respeito, responsabilidade e verdade.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "O ARREPENDIMENTO RECONHECE O ERRO, MAS O FRUTO DO ARREPENDIMENTO PRECISA APARECER NAS ATITUDES. NÃO POSSO EXIGIR QUE OS OUTROS CONFIEM NA MINHA MUDANÇA; PRECISO APRENDER A VIVÊ-LA COM COERÊNCIA."
+            ]
+          }
+        ]
+      },
+      "2026-11-01": {
+        "format": "document",
+        "label": "APROVADOS — DEVOCIONAL | SEMANA 4 — DIA 7",
+        "title": "QUANDO A TRANSFORMAÇÃO DEIXA DE SER UM DESEJO E SE TORNA UMA MANEIRA DE VIVER",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“Assim, pelos seus frutos vocês os reconhecerão!” (Mateus 7:20)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Se as pessoas que convivem com você precisassem identificar sua transformação apenas pelas suas atitudes, o que elas conseguiriam perceber?",
+              "Talvez você tenha aprendido muitas coisas sobre Deus, participado de cultos, recebido palavras que confrontaram seu coração e reconhecido comportamentos que precisam mudar. Entretanto, existe uma diferença importante entre compreender uma verdade e permitir que ela transforme nossa maneira de viver.",
+              "Podemos reconhecer que precisamos desenvolver paciência, mas continuar reagindo com irritação diante das contrariedades. Podemos compreender a importância do perdão, mas continuar alimentando ressentimentos. E podemos falar sobre humildade enquanto permanecemos resistentes a qualquer correção.",
+              "O conhecimento pode revelar o caminho da transformação, mas são nossas escolhas que começam a demonstrar se estamos realmente caminhando por ele."
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Ao longo desta série, acompanhamos a história de quatro homens que viveram experiências diferentes, mas cujas trajetórias nos ajudaram a compreender aspectos importantes do amadurecimento espiritual.",
+              "Com Davi, aprendemos que Deus não avalia as pessoas apenas pela aparência ou pelas capacidades que demonstram, mas conhece aquilo que existe no coração. Com José, compreendemos que nossas convicções precisam permanecer firmes mesmo quando enfrentamos pressões, injustiças e oportunidades de agir de maneira contrária aos nossos princípios. Com Saul, observamos como o medo, a necessidade de aprovação e a resistência à correção podem comprometer nossas decisões. E, com Jacó, percebemos que o propósito do processo não é apenas modificar nossas circunstâncias, mas transformar nossa maneira de viver.",
+              "Essas histórias nos conduzem a uma pergunta fundamental: o que estamos fazendo com as verdades que recebemos?",
+              "Em Mateus 7:15-20, Jesus utiliza a imagem de uma árvore e seus frutos para ensinar sobre o reconhecimento dos falsos profetas. O princípio apresentado naquele contexto também nos convida a considerar a relação entre aquilo que afirmamos ser e os resultados que nossas atitudes produzem.",
+              "Uma árvore não é reconhecida apenas pelo que alguém diz a respeito dela, mas pelos frutos que apresenta. Da mesma maneira, nossas declarações sobre maturidade, amor e transformação precisam encontrar correspondência na maneira como tratamos as pessoas e respondemos às situações da vida.",
+              "Isso não significa que uma pessoa transformada nunca cometerá erros. O amadurecimento cristão não elimina nossa necessidade de continuar aprendendo, reconhecendo falhas e recebendo correção. Entretanto, não podemos confundir o desejo de mudar com a disposição de praticar mudanças reais.",
+              "Imagine uma mulher que reconheceu sua dificuldade de receber críticas. Durante muito tempo, sempre que o marido ou os filhos apontavam alguma atitude inadequada, ela reagia com irritação, apresentava justificativas e transformava a conversa em uma discussão.",
+              "Depois de refletir sobre esse comportamento, decidiu que precisava aprender a ouvir. Algumas semanas depois, durante uma conversa familiar, sua filha lhe disse que se sentia desconsiderada quando tentava expressar uma opinião diferente.",
+              "A primeira reação daquela mulher foi se defender. Sentiu vontade de explicar tudo o que fazia pela família e demonstrar que a filha estava sendo injusta. Entretanto, dessa vez, reconheceu o impulso, permaneceu ouvindo e perguntou o que poderia fazer de maneira diferente.",
+              "Talvez ainda tenha sentido desconforto. Talvez não tenha concordado com tudo o que ouviu. Mas conseguiu responder de uma maneira que antes encontrava dificuldade de praticar.",
+              "A transformação começou a aparecer não porque ela deixou de sentir vontade de se defender, mas porque aprendeu a não permitir que aquela vontade determinasse automaticamente sua atitude.",
+              "Essa distinção é importante porque, muitas vezes, esperamos que a mudança aconteça primeiro em nossos sentimentos para depois modificar nossos comportamentos. Acreditamos que somente conseguiremos agir com paciência quando deixarmos de sentir irritação, ou que apenas seremos capazes de estabelecer limites quando não experimentarmos mais medo de rejeição.",
+              "Entretanto, o amadurecimento também envolve aprender a escolher respostas diferentes enquanto ainda estamos desenvolvendo novas maneiras de lidar com aquilo que sentimos.",
+              "Podemos sentir raiva e decidir não ferir. Podemos experimentar insegurança e ainda assim agir com honestidade. Podemos sentir vontade de controlar uma situação e escolher respeitar a responsabilidade de outra pessoa.",
+              "O fruto da transformação não é a ausência de sentimentos difíceis, mas o desenvolvimento de atitudes que já não são automaticamente governadas por eles.",
+              "Em Gálatas 5:22-23, Paulo apresenta o fruto do Espírito, incluindo amor, paciência, amabilidade, fidelidade, mansidão e domínio próprio. Essas características não devem ser compreendidas apenas como qualidades que admiramos nos outros, mas como expressões de uma vida que está sendo formada pela ação do Espírito Santo.",
+              "Por isso, uma maneira importante de examinar nosso crescimento espiritual é observar como estamos nos comportando nos ambientes em que nossa verdadeira maneira de ser costuma aparecer: dentro de casa, nos relacionamentos mais próximos, nas situações de pressão e nos momentos em que somos contrariados.",
+              "É possível demonstrar gentileza diante de muitas pessoas e continuar tratando a família com impaciência. Podemos ser reconhecidos por nossa disponibilidade no ministério e, ao mesmo tempo, encontrar dificuldade para ouvir quem convive conosco. Essas diferenças não significam necessariamente que toda nossa caminhada seja falsa, mas revelam áreas em que ainda precisamos desenvolver coerência.",
+              "A transformação espiritual não pode permanecer restrita aos momentos em que estamos conscientes de que outras pessoas estão observando nosso comportamento. Ela precisa alcançar também as escolhas que fazemos na rotina.",
+              "Ao encerrarmos esta série, talvez seja importante abandonar a preocupação de avaliar quanto aprendemos e começar a examinar o que estamos colocando em prática. O conhecimento é necessário, mas precisa produzir respostas concretas.",
+              "Se reconhecemos que temos dificuldade de ouvir, podemos começar a interromper menos. Se percebemos que utilizamos o passado para justificar nossas reações, podemos assumir responsabilidade por nossas atitudes. Se identificamos uma necessidade excessiva de aprovação, podemos aprender a estabelecer limites. E, se compreendemos que precisamos reparar relacionamentos, podemos desenvolver posturas que demonstrem arrependimento e respeito.",
+              "Essas mudanças podem parecer pequenas, mas representam decisões importantes quando interrompem comportamentos que repetimos durante muitos anos.",
+              "A história de Jacó nos lembra que seu encontro em Jaboque não encerrou sua caminhada. Depois daquela experiência, ele precisou continuar vivendo, enfrentando decisões e se relacionando com as pessoas. Da mesma maneira, nosso crescimento não termina quando reconhecemos uma verdade durante uma pregação ou experimentamos um momento profundo de oração.",
+              "A verdadeira continuidade de um encontro com Deus acontece quando aquilo que recebemos começa a transformar a maneira como vivemos depois dele.",
+              "Talvez você ainda tenha muito a desenvolver. Existem áreas que precisam de cura, comportamentos que exigem atenção e relacionamentos que necessitam de mudanças. Entretanto, não permita que a consciência daquilo que ainda falta o impeça de reconhecer os passos que já pode começar a dar.",
+              "A transformação é um processo que exige disposição, perseverança e dependência de Deus. Não precisamos fingir que chegamos à maturidade plena, mas também não devemos utilizar nossas dificuldades como justificativa para permanecer sempre no mesmo lugar.",
+              "Ao concluir estes devocionais, faça uma avaliação sincera: se você continuar vivendo exatamente como vive hoje, quais frutos suas atitudes produzirão nos próximos anos?",
+              "Essa pergunta pode revelar o que precisa ser preservado, o que precisa ser corrigido e quais decisões você não deve mais adiar.",
+              "Porque o propósito de tudo o que aprendemos nesta série não é apenas nos tornar pessoas que conhecem mais sobre Deus, mas pessoas cuja maneira de viver demonstra que estão sendo transformadas por Ele."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Ao longo desta série, qual comportamento reconheci que precisa ser transformado? Já comecei a praticar alguma mudança concreta?",
+              "Se minha família e as pessoas mais próximas avaliassem minhas atitudes, em que áreas conseguiriam perceber crescimento? Em quais ainda encontrariam os mesmos comportamentos?",
+              "O que preciso deixar de justificar para que minha transformação avance além das intenções e comece a produzir frutos?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "EXERCÍCIO FINAL — MEU COMPROMISSO COM A TRANSFORMAÇÃO",
+              "Ao longo destas quatro semanas, refletimos sobre o coração, as convicções, a necessidade de correção e a transformação. Agora, escolha uma área específica da sua vida que precisa receber atenção.",
+              "Registre suas respostas:",
+              "1. O QUE DEUS ME AJUDOU A RECONHECER?",
+              "Identifique uma atitude, uma crença ou um comportamento que você percebeu precisar mudar.",
+              "2. O QUE ESSE COMPORTAMENTO TEM PRODUZIDO?",
+              "Considere suas consequências na vida espiritual, nas decisões e nos relacionamentos.",
+              "3. QUAL ATITUDE DIFERENTE VOU PRATICAR?",
+              "Escolha uma mudança concreta, possível de ser observada no cotidiano.",
+              "4. COMO VOU ACOMPANHAR MEU CRESCIMENTO?",
+              "Durante os próximos sete dias, reserve alguns minutos ao final do dia para observar em quais situações conseguiu agir de maneira diferente e em quais ainda encontrou dificuldades.",
+              "Não utilize esse exercício para se condenar, mas para desenvolver consciência, responsabilidade e perseverança.",
+              "A transformação não precisa começar com grandes mudanças. Ela pode começar com uma decisão diferente diante de uma situação que antes despertava sempre a mesma reação."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Pai, ao concluir esta jornada, quero Te agradecer por cada verdade que recebi e por tudo aquilo que me permitiste reconhecer sobre minha própria vida.",
+              "Tu conheces meu coração, minhas convicções, minhas fragilidades e os comportamentos que ainda precisam ser transformados. Não quero apenas compreender aquilo que precisa mudar; quero desenvolver uma disposição verdadeira para viver de maneira diferente.",
+              "Renuncio à resistência em receber correção, às justificativas que utilizo para permanecer nos mesmos comportamentos e à necessidade de preservar atitudes que já reconheci que precisam ser abandonadas.",
+              "Espírito Santo, continua trabalhando em minha vida. Fortalece minhas convicções, renova minha maneira de pensar e desenvolve em mim um caráter que reflita cada vez mais a pessoa de Jesus.",
+              "Que minha transformação seja percebida não apenas nas palavras que declaro, mas na maneira como trato minha família, respondo às dificuldades, recebo correções e me relaciono com as pessoas.",
+              "Eu não quero apenas passar pelos processos. Quero permitir que o Senhor transforme quem estou me tornando ao longo deles.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "A TRANSFORMAÇÃO NÃO SE MEDE APENAS PELO QUE APRENDEMOS OU SENTIMOS DIANTE DE DEUS, MAS PELOS FRUTOS QUE COMEÇAMOS A PRODUZIR NA MANEIRA COMO VIVEMOS."
+            ]
+          }
+        ]
       }
     }
   },
