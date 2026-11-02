@@ -2865,6 +2865,113 @@ export const devotionalWeeks: DevotionalWeek[] = [
             ]
           }
         ]
+      },
+      "2026-11-03": {
+        "format": "document",
+        "label": "OS SEGREDOS DE UMA VIDA PRÓSPERA — DEVOCIONAL | SEMANA 1 — DIA 2",
+        "title": "QUANDO CONQUISTAR NUNCA PARECE SER SUFICIENTE",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“Quanto ao homem a quem Deus conferiu riquezas e bens e lhe deu poder para deles comer, e receber a sua porção, e gozar do seu trabalho, isto é dom de Deus.” (Eclesiastes 5:19)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Você já percebeu que existem pessoas que conseguem conquistar aquilo que tanto desejavam, mas, pouco tempo depois, voltam a sentir que ainda falta alguma coisa?",
+              "Talvez você já tenha vivido essa experiência. Durante muito tempo, desejou melhorar sua condição financeira, adquirir alguma coisa ou alcançar determinada posição profissional. Enquanto aquilo parecia distante, acreditava que, quando finalmente conseguisse, experimentaria uma satisfação que compensaria todo o esforço realizado. Entretanto, depois que a conquista chegou, a alegria durou menos do que imaginava, e sua atenção rapidamente se voltou para o próximo objetivo.",
+              "Desejar crescimento não é um problema. Deus nos concedeu capacidades para trabalhar, desenvolver projetos e produzir resultados. Entretanto, precisamos examinar o que acontece quando nossa satisfação passa a depender continuamente de uma conquista futura.",
+              "Porque uma coisa é desejar crescer. Outra é acreditar que somente conseguiremos desfrutar da vida quando finalmente alcançarmos aquilo que ainda não temos."
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Na primeira mensagem da nossa série, aprendemos que a verdadeira prosperidade começa quando Deus governa nosso coração. Jesus nos ensinou, em Mateus 6:21, que nosso coração acompanha aquilo que consideramos nosso tesouro. Entretanto, existe uma maneira de percebermos se as conquistas estão ocupando um lugar maior do que deveriam: observar o que acontece dentro de nós quando finalmente alcançamos aquilo que tanto desejávamos. Se a satisfação dura pouco e logo somos dominados pela necessidade de conquistar mais, precisamos examinar se estamos administrando nossos desejos ou sendo governados por eles.",
+              "É nesse contexto que Eclesiastes 5:19 amplia nossa compreensão sobre prosperidade. O texto nos mostra que não basta possuir riquezas e bens, pois também precisamos aprender a desfrutar, com gratidão, aquilo que recebemos. Existe uma diferença entre conquistar e experimentar satisfação com aquilo que foi conquistado. Uma pessoa pode desenvolver uma grande capacidade de produzir resultados e, ainda assim, encontrar dificuldade para reconhecer o valor daquilo que já possui.",
+              "Quando o coração é governado pela necessidade de ter sempre mais, até aquilo que já conquistamos perde seu valor.",
+              "Vivemos em uma sociedade que constantemente apresenta novos padrões de sucesso. Quando alguém consegue adquirir um carro, começa a observar modelos superiores. Quando conquista uma casa, passa a desejar outra maior. Quando alcança determinada posição profissional, percebe que existem pessoas ocupando cargos ainda mais elevados. Essas referências podem despertar novos objetivos, mas também podem alimentar uma sensação permanente de insuficiência, especialmente quando começamos a utilizar a vida de outras pessoas como medida para avaliar a nossa.",
+              "Imagine alguém que, durante anos, trabalhou para adquirir sua casa própria. Aquela conquista representava estabilidade, realização e o resultado de muitos esforços. Entretanto, depois de algum tempo, essa pessoa começou a frequentar ambientes onde outras famílias possuíam casas maiores, móveis mais sofisticados e condições financeiras superiores. Aos poucos, aquilo que antes era motivo de alegria passou a parecer pequeno. A casa não havia mudado, mas a maneira como ela passou a enxergar sua conquista havia sido profundamente influenciada pela comparação.",
+              "Essa situação revela algo importante sobre o governo do coração. Nem sempre precisamos perder alguma coisa para deixar de valorizá-la. Às vezes, basta começar a medir aquilo que temos a partir daquilo que outra pessoa possui. Quando isso acontece, nossa satisfação deixa de estar relacionada ao reconhecimento do que recebemos e passa a depender de alcançar um padrão que está constantemente mudando.",
+              "Entretanto, nem toda insatisfação nasce da comparação. Algumas pessoas aprenderam, ao longo da vida, que nunca deveriam se contentar com seus resultados. Talvez tenham crescido em ambientes nos quais o esforço era constantemente exigido, mas as conquistas raramente eram reconhecidas. Quando apresentavam boas notas, ouviam que poderiam ter alcançado resultados melhores. Quando cumpriam uma responsabilidade, recebiam imediatamente outra cobrança. Quando tentavam descansar, eram lembradas de tudo aquilo que ainda precisava ser feito.",
+              "Essas experiências podem contribuir para a formação de uma crença silenciosa: “Eu nunca faço o suficiente.”",
+              "Na vida adulta, essa pessoa pode se tornar extremamente dedicada, desenvolver disciplina e alcançar resultados expressivos. Entretanto, mesmo quando conquista aquilo que desejava, encontra dificuldade para celebrar. Sua atenção permanece concentrada nas próximas responsabilidades, porque aprendeu a interpretar o descanso como perda de tempo e a satisfação como um sinal de acomodação. O problema já não está necessariamente na quantidade de trabalho que precisa realizar, mas na cobrança interior que continua determinando sua maneira de viver.",
+              "Perceba como essa realidade se relaciona com o ensinamento de Jesus sobre os tesouros do coração. Se uma pessoa acredita que somente terá valor enquanto estiver produzindo, suas conquistas podem se transformar em uma tentativa permanente de sustentar sua identidade. Nesse caso, o trabalho e o dinheiro deixam de representar apenas instrumentos necessários para a vida e começam a exercer uma autoridade emocional sobre suas escolhas.",
+              "O coração também pode ser governado pelo dinheiro quando a necessidade de conquistar nos impede de descansar, reconhecer nossos limites e desfrutar daquilo que já recebemos.",
+              "Essa dificuldade pode alcançar nossos relacionamentos. Às vezes, alguém trabalha intensamente para proporcionar conforto à família, mas permanece tão preocupado com a próxima conquista que não consegue aproveitar os momentos que já poderia compartilhar com aqueles que ama. Os filhos crescem, oportunidades de convivência passam e a pessoa continua esperando alcançar uma condição financeira ideal para finalmente dedicar tempo àquilo que considera importante.",
+              "Não se trata de abandonar projetos ou diminuir o compromisso com o futuro, mas de reconhecer que a busca por prosperidade não deveria nos afastar daquilo que torna nossa vida verdadeiramente valiosa. Se, para conquistar mais, começamos a comprometer continuamente nossa paz, nossos relacionamentos e nossa comunhão com Deus, precisamos examinar se nossos objetivos ainda estão submetidos aos princípios do Reino.",
+              "Em Filipenses 4:11-13, Paulo apresenta uma perspectiva que amplia esse entendimento. Ele declara que aprendeu a viver contente em diferentes circunstâncias, tanto na abundância quanto na necessidade. Observe que Paulo não afirma que todas as condições são iguais ou que as dificuldades materiais não precisam ser enfrentadas. Ele testemunha uma maturidade desenvolvida em sua caminhada com Cristo, na qual sua estabilidade interior não dependia exclusivamente das circunstâncias exteriores.",
+              "Esse contentamento não significa acomodação. Podemos ser gratos pelo que temos e continuar trabalhando por uma condição melhor. Podemos reconhecer nossas conquistas e permanecer dispostos a crescer. A diferença está em não permitir que aquilo que ainda desejamos nos roube a capacidade de reconhecer aquilo que já recebemos.",
+              "É justamente aqui que precisamos retomar a pergunta central da nossa primeira mensagem: quem está governando o seu coração? Se o dinheiro ocupa o lugar de instrumento, podemos utilizá-lo com sabedoria, estabelecer objetivos e desfrutar de nossas conquistas sem permitir que elas determinem nosso valor. Mas, quando a necessidade de ter mais assume o governo, começamos a viver como se nossa paz, nossa identidade e nossa satisfação estivessem sempre esperando pela próxima conquista.",
+              "Talvez hoje o Espírito Santo queira revelar que sua dificuldade não está apenas em alcançar novos objetivos, mas em permitir-se experimentar satisfação sem culpa. Talvez você tenha aprendido a viver tão concentrado naquilo que precisa conquistar que já não consegue reconhecer o valor da sua própria caminhada.",
+              "A verdadeira prosperidade não é medida apenas pela capacidade de conquistar, mas também pela liberdade de desfrutar, com gratidão e responsabilidade, aquilo que Deus já colocou em nossas mãos."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Quando alcanço uma conquista importante, consigo reconhecer seu valor e desfrutar daquele resultado ou rapidamente começo a me preocupar com aquilo que ainda falta?",
+              "Ao longo da minha história, aprendi que precisava estar sempre produzindo, conquistando ou demonstrando resultados para ser reconhecido? Como essa crença influencia minha capacidade de descansar e sentir satisfação?",
+              "Existe alguma área da minha vida em que a comparação com outras pessoas tem diminuído minha gratidão e produzido uma sensação constante de insuficiência? O que isso revela sobre aquilo que está governando meu coração?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "EXERCÍCIO SOZO — APRENDENDO A RECONHECER E DESFRUTAR",
+              "Hoje, vamos trabalhar a diferença entre desejar crescimento e viver dominado pela sensação de que aquilo que possuímos nunca é suficiente. O objetivo é identificar se existe alguma crença interior que esteja transformando nossas conquistas em uma fonte constante de cobrança.",
+              "Reserve aproximadamente quinze minutos em um ambiente tranquilo, tenha papel e caneta por perto e convide o Espírito Santo a conduzir esse momento.",
+              "1. RECONHEÇA SUAS CONQUISTAS",
+              "Escreva três coisas que você conseguiu construir, desenvolver ou conquistar nos últimos anos. Não precisam ser grandes realizações financeiras. Podem envolver sua profissão, sua família ou alguma dificuldade que conseguiu superar.",
+              "Depois, pergunte a si mesmo: “Eu realmente reconheci o valor dessas conquistas ou passei por elas como se fossem apenas obrigações que precisava cumprir?”",
+              "2. IDENTIFIQUE A COBRANÇA INTERIOR",
+              "Pense em uma situação na qual você encontrou dificuldade para descansar, celebrar ou desfrutar de alguma coisa.",
+              "Procure identificar o pensamento que apareceu naquele momento.",
+              "Talvez tenha sido: “Ainda não fiz o suficiente”, “Não posso perder tempo”, “Outras pessoas estão muito à minha frente” ou “Se eu parar, vou ficar para trás”.",
+              "Escreva a frase que melhor representa aquilo que costuma acontecer dentro de você.",
+              "3. INVESTIGUE A ORIGEM",
+              "Pergunte ao Espírito Santo: “Senhor, em algum momento da minha história aprendi que precisava conquistar ou produzir constantemente para ter valor?”",
+              "Observe se essa crença está relacionada a cobranças familiares, comparações, expectativas excessivas ou experiências nas quais suas conquistas não foram reconhecidas.",
+              "Não procure forçar lembranças. Apenas considere aquilo que você consegue identificar com clareza.",
+              "4. SUBSTITUA A CRENÇA POR UMA VERDADE",
+              "Leia Eclesiastes 5:19, Filipenses 4:11-13 e Mateus 6:21.",
+              "Depois, escreva uma declaração que confronte a crença identificada.",
+              "Por exemplo: “Meu valor não depende de estar produzindo o tempo inteiro. Posso trabalhar com dedicação, reconhecer minhas conquistas e desfrutar com gratidão aquilo que Deus já me permitiu construir. Meu coração pertence ao Senhor, e não à necessidade de conquistar sempre mais.”",
+              "5. PRATIQUE A GRATIDÃO",
+              "Hoje, escolha uma conquista ou bênção que você tem tratado como algo comum e reserve um momento para desfrutá-la conscientemente.",
+              "Pode ser uma refeição tranquila com sua família, um período de descanso sem culpa, uma conversa com alguém importante ou simplesmente um momento de gratidão diante de Deus.",
+              "Durante esse tempo, evite concentrar seus pensamentos naquilo que ainda precisa conquistar.",
+              "O propósito deste exercício é aprender que reconhecer o valor do presente não significa desistir do futuro. Significa deixar de viver como se a vida estivesse sempre esperando pela próxima conquista."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Pai, hoje reconheço que muitas vezes tenho concentrado minha atenção naquilo que ainda desejo conquistar e deixado de agradecer por tudo o que já recebi.",
+              "Espírito Santo, revela se existe alguma cobrança interior, comparação ou necessidade de reconhecimento que tem governado minhas decisões e me impedido de experimentar satisfação e descanso.",
+              "Eu renuncio à mentira de que nunca faço o suficiente, à crença de que meu valor depende do meu desempenho e à necessidade de comparar minha vida com a de outras pessoas.",
+              "Cura as experiências que me ensinaram a viver sob cobranças constantes. Ensina-me a trabalhar com responsabilidade, crescer com sabedoria e desfrutar com gratidão aquilo que já colocaste em minhas mãos.",
+              "Hoje eu retiro a necessidade de conquistar sempre mais do lugar de governo e reconheço Jesus Cristo como o único Senhor do meu coração.",
+              "Que minhas conquistas sejam instrumentos para cumprir Teus propósitos, e nunca aquilo que determina minha identidade ou minha paz.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "QUANDO NOSSA SATISFAÇÃO DEPENDE SEMPRE DA PRÓXIMA CONQUISTA, CORREMOS O RISCO DE PASSAR A VIDA INTEIRA PROSPERANDO SEM NUNCA NOS SENTIRMOS PRÓSPEROS."
+            ]
+          }
+        ]
       }
     }
   },

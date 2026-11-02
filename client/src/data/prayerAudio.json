@@ -126,5 +126,21 @@
       "model": "microsoft/mai-voice-2.1-flash",
       "voice": "pt-BR-Caio:MAI-Voice-2.1-Flash"
     }
+  },
+  "2026-11-03": {
+    "feminina": {
+      "src": "/audio/oracoes/2026-11-03-6f753042c0cc1838.mp3",
+      "text": "Pai, hoje reconheço que muitas vezes tenho concentrado minha atenção naquilo que ainda desejo conquistar e deixado de agradecer por tudo o que já recebi.\n\nEspírito Santo, revela se existe alguma cobrança interior, comparação ou necessidade de reconhecimento que tem governado minhas decisões e me impedido de experimentar satisfação e descanso.\n\nEu renuncio à mentira de que nunca faço o suficiente, à crença de que meu valor depende do meu desempenho e à necessidade de comparar minha vida com a de outras pessoas.\n\nCura as experiências que me ensinaram a viver sob cobranças constantes. Ensina-me a trabalhar com responsabilidade, crescer com sabedoria e desfrutar com gratidão aquilo que já colocaste em minhas mãos.\n\nHoje eu retiro a necessidade de conquistar sempre mais do lugar de governo e reconheço Jesus Cristo como o único Senhor do meu coração.\n\nQue minhas conquistas sejam instrumentos para cumprir Teus propósitos, e nunca aquilo que determina minha identidade ou minha paz.\n\nEm nome de Jesus, amém.",
+      "textHash": "c455fc8ce16b754f75cd821f9129b7d2fbb881a04b97df220462d0a4689eb609",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Luana:MAI-Voice-2.1-Flash"
+    },
+    "masculina": {
+      "src": "/audio/oracoes/2026-11-03-2271ae7b7ad81116.mp3",
+      "text": "Pai, hoje reconheço que muitas vezes tenho concentrado minha atenção naquilo que ainda desejo conquistar e deixado de agradecer por tudo o que já recebi.\n\nEspírito Santo, revela se existe alguma cobrança interior, comparação ou necessidade de reconhecimento que tem governado minhas decisões e me impedido de experimentar satisfação e descanso.\n\nEu renuncio à mentira de que nunca faço o suficiente, à crença de que meu valor depende do meu desempenho e à necessidade de comparar minha vida com a de outras pessoas.\n\nCura as experiências que me ensinaram a viver sob cobranças constantes. Ensina-me a trabalhar com responsabilidade, crescer com sabedoria e desfrutar com gratidão aquilo que já colocaste em minhas mãos.\n\nHoje eu retiro a necessidade de conquistar sempre mais do lugar de governo e reconheço Jesus Cristo como o único Senhor do meu coração.\n\nQue minhas conquistas sejam instrumentos para cumprir Teus propósitos, e nunca aquilo que determina minha identidade ou minha paz.\n\nEm nome de Jesus, amém.",
+      "textHash": "c455fc8ce16b754f75cd821f9129b7d2fbb881a04b97df220462d0a4689eb609",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Caio:MAI-Voice-2.1-Flash"
+    }
   }
 }
