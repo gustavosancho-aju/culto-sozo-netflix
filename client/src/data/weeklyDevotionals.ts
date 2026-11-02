@@ -31,7 +31,7 @@ export interface DevotionalWeek {
 
 // Each entry stays attached to its calendar date, so the same devotional is
 // available every time someone opens that day during the week.
-export const october2026Weeks: DevotionalWeek[] = [
+export const devotionalWeeks: DevotionalWeek[] = [
   {
     number: 1,
     startsOn: '2026-10-05',
@@ -2744,6 +2744,124 @@ export const october2026Weeks: DevotionalWeek[] = [
             "kind": "takeaway",
             "paragraphs": [
               "A TRANSFORMAÇÃO NÃO SE MEDE APENAS PELO QUE APRENDEMOS OU SENTIMOS DIANTE DE DEUS, MAS PELOS FRUTOS QUE COMEÇAMOS A PRODUZIR NA MANEIRA COMO VIVEMOS."
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "number": 1,
+    "startsOn": "2026-11-02",
+    "seriesId": "os-segredos-de-uma-vida-prospera-2026",
+    "theme": "Os Segredos de uma Vida Próspera",
+    "video": {
+      "title": "1º SEMANA | QUEM ESTÁ GOVERNANDO O SEU CORAÇÃO? | OS SEGREDOS DE UMA VIDA PRÓSPERA",
+      "youtubeId": "f7wSpFsQVv8"
+    },
+    "devotionals": {
+      "2026-11-02": {
+        "format": "document",
+        "label": "OS SEGREDOS DE UMA VIDA PRÓSPERA — DEVOCIONAL | SEMANA 1 — DIA 1",
+        "title": "QUEM ESTÁ GOVERNANDO O SEU CORAÇÃO?",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“Pois onde estiver o seu tesouro, aí também estará o seu coração.” (Mateus 6:21)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "E se aquilo que você mais teme perder estiver exercendo mais autoridade sobre sua vida do que aquilo que você declara acreditar?",
+              "Talvez você nunca tenha considerado a possibilidade de que sua relação com o dinheiro revele muito mais do que seus hábitos financeiros. A maneira como você reage quando precisa gastar, quando recebe uma oportunidade de ganhar mais, quando enfrenta uma perda ou quando percebe que alguém conquistou aquilo que você ainda deseja pode revelar sentimentos, crenças e necessidades que nem sempre estão conscientes.",
+              "Algumas pessoas trabalham intensamente porque desejam oferecer uma vida melhor à família. Outras encontram dificuldade para descansar porque acreditam que, se diminuírem o ritmo, tudo poderá desmoronar. Existem aquelas que precisam acompanhar constantemente suas contas, não apenas por responsabilidade, mas porque qualquer possibilidade de perda desperta uma ansiedade difícil de controlar.",
+              "Esses comportamentos podem parecer semelhantes, mas suas motivações nem sempre são as mesmas. O que fazemos com o dinheiro pode revelar não apenas aquilo que valorizamos, mas também aquilo que tememos, aquilo de que sentimos falta e onde aprendemos a procurar segurança.",
+              "Por isso, antes de perguntar a Deus o que precisamos fazer para prosperar, talvez seja necessário permitir que Ele nos mostre o que está governando nosso coração."
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Em Mateus 6:19-24, Jesus apresenta um ensinamento que vai muito além da administração das riquezas. Ele estabelece uma relação entre nossos tesouros, nosso coração e aquilo que reconhecemos como senhor. Essa sequência revela que Jesus não está tratando apenas daquilo que possuímos, mas da autoridade que permitimos que determinadas coisas exerçam sobre nossa vida. O dinheiro é necessário para atender às nossas necessidades, cumprir responsabilidades e construir projetos, entretanto, quando passa a determinar nosso valor, nossa segurança ou nossas escolhas, deixa de ocupar apenas o lugar de recurso e começa a exercer uma influência que precisa ser examinada.",
+              "Existe uma questão importante que nem sempre percebemos: o dinheiro pode assumir significados emocionais diferentes dependendo das experiências que vivemos e das conclusões que formamos sobre nós mesmos. Para algumas pessoas, ele representa liberdade; para outras, reconhecimento, independência ou a possibilidade de conquistar uma posição que nunca tiveram. O problema não está necessariamente nesses desejos, mas na expectativa de que uma conquista financeira seja capaz de resolver necessidades interiores que exigem algo muito mais profundo.",
+              "Imagine alguém que, durante a adolescência, era constantemente comparado com irmãos ou colegas que apresentavam melhores resultados. Talvez tenha crescido ouvindo que precisava se destacar, conquistar uma boa profissão e alcançar uma condição financeira elevada para ser respeitado. Com o passar dos anos, essa pessoa pode se tornar extremamente dedicada, desenvolver habilidades e construir uma carreira bem-sucedida. Entretanto, mesmo depois de conquistar aquilo que desejava, continua experimentando uma sensação de insuficiência, porque cada nova realização parece perder o valor quando alguém ao seu redor alcança algo maior.",
+              "Nesse caso, a dificuldade não está necessariamente na ambição profissional, mas na crença de que seu valor precisa ser continuamente comprovado. O dinheiro e as conquistas passaram a funcionar como instrumentos de validação pessoal, e aquilo que deveria representar o resultado de seu trabalho se transformou em uma tentativa constante de conquistar o reconhecimento que lhe faltou em outros momentos da vida.",
+              "Quando uma pessoa aprende a medir seu valor pelas conquistas, nenhuma conquista parece suficiente por muito tempo, porque o problema não está naquilo que ela ainda não possui, mas na maneira como aprendeu a enxergar a si mesma.",
+              "Essa realidade também pode aparecer em nossos relacionamentos. Existem pessoas que encontram dificuldade para dizer não a determinadas despesas porque desejam manter uma imagem diante dos outros. Assumem compromissos financeiros que ultrapassam suas possibilidades, compram aquilo de que não precisam ou procuram acompanhar um padrão de vida que não corresponde à sua realidade. Por trás dessas decisões, pode existir uma necessidade de pertencimento, o medo de ser considerado inferior ou a crença de que somente serão valorizadas se demonstrarem determinado nível de sucesso.",
+              "Observe como uma necessidade emocional pode começar a influenciar escolhas financeiras. A pessoa não está apenas comprando um objeto ou assumindo uma despesa, mas tentando preservar uma imagem, evitar uma rejeição ou conquistar aceitação. E, quando isso acontece, o dinheiro passa a ser utilizado para sustentar algo que deveria estar fundamentado em uma identidade saudável.",
+              "É nesse ponto que o ensinamento de Jesus sobre senhorio se torna tão importante. Em Mateus 6:24, Ele declara que ninguém pode servir a dois senhores. Jesus não está condenando o trabalho, o crescimento financeiro ou a construção de patrimônio, mas confrontando a possibilidade de permitirmos que as riquezas determinem aquilo que pensamos, valorizamos e decidimos. O dinheiro se torna um senhor quando começamos a obedecer às exigências que associamos a ele, mesmo que isso comprometa nossa paz, nossos princípios e nossos relacionamentos.",
+              "Essa verdade nos convida a examinar situações que, muitas vezes, parecem normais. Uma pessoa pode trabalhar excessivamente não apenas porque precisa de recursos, mas porque sente que perderá seu valor se deixar de produzir. Outra pode encontrar dificuldade para celebrar a conquista de alguém porque interpreta o sucesso do outro como uma evidência do próprio fracasso. Há também quem precise demonstrar constantemente que está prosperando, mesmo quando isso exige sacrifícios financeiros que poderiam ser evitados.",
+              "Nem sempre essas atitudes são conscientes. Muitas vezes, repetimos comportamentos porque aprendemos, ao longo da vida, determinadas maneiras de buscar aceitação, segurança e reconhecimento. Entretanto, quando não examinamos essas crenças, podemos continuar tentando resolver necessidades emocionais por meio de conquistas materiais.",
+              "O problema começa quando esperamos que o dinheiro nos ofereça aquilo que somente uma identidade restaurada e uma relação de confiança com Deus podem sustentar.",
+              "Em Mateus 6:25-34, Jesus amplia esse ensinamento ao falar sobre as preocupações relacionadas às necessidades da vida. Ele nos convida a considerar o cuidado do Pai e a buscar primeiro o Reino de Deus e sua justiça. Isso não significa abandonar responsabilidades ou deixar de planejar o futuro, mas compreender que nossa segurança não pode depender exclusivamente da capacidade de controlar todas as circunstâncias.",
+              "Para algumas pessoas, confiar em Deus também exige rever aquilo que aprenderam sobre depender de alguém. Quem cresceu acreditando que precisava conquistar tudo sozinho pode encontrar dificuldade para receber ajuda, reconhecer limites ou descansar sem culpa. Aquilo que começou como uma maneira de desenvolver independência pode se transformar em uma exigência interior de nunca demonstrar necessidade.",
+              "Entretanto, Deus não nos chama para uma vida de irresponsabilidade, mas também não deseja que vivamos aprisionados à ideia de que precisamos sustentar tudo com nossas próprias forças. A maturidade espiritual envolve aprender a trabalhar com dedicação, administrar com sabedoria e reconhecer que nossa identidade e nossa segurança não precisam estar condicionadas ao resultado de cada conquista.",
+              "Por isso, talvez a pergunta mais importante deste primeiro dia não seja quanto você deseja prosperar, mas o que espera encontrar quando finalmente conquistar aquilo que tanto deseja. Se a resposta estiver relacionada à necessidade de provar seu valor, conquistar aceitação ou sentir que finalmente é alguém importante, talvez exista uma área do coração que precisa ser tratada antes mesmo que novas conquistas cheguem.",
+              "A verdadeira prosperidade começa quando deixamos de exigir que os recursos financeiros preencham necessidades que eles não foram criados para satisfazer. Podemos desejar crescimento, construir patrimônio e alcançar objetivos legítimos, mas precisamos fazer isso a partir de uma identidade firmada em Deus, e não como uma tentativa permanente de conquistar valor.",
+              "O dinheiro pode ampliar nossas possibilidades, mas não deve determinar quem somos. Quando nossa identidade está firmada em Deus, as conquistas deixam de ser uma tentativa de provar nosso valor e passam a ser recursos que podemos administrar com liberdade e propósito."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Quando penso na possibilidade de perder dinheiro, diminuir meu padrão de vida ou enfrentar dificuldades financeiras, quais sentimentos aparecem primeiro? Minhas preocupações estão relacionadas a responsabilidades reais ou existe um medo que parece maior do que a situação?",
+              "Olhando para minha história familiar, o que aprendi sobre dinheiro, segurança e prosperidade? Existem experiências de comparação, rejeição, humilhação ou falta de reconhecimento que ainda podem estar influenciando minhas decisões?",
+              "Em quais situações tenho permitido que o desejo de conquistar, a necessidade de reconhecimento ou o medo de perder tenham mais influência sobre minhas escolhas do que os princípios de Deus?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "EXERCÍCIO SOZO — IDENTIFICANDO O QUE ESTÁ POR TRÁS DAS MINHAS DECISÕES",
+              "Hoje, vamos realizar um exercício de observação interior. O objetivo não é avaliar quanto dinheiro você possui, mas reconhecer o significado que ele adquiriu ao longo da sua história e identificar se alguma experiência ainda influencia suas decisões.",
+              "Reserve aproximadamente quinze minutos em um ambiente tranquilo, tenha papel e caneta por perto e comece convidando o Espírito Santo a conduzir esse momento.",
+              "1. IDENTIFIQUE O SENTIMENTO",
+              "Pense em uma situação financeira recente que tenha despertado uma reação emocional intensa. Pode ter sido uma despesa inesperada, uma oportunidade que você perdeu, uma comparação com alguém ou uma decisão que precisou tomar.",
+              "Escreva o que aconteceu e procure identificar o sentimento predominante. Foi medo, raiva, vergonha, insegurança, culpa ou necessidade de controle?",
+              "2. INVESTIGUE A CRENÇA",
+              "Agora, pergunte a si mesmo: o que aquela situação significou para mim?",
+              "Por exemplo, uma despesa inesperada pode ter despertado o pensamento de que você nunca conseguirá ter estabilidade. A conquista financeira de outra pessoa pode ter produzido a sensação de que você está ficando para trás. Uma perda pode ter sido interpretada como prova de incapacidade.",
+              "Procure identificar a mensagem que surgiu dentro de você, lembrando que nem tudo o que sentimos ou pensamos diante de uma situação corresponde à verdade sobre quem somos ou sobre aquilo que acontecerá conosco.",
+              "3. RECONHEÇA UMA POSSÍVEL ORIGEM",
+              "Pergunte ao Espírito Santo: “Senhor, existe alguma experiência da minha história que possa estar influenciando a maneira como interpreto essa situação?”",
+              "Observe se alguma lembrança, ensinamento familiar ou experiência anterior se relaciona com aquilo que você identificou. Não é necessário encontrar uma lembrança específica nem concluir que toda reação possui uma origem no passado. O importante é desenvolver consciência sobre os padrões que você reconhece.",
+              "4. SUBSTITUA A CRENÇA POR UMA VERDADE",
+              "Leia novamente Mateus 6:21-24 e Mateus 6:33.",
+              "Depois, escreva uma declaração que confronte a crença identificada.",
+              "Se você percebeu que acredita precisar controlar tudo para estar seguro, escreva: “Sou responsável pelas minhas escolhas, mas não preciso viver como se todo o meu futuro dependesse exclusivamente de mim. Posso agir com sabedoria e confiar no cuidado de Deus.”",
+              "Se percebeu que associa seu valor às conquistas financeiras, escreva: “Meu valor não é determinado pelo meu patrimônio, pelo reconhecimento das pessoas ou pela minha condição financeira. Minha identidade está fundamentada em quem sou diante de Deus.”",
+              "5. PRATIQUE UMA NOVA RESPOSTA",
+              "Escolha uma atitude concreta para praticar ainda hoje. Talvez seja conversar com alguém sobre uma preocupação que você vem tentando carregar sozinho, reorganizar uma decisão financeira sem agir por impulso ou interromper uma comparação que tem alimentado sua insatisfação.",
+              "Ao final do dia, observe se conseguiu responder de maneira diferente à situação identificada.",
+              "Lembre-se: reconhecer uma raiz é importante, mas a transformação começa a produzir frutos quando deixamos de permitir que antigas crenças determinem automaticamente nossas escolhas."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Pai, hoje me coloco diante da Tua presença e peço que o Espírito Santo revele aquilo que tem influenciado minhas decisões e ocupado um lugar indevido no meu coração.",
+              "Senhor, mostra-me se tenho buscado no dinheiro a segurança que deveria encontrar em Ti ou utilizado minhas conquistas para tentar provar meu valor.",
+              "Hoje eu renuncio à mentira de que meu valor depende daquilo que possuo, à necessidade de controlar tudo para me sentir seguro e ao desejo de conquistar cada vez mais para me sentir suficiente.",
+              "Cura as marcas da minha história que ainda alimentam o medo, a insegurança e a necessidade de reconhecimento. Ensina-me a trabalhar com responsabilidade, administrar com sabedoria e confiar no Teu cuidado.",
+              "Não quero apenas prosperar financeiramente enquanto continuo aprisionado às mesmas crenças e inseguranças. Quero viver uma prosperidade que alcance também minha identidade, minhas decisões e meus relacionamentos.",
+              "Hoje eu retiro o dinheiro do lugar de governo e reconheço Jesus Cristo como o único Senhor do meu coração.",
+              "Que minhas conquistas nunca me afastem de Ti e que meus recursos estejam sempre submetidos aos Teus princípios.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "QUANDO TENTAMOS ENCONTRAR NAS CONQUISTAS O VALOR QUE AINDA NÃO RECONHECEMOS EM NÓS MESMOS, CORREMOS O RISCO DE CONQUISTAR CADA VEZ MAIS E CONTINUAR NOS SENTINDO INSUFICIENTES. A VERDADEIRA PROSPERIDADE COMEÇA QUANDO NOSSA IDENTIDADE ESTÁ FIRMADA EM DEUS, E NÃO NAQUILO QUE POSSUÍMOS."
             ]
           }
         ]

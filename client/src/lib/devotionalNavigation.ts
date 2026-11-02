@@ -1,6 +1,6 @@
-import { datesForWeek, october2026Weeks } from '../data/weeklyDevotionals';
+import { datesForWeek, devotionalWeeks } from '../data/weeklyDevotionals';
 
-export const devotionalDates = october2026Weeks.flatMap(week => datesForWeek(week.startsOn));
+export const devotionalDates = devotionalWeeks.flatMap(week => datesForWeek(week.startsOn));
 
 export function resolveDevotionalDate(query: string, today: string): string {
   const requested = new URLSearchParams(query).get('dia');

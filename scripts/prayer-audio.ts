@@ -1,7 +1,7 @@
 import { createHash } from 'node:crypto';
 import { mkdir, readFile, writeFile, rename, stat } from 'node:fs/promises';
 import { join } from 'node:path';
-import { october2026Weeks } from '../client/src/data/weeklyDevotionals';
+import { devotionalWeeks } from '../client/src/data/weeklyDevotionals';
 
 const model = 'microsoft/mai-voice-2.1-flash';
 const voices = { feminina: 'pt-BR-Luana:MAI-Voice-2.1-Flash', masculina: 'pt-BR-Caio:MAI-Voice-2.1-Flash' } as const;
@@ -9,15 +9,16 @@ const key = process.env.OPENROUTER_API_KEY;
 const mode = process.argv[2];
 
 if (!key) throw new Error('Configure OPENROUTER_API_KEY no ambiente de execução.');
-if (mode !== 'samples' && mode !== 'generate') throw new Error('Uso: node --import tsx scripts/prayer-audio.ts samples | generate');
+if (mode !== 'samples' && mode !== 'generate') throw new Error('Uso: node --import tsx scripts/prayer-audio.ts samples | generate [data-início-da-semana]');
 const modelsResponse = await fetch('https://openrouter.ai/api/v1/models?output_modalities=speech', { headers: { Authorization: `Bearer ${key}` } });
 if (!modelsResponse.ok) throw new Error(`Não foi possível verificar modelos e preços: HTTP ${modelsResponse.status}`);
 const models = await modelsResponse.json() as { data: { id: string; pricing?: unknown; supported_voices?: string[] }[] };
 const selected = models.data.find(item => item.id === model);
 if (!selected || !selected.pricing) throw new Error('Modelo ou preço indisponível na OpenRouter; geração cancelada.');
 console.log('Modelo:', model, 'Preço informado pela OpenRouter:', JSON.stringify(selected.pricing));
-const week = october2026Weeks.find(w => w.number === 4 && w.startsOn === '2026-10-26');
-if (!week) throw new Error('Semana 4 não encontrada.');
+const requestedStart = process.argv[3] || '2026-10-26';
+const week = devotionalWeeks.find(w => w.startsOn === requestedStart);
+if (!week) throw new Error(`Semana não encontrada: ${requestedStart}`);
 const manifestPath = 'client/src/data/prayerAudio.json';
 type Entry = { src: string; text: string; textHash: string; model: string; voice: string };
 const manifest = JSON.parse(await readFile(manifestPath, 'utf8')) as Record<string, Record<string, Entry>>;

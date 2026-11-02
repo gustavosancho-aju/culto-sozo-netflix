@@ -7,7 +7,7 @@ import ExclusiveContent from '../components/ExclusiveContent';
 import { trpc } from '@/lib/trpc';
 import { parseEpisodeTitle } from '../constants';
 import { ArrowRight, BookOpen } from 'lucide-react';
-import { brazilToday, datesForWeek, october2026Weeks } from '../data/weeklyDevotionals';
+import { brazilToday, datesForWeek, devotionalWeeks } from '../data/weeklyDevotionals';
 import { devotionalPath } from '../lib/devotionalNavigation';
 
 interface HomeProps {
@@ -16,7 +16,7 @@ interface HomeProps {
 
 const Home: React.FC<HomeProps> = ({ searchQuery }) => {
   const today = brazilToday();
-  const currentWeek = october2026Weeks.find(week => datesForWeek(week.startsOn).includes(today));
+  const currentWeek = devotionalWeeks.find(week => datesForWeek(week.startsOn).includes(today));
   const todayDevotional = currentWeek?.devotionals[today];
   const todayLabel = new Intl.DateTimeFormat('pt-BR', { day: '2-digit', month: '2-digit', timeZone: 'UTC' }).format(new Date(`${today}T12:00:00Z`));
   // Buscar séries e episódios do banco via tRPC
@@ -77,7 +77,7 @@ const Home: React.FC<HomeProps> = ({ searchQuery }) => {
     const filteredEpisodes = allEpisodes.filter(ep =>
       normalized(ep.titulo).includes(term)
     );
-    const filteredDevotionals = october2026Weeks.flatMap(week => Object.entries(week.devotionals).map(([date, item]) => ({ date, item, week: week.number })))
+    const filteredDevotionals = devotionalWeeks.flatMap(week => Object.entries(week.devotionals).map(([date, item]) => ({ date, item, week: week.number })))
       .filter(({ item }) => normalized(item.title).includes(term));
     return (
       <div className="min-h-screen bg-[#141414] pt-24 px-4 md:px-12">

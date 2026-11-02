@@ -110,5 +110,21 @@
       "model": "microsoft/mai-voice-2.1-flash",
       "voice": "pt-BR-Caio:MAI-Voice-2.1-Flash"
     }
+  },
+  "2026-11-02": {
+    "feminina": {
+      "src": "/audio/oracoes/2026-11-02-b64ef763c23b9d8b.mp3",
+      "text": "Pai, hoje me coloco diante da Tua presença e peço que o Espírito Santo revele aquilo que tem influenciado minhas decisões e ocupado um lugar indevido no meu coração.\n\nSenhor, mostra-me se tenho buscado no dinheiro a segurança que deveria encontrar em Ti ou utilizado minhas conquistas para tentar provar meu valor.\n\nHoje eu renuncio à mentira de que meu valor depende daquilo que possuo, à necessidade de controlar tudo para me sentir seguro e ao desejo de conquistar cada vez mais para me sentir suficiente.\n\nCura as marcas da minha história que ainda alimentam o medo, a insegurança e a necessidade de reconhecimento. Ensina-me a trabalhar com responsabilidade, administrar com sabedoria e confiar no Teu cuidado.\n\nNão quero apenas prosperar financeiramente enquanto continuo aprisionado às mesmas crenças e inseguranças. Quero viver uma prosperidade que alcance também minha identidade, minhas decisões e meus relacionamentos.\n\nHoje eu retiro o dinheiro do lugar de governo e reconheço Jesus Cristo como o único Senhor do meu coração.\n\nQue minhas conquistas nunca me afastem de Ti e que meus recursos estejam sempre submetidos aos Teus princípios.\n\nEm nome de Jesus, amém.",
+      "textHash": "4201af75f37459bf8ef5ce19386b191006d0a2e4e2a405bc97f488c3e01a5e00",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Luana:MAI-Voice-2.1-Flash"
+    },
+    "masculina": {
+      "src": "/audio/oracoes/2026-11-02-3d81781f82102bd0.mp3",
+      "text": "Pai, hoje me coloco diante da Tua presença e peço que o Espírito Santo revele aquilo que tem influenciado minhas decisões e ocupado um lugar indevido no meu coração.\n\nSenhor, mostra-me se tenho buscado no dinheiro a segurança que deveria encontrar em Ti ou utilizado minhas conquistas para tentar provar meu valor.\n\nHoje eu renuncio à mentira de que meu valor depende daquilo que possuo, à necessidade de controlar tudo para me sentir seguro e ao desejo de conquistar cada vez mais para me sentir suficiente.\n\nCura as marcas da minha história que ainda alimentam o medo, a insegurança e a necessidade de reconhecimento. Ensina-me a trabalhar com responsabilidade, administrar com sabedoria e confiar no Teu cuidado.\n\nNão quero apenas prosperar financeiramente enquanto continuo aprisionado às mesmas crenças e inseguranças. Quero viver uma prosperidade que alcance também minha identidade, minhas decisões e meus relacionamentos.\n\nHoje eu retiro o dinheiro do lugar de governo e reconheço Jesus Cristo como o único Senhor do meu coração.\n\nQue minhas conquistas nunca me afastem de Ti e que meus recursos estejam sempre submetidos aos Teus princípios.\n\nEm nome de Jesus, amém.",
+      "textHash": "4201af75f37459bf8ef5ce19386b191006d0a2e4e2a405bc97f488c3e01a5e00",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Caio:MAI-Voice-2.1-Flash"
+    }
   }
 }

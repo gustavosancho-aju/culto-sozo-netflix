@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { Link } from 'wouter';
 import { ArrowLeft, ArrowRight, ArrowUpRight, CalendarDays, Copy, Play, Share2, Sparkles } from 'lucide-react';
 import { toast } from 'sonner';
-import { brazilToday, datesForWeek, october2026Weeks, weekDays } from '../data/weeklyDevotionals';
+import { brazilToday, datesForWeek, devotionalWeeks, weekDays } from '../data/weeklyDevotionals';
 import { trpc } from '@/lib/trpc';
 import DevotionalSection, { type DevotionalSectionContent } from '../components/DevotionalSection';
 import { useDevotionalAnalytics } from '../hooks/useDevotionalAnalytics';
@@ -28,7 +28,7 @@ function dateRange(startsOn: string): string {
 const WeeklyDevotional: React.FC = () => {
   const today = brazilToday();
   const [selectedDate, setSelectedDate] = useState(() => resolveDevotionalDate(window.location.search, today));
-  const weekIndex = october2026Weeks.findIndex(item => datesForWeek(item.startsOn).includes(selectedDate));
+  const weekIndex = devotionalWeeks.findIndex(item => datesForWeek(item.startsOn).includes(selectedDate));
   const readingHeaderRef = useRef<HTMLElement>(null);
   const readingTitleRef = useRef<HTMLHeadingElement>(null);
   const shouldScroll = useRef(new URLSearchParams(window.location.search).has('dia'));
@@ -52,7 +52,7 @@ const WeeklyDevotional: React.FC = () => {
     return () => window.removeEventListener('popstate', onBack);
   }, []);
 
-  const week = october2026Weeks[weekIndex];
+  const week = devotionalWeeks[weekIndex];
   const dates = datesForWeek(week.startsOn);
   const devotional = week.devotionals[selectedDate];
   const articleRef = useDevotionalAnalytics(selectedDate, week.number, !!devotional);
@@ -77,8 +77,8 @@ const WeeklyDevotional: React.FC = () => {
     : 'Mensagem da semana';
 
   function selectWeek(index: number) {
-    recordEngagement('Semana selecionada', { semana: october2026Weeks[index].number, inicio: october2026Weeks[index].startsOn });
-    const nextDates = datesForWeek(october2026Weeks[index].startsOn);
+    recordEngagement('Semana selecionada', { semana: devotionalWeeks[index].number, inicio: devotionalWeeks[index].startsOn });
+    const nextDates = datesForWeek(devotionalWeeks[index].startsOn);
     selectDate(nextDates.includes(today) ? today : nextDates[0]);
   }
 
@@ -145,11 +145,11 @@ const WeeklyDevotional: React.FC = () => {
           <div className="pointer-events-none absolute -right-20 -top-28 h-80 w-80 rounded-full bg-[#b79e68]/20 blur-3xl" />
           <div className="relative max-w-2xl">
             <p className="mb-4 flex items-center gap-2 text-xs font-bold uppercase tracking-[0.22em] text-[#e4d2a6]">
-              <Sparkles className="h-4 w-4" /> Culto Sozo · Outubro 2026
+              <Sparkles className="h-4 w-4" /> Culto Sozo · Devocionais
             </p>
             <h1 className="text-4xl font-bold tracking-tight text-white md:text-6xl">Devocional semanal</h1>
             <p className="mt-5 text-base leading-relaxed text-zinc-300 md:text-lg">
-              Quatro semanas para caminhar com a Palavra. Escolha uma semana e, depois, um dia de segunda a domingo para abrir o devocional.
+              Caminhe com a Palavra a cada semana. Escolha uma semana e, depois, um dia de segunda a domingo para abrir o devocional.
             </p>
           </div>
         </header>
@@ -157,14 +157,14 @@ const WeeklyDevotional: React.FC = () => {
         <section className="mt-12" aria-labelledby="weeks-heading">
           <div className="mb-5 flex items-center gap-3">
             <CalendarDays className="h-5 w-5 text-[#b79e68]" />
-            <h2 id="weeks-heading" className="text-xl font-bold text-white md:text-2xl">As quatro semanas</h2>
+            <h2 id="weeks-heading" className="text-xl font-bold text-white md:text-2xl">Escolha uma semana</h2>
           </div>
           <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
-            {october2026Weeks.map((item, index) => {
+            {devotionalWeeks.map((item, index) => {
               const isSelected = weekIndex === index;
               return (
                 <button
-                  key={item.number}
+                  key={item.startsOn}
                   type="button"
                   onClick={() => selectWeek(index)}
                   aria-pressed={isSelected}
@@ -287,7 +287,7 @@ const WeeklyDevotional: React.FC = () => {
             <div ref={element => { readingHeaderRef.current = element; }} className="scroll-mt-28 rounded-2xl border border-white/10 bg-[#202020] p-6 md:p-10">
               <p className="text-xs font-bold uppercase tracking-[0.2em] text-[#e4d2a6]">{selectedDay} · {shortDate(selectedDate)}</p>
               <h3 className="mt-3 text-2xl font-bold text-white md:text-3xl">Devocional em preparação</h3>
-              <p className="mt-4 max-w-2xl leading-relaxed text-zinc-300">Este dia já está reservado. Assim que o tema da Semana {week.number} for definido, o devocional aparecerá aqui.</p>
+              <p className="mt-4 max-w-2xl leading-relaxed text-zinc-300">Este dia já está reservado. O devocional aparecerá aqui quando estiver disponível.</p>
               <div className="mt-7 grid gap-3 text-sm text-zinc-400 sm:grid-cols-2 lg:grid-cols-4">
                 {['Leitura bíblica', 'Para meditar', 'Coloque em prática', 'Oração'].map(label => (
                   <div key={label} className="rounded-lg border border-dashed border-white/20 px-4 py-4">{label}</div>
