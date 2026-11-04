@@ -2972,6 +2972,119 @@ export const devotionalWeeks: DevotionalWeek[] = [
             ]
           }
         ]
+      },
+      "2026-11-04": {
+        "format": "document",
+        "label": "OS SEGREDOS DE UMA VIDA PRÓSPERA — DEVOCIONAL | SEMANA 1 — DIA 3",
+        "title": "QUANDO O MEDO DE FALTAR NOS IMPEDE DE REPARTIR",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“E Deus é poderoso para fazer que toda a graça lhes seja acrescentada, para que em todas as coisas, em todo o tempo, tendo tudo o que é necessário, vocês transbordem em toda boa obra.” (2 Coríntios 9:8)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Você já percebeu que, às vezes, mesmo tendo condições de ajudar alguém, sentimos uma resistência interior difícil de explicar?",
+              "Talvez você já tenha vivido uma situação em que desejava contribuir com uma necessidade, oferecer alguma coisa ou participar de um projeto importante, mas imediatamente começou a pensar em tudo aquilo que poderia acontecer se abrisse mão de uma parte dos seus recursos. Mesmo quando aquela contribuição não comprometeria suas responsabilidades, a possibilidade de ficar com menos despertava um desconforto que parecia maior do que a situação exigia.",
+              "É importante compreender que nem toda decisão de não contribuir representa egoísmo ou falta de fé. Existem momentos em que precisamos estabelecer limites, organizar nossas finanças e agir com prudência. Entretanto, também existem situações nas quais a dificuldade de repartir não está relacionada à falta de recursos, mas ao significado emocional que atribuímos àquilo que possuímos.",
+              "Porque, às vezes, o que nos impede de repartir não é a quantidade que temos, mas o medo daquilo que acreditamos que poderá acontecer se tivermos menos."
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Na primeira mensagem da nossa série, aprendemos que a verdadeira prosperidade começa quando Deus governa nosso coração. Jesus nos ensinou, em Mateus 6:21, que nosso coração acompanha aquilo que consideramos nosso tesouro e, no versículo 24, declarou que ninguém pode servir a dois senhores. Essa verdade nos convida a examinar não apenas como adquirimos e administramos nossos recursos, mas também como reagimos quando surge uma oportunidade de utilizá-los para beneficiar outras pessoas.",
+              "Existe uma diferença entre reconhecer que o dinheiro é necessário e acreditar que precisamos conservar tudo o que possuímos para nos sentirmos seguros. A primeira atitude pode representar responsabilidade e prudência. A segunda pode revelar uma dependência interior que, muitas vezes, permanece escondida até o momento em que precisamos abrir mão de alguma coisa.",
+              "É nesse contexto que 2 Coríntios 9:8 amplia nossa compreensão sobre prosperidade. Ao ensinar sobre generosidade, Paulo apresenta Deus como aquele que é poderoso para conceder graça e capacitar seus filhos a abundarem em boas obras. Observe que o texto não apresenta os recursos apenas como instrumentos para atender às nossas necessidades, mas também como oportunidades de participar daquilo que Deus deseja realizar por meio de nós.",
+              "Uma vida próspera não é definida apenas pela capacidade de acumular recursos, mas também pela liberdade de utilizá-los de acordo com os princípios de Deus.",
+              "Entretanto, essa liberdade nem sempre é desenvolvida com facilidade. Imagine alguém que cresceu em uma família na qual os adultos demonstravam preocupação constante com o futuro. Talvez essa pessoa tenha ouvido repetidamente frases como: “Não podemos gastar porque amanhã pode faltar”, “Nunca se sabe o que vai acontecer” ou “É melhor guardar tudo, porque ninguém vai ajudar você quando precisar”. Mesmo quando essas orientações surgiam de uma preocupação legítima, elas podem ter contribuído para a formação de uma percepção de que o futuro é permanentemente ameaçador.",
+              "Na vida adulta, essa pessoa pode desenvolver disciplina financeira, aprender a economizar e construir uma reserva importante. Entretanto, se o medo continuar governando sua relação com o dinheiro, talvez encontre dificuldade para utilizar até mesmo uma pequena parte daquilo que possui. Não porque lhe faltem recursos, mas porque qualquer diminuição desperta a sensação de que sua segurança está sendo ameaçada.",
+              "Perceba que o problema não está em economizar. A Bíblia valoriza a prudência, o planejamento e a boa administração. A questão começa quando o desejo de preservar nossos recursos deixa de ser orientado pela sabedoria e passa a ser determinado por uma ansiedade que nunca considera suficiente aquilo que já temos.",
+              "Quando o medo assume o governo do coração, até uma decisão generosa pode ser interpretada como uma ameaça à nossa segurança.",
+              "Essa realidade também pode aparecer em situações que não envolvem grandes quantias. Uma pessoa pode ter facilidade para gastar com aquilo que deseja, mas encontrar dificuldade para contribuir com uma necessidade que não lhe trará benefício pessoal. Outra pode ser extremamente generosa quando recebe reconhecimento, mas demonstrar resistência quando precisa ajudar alguém de maneira discreta, sem que outras pessoas saibam.",
+              "Essas diferenças revelam que a generosidade não pode ser avaliada apenas pela quantidade que entregamos. Precisamos considerar também aquilo que está motivando nossas decisões. Em algumas situações, podemos utilizar o dinheiro para demonstrar amor e cuidado. Em outras, podemos utilizá-lo para conquistar admiração, preservar uma imagem ou tentar garantir que as pessoas permaneçam próximas de nós.",
+              "É por isso que Paulo, em 2 Coríntios 9:7, ensina que cada pessoa deve contribuir conforme decidiu em seu coração, não com tristeza ou por obrigação, pois Deus ama quem dá com alegria. Esse princípio nos mostra que o Senhor não está interessado apenas no ato exterior de entregar alguma coisa, mas também na liberdade interior com que fazemos isso.",
+              "A generosidade que nasce de um coração livre não precisa ser utilizada para comprar aceitação, conquistar reconhecimento ou provar espiritualidade. Também não deve ser resultado de pressão emocional ou de uma tentativa de garantir recompensas financeiras. Ela é uma resposta consciente aos princípios de Deus, desenvolvida a partir da confiança, do amor e da responsabilidade.",
+              "Não basta abrir as mãos para entregar alguma coisa se, dentro de nós, continuamos aprisionados ao medo, à necessidade de aprovação ou à expectativa de receber algo em troca.",
+              "Essa verdade nos ajuda a compreender que a cura interior também alcança nossa maneira de repartir. Algumas pessoas precisam permitir que Deus trate o medo de perder. Outras precisam reconhecer que aprenderam a utilizar presentes e contribuições como uma forma de conquistar afeto. Há ainda aquelas que se sentem culpadas sempre que não conseguem atender às necessidades dos outros, porque acreditam que precisam ajudar a todos para serem consideradas boas pessoas.",
+              "Em cada uma dessas situações, o comportamento pode parecer generoso, mas as motivações interiores são diferentes. Por isso, a maturidade espiritual não consiste em contribuir indiscriminadamente, mas em desenvolver liberdade para discernir quando ajudar, quanto oferecer e como agir sem permitir que o medo ou a culpa determinem nossas escolhas.",
+              "O próprio contexto de 2 Coríntios 9 nos mostra que Deus deseja produzir frutos de justiça e ações de graças por meio da generosidade. Paulo não apresenta a contribuição como uma negociação destinada a enriquecer quem oferece, mas como uma expressão de graça que supre necessidades e glorifica a Deus. Isso significa que nossos recursos podem alcançar propósitos que ultrapassam nossos interesses individuais.",
+              "Essa verdade se relaciona diretamente com aquilo que aprendemos na primeira mensagem sobre Davi e sua disposição de investir na construção do templo. Davi compreendeu que aquilo que possuía poderia servir a um propósito maior do que seus interesses pessoais. Entretanto, o princípio também precisa alcançar nossas decisões cotidianas, quando encontramos alguém que precisa de ajuda, uma família que atravessa dificuldades ou uma oportunidade legítima de contribuir para o bem de outras pessoas.",
+              "Não precisamos esperar possuir grandes riquezas para desenvolver um coração generoso. Podemos começar aprendendo a administrar aquilo que já recebemos com responsabilidade, reconhecendo nossas possibilidades e permitindo que o amor também participe das nossas decisões financeiras.",
+              "É importante lembrar que confiar em Deus não significa ignorar nossas limitações. Uma pessoa que enfrenta dificuldades financeiras reais não precisa comprometer o sustento da família para demonstrar fé. O próprio ensino de Paulo, em 2 Coríntios 8:12-13, considera aquilo que cada pessoa possui e rejeita a ideia de aliviar outros à custa de sobrecarregar quem contribui.",
+              "O que precisamos examinar é se nossas decisões estão sendo conduzidas pela sabedoria ou se existe alguma crença interior que nos impede de agir com liberdade, mesmo quando temos condições de fazê-lo.",
+              "Talvez hoje o Espírito Santo queira revelar que sua dificuldade não está propriamente em repartir, mas na sensação de insegurança que aparece quando você considera abrir mão de alguma coisa. Talvez você tenha aprendido a acreditar que somente estará protegido enquanto conseguir conservar tudo sob seu controle.",
+              "Por isso, precisamos voltar à pergunta central da nossa primeira mensagem: quem está governando o seu coração? Quando Deus ocupa esse lugar, podemos administrar com prudência, planejar o futuro e praticar a generosidade sem transformar nossos recursos na fonte absoluta da nossa segurança.",
+              "A verdadeira prosperidade não nos ensina apenas a conquistar e conservar. Ela também desenvolve em nós a liberdade de repartir, sem que o medo de perder tenha a palavra final sobre nossas decisões."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Quando surge uma oportunidade de ajudar alguém ou contribuir com uma necessidade, minha primeira reação é avaliar com sabedoria minhas possibilidades ou sinto imediatamente um medo intenso de ficar com menos?",
+              "O que aprendi na minha família sobre repartir, guardar dinheiro e confiar no futuro? Existem experiências ou ensinamentos que ainda influenciam minha maneira de lidar com os recursos?",
+              "Quando sou generoso, consigo agir com liberdade e alegria ou percebo que, em algumas situações, minha contribuição está relacionada à culpa, à necessidade de reconhecimento ou à expectativa de receber algo em troca?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "EXERCÍCIO SOZO — IDENTIFICANDO O QUE ME IMPEDE DE REPARTIR",
+              "Hoje, vamos examinar como reagimos diante das oportunidades de generosidade e identificar se existe alguma crença que esteja influenciando nossas decisões.",
+              "Reserve aproximadamente quinze minutos em um ambiente tranquilo, tenha papel e caneta por perto e convide o Espírito Santo a conduzir esse momento.",
+              "1. IDENTIFIQUE UMA SITUAÇÃO",
+              "Lembre-se de uma ocasião recente em que você teve a oportunidade de contribuir financeiramente, ajudar alguém ou compartilhar algum recurso.",
+              "Registre o que aconteceu e como você reagiu. Você sentiu alegria, liberdade, medo, culpa, resistência ou necessidade de reconhecimento?",
+              "Não avalie apenas se ajudou ou deixou de ajudar. Procure compreender o que aconteceu dentro de você.",
+              "2. INVESTIGUE A CRENÇA",
+              "Pergunte a si mesmo: “O que eu acredito que pode acontecer comigo quando abro mão de uma parte daquilo que possuo?”",
+              "Talvez surjam pensamentos como: “Se eu ajudar, depois poderá faltar para mim”, “Preciso guardar tudo porque não posso depender de ninguém” ou “Se eu não contribuir, as pessoas vão pensar mal de mim”.",
+              "Identifique a crença que mais se aproxima da sua realidade.",
+              "3. RECONHEÇA UMA POSSÍVEL ORIGEM",
+              "Pergunte ao Espírito Santo: “Senhor, existe alguma experiência da minha história que esteja influenciando minha capacidade de repartir com liberdade?”",
+              "Considere se você aprendeu a associar dinheiro à proteção, se presenciou situações de falta que produziram insegurança ou se desenvolveu a necessidade de agradar às pessoas por meio daquilo que oferece.",
+              "Não é necessário encontrar uma lembrança específica. O importante é reconhecer, com sinceridade, os padrões que você consegue identificar.",
+              "4. SUBSTITUA A CRENÇA POR UMA VERDADE",
+              "Leia 2 Coríntios 9:7-8 e Mateus 6:21-24.",
+              "Depois, escreva uma declaração que confronte a crença identificada.",
+              "Por exemplo: “Posso administrar meus recursos com responsabilidade sem permitir que o medo governe minhas decisões. Minha segurança não depende exclusivamente daquilo que consigo acumular, e posso praticar a generosidade com sabedoria, liberdade e amor.”",
+              "5. PRATIQUE UMA GENEROSIDADE CONSCIENTE",
+              "Hoje, identifique uma oportunidade real de beneficiar alguém, respeitando suas condições e responsabilidades.",
+              "Pode ser uma contribuição financeira que esteja dentro das suas possibilidades, uma ajuda material, o compartilhamento de algo útil ou uma atitude de cuidado que não envolva dinheiro.",
+              "Antes de agir, pergunte a si mesmo: “Estou fazendo isso por amor e convicção ou porque sinto medo, culpa ou necessidade de reconhecimento?”",
+              "Se decidir ajudar, faça isso com liberdade, sem esperar reconhecimento ou retorno.",
+              "O propósito do exercício não é provar sua fé por meio de uma contribuição, mas desenvolver um coração que saiba administrar com responsabilidade e repartir sem ser governado pelo medo."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Pai, hoje me apresento diante de Ti e peço que examines meu coração, revelando as crenças e os medos que ainda influenciam minha maneira de lidar com o dinheiro.",
+              "Espírito Santo, mostra-me se tenho encontrado dificuldade para repartir porque aprendi a acreditar que minha segurança depende exclusivamente daquilo que consigo guardar.",
+              "Hoje eu renuncio à mentira de que preciso controlar todos os meus recursos para estar seguro e à crença de que somente serei valorizado pelo que consigo oferecer às pessoas.",
+              "Cura as marcas da minha história que alimentam o medo de faltar, a necessidade de reconhecimento e a dificuldade de confiar.",
+              "Ensina-me a administrar com sabedoria, cumprir minhas responsabilidades e desenvolver um coração generoso, livre da culpa, da pressão e da expectativa de receber algo em troca.",
+              "Eu reconheço Jesus Cristo como Senhor das minhas decisões financeiras e escolho colocar meus recursos a serviço dos Teus princípios.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "QUANDO O MEDO DE FALTAR GOVERNA NOSSO CORAÇÃO, ATÉ REPARTIR SE TORNA UMA AMEAÇA. MAS, QUANDO DEUS OCUPA O LUGAR DE GOVERNO, APRENDEMOS A ADMINISTRAR COM SABEDORIA E A SER GENEROSOS COM LIBERDADE."
+            ]
+          }
+        ]
       }
     }
   },

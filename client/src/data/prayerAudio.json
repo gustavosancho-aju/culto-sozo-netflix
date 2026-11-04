@@ -142,5 +142,21 @@
       "model": "microsoft/mai-voice-2.1-flash",
       "voice": "pt-BR-Caio:MAI-Voice-2.1-Flash"
     }
+  },
+  "2026-11-04": {
+    "feminina": {
+      "src": "/audio/oracoes/2026-11-04-b6e4f456e57809c5.mp3",
+      "text": "Pai, hoje me apresento diante de Ti e peço que examines meu coração, revelando as crenças e os medos que ainda influenciam minha maneira de lidar com o dinheiro.\n\nEspírito Santo, mostra-me se tenho encontrado dificuldade para repartir porque aprendi a acreditar que minha segurança depende exclusivamente daquilo que consigo guardar.\n\nHoje eu renuncio à mentira de que preciso controlar todos os meus recursos para estar seguro e à crença de que somente serei valorizado pelo que consigo oferecer às pessoas.\n\nCura as marcas da minha história que alimentam o medo de faltar, a necessidade de reconhecimento e a dificuldade de confiar.\n\nEnsina-me a administrar com sabedoria, cumprir minhas responsabilidades e desenvolver um coração generoso, livre da culpa, da pressão e da expectativa de receber algo em troca.\n\nEu reconheço Jesus Cristo como Senhor das minhas decisões financeiras e escolho colocar meus recursos a serviço dos Teus princípios.\n\nEm nome de Jesus, amém.",
+      "textHash": "235619d4c2121981e8a08bd0acee7c903d1d922c33d37a4f46a34ff881162b5a",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Luana:MAI-Voice-2.1-Flash"
+    },
+    "masculina": {
+      "src": "/audio/oracoes/2026-11-04-13d5cd5adb3c1f1b.mp3",
+      "text": "Pai, hoje me apresento diante de Ti e peço que examines meu coração, revelando as crenças e os medos que ainda influenciam minha maneira de lidar com o dinheiro.\n\nEspírito Santo, mostra-me se tenho encontrado dificuldade para repartir porque aprendi a acreditar que minha segurança depende exclusivamente daquilo que consigo guardar.\n\nHoje eu renuncio à mentira de que preciso controlar todos os meus recursos para estar seguro e à crença de que somente serei valorizado pelo que consigo oferecer às pessoas.\n\nCura as marcas da minha história que alimentam o medo de faltar, a necessidade de reconhecimento e a dificuldade de confiar.\n\nEnsina-me a administrar com sabedoria, cumprir minhas responsabilidades e desenvolver um coração generoso, livre da culpa, da pressão e da expectativa de receber algo em troca.\n\nEu reconheço Jesus Cristo como Senhor das minhas decisões financeiras e escolho colocar meus recursos a serviço dos Teus princípios.\n\nEm nome de Jesus, amém.",
+      "textHash": "235619d4c2121981e8a08bd0acee7c903d1d922c33d37a4f46a34ff881162b5a",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Caio:MAI-Voice-2.1-Flash"
+    }
   }
 }
