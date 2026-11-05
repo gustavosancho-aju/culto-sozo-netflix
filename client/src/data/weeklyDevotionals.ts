@@ -3085,6 +3085,101 @@ export const devotionalWeeks: DevotionalWeek[] = [
             ]
           }
         ]
+      },
+      "2026-11-05": {
+        "format": "document",
+        "label": "OS SEGREDOS DE UMA VIDA PRÓSPERA — DEVOCIONAL | SEMANA 1 — DIA 4",
+        "title": "QUANDO O SUCESSO NOS FAZ ESQUECER DE DEUS",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“Não digam, pois, em seu coração: ‘A minha capacidade e a força das minhas mãos ajuntaram para mim toda esta riqueza’. Mas, lembrem-se do Senhor, do seu Deus, pois é ele que lhes dá a capacidade de produzir riqueza.” (Deuteronômio 8:17-18)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Você já percebeu que, às vezes, quanto mais uma pessoa conquista, menos ela reconhece sua necessidade de depender de Deus?",
+              "Existem momentos em que buscamos intensamente a direção do Senhor porque estamos enfrentando dificuldades, tomando decisões importantes ou tentando superar circunstâncias que parecem maiores do que nossas forças. Entretanto, quando as coisas começam a funcionar, os resultados aparecem e adquirimos mais experiência, podemos passar a confiar tanto em nossa própria capacidade que já não sentimos a mesma necessidade de consultar a Deus.",
+              "Isso nem sempre acontece por uma decisão consciente de nos afastarmos do Senhor. Às vezes, a mudança é silenciosa. Continuamos orando, frequentando a igreja e reconhecendo verbalmente que tudo vem de Deus, mas, na prática, começamos a conduzir nossos projetos como se nossa experiência e nosso conhecimento fossem suficientes para garantir os resultados.",
+              "O perigo não está em desenvolver capacidades, mas em permitir que nossas conquistas nos façam esquecer de quem nos sustentou durante o caminho."
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Na primeira mensagem da nossa série, aprendemos que a verdadeira prosperidade começa quando Deus governa nosso coração. Jesus nos ensinou, em Mateus 6:21, que nosso coração acompanha aquilo que consideramos nosso tesouro e, ao declarar que ninguém pode servir a dois senhores, mostrou que nossas escolhas revelam a quem estamos atribuindo autoridade. Entretanto, existe uma maneira de o dinheiro assumir um lugar indevido que nem sempre percebemos: quando o crescimento financeiro começa a alimentar a convicção de que somos inteiramente responsáveis por tudo o que conquistamos.",
+              "Em Deuteronômio 8, Moisés prepara o povo de Israel para entrar em uma terra de abundância. Depois de anos no deserto, eles encontrariam uma realidade diferente, com alimento, recursos e oportunidades de crescimento. Entretanto, antes que experimentassem aquela nova condição, Deus lhes fez uma advertência. O perigo não estava apenas nas dificuldades que haviam enfrentado, mas também na maneira como poderiam reagir à prosperidade que estava por vir.",
+              "Moisés declarou que, depois de comerem, ficarem satisfeitos, construírem boas casas e multiplicarem seus bens, deveriam tomar cuidado para que seu coração não se tornasse orgulhoso e se esquecessem do Senhor. Observe que a advertência não foi dirigida a um povo que estava perdendo tudo, mas a pessoas que estavam prestes a experimentar crescimento e abundância.",
+              "Isso nos ensina que existem perigos espirituais que não aparecem apenas nos períodos de dificuldade. Alguns começam justamente quando as coisas passam a dar certo.",
+              "Imagine alguém que iniciou sua vida profissional enfrentando muitas limitações. No começo, precisava aprender, buscar orientação e reconhecer que ainda não possuía experiência suficiente para tomar determinadas decisões. Com o passar dos anos, desenvolveu habilidades, conquistou reconhecimento e passou a ocupar posições de maior responsabilidade. Entretanto, à medida que seu sucesso aumentou, começou a demonstrar dificuldade para ouvir opiniões diferentes, receber correções ou admitir que poderia estar equivocado.",
+              "Aquela pessoa não deixou de possuir capacidades. Pelo contrário, tornou-se mais experiente e competente. O problema surgiu quando suas conquistas começaram a produzir uma percepção exagerada de autossuficiência, fazendo com que passasse a interpretar qualquer orientação como uma ameaça à sua autoridade.",
+              "Essa situação revela algo importante sobre o governo do coração. Quando nossas conquistas deixam de produzir gratidão e começam a alimentar superioridade, aquilo que recebemos como oportunidade pode se transformar em uma fonte de orgulho.",
+              "Entretanto, a autossuficiência nem sempre se manifesta por meio de arrogância ou desprezo pelas pessoas. Algumas vezes, aparece de maneira mais discreta, quando deixamos de buscar orientação porque acreditamos que já sabemos o que fazer. Podemos continuar reconhecendo Deus em nossas palavras, mas desenvolver uma rotina na qual nossas decisões são tomadas exclusivamente a partir daquilo que consideramos mais vantajoso, seguro ou conveniente.",
+              "É possível, por exemplo, que alguém tenha o hábito de orar quando enfrenta uma crise financeira, mas, ao receber uma oportunidade de investimento ou expansão profissional, considere apenas os possíveis resultados econômicos. A decisão pode até ser legítima, mas a pergunta sobre aquilo que Deus deseja, os princípios envolvidos e os impactos sobre sua família deixa de fazer parte do processo.",
+              "Perceba que não estamos falando sobre a necessidade de receber uma orientação sobrenatural para cada decisão cotidiana, mas sobre desenvolver uma vida na qual os princípios de Deus continuam sendo a referência, independentemente da quantidade de recursos ou experiência que possuímos.",
+              "É nesse ponto que precisamos compreender melhor a advertência de Deuteronômio 8:17-18. Deus não estava negando a participação humana na construção da prosperidade. O povo precisaria trabalhar, cultivar a terra, administrar seus recursos e tomar decisões. Entretanto, deveria reconhecer que até mesmo a capacidade de produzir resultados era uma dádiva recebida do Senhor.",
+              "Reconhecer Deus como a fonte não significa negar nosso esforço, mas compreender que nossas habilidades não nos tornam independentes daquele que nos concedeu a vida e as oportunidades para desenvolvê-las.",
+              "Essa verdade também nos ajuda a compreender por que algumas pessoas encontram tanta dificuldade para lidar com o fracasso depois de alcançarem o sucesso. Quando alguém passa a acreditar que seus resultados dependem exclusivamente de sua capacidade, qualquer perda pode ser interpretada como uma ameaça à própria identidade. A pessoa deixa de enxergar uma dificuldade como parte da experiência humana e começa a considerá-la uma evidência de que perdeu seu valor ou sua competência.",
+              "Por trás dessa reação, pode existir uma crença desenvolvida ao longo da história: a de que errar significa ser incapaz, depender de alguém representa fraqueza e pedir ajuda é sinal de inferioridade. Quem cresceu sendo valorizado apenas pelos resultados pode aprender a esconder suas limitações e a construir uma imagem de alguém que sempre sabe o que fazer.",
+              "Com o passar dos anos, essa necessidade de demonstrar competência pode alcançar também sua relação com Deus. A pessoa continua acreditando no Senhor, mas encontra dificuldade para reconhecer que precisa de direção, correção e ajuda. Não porque tenha perdido a fé, mas porque aprendeu a associar dependência à fragilidade.",
+              "Quando confundimos dependência de Deus com incapacidade pessoal, podemos começar a rejeitar justamente a relação de confiança que deveria sustentar nossa caminhada.",
+              "Na primeira mensagem, também aprendemos com Davi que tudo aquilo que possuímos vem do Senhor. Em 1 Crônicas 29:14, depois de apresentar uma oferta extraordinária para a construção do templo, Davi reconheceu: “Tudo vem de ti, e nós apenas te demos o que vem das tuas mãos”.",
+              "Observe que Davi não negou sua participação naquela entrega. Ele havia trabalhado, administrado recursos e se preparado para contribuir. Entretanto, mesmo diante de uma grande realização, não permitiu que sua capacidade ocupasse o lugar da fonte. Sua declaração demonstrava que era possível conquistar muito sem perder a consciência de que tudo continuava pertencendo a Deus.",
+              "Essa postura confronta a maneira como muitas vezes interpretamos nossas realizações. Podemos reconhecer facilmente a ação de Deus quando recebemos algo inesperado, mas encontrar dificuldade para enxergá-la naquilo que conquistamos por meio de anos de dedicação. Entretanto, a provisão do Senhor não se manifesta apenas em acontecimentos extraordinários. Ela também pode ser reconhecida nas capacidades que desenvolvemos, nas oportunidades que encontramos e nas pessoas que contribuíram para nossa caminhada.",
+              "Isso não significa atribuir a Deus todas as decisões que tomamos ou considerar que todo resultado financeiro seja sinal de sua aprovação. Significa reconhecer que a prosperidade precisa permanecer submetida aos princípios do Reino, para que nossas conquistas não produzam um coração independente, orgulhoso ou resistente à correção.",
+              "Talvez hoje o Espírito Santo queira mostrar que você não precisa diminuir suas capacidades para reconhecer sua dependência de Deus. O Senhor não deseja que você abandone sua responsabilidade, deixe de desenvolver habilidades ou se torne inseguro diante das decisões. Ele deseja que sua competência seja acompanhada de humildade, sua experiência permaneça aberta à correção e suas conquistas continuem produzindo gratidão.",
+              "Por isso, precisamos retornar à pergunta central da nossa primeira mensagem: quem está governando o seu coração? Se nossas capacidades e resultados se tornaram a principal referência para determinar o que fazemos, talvez estejamos permitindo que o sucesso ocupe um lugar maior do que deveria. Mas, quando Deus permanece no centro, podemos crescer sem nos tornarmos autossuficientes e conquistar sem perder a disposição de ouvir sua direção.",
+              "A verdadeira prosperidade não é apenas alcançar lugares mais altos, mas permanecer com um coração humilde e dependente de Deus, mesmo quando já conquistamos aquilo que um dia parecia impossível."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "À medida que tenho conquistado mais experiência, recursos ou reconhecimento, minha disposição de buscar a direção de Deus e receber orientações tem aumentado ou diminuído?",
+              "Como reajo quando alguém questiona minhas decisões ou aponta algo que preciso melhorar? Consigo receber uma correção ou interpreto isso como uma ameaça à minha capacidade e ao meu valor?",
+              "Existe alguma área da minha vida em que passei a acreditar que tudo depende exclusivamente de mim, esquecendo-me de reconhecer o cuidado e a provisão de Deus?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "EXERCÍCIO SOZO — RECONHECENDO A FONTE DAS MINHAS CONQUISTAS",
+              "Reserve alguns minutos para realizar este exercício em oração.",
+              "1. IDENTIFIQUE: Pense em uma área da sua vida na qual você conquistou bons resultados, mas percebe que tem dificuldade para receber orientação, admitir limitações ou pedir ajuda.",
+              "2. INVESTIGUE: Pergunte ao Espírito Santo: “Senhor, em algum momento aprendi que depender de alguém significa ser fraco ou incapaz?” Observe se existe alguma crença influenciando sua maneira de agir.",
+              "3. SUBSTITUA: Leia Deuteronômio 8:17-18 e declare: “Minhas capacidades são importantes, mas não são a fonte da minha identidade nem da minha segurança. Posso ser competente, reconhecer meus limites e continuar dependendo de Deus.”",
+              "4. PRATIQUE: Hoje, escolha uma decisão ou responsabilidade e exercite a humildade: busque orientação, receba uma contribuição ou reconheça diante de Deus algo que você não consegue controlar sozinho.",
+              "Lembre-se: depender de Deus não diminui sua capacidade. Impede que sua capacidade ocupe o lugar que pertence a Ele."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Pai, hoje reconheço que todas as minhas capacidades, oportunidades e conquistas precisam permanecer submetidas ao Teu governo.",
+              "Espírito Santo, revela se o sucesso tem alimentado em mim o orgulho, a autossuficiência ou a dificuldade de receber direção e correção.",
+              "Eu renuncio à mentira de que preciso ser capaz de resolver tudo sozinho e à crença de que depender de alguém significa ser fraco ou inferior.",
+              "Cura as experiências que me ensinaram a encontrar meu valor apenas nos resultados e ensina-me a desenvolver uma confiança que não dependa exclusivamente daquilo que consigo realizar.",
+              "Que minhas conquistas produzam gratidão, minhas capacidades sejam utilizadas com sabedoria e meu coração permaneça humilde diante de Ti.",
+              "Hoje eu reconheço Jesus Cristo como Senhor da minha vida e declaro que nenhuma conquista ocupará o lugar de governo que pertence somente a Ele.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "O MAIOR PERIGO DO SUCESSO NÃO É CONQUISTAR MUITO, MAS COMEÇAR A ACREDITAR QUE JÁ NÃO PRECISAMOS DE DEUS. A VERDADEIRA PROSPERIDADE NOS FAZ CRESCER SEM PERDER A HUMILDADE DE RECONHECER QUEM É A FONTE."
+            ]
+          }
+        ]
       }
     }
   },

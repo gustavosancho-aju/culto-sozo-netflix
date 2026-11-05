@@ -158,5 +158,21 @@
       "model": "microsoft/mai-voice-2.1-flash",
       "voice": "pt-BR-Caio:MAI-Voice-2.1-Flash"
     }
+  },
+  "2026-11-05": {
+    "feminina": {
+      "src": "/audio/oracoes/2026-11-05-05193d2359bd940a.mp3",
+      "text": "Pai, hoje reconheço que todas as minhas capacidades, oportunidades e conquistas precisam permanecer submetidas ao Teu governo.\n\nEspírito Santo, revela se o sucesso tem alimentado em mim o orgulho, a autossuficiência ou a dificuldade de receber direção e correção.\n\nEu renuncio à mentira de que preciso ser capaz de resolver tudo sozinho e à crença de que depender de alguém significa ser fraco ou inferior.\n\nCura as experiências que me ensinaram a encontrar meu valor apenas nos resultados e ensina-me a desenvolver uma confiança que não dependa exclusivamente daquilo que consigo realizar.\n\nQue minhas conquistas produzam gratidão, minhas capacidades sejam utilizadas com sabedoria e meu coração permaneça humilde diante de Ti.\n\nHoje eu reconheço Jesus Cristo como Senhor da minha vida e declaro que nenhuma conquista ocupará o lugar de governo que pertence somente a Ele.\n\nEm nome de Jesus, amém.",
+      "textHash": "4d9b678dc8a01cd97a8d39bdefc12b3201ab80d4db2aa94b94579ebbc7124aba",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Luana:MAI-Voice-2.1-Flash"
+    },
+    "masculina": {
+      "src": "/audio/oracoes/2026-11-05-ebe4c4218e80a8aa.mp3",
+      "text": "Pai, hoje reconheço que todas as minhas capacidades, oportunidades e conquistas precisam permanecer submetidas ao Teu governo.\n\nEspírito Santo, revela se o sucesso tem alimentado em mim o orgulho, a autossuficiência ou a dificuldade de receber direção e correção.\n\nEu renuncio à mentira de que preciso ser capaz de resolver tudo sozinho e à crença de que depender de alguém significa ser fraco ou inferior.\n\nCura as experiências que me ensinaram a encontrar meu valor apenas nos resultados e ensina-me a desenvolver uma confiança que não dependa exclusivamente daquilo que consigo realizar.\n\nQue minhas conquistas produzam gratidão, minhas capacidades sejam utilizadas com sabedoria e meu coração permaneça humilde diante de Ti.\n\nHoje eu reconheço Jesus Cristo como Senhor da minha vida e declaro que nenhuma conquista ocupará o lugar de governo que pertence somente a Ele.\n\nEm nome de Jesus, amém.",
+      "textHash": "4d9b678dc8a01cd97a8d39bdefc12b3201ab80d4db2aa94b94579ebbc7124aba",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Caio:MAI-Voice-2.1-Flash"
+    }
   }
 }
