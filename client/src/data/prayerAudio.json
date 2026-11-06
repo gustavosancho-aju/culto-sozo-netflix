@@ -174,5 +174,37 @@
       "model": "microsoft/mai-voice-2.1-flash",
       "voice": "pt-BR-Caio:MAI-Voice-2.1-Flash"
     }
+  },
+  "2026-11-06": {
+    "feminina": {
+      "src": "/audio/oracoes/2026-11-06-9f687c9386324cf7.mp3",
+      "text": "Pai, hoje peço que o Espírito Santo examine meu coração e revele se tenho permitido que o dinheiro, a posição social ou o reconhecimento influenciem a maneira como enxergo as pessoas.\n\nSenhor, mostra-me se existem experiências da minha história que me fizeram acreditar que preciso possuir alguma coisa para ser respeitado ou valorizado.\n\nEu renuncio à mentira de que meu valor depende da minha condição financeira e à crença de que as pessoas são mais ou menos importantes por aquilo que possuem.\n\nCura as marcas de rejeição, humilhação e comparação que ainda influenciam meus relacionamentos. Ensina-me a reconhecer minha identidade em Ti e a tratar cada pessoa com dignidade, amor e respeito.\n\nQue minhas conquistas nunca produzam superioridade e que minhas dificuldades jamais me façam acreditar que sou inferior.\n\nHoje reconheço Jesus Cristo como Senhor do meu coração e escolho submeter meus relacionamentos aos princípios do Teu Reino.\n\nEm nome de Jesus, amém.",
+      "textHash": "6d849107c101c4e63d02608844c203aa562a7382fabbe50b0e40a82205b0d9df",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Luana:MAI-Voice-2.1-Flash"
+    },
+    "masculina": {
+      "src": "/audio/oracoes/2026-11-06-81a6304d2122a5b8.mp3",
+      "text": "Pai, hoje peço que o Espírito Santo examine meu coração e revele se tenho permitido que o dinheiro, a posição social ou o reconhecimento influenciem a maneira como enxergo as pessoas.\n\nSenhor, mostra-me se existem experiências da minha história que me fizeram acreditar que preciso possuir alguma coisa para ser respeitado ou valorizado.\n\nEu renuncio à mentira de que meu valor depende da minha condição financeira e à crença de que as pessoas são mais ou menos importantes por aquilo que possuem.\n\nCura as marcas de rejeição, humilhação e comparação que ainda influenciam meus relacionamentos. Ensina-me a reconhecer minha identidade em Ti e a tratar cada pessoa com dignidade, amor e respeito.\n\nQue minhas conquistas nunca produzam superioridade e que minhas dificuldades jamais me façam acreditar que sou inferior.\n\nHoje reconheço Jesus Cristo como Senhor do meu coração e escolho submeter meus relacionamentos aos princípios do Teu Reino.\n\nEm nome de Jesus, amém.",
+      "textHash": "6d849107c101c4e63d02608844c203aa562a7382fabbe50b0e40a82205b0d9df",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Caio:MAI-Voice-2.1-Flash"
+    }
+  },
+  "2026-11-07": {
+    "feminina": {
+      "src": "/audio/oracoes/2026-11-07-e91b4ade299f62c8.mp3",
+      "text": "Pai, hoje me apresento diante de Ti e peço que examines as motivações que estão por trás das minhas decisões financeiras. Revela se tenho utilizado a prudência como justificativa para preservar aquilo que possuo, mesmo quando tenho condições de contribuir com uma necessidade.\n\nEspírito Santo, mostra-me se existem experiências da minha história que me ensinaram a acreditar que repartir significa perder ou que minha segurança depende exclusivamente daquilo que consigo guardar.\n\nHoje eu renuncio à mentira de que somente estarei seguro quando conseguir controlar todos os meus recursos e à crença de que ajudar alguém representa necessariamente uma ameaça ao meu futuro.\n\nEnsina-me a administrar com sabedoria, reconhecer meus limites e desenvolver um coração sensível às oportunidades de fazer o bem. Que minhas decisões sejam conduzidas pela verdade da Tua Palavra, e não pelo medo de perder.\n\nEu reconheço Jesus Cristo como Senhor do meu coração e escolho colocar meus recursos a serviço dos Teus princípios, com responsabilidade, liberdade e amor.\n\nEm nome de Jesus, amém.",
+      "textHash": "5a1ef243586ec0125d540ff7291465c3d78e1c7bec9bb4fe3e86128a1159e5b3",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Luana:MAI-Voice-2.1-Flash"
+    },
+    "masculina": {
+      "src": "/audio/oracoes/2026-11-07-c9367e804e1841b4.mp3",
+      "text": "Pai, hoje me apresento diante de Ti e peço que examines as motivações que estão por trás das minhas decisões financeiras. Revela se tenho utilizado a prudência como justificativa para preservar aquilo que possuo, mesmo quando tenho condições de contribuir com uma necessidade.\n\nEspírito Santo, mostra-me se existem experiências da minha história que me ensinaram a acreditar que repartir significa perder ou que minha segurança depende exclusivamente daquilo que consigo guardar.\n\nHoje eu renuncio à mentira de que somente estarei seguro quando conseguir controlar todos os meus recursos e à crença de que ajudar alguém representa necessariamente uma ameaça ao meu futuro.\n\nEnsina-me a administrar com sabedoria, reconhecer meus limites e desenvolver um coração sensível às oportunidades de fazer o bem. Que minhas decisões sejam conduzidas pela verdade da Tua Palavra, e não pelo medo de perder.\n\nEu reconheço Jesus Cristo como Senhor do meu coração e escolho colocar meus recursos a serviço dos Teus princípios, com responsabilidade, liberdade e amor.\n\nEm nome de Jesus, amém.",
+      "textHash": "5a1ef243586ec0125d540ff7291465c3d78e1c7bec9bb4fe3e86128a1159e5b3",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Caio:MAI-Voice-2.1-Flash"
+    }
   }
 }

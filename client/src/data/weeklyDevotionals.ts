@@ -3180,6 +3180,188 @@ export const devotionalWeeks: DevotionalWeek[] = [
             ]
           }
         ]
+      },
+      "2026-11-06": {
+        "format": "document",
+        "label": "OS SEGREDOS DE UMA VIDA PRÓSPERA — DEVOCIONAL | SEMANA 1 — DIA 5",
+        "title": "QUANDO O DINHEIRO DETERMINA O VALOR DAS PESSOAS",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“Meus irmãos, como crentes em nosso glorioso Senhor Jesus Cristo, não façam diferença entre as pessoas, tratando-as com parcialidade.” (Tiago 2:1)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Você já percebeu como a condição financeira de uma pessoa pode influenciar a maneira como ela é tratada?",
+              "Em determinados ambientes, alguém que possui uma posição profissional importante, um patrimônio elevado ou uma aparência associada ao sucesso recebe atenção, respeito e oportunidades que nem sempre são oferecidos a outras pessoas. Às vezes, essa diferença acontece de maneira tão natural que ninguém percebe que está atribuindo mais importância a alguém por causa daquilo que possui.",
+              "Entretanto, essa realidade não aparece apenas na maneira como a sociedade funciona. Ela também pode estar presente em nossas escolhas, relacionamentos e até mesmo na forma como avaliamos a nós mesmos.",
+              "Quando começamos a atribuir mais valor às pessoas por aquilo que possuem, revelamos que o dinheiro pode estar influenciando não apenas nossas decisões financeiras, mas também nossa maneira de enxergar o próximo."
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Na primeira mensagem da nossa série, aprendemos que a verdadeira prosperidade começa quando Deus governa nosso coração. Jesus nos ensinou, em Mateus 6:21, que nosso coração acompanha aquilo que consideramos nosso tesouro e, no versículo 24, declarou que ninguém pode servir a dois senhores. Essa verdade nos convida a examinar não apenas o significado que atribuímos ao dinheiro, mas também a influência que ele exerce sobre nossos relacionamentos.",
+              "Existe uma maneira de percebermos o lugar que as riquezas ocupam dentro de nós: observar como reagimos diante de pessoas que possuem condições financeiras diferentes das nossas. Às vezes, podemos demonstrar admiração excessiva por quem possui muitos recursos e, ao mesmo tempo, não oferecer a mesma atenção a alguém que ocupa uma posição social menos valorizada. Essa diferença de tratamento revela que, mesmo sem perceber, podemos estar utilizando o dinheiro como uma referência para determinar a importância das pessoas.",
+              "É nesse contexto que Tiago 2:1-4 apresenta uma verdade bíblica que amplia nossa compreensão sobre prosperidade. O texto descreve uma situação em que duas pessoas entram em uma reunião. Uma delas está usando roupas finas e um anel de ouro, enquanto a outra veste roupas simples. A primeira recebe um lugar de destaque, mas a segunda é tratada com desprezo. Tiago confronta essa atitude e mostra que a comunidade estava fazendo distinções baseadas em critérios exteriores.",
+              "Observe que o problema não estava nas roupas, no anel ou na condição financeira das pessoas. A questão era o valor diferente que lhes estava sendo atribuído. A aparência de riqueza havia se tornado um critério para determinar quem merecia atenção e honra. Quando o dinheiro começa a determinar quem merece nosso respeito, ele já está exercendo uma autoridade que não lhe pertence.",
+              "Essa verdade também precisa alcançar nossas relações cotidianas. Imagine alguém que participa de um ambiente profissional no qual existem pessoas ocupando diferentes posições. Quando está diante de um diretor ou de alguém que possui influência, demonstra cordialidade, atenção e disposição para ajudar. Entretanto, quando precisa se relacionar com um funcionário que exerce uma função mais simples, torna-se impaciente, distante ou indiferente.",
+              "Talvez essa pessoa nem perceba a diferença de comportamento, porque aprendeu a associar importância à posição que alguém ocupa. Entretanto, sua maneira de agir revela que o respeito deixou de estar fundamentado na dignidade humana e passou a ser influenciado pelo status.",
+              "Isso também pode acontecer em nossas amizades. Algumas pessoas procuram se aproximar de quem possui recursos, influência ou oportunidades que podem beneficiá-las. Ao mesmo tempo, podem perder o interesse por relacionamentos nos quais não identificam alguma possibilidade de vantagem. Aos poucos, os vínculos deixam de ser construídos a partir do amor, da confiança e da reciprocidade, tornando-se relações determinadas pelo que cada pessoa pode oferecer.",
+              "Quando começamos a avaliar as pessoas pelo benefício que podem nos proporcionar, corremos o risco de transformar relacionamentos em oportunidades de interesse.",
+              "Entretanto, existe uma dimensão emocional ainda mais profunda que precisamos considerar. Nem sempre essa maneira de agir nasce de uma intenção consciente de desprezar alguém. Algumas pessoas cresceram em ambientes nos quais a condição financeira determinava quem era respeitado, ouvido ou valorizado. Talvez tenham presenciado familiares sendo humilhados por não possuírem recursos ou tenham percebido que determinadas pessoas recebiam um tratamento melhor simplesmente porque tinham dinheiro.",
+              "Essas experiências podem contribuir para a formação de uma crença silenciosa: “Para ser respeitado, preciso ter uma posição importante ou possuir alguma coisa que desperte admiração.”",
+              "Na vida adulta, essa pessoa pode desenvolver uma necessidade intensa de alcançar reconhecimento financeiro e social. Entretanto, mesmo quando conquista uma condição melhor, continua avaliando seu valor a partir da posição que ocupa em relação aos outros. Pode sentir-se inferior diante de alguém mais rico e superior diante de alguém que possui menos.",
+              "Perceba como a mesma crença pode produzir duas reações aparentemente diferentes. Diante de quem possui mais, a pessoa sente necessidade de provar seu valor. Diante de quem possui menos, pode tentar demonstrar superioridade. Nos dois casos, sua identidade continua sendo influenciada por uma comparação financeira.",
+              "Quem precisa diminuir o valor de alguém para se sentir importante ainda não compreendeu plenamente o valor que possui diante de Deus.",
+              "É por isso que o ensinamento de Tiago precisa alcançar não apenas nossas atitudes exteriores, mas também as crenças que sustentam nossa maneira de enxergar as pessoas. Podemos aprender a tratar todos com educação e, ainda assim, continuar alimentando interiormente a ideia de que determinadas posições sociais tornam alguém mais importante.",
+              "A transformação acontece quando compreendemos que a dignidade humana não é determinada pelo patrimônio, pela profissão ou pelo reconhecimento social. Em Gênesis 1:27, a Bíblia nos ensina que Deus criou o ser humano à sua imagem. Essa verdade estabelece um fundamento para nossa maneira de enxergar o próximo: antes de qualquer conquista, condição financeira ou posição social, existe uma pessoa criada à imagem de Deus.",
+              "Isso não significa que todas as pessoas possuem as mesmas responsabilidades ou que devemos ignorar diferenças de função e autoridade. Podemos reconhecer posições de liderança, honrar responsabilidades e respeitar estruturas sem atribuir maior dignidade humana àqueles que ocupam lugares de destaque.",
+              "Essa compreensão também transforma a maneira como enxergamos a nós mesmos. Se o valor de uma pessoa não depende daquilo que possui, nosso próprio valor também não pode estar condicionado ao patrimônio que conseguimos construir. Podemos trabalhar para melhorar nossa condição financeira sem acreditar que isso nos tornará seres humanos superiores. Podemos atravessar dificuldades sem concluir que perdemos nossa dignidade.",
+              "Na primeira mensagem, aprendemos com Davi que os recursos recebidos de Deus deveriam servir a propósitos maiores do que os interesses pessoais. Essa mesma verdade precisa alcançar nossos relacionamentos. A prosperidade que vem acompanhada de maturidade espiritual não nos torna indiferentes às pessoas, mas amplia nossa capacidade de servir, contribuir e reconhecer o valor daqueles que Deus coloca em nosso caminho.",
+              "Existe uma diferença entre conquistar uma posição de influência e permitir que essa posição transforme a maneira como tratamos os outros. Uma pessoa pode prosperar financeiramente e continuar sendo acessível, respeitosa e sensível às necessidades alheias. Entretanto, quando o sucesso começa a produzir desprezo, arrogância ou a necessidade de demonstrar superioridade, precisamos examinar o que está acontecendo dentro do coração.",
+              "Por isso, voltamos à pergunta central da nossa primeira mensagem: quem está governando o seu coração? Se o dinheiro determina quem admiramos, com quem desejamos nos relacionar ou como avaliamos nosso próprio valor, talvez ele esteja exercendo uma influência maior do que imaginamos.",
+              "Talvez hoje o Espírito Santo queira revelar alguma experiência na qual você aprendeu a associar dinheiro à importância pessoal. Pode ser que tenha sido desprezado por não possuir determinados recursos ou que tenha crescido acreditando que somente seria respeitado quando alcançasse uma condição financeira superior.",
+              "O Senhor deseja tratar essas marcas para que você não precise utilizar suas conquistas como uma maneira de provar que merece respeito. Também deseja ensinar você a reconhecer o valor das pessoas sem permitir que a condição financeira determine a maneira como elas serão tratadas.",
+              "A verdadeira prosperidade não nos ensina apenas a administrar recursos. Ela transforma nossa maneira de enxergar as pessoas, porque um coração governado por Deus reconhece que o valor de alguém nunca pode ser medido por aquilo que possui."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Minha maneira de tratar as pessoas muda quando estou diante de alguém que possui mais dinheiro, influência ou reconhecimento? O que essas diferenças de comportamento revelam sobre meus valores?",
+              "Em algum momento da minha história, aprendi que precisava possuir recursos ou alcançar determinada posição para ser respeitado? Como essa crença ainda influencia meus relacionamentos?",
+              "Existe alguma pessoa que tenho considerado menos importante por causa de sua condição financeira, profissão ou posição social? O que preciso mudar na maneira como a enxergo?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "EXERCÍCIO SOZO — RECONHECENDO O VALOR DAS PESSOAS",
+              "Reserve alguns minutos para realizar este exercício em oração.",
+              "1. IDENTIFIQUE: Pense em uma situação em que você tenha se sentido inferior diante de alguém com mais recursos ou superior diante de alguém com menos. Observe o sentimento que surgiu.",
+              "2. INVESTIGUE: Pergunte ao Espírito Santo: “Senhor, em algum momento aprendi que o dinheiro ou a posição social determinam o valor de uma pessoa?” Reconheça a crença que pode estar influenciando suas atitudes.",
+              "3. SUBSTITUA: Leia Tiago 2:1-4 e Gênesis 1:27. Depois, declare: “Meu valor e o valor das outras pessoas não são determinados pelo dinheiro, pela profissão ou pela posição social. Nossa dignidade está fundamentada no fato de termos sido criados à imagem de Deus.”",
+              "4. PRATIQUE: Hoje, demonstre atenção, respeito e consideração a alguém que normalmente passa despercebido em sua rotina. Faça isso sem esperar qualquer benefício ou reconhecimento.",
+              "Lembre-se: um coração livre não precisa admirar alguém por sua riqueza nem desprezar alguém por sua condição financeira."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Pai, hoje peço que o Espírito Santo examine meu coração e revele se tenho permitido que o dinheiro, a posição social ou o reconhecimento influenciem a maneira como enxergo as pessoas.",
+              "Senhor, mostra-me se existem experiências da minha história que me fizeram acreditar que preciso possuir alguma coisa para ser respeitado ou valorizado.",
+              "Eu renuncio à mentira de que meu valor depende da minha condição financeira e à crença de que as pessoas são mais ou menos importantes por aquilo que possuem.",
+              "Cura as marcas de rejeição, humilhação e comparação que ainda influenciam meus relacionamentos. Ensina-me a reconhecer minha identidade em Ti e a tratar cada pessoa com dignidade, amor e respeito.",
+              "Que minhas conquistas nunca produzam superioridade e que minhas dificuldades jamais me façam acreditar que sou inferior.",
+              "Hoje reconheço Jesus Cristo como Senhor do meu coração e escolho submeter meus relacionamentos aos princípios do Teu Reino.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "QUANDO O DINHEIRO DETERMINA O VALOR QUE ATRIBUÍMOS ÀS PESSOAS, ELE JÁ ESTÁ GOVERNANDO NOSSO CORAÇÃO. A VERDADEIRA PROSPERIDADE NOS ENSINA A CONQUISTAR SEM NOS SENTIRMOS SUPERIORES E A RECONHECER NOSSO VALOR SEM PRECISAR PROVAR QUE SOMOS MELHORES DO QUE ALGUÉM."
+            ]
+          }
+        ]
+      },
+      "2026-11-07": {
+        "format": "document",
+        "label": "OS SEGREDOS DE UMA VIDA PRÓSPERA — DEVOCIONAL | SEMANA 1 — DIA 6",
+        "title": "QUANDO O MEDO NOS FAZ ADIAR O BEM",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“Quanto lhe for possível, não deixe de fazer o bem a quem dele precisa. Não diga ao seu próximo: ‘Volte amanhã, e eu lhe darei algo’, se pode ajudá-lo hoje.” (Provérbios 3:27-28)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Você já percebeu que, algumas vezes, sabemos exatamente o que poderíamos fazer para ajudar alguém, mas encontramos motivos para deixar aquela decisão para depois?",
+              "Talvez você tenha identificado uma necessidade, reconhecido que possuía condições de contribuir e até sentido o desejo de fazer alguma coisa. Entretanto, antes de agir, começou a pensar em outras despesas, compromissos futuros ou situações inesperadas que poderiam surgir. Aos poucos, aquilo que parecia uma decisão simples se transformou em uma sequência de justificativas, e a oportunidade acabou passando sem que você fizesse o que inicialmente havia considerado.",
+              "É importante compreender que nem todo adiamento representa falta de generosidade. Existem decisões que exigem planejamento, discernimento e responsabilidade. Entretanto, também precisamos reconhecer que, em algumas situações, utilizamos a prudência como justificativa para evitar escolhas que despertam insegurança. Quando isso acontece, o problema pode não estar na falta de recursos, mas na dificuldade de permitir que aquilo que possuímos seja utilizado para além das nossas necessidades e interesses pessoais."
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Na primeira mensagem da nossa série, aprendemos que a verdadeira prosperidade começa quando Deus governa nosso coração. Jesus nos ensinou, em Mateus 6:21, que nosso coração acompanha aquilo que consideramos nosso tesouro e, no versículo 24, declarou que ninguém pode servir a dois senhores. Essa verdade nos convida a examinar não apenas aquilo que desejamos conquistar, mas também a maneira como utilizamos os recursos que já estão disponíveis. Afinal, nossas prioridades não são reveladas somente pelos objetivos que estabelecemos, mas pelas decisões que tomamos diante das oportunidades que surgem ao longo da vida.",
+              "É nesse contexto que Provérbios 3:27-28 apresenta uma orientação importante. O texto nos ensina a não deixar de fazer o bem quando temos condições de realizá-lo e a não adiar desnecessariamente uma ajuda que poderia ser oferecida no presente. Essa instrução não elimina a necessidade de prudência nem significa que devemos atender indiscriminadamente a todas as solicitações que recebemos. O princípio está relacionado à disposição de reconhecer uma necessidade legítima e agir com responsabilidade quando possuímos condições reais de contribuir.",
+              "Entretanto, existe uma questão que precisamos considerar: nem sempre a dificuldade de fazer o bem está relacionada à ausência de recursos. Às vezes, ela revela o quanto estamos emocionalmente apegados àquilo que possuímos. Uma pessoa pode ter condições de ajudar e, ainda assim, experimentar uma resistência intensa diante da possibilidade de abrir mão de alguma coisa. Isso acontece porque o dinheiro nem sempre representa apenas um valor financeiro; ele também pode carregar significados relacionados à segurança, à liberdade e à sensação de controle sobre o futuro.",
+              "Imagine alguém que possui uma reserva financeira organizada, mantém seus compromissos em dia e dispõe de recursos para contribuir com uma necessidade específica. Entretanto, sempre que surge uma oportunidade de ajudar, começa a pensar em tudo aquilo que poderá acontecer nos próximos meses. Embora reconheça que aquela contribuição não comprometeria suas responsabilidades, sente dificuldade para tomar a decisão porque aprendeu a acreditar que qualquer diminuição em suas reservas representa uma ameaça à estabilidade que construiu.",
+              "Observe que o problema não está em possuir uma reserva financeira. Planejar o futuro e administrar os recursos com responsabilidade são atitudes importantes. A questão surge quando a necessidade de preservar aquilo que possuímos se torna tão intensa que já não conseguimos distinguir uma decisão prudente de uma reação motivada pelo medo. Nesse caso, aquilo que deveria nos proporcionar tranquilidade pode começar a produzir uma dependência emocional, fazendo com que nossa sensação de segurança esteja permanentemente condicionada à manutenção de determinado valor.",
+              "Essa realidade também pode aparecer em outras áreas da vida. Existem pessoas que desejam contribuir com projetos importantes, investir no desenvolvimento de alguém ou participar de iniciativas que beneficiariam outras pessoas, mas permanecem esperando uma condição ideal para começar. Acreditam que serão mais generosas quando tiverem uma renda maior, quando terminarem determinado compromisso ou quando alcançarem uma estabilidade que consideram suficiente. Entretanto, à medida que sua condição melhora, novas necessidades e objetivos surgem, e aquilo que poderia ser realizado continua sendo adiado.",
+              "Quando condicionamos toda atitude de generosidade a um futuro no qual não teremos mais preocupações, corremos o risco de nunca reconhecer que já possuímos condições de fazer alguma coisa. Isso não significa ignorar limitações financeiras reais, mas compreender que o crescimento material não produz automaticamente liberdade interior. Uma pessoa pode aumentar seus recursos e continuar experimentando a mesma dificuldade para repartir, porque a crença que governa suas decisões permanece inalterada.",
+              "É justamente aqui que precisamos relacionar essa verdade ao ensinamento de Jesus sobre o governo do coração. Quando o dinheiro ocupa o lugar de instrumento, podemos administrá-lo com sabedoria, estabelecer limites e utilizá-lo para cumprir responsabilidades e propósitos. Entretanto, quando ele assume o lugar de segurança absoluta, qualquer decisão que envolva abrir mão de uma parte daquilo que possuímos pode ser interpretada como uma ameaça, mesmo quando não existe um risco financeiro significativo.",
+              "Essa dificuldade também pode estar relacionada à nossa história. Algumas pessoas cresceram em ambientes nos quais as necessidades eram constantemente adiadas porque nunca havia recursos suficientes. Outras presenciaram situações em que alguém ajudou financeiramente outra pessoa e depois enfrentou dificuldades, desenvolvendo a crença de que repartir sempre representa um risco. Há ainda aquelas que aprenderam a desconfiar de qualquer pedido de ajuda, porque foram decepcionadas ou tiveram sua generosidade explorada em algum momento da vida.",
+              "Essas experiências podem produzir conclusões que continuam influenciando nossas decisões mesmo depois que as circunstâncias mudam. Uma pessoa pode aprender a acreditar que ajudar significa perder, que compartilhar recursos representa vulnerabilidade ou que somente estará segura enquanto conservar tudo aquilo que possui. Quando essas crenças não são examinadas, podem transformar a prudência em uma postura permanente de resistência, impedindo que a generosidade seja exercida com liberdade e discernimento.",
+              "Entretanto, precisamos reconhecer que a maturidade espiritual não consiste em agir sem avaliar as consequências. A Bíblia não nos ensina a comprometer o sustento da família nem a assumir responsabilidades que não temos condições de cumprir. O próprio texto de Provérbios estabelece um limite importante ao dizer: “Quanto lhe for possível”. Isso significa que nossa disposição de fazer o bem deve caminhar juntamente com a responsabilidade de reconhecer nossas possibilidades reais.",
+              "O que Deus deseja tratar não é nossa capacidade de planejar, mas aquilo que pode estar governando nossas decisões por trás do planejamento. Quando alguém encontra dificuldade para ajudar porque realmente não possui condições, essa limitação precisa ser respeitada. Entretanto, quando a pessoa possui condições e continua sendo dominada por uma sensação permanente de ameaça, talvez exista uma crença interior que precisa ser confrontada com a verdade da Palavra.",
+              "Na primeira mensagem, aprendemos que Davi compreendeu que os recursos recebidos de Deus poderiam servir a propósitos que ultrapassavam seus interesses pessoais. Ele não precisava ser o protagonista da construção do templo para reconhecer o valor de investir naquele projeto. Essa mesma compreensão precisa alcançar nossa vida cotidiana, pois nem sempre as oportunidades de participar dos propósitos de Deus estarão relacionadas a grandes realizações. Muitas vezes, elas aparecerão em necessidades simples, em decisões discretas e em situações nas quais teremos a oportunidade de beneficiar alguém sem receber qualquer reconhecimento.",
+              "É importante compreender que o valor espiritual dessas atitudes não está necessariamente na quantidade que oferecemos, mas na disposição de submeter nossas decisões aos princípios do Reino. Uma pessoa pode possuir muitos recursos e encontrar dificuldade para utilizá-los além de seus próprios interesses, enquanto outra, mesmo com possibilidades limitadas, consegue reconhecer oportunidades de contribuir de maneira responsável. O que precisamos examinar não é apenas quanto possuímos, mas a liberdade com que administramos aquilo que recebemos.",
+              "Talvez hoje o Espírito Santo queira mostrar que você tem adiado determinadas atitudes não porque lhe faltem condições, mas porque aprendeu a acreditar que precisa preservar tudo para se sentir seguro. Pode ser que algumas experiências tenham produzido uma resistência interior que você passou a considerar apenas prudência, sem perceber que o medo também está participando das suas decisões.",
+              "Por isso, precisamos voltar à pergunta central da nossa primeira mensagem: quem está governando o seu coração? Quando Deus ocupa esse lugar, podemos planejar o futuro sem permitir que a preocupação determine todas as nossas escolhas. Podemos reconhecer nossos limites sem transformar cada possibilidade de perda em uma ameaça e utilizar nossos recursos de maneira responsável, sem perder a sensibilidade diante das necessidades que surgem ao nosso redor.",
+              "A verdadeira prosperidade não consiste apenas em possuir recursos suficientes para atender às nossas necessidades, mas também em desenvolver um coração livre para reconhecer quando aquilo que recebemos pode se transformar em uma oportunidade de fazer o bem. Quando aprendemos a administrar com sabedoria e agir com generosidade, nossos recursos deixam de servir exclusivamente à preservação daquilo que construímos e passam a participar de propósitos que também alcançam outras pessoas."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Existe alguma atitude de generosidade ou contribuição que venho adiando, mesmo reconhecendo que possuo condições reais de realizá-la? O que tem influenciado essa decisão?",
+              "Quando considero abrir mão de uma parte dos meus recursos, consigo avaliar minhas possibilidades com tranquilidade ou experimento um medo que parece maior do que a situação exige?",
+              "Em algum momento da minha história aprendi que ajudar alguém significa necessariamente perder alguma coisa? Como essa crença pode estar influenciando minha maneira de administrar aquilo que possuo?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "EXERCÍCIO SOZO — QUANDO A PRUDÊNCIA ESCONDE O MEDO",
+              "Reserve alguns minutos para examinar uma decisão que você vem adiando.",
+              "1. IDENTIFIQUE: Pense em uma oportunidade concreta de fazer o bem que você tenha deixado para depois. Pergunte a si mesmo se o adiamento aconteceu por uma limitação real ou por uma preocupação que precisa ser examinada.",
+              "2. INVESTIGUE: Pergunte ao Espírito Santo: “Senhor, existe alguma experiência ou crença que me faz interpretar toda possibilidade de repartir como uma ameaça à minha segurança?”",
+              "3. SUBSTITUA: Leia Provérbios 3:27-28 e declare: “Posso administrar meus recursos com responsabilidade e reconhecer oportunidades de fazer o bem. Não preciso permitir que o medo determine todas as minhas decisões.”",
+              "4. PRATIQUE: Se houver uma necessidade legítima que você possa atender sem comprometer suas responsabilidades, escolha uma atitude concreta e realize-a hoje. Caso não tenha condições financeiras, considere outra maneira responsável de contribuir.",
+              "Lembre-se: a generosidade madura não ignora limites, mas também não permite que o medo transforme toda oportunidade de ajudar em uma ameaça."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Pai, hoje me apresento diante de Ti e peço que examines as motivações que estão por trás das minhas decisões financeiras. Revela se tenho utilizado a prudência como justificativa para preservar aquilo que possuo, mesmo quando tenho condições de contribuir com uma necessidade.",
+              "Espírito Santo, mostra-me se existem experiências da minha história que me ensinaram a acreditar que repartir significa perder ou que minha segurança depende exclusivamente daquilo que consigo guardar.",
+              "Hoje eu renuncio à mentira de que somente estarei seguro quando conseguir controlar todos os meus recursos e à crença de que ajudar alguém representa necessariamente uma ameaça ao meu futuro.",
+              "Ensina-me a administrar com sabedoria, reconhecer meus limites e desenvolver um coração sensível às oportunidades de fazer o bem. Que minhas decisões sejam conduzidas pela verdade da Tua Palavra, e não pelo medo de perder.",
+              "Eu reconheço Jesus Cristo como Senhor do meu coração e escolho colocar meus recursos a serviço dos Teus princípios, com responsabilidade, liberdade e amor.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "QUANDO O MEDO GOVERNA NOSSO CORAÇÃO, SEMPRE ENCONTRAMOS UMA RAZÃO PARA ADIAR O BEM. MAS, QUANDO DEUS OCUPA O LUGAR DE GOVERNO, APRENDEMOS A ADMINISTRAR COM SABEDORIA E A RECONHECER AS OPORTUNIDADES DE FAZER A DIFERENÇA COM AQUILO QUE JÁ TEMOS."
+            ]
+          }
+        ]
       }
     }
   },
