@@ -3362,6 +3362,99 @@ export const devotionalWeeks: DevotionalWeek[] = [
             ]
           }
         ]
+      },
+      "2026-11-08": {
+        "format": "document",
+        "label": "OS SEGREDOS DE UMA VIDA PRÓSPERA — DEVOCIONAL | SEMANA 1 — DIA 7",
+        "title": "QUANDO TEMOS MUITO, MAS NOS FALTA O ESSENCIAL",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“Contudo, Deus lhe disse: ‘Insensato! Esta mesma noite a sua vida lhe será exigida. Então, quem ficará com o que você preparou?’ Assim acontece com quem guarda para si riquezas, mas não é rico para com Deus.” Lucas 12:20-21"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "É possível conquistar tudo aquilo que desejamos e, ainda assim, descobrir que construímos uma vida distante daquilo que realmente importa?",
+              "Durante a vida, estabelecemos objetivos que consideramos importantes. Desejamos uma condição financeira melhor, uma casa confortável, estabilidade para a família e oportunidades de crescimento. Trabalhamos, fazemos escolhas e organizamos nossa rotina para alcançar esses resultados. Entretanto, existe uma pergunta que nem sempre fazemos: o que estamos nos tornando enquanto construímos aquilo que desejamos possuir?",
+              "Porque uma pessoa pode desenvolver uma grande capacidade de conquistar recursos e, ao mesmo tempo, perder a sensibilidade para reconhecer o valor dos relacionamentos, da presença de Deus e dos propósitos que deveriam orientar suas decisões. O problema não está necessariamente nas conquistas, mas na possibilidade de permitir que elas ocupem um espaço tão grande que tudo o mais passe a ser organizado em função delas.",
+              "Uma vida pode estar cheia de realizações e, ainda assim, permanecer vazia daquilo que deveria lhe dar sentido."
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Ao longo desta primeira semana, temos aprendido que a verdadeira prosperidade começa quando Deus governa nosso coração. Em Mateus 6:21, Jesus declarou que nosso coração estará onde estiver nosso tesouro e, no versículo 24, ensinou que ninguém pode servir a dois senhores. Essa verdade nos mostrou que o dinheiro não é apenas um assunto financeiro, porque a maneira como lidamos com os recursos pode revelar onde buscamos segurança, reconhecimento, satisfação e identidade. Entretanto, existe uma questão que precisamos considerar ao concluir esta semana: o que acontece quando uma pessoa consegue conquistar muito, mas deixa de perceber que sua vida está sendo construída em torno de prioridades que não podem sustentá-la?",
+              "Em Lucas 12:16-21, Jesus conta a parábola de um homem rico cujas terras produziram uma grande colheita. Diante daquela abundância, o homem começou a pensar no que faria com tantos recursos, pois já não possuía espaço suficiente para armazená-los. Sua decisão foi derrubar os celeiros antigos e construir outros maiores, onde poderia guardar tudo o que havia produzido. Depois disso, imaginou que finalmente poderia descansar, comer, beber e aproveitar a vida durante muitos anos.",
+              "À primeira vista, sua atitude poderia parecer apenas uma demonstração de planejamento. Afinal, ele havia alcançado bons resultados e precisava decidir como administrar aquela produção. Entretanto, Jesus revela que o problema não estava simplesmente na existência dos bens ou na construção de novos celeiros, mas na maneira como aquele homem passou a enxergar sua própria vida. Ele acreditava que a quantidade de recursos acumulados seria suficiente para garantir seu futuro e proporcionar a satisfação que desejava.",
+              "Observe um detalhe importante: durante toda a reflexão daquele homem, seus pensamentos estavam concentrados naquilo que possuía e naquilo que pretendia fazer para si mesmo. Ele considerou sua produção, seus celeiros, seus bens e seus planos, mas não demonstrou consciência de que sua vida era limitada e de que existiam valores maiores do que a preservação de seu patrimônio.",
+              "O homem havia aprendido a administrar sua colheita, mas não demonstrou a mesma sabedoria para reconhecer o verdadeiro valor da própria vida.",
+              "Essa parábola nos confronta porque podemos desenvolver comportamentos semelhantes sem possuir grandes riquezas. Às vezes, organizamos tantos aspectos da nossa existência em torno de objetivos financeiros que começamos a tratar aquilo que é essencial como se pudesse ser constantemente adiado. Acreditamos que teremos mais tempo para a família quando alcançarmos determinada estabilidade, que cuidaremos melhor da nossa vida espiritual quando as responsabilidades diminuírem ou que finalmente descansaremos quando conseguirmos concluir os projetos que estão em andamento.",
+              "Entretanto, existe uma dificuldade nessa maneira de pensar: a vida não permanece suspensa enquanto aguardamos alcançar nossos objetivos. Os relacionamentos continuam precisando de atenção, nossos filhos continuam crescendo, nossa saúde continua exigindo cuidado e nossa comunhão com Deus precisa ser cultivada no presente. Quando condicionamos tudo isso a um futuro no qual imaginamos que teremos menos preocupações, corremos o risco de passar anos construindo uma condição financeira melhor enquanto negligenciamos aspectos da vida que não poderão ser recuperados da mesma maneira.",
+              "Imagine alguém que passou grande parte da vida trabalhando para proporcionar conforto aos filhos. Sua intenção era legítima, e muitos dos sacrifícios realizados produziram benefícios importantes. Entretanto, essa pessoa começou a acreditar que sua principal responsabilidade era oferecer recursos materiais, deixando em segundo plano a convivência, a escuta e a participação nos momentos importantes da família. Com o passar dos anos, os filhos cresceram, desenvolveram suas próprias rotinas e passaram a construir seus caminhos. Somente então aquela pessoa percebeu que havia conseguido oferecer muitas coisas, mas não havia participado de experiências que poderiam ter fortalecido profundamente seus relacionamentos.",
+              "Essa situação não significa que trabalhar intensamente seja sempre uma escolha errada. Existem famílias que enfrentam circunstâncias difíceis e precisam realizar grandes esforços para atender às necessidades básicas. O que precisamos examinar é se, dentro das possibilidades que possuímos, estamos permitindo que a busca por recursos determine todas as nossas prioridades, sem considerar aquilo que também precisa receber nosso investimento.",
+              "É justamente aqui que precisamos relacionar a parábola ao ensinamento de Mateus 6. Quando Jesus declara que nosso coração acompanha nosso tesouro, Ele nos convida a reconhecer que aquilo que consideramos mais valioso acaba recebendo nossa atenção, nosso esforço e nossas decisões. Se acreditamos que somente o dinheiro pode garantir uma vida bem-sucedida, começamos a organizar tudo em função dele. Entretanto, quando Deus governa nosso coração, aprendemos a reconhecer que os recursos são importantes, mas não podem substituir a presença, os relacionamentos e os propósitos que dão sentido à nossa existência.",
+              "O perigo não está em possuir muitos bens, mas em construir uma vida na qual os bens se tornam mais importantes do que as pessoas, os princípios e a própria comunhão com Deus.",
+              "Existe ainda uma dimensão emocional que precisamos considerar. Algumas pessoas encontram dificuldade para reorganizar suas prioridades porque aprenderam, ao longo da vida, que seu valor está diretamente relacionado à capacidade de produzir e oferecer recursos. Talvez tenham crescido em ambientes nos quais o reconhecimento era concedido principalmente a quem trabalhava muito, conquistava resultados ou conseguia sustentar financeiramente outras pessoas. Com o passar dos anos, podem desenvolver a crença de que precisam estar constantemente produzindo para merecer respeito, amor ou aceitação.",
+              "Quando essa crença permanece escondida, a pessoa pode interpretar qualquer tentativa de diminuir o ritmo como uma ameaça à própria identidade. Descansar desperta culpa, dedicar tempo à família parece significar deixar de produzir e estabelecer limites profissionais provoca a sensação de estar perdendo oportunidades importantes. Nesse caso, o problema não está apenas na quantidade de responsabilidades assumidas, mas na dificuldade de compreender que seu valor não depende exclusivamente daquilo que consegue entregar.",
+              "Essa é uma das razões pelas quais a cura interior precisa fazer parte da nossa compreensão sobre prosperidade. Uma pessoa pode reconhecer intelectualmente que Deus deve ocupar o primeiro lugar e, ainda assim, continuar vivendo a partir de crenças que a levam a colocar suas conquistas acima de tudo. A transformação começa quando permitimos que o Espírito Santo revele essas motivações e nos ensine a tomar decisões a partir da verdade, e não apenas das exigências que aprendemos a impor sobre nós mesmos.",
+              "Ao final da parábola, Jesus declara que aquela situação representa quem acumula riquezas para si, mas não é rico para com Deus. Essa expressão amplia nossa compreensão sobre o verdadeiro significado da prosperidade. Ser rico para com Deus envolve viver de maneira orientada por seus valores, reconhecendo que nossos recursos, capacidades e oportunidades devem servir a propósitos que ultrapassam nossos interesses individuais. Não se trata de desprezar aquilo que conquistamos, mas de compreender que nenhuma conquista material é suficiente para substituir uma vida construída em relacionamento com o Senhor.",
+              "Na primeira mensagem, aprendemos com Davi que aquilo que recebemos pode alcançar propósitos maiores do que nossa satisfação pessoal. Ele investiu na construção de um templo que não seria edificado por suas próprias mãos, demonstrando que reconhecia o valor de participar de algo que ultrapassava sua trajetória individual. O homem da parábola, por outro lado, organizou seus planos em torno da preservação e do desfrute de seus próprios bens, sem demonstrar consciência de que sua existência deveria ser orientada por valores maiores.",
+              "Essas duas histórias nos convidam a examinar o que estamos construindo com aquilo que recebemos. Podemos utilizar nossos recursos apenas para ampliar nosso conforto e preservar nossos interesses ou aprender a administrá-los de maneira que também contribuam para nossa família, para outras pessoas e para os propósitos de Deus. A diferença não está necessariamente na quantidade de dinheiro disponível, mas nos valores que orientam nossas escolhas.",
+              "Talvez hoje o Espírito Santo queira mostrar que você tem dedicado grande parte das suas forças a conquistar uma condição de vida melhor, mas precisa reorganizar algumas prioridades. Pode ser que exista uma decisão importante sendo constantemente adiada, um relacionamento que precisa de atenção ou uma área da sua vida espiritual que deixou de receber o cuidado necessário. Reconhecer isso não significa abandonar suas responsabilidades, mas compreender que prosperar também envolve saber o que não pode ser sacrificado durante o caminho.",
+              "Por isso, ao concluirmos esta primeira semana, precisamos retornar à pergunta que deu origem à nossa mensagem: quem está governando o seu coração? Essa resposta não será encontrada apenas naquilo que declaramos durante uma oração, mas também na maneira como organizamos nosso tempo, utilizamos nossos recursos, estabelecemos prioridades e decidimos o que estamos dispostos a preservar.",
+              "A verdadeira prosperidade começa quando Deus ocupa o lugar de governo e tudo aquilo que possuímos passa a ser administrado a partir dos seus princípios. Podemos trabalhar, conquistar, construir patrimônio e desenvolver grandes projetos, mas precisamos fazer isso sem permitir que o dinheiro determine nossa identidade, comprometa nossos relacionamentos ou substitua nossa dependência do Senhor.",
+              "Porque uma vida verdadeiramente próspera não é aquela que consegue acumular tudo o que deseja, mas aquela que aprende a conquistar sem perder aquilo que realmente tem valor."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Ao observar minhas prioridades atuais, percebo que tenho dedicado mais atenção àquilo que desejo conquistar do que às pessoas, aos relacionamentos e aos valores que considero essenciais?",
+              "Existe alguma área da minha vida que venho negligenciando porque acredito que somente poderei cuidar dela quando alcançar determinada condição financeira ou profissional?",
+              "Se Deus me convidasse hoje a reorganizar minhas prioridades, qual seria a decisão mais difícil de tomar? O que essa dificuldade revela sobre aquilo que tem exercido autoridade sobre meu coração?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "EXERCÍCIO SOZO — REORGANIZANDO AS PRIORIDADES DO CORAÇÃO",
+              "Reserve alguns minutos para realizar este exercício em oração.",
+              "1. IDENTIFIQUE: Escreva três áreas que atualmente recebem a maior parte do seu tempo, atenção e recursos. Depois, observe se elas correspondem àquilo que você considera mais importante diante de Deus.",
+              "2. INVESTIGUE: Pergunte ao Espírito Santo: “Senhor, existe alguma crença ou medo que tem me levado a colocar minhas conquistas acima daquilo que realmente importa?”",
+              "3. SUBSTITUA: Leia Lucas 12:16-21 e Mateus 6:21. Depois, declare: “Meu valor não depende da quantidade de coisas que consigo acumular. Posso trabalhar e prosperar sem permitir que minhas conquistas ocupem o lugar que pertence a Deus.”",
+              "4. PRATIQUE: Escolha uma prioridade que precisa ser reorganizada e tome uma atitude concreta ainda hoje. Pode ser reservar tempo para sua família, retomar um compromisso espiritual ou estabelecer um limite que preserve algo importante.",
+              "Lembre-se: reconhecer que Deus governa nosso coração precisa produzir mudanças na maneira como escolhemos viver."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Pai, ao concluir esta primeira semana, reconheço que a verdadeira prosperidade começa quando o Senhor ocupa o lugar de governo no meu coração.",
+              "Espírito Santo, revela se tenho permitido que o dinheiro, as conquistas ou a necessidade de reconhecimento determinem minhas prioridades e me afastem daquilo que realmente importa.",
+              "Hoje eu renuncio à mentira de que meu valor depende daquilo que possuo e à crença de que preciso conquistar cada vez mais para finalmente me sentir seguro e realizado.",
+              "Cura as marcas da minha história que ainda influenciam minhas decisões e ensina-me a administrar meus recursos, meu tempo e minhas capacidades segundo os princípios do Teu Reino.",
+              "Não quero construir uma vida cheia de conquistas, mas vazia da Tua presença. Quero prosperar sem perder minha identidade, meus relacionamentos e minha sensibilidade à Tua direção.",
+              "Hoje eu reconheço Jesus Cristo como o único Senhor do meu coração e escolho submeter minhas prioridades, meus recursos e meus projetos ao Teu governo.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "NÃO EXISTE VERDADEIRA PROSPERIDADE QUANDO CONQUISTAMOS MUITO, MAS PERDEMOS AQUILO QUE REALMENTE TEM VALOR. UMA VIDA PRÓSPERA É AQUELA EM QUE DEUS GOVERNA O CORAÇÃO E NOSSAS CONQUISTAS PERMANECEM SUBMETIDAS AOS SEUS PROPÓSITOS."
+            ]
+          }
+        ]
       }
     }
   },

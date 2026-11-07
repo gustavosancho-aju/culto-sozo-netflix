@@ -206,5 +206,21 @@
       "model": "microsoft/mai-voice-2.1-flash",
       "voice": "pt-BR-Caio:MAI-Voice-2.1-Flash"
     }
+  },
+  "2026-11-08": {
+    "feminina": {
+      "src": "/audio/oracoes/2026-11-08-c94abf56e884bf60.mp3",
+      "text": "Pai, ao concluir esta primeira semana, reconheço que a verdadeira prosperidade começa quando o Senhor ocupa o lugar de governo no meu coração.\n\nEspírito Santo, revela se tenho permitido que o dinheiro, as conquistas ou a necessidade de reconhecimento determinem minhas prioridades e me afastem daquilo que realmente importa.\n\nHoje eu renuncio à mentira de que meu valor depende daquilo que possuo e à crença de que preciso conquistar cada vez mais para finalmente me sentir seguro e realizado.\n\nCura as marcas da minha história que ainda influenciam minhas decisões e ensina-me a administrar meus recursos, meu tempo e minhas capacidades segundo os princípios do Teu Reino.\n\nNão quero construir uma vida cheia de conquistas, mas vazia da Tua presença. Quero prosperar sem perder minha identidade, meus relacionamentos e minha sensibilidade à Tua direção.\n\nHoje eu reconheço Jesus Cristo como o único Senhor do meu coração e escolho submeter minhas prioridades, meus recursos e meus projetos ao Teu governo.\n\nEm nome de Jesus, amém.",
+      "textHash": "835ae3982a5a71fe67530a1b365a68967a7f3ac163d298294915f82f6e555a72",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Luana:MAI-Voice-2.1-Flash"
+    },
+    "masculina": {
+      "src": "/audio/oracoes/2026-11-08-097e5bb069a53bea.mp3",
+      "text": "Pai, ao concluir esta primeira semana, reconheço que a verdadeira prosperidade começa quando o Senhor ocupa o lugar de governo no meu coração.\n\nEspírito Santo, revela se tenho permitido que o dinheiro, as conquistas ou a necessidade de reconhecimento determinem minhas prioridades e me afastem daquilo que realmente importa.\n\nHoje eu renuncio à mentira de que meu valor depende daquilo que possuo e à crença de que preciso conquistar cada vez mais para finalmente me sentir seguro e realizado.\n\nCura as marcas da minha história que ainda influenciam minhas decisões e ensina-me a administrar meus recursos, meu tempo e minhas capacidades segundo os princípios do Teu Reino.\n\nNão quero construir uma vida cheia de conquistas, mas vazia da Tua presença. Quero prosperar sem perder minha identidade, meus relacionamentos e minha sensibilidade à Tua direção.\n\nHoje eu reconheço Jesus Cristo como o único Senhor do meu coração e escolho submeter minhas prioridades, meus recursos e meus projetos ao Teu governo.\n\nEm nome de Jesus, amém.",
+      "textHash": "835ae3982a5a71fe67530a1b365a68967a7f3ac163d298294915f82f6e555a72",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Caio:MAI-Voice-2.1-Flash"
+    }
   }
 }
