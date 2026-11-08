@@ -74,7 +74,7 @@ const WeeklyDevotional: React.FC = () => {
     : week.video;
   const videoTitle = video
     ? episodes?.find(episode => episode.youtubeVideoId === video.youtubeId)?.titulo?.trim() || video.title
-    : 'Mensagem da semana';
+    : week.upcomingImage ? 'Em breve' : 'Mensagem da semana';
 
   function selectWeek(index: number) {
     recordEngagement('Semana selecionada', { semana: devotionalWeeks[index].number, inicio: devotionalWeeks[index].startsOn });
@@ -253,7 +253,7 @@ const WeeklyDevotional: React.FC = () => {
                       referrerPolicy="strict-origin-when-cross-origin"
                       allowFullScreen
                     />
-                  </div> : <div className="flex aspect-video items-center justify-center bg-black p-6 text-center text-sm text-zinc-400">A mensagem desta semana aparecerá aqui assim que estiver disponível.</div>}
+                  </div> : week.upcomingImage ? <img src={week.upcomingImage} alt="Mensagem da Semana 2: O que você ainda não conseguiu entregar?" className="aspect-video w-full object-contain bg-black" /> : <div className="flex aspect-video items-center justify-center bg-black p-6 text-center text-sm text-zinc-400">A mensagem desta semana aparecerá aqui assim que estiver disponível.</div>}
                   <div className="p-6">
                     <p className="text-xs font-bold uppercase tracking-widest text-[#e4d2a6]">Mensagem da semana</p>
                     <h4 className="mt-2 text-xl font-bold text-white">{videoTitle}</h4>

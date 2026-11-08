@@ -1,6 +1,7 @@
 import React, { useMemo } from 'react';
 import { Link } from 'wouter';
 import Hero from '../components/Hero';
+import UpcomingHero from '../components/UpcomingHero';
 import SeriesCard from '../components/SeriesCard';
 import ScrollRow from '../components/ScrollRow';
 import ExclusiveContent from '../components/ExclusiveContent';
@@ -128,7 +129,7 @@ const Home: React.FC<HomeProps> = ({ searchQuery }) => {
           </span>
         </Link>
       </div>
-      <Hero episode={featuredEpisode} isNew={featuredEpisode.youtubeVideoId === lastSyncedVideoId} />
+      {!allEpisodes.some(episode => episode.serieId === 'os-segredos-de-uma-vida-prospera-2026' && episode.ordem === 2) ? <UpcomingHero image="/brand/semana-2-vida-prospera.jpg" /> : <Hero episode={featuredEpisode} isNew={featuredEpisode.youtubeVideoId === lastSyncedVideoId} />}
 
       <div className="relative z-20 px-4 md:px-12 space-y-16 mt-8">
         {/* Section 2026 */}

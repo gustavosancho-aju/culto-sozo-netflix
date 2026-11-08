@@ -222,5 +222,21 @@
       "model": "microsoft/mai-voice-2.1-flash",
       "voice": "pt-BR-Caio:MAI-Voice-2.1-Flash"
     }
+  },
+  "2026-11-09": {
+    "feminina": {
+      "src": "/audio/oracoes/2026-11-09-6befd63f53db5ae1.mp3",
+      "text": "Pai, hoje coloco diante de Ti aquilo que se tornou tão precioso para mim que tenho encontrado dificuldade para entregar o controle.\n\nEspírito Santo, revela se existem experiências da minha história que me ensinaram a acreditar que preciso preservar tudo aquilo que amo para continuar seguro.\n\nEu renuncio à mentira de que meu futuro depende exclusivamente daquilo que consigo controlar e à crença de que perder uma conquista significa perder meu valor ou minha identidade.\n\nCura os medos que ainda influenciam minhas decisões e ensina-me a cuidar daquilo que recebi sem transformar minhas conquistas, meus relacionamentos ou meus projetos na fonte da minha segurança.\n\nHoje escolho confiar mais em Ti do que na maneira como imaginei que minha história deveria acontecer. Consagro ao Senhor meus planos, minhas expectativas e aquilo que tenho dificuldade para colocar em Tuas mãos.\n\nEm nome de Jesus, amém.",
+      "textHash": "e1d540e0e3fa7ddc9510cc37d933f5ca20e5de5baa8a1746c383f45efdd1fe89",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Luana:MAI-Voice-2.1-Flash"
+    },
+    "masculina": {
+      "src": "/audio/oracoes/2026-11-09-be23830a675e3ecb.mp3",
+      "text": "Pai, hoje coloco diante de Ti aquilo que se tornou tão precioso para mim que tenho encontrado dificuldade para entregar o controle.\n\nEspírito Santo, revela se existem experiências da minha história que me ensinaram a acreditar que preciso preservar tudo aquilo que amo para continuar seguro.\n\nEu renuncio à mentira de que meu futuro depende exclusivamente daquilo que consigo controlar e à crença de que perder uma conquista significa perder meu valor ou minha identidade.\n\nCura os medos que ainda influenciam minhas decisões e ensina-me a cuidar daquilo que recebi sem transformar minhas conquistas, meus relacionamentos ou meus projetos na fonte da minha segurança.\n\nHoje escolho confiar mais em Ti do que na maneira como imaginei que minha história deveria acontecer. Consagro ao Senhor meus planos, minhas expectativas e aquilo que tenho dificuldade para colocar em Tuas mãos.\n\nEm nome de Jesus, amém.",
+      "textHash": "e1d540e0e3fa7ddc9510cc37d933f5ca20e5de5baa8a1746c383f45efdd1fe89",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Caio:MAI-Voice-2.1-Flash"
+    }
   }
 }

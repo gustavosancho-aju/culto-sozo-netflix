@@ -13,7 +13,10 @@ describe('devotional links and day navigation', () => {
     expect(neighborDate('2026-10-05', -1)).toBeUndefined();
     expect(neighborDate('2026-11-01', 1)).toBe('2026-11-02');
     expect(neighborDate('2026-11-02', -1)).toBe('2026-11-01');
-    expect(neighborDate('2026-11-08', 1)).toBeUndefined();
+    expect(neighborDate('2026-11-08', 1)).toBe('2026-11-09');
+    expect(neighborDate('2026-11-09', -1)).toBe('2026-11-08');
+    expect(neighborDate('2026-11-15', 1)).toBeUndefined();
+    expect(resolveDevotionalDate('', '2026-11-09')).toBe('2026-11-09');
     expect(resolveDevotionalDate('', '2026-11-02')).toBe('2026-11-02');
     expect(devotionalPath('2026-10-14')).toBe('/semanal?dia=2026-10-14');
   });

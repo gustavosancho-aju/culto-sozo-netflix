@@ -25,6 +25,7 @@ export interface DevotionalWeek {
   startsOn: string;
   theme?: string;
   seriesId?: string;
+  upcomingImage?: string;
   video?: { title: string; youtubeId: string };
   devotionals: Record<string, Devotional>;
 }
@@ -3452,6 +3453,110 @@ export const devotionalWeeks: DevotionalWeek[] = [
             "kind": "takeaway",
             "paragraphs": [
               "NÃO EXISTE VERDADEIRA PROSPERIDADE QUANDO CONQUISTAMOS MUITO, MAS PERDEMOS AQUILO QUE REALMENTE TEM VALOR. UMA VIDA PRÓSPERA É AQUELA EM QUE DEUS GOVERNA O CORAÇÃO E NOSSAS CONQUISTAS PERMANECEM SUBMETIDAS AOS SEUS PROPÓSITOS."
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "number": 2,
+    "startsOn": "2026-11-09",
+    "seriesId": "os-segredos-de-uma-vida-prospera-2026",
+    "theme": "Os Segredos de uma Vida Próspera",
+    "upcomingImage": "/brand/semana-2-vida-prospera.jpg",
+    "devotionals": {
+      "2026-11-09": {
+        "format": "document",
+        "label": "OS SEGREDOS DE UMA VIDA PRÓSPERA — DEVOCIONAL | SEMANA 2 — DIA 1",
+        "title": "QUANDO AQUILO QUE DEUS NOS DEU SE TORNA DIFÍCIL DE ENTREGAR",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“Agora sei que você teme a Deus, porque não me negou seu filho, o seu único filho.” (Gênesis 22:12)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Você já percebeu que algumas das coisas mais difíceis de entregar são justamente aquelas pelas quais esperamos, lutamos e oramos durante muito tempo?",
+              "Existem conquistas que carregam um significado muito maior do que aquilo que conseguimos enxergar. Pode ser uma oportunidade que aguardamos durante anos, um relacionamento que consideramos uma resposta de oração ou um projeto que finalmente começou a produzir resultados. Essas experiências se tornam importantes porque estão associadas à nossa história, às expectativas que alimentamos e aos desafios que precisamos enfrentar até alcançá-las.",
+              "Entretanto, existe uma questão que nem sempre percebemos: algo pode ter chegado à nossa vida como uma bênção e, com o passar do tempo, tornar-se tão importante que começamos a encontrar dificuldade para confiar a Deus as decisões relacionadas àquilo que recebemos. Não necessariamente porque deixamos de amar o Senhor, mas porque passamos a acreditar que perder aquela conquista significaria perder também uma parte da nossa segurança, da nossa identidade ou do futuro que imaginamos.",
+              "O problema não está em valorizar aquilo que recebemos, mas em permitir que algo precioso se torne tão indispensável que já não conseguimos submetê-lo à direção de Deus."
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Na segunda mensagem da nossa série, aprendemos uma verdade importante por meio da história de Davi e dos três valentes: o verdadeiro valor de uma entrega não pode ser medido apenas pelo seu preço. Aquela água retirada do poço de Belém possuía um significado que ultrapassava sua utilidade, porque três homens haviam arriscado a própria vida para consegui-la. Davi reconheceu esse valor e, em vez de utilizar a água para satisfazer seu desejo, decidiu derramá-la como oferta ao Senhor. Sua atitude nos mostrou que a maturidade espiritual também se manifesta quando conseguimos submeter nossos desejos a valores maiores.",
+              "Entretanto, existe outra dimensão dessa verdade que precisamos compreender. Nem sempre aquilo que temos dificuldade de entregar está relacionado ao valor financeiro ou ao esforço necessário para conquistar alguma coisa. Às vezes, nossa resistência está associada ao significado que atribuímos àquilo que recebemos, especialmente quando acreditamos que determinada conquista representa a realização de uma promessa ou a garantia de um futuro que desejamos preservar.",
+              "É nesse contexto que encontramos a história de Abraão, registrada em Gênesis 22. Depois de muitos anos esperando pelo cumprimento da promessa de Deus, Abraão finalmente havia recebido Isaque, o filho por meio de quem sua descendência seria estabelecida. Isaque não representava apenas a alegria da paternidade. Sua existência estava diretamente relacionada à palavra que Deus havia liberado sobre o futuro de Abraão e Sara, tornando aquele filho profundamente precioso para seus pais.",
+              "Entretanto, o texto nos apresenta um momento de prova. Deus pede que Abraão leve Isaque à região de Moriá e o ofereça em sacrifício. Precisamos compreender essa passagem com cuidado: o próprio relato mostra que Deus interrompeu Abraão e não permitiu que Isaque fosse morto. O episódio não autoriza ninguém a colocar outra pessoa em perigo para demonstrar fé. Seu propósito, dentro da narrativa bíblica, é revelar a confiança de Abraão e mostrar que sua obediência estava fundamentada em Deus, e não apenas na promessa que havia recebido.",
+              "Ao longo daquele caminho, Abraão precisou enfrentar uma questão profunda: como continuar confiando no Senhor quando aquilo que Deus estava lhe pedindo parecia ameaçar justamente o futuro que havia prometido? A Bíblia não descreve todos os pensamentos e sentimentos de Abraão naquele momento, mas Hebreus 11:17-19 nos ajuda a compreender sua postura ao afirmar que ele considerou que Deus era poderoso até para ressuscitar Isaque dentre os mortos.",
+              "Isso revela que a confiança de Abraão não estava limitada à sua capacidade de compreender como a promessa seria cumprida. Ele reconhecia que o Deus que havia feito a promessa continuava sendo digno de confiança, mesmo quando as circunstâncias ultrapassavam sua compreensão.",
+              "A maturidade espiritual se desenvolve quando aprendemos a confiar mais naquele que nos fez a promessa do que na maneira como imaginamos que ela precisa se cumprir.",
+              "Essa verdade também alcança nossa vida cotidiana. Imagine uma pessoa que passou muitos anos desejando construir uma família. Depois de experiências difíceis e decepções, finalmente iniciou um relacionamento que considera muito importante. Entretanto, por medo de perder aquilo que tanto desejou, começa a tolerar comportamentos que ferem seus valores, evita conversas necessárias e encontra dificuldade para estabelecer limites saudáveis.",
+              "Talvez essa pessoa continue afirmando que confia em Deus, mas suas decisões passam a ser determinadas principalmente pelo receio de perder o relacionamento. A possibilidade de voltar a ficar sozinha desperta uma insegurança tão intensa que ela começa a negociar princípios que antes considerava inegociáveis.",
+              "Perceba que o problema não está em desejar preservar um relacionamento importante. O problema surge quando o medo de perder se torna tão dominante que a pessoa deixa de avaliar suas escolhas a partir da verdade, da dignidade e dos princípios de Deus. Aquilo que deveria ser vivido com amor e liberdade passa a ser sustentado por uma necessidade permanente de controle.",
+              "Essa mesma dificuldade pode aparecer em relação a projetos, oportunidades e posições que conquistamos. Uma pessoa pode ter investido anos na construção de um sonho e, quando percebe que precisa modificar seus planos, encontra dificuldade para aceitar qualquer mudança. Não porque todas as alternativas sejam inadequadas, mas porque abrir mão da maneira como imaginou o futuro desperta a sensação de que todo o esforço realizado terá sido desperdiçado.",
+              "Em situações assim, precisamos reconhecer que nem sempre estamos tentando preservar apenas aquilo que conquistamos. Muitas vezes, estamos tentando proteger a expectativa que construímos em torno daquela conquista. Por isso, quando algo ameaça nossos planos, a reação emocional pode ser muito maior do que a circunstância presente parece justificar.",
+              "Às vezes, nossa maior dificuldade não está em entregar aquilo que possuímos, mas em abrir mão da ideia de que somente seremos felizes se tudo acontecer exatamente como imaginamos.",
+              "Essa realidade também pode estar relacionada às experiências que vivemos ao longo da nossa história. Algumas pessoas cresceram enfrentando mudanças inesperadas, perdas importantes ou promessas que nunca foram cumpridas. Com o passar do tempo, podem desenvolver a necessidade de controlar tudo aquilo que consideram precioso, acreditando que somente estarão seguras enquanto conseguirem impedir qualquer possibilidade de perda.",
+              "Outras aprenderam a associar determinadas conquistas à própria identidade. Talvez tenham passado grande parte da vida ouvindo que precisavam alcançar algum resultado para serem reconhecidas ou respeitadas. Quando finalmente conquistam aquilo que desejavam, encontram dificuldade para imaginar a própria vida sem aquela realização, porque acreditam que perder a conquista significaria voltar a ser a pessoa que um dia se sentiu rejeitada, incapaz ou insuficiente.",
+              "É nesse ponto que a cura interior se torna necessária. Precisamos permitir que o Espírito Santo revele se estamos preservando algo por amor, responsabilidade e convicção ou se nossas decisões estão sendo governadas por experiências que produziram medo e insegurança. Essa distinção é importante porque entregar algo a Deus não significa necessariamente abandonar um relacionamento, desistir de um projeto ou abrir mão de um bem material. Muitas vezes, significa renunciar à necessidade de controlar todos os resultados e recuperar a liberdade de tomar decisões segundo os princípios do Senhor.",
+              "Em Gênesis 22:12, quando Abraão demonstra sua disposição de obedecer, Deus interrompe o sacrifício e declara que ele não havia negado seu filho. Isaque permaneceu vivo, e Abraão pôde continuar sua caminhada com a promessa que havia recebido. O texto não ensina que todas as nossas entregas resultarão na preservação daquilo que desejamos, mas revela que a confiança de Abraão estava direcionada ao Senhor, e não à sua capacidade de garantir pessoalmente o cumprimento da promessa.",
+              "Essa verdade nos ajuda a compreender algo importante: consagrar uma conquista a Deus não significa deixar de valorizá-la, mas reconhecer que ela não pode ocupar o lugar de autoridade sobre nossas decisões. Podemos amar profundamente nossa família, dedicar-nos aos nossos projetos e cuidar daquilo que recebemos sem transformar essas realidades na fonte absoluta da nossa segurança.",
+              "Na segunda mensagem, Davi nos ensinou que algo precioso pode ser entregue ao Senhor como expressão de reverência. Abraão acrescenta outra dimensão a esse princípio: aquilo que consideramos uma promessa também precisa permanecer submetido ao Deus que prometeu. Nos dois relatos, encontramos homens que reconheceram um valor maior do que a satisfação de seus desejos ou a preservação de suas expectativas pessoais.",
+              "Talvez hoje o Espírito Santo queira mostrar que existe alguma área da sua vida na qual você tem encontrado dificuldade para confiar. Pode ser um projeto que não está avançando como esperava, um relacionamento que desperta medo de perda ou uma conquista que passou a sustentar sua sensação de valor. Talvez você tenha começado a acreditar que, se aquilo lhe for tirado ou se os planos mudarem, não conseguirá continuar sua caminhada.",
+              "Entretanto, sua identidade não está limitada àquilo que você conquistou, e seu futuro não depende exclusivamente da permanência de uma determinada circunstância. Deus continua sendo digno de confiança mesmo quando precisamos rever expectativas, reconhecer limites ou seguir por caminhos diferentes daqueles que havíamos imaginado.",
+              "Por isso, precisamos retornar à pergunta central da nossa segunda mensagem: o que você ainda não conseguiu entregar? Talvez a resposta não seja um recurso financeiro ou um bem material. Talvez seja a necessidade de controlar uma situação, o medo de perder alguém ou a dificuldade de permitir que Deus conduza uma área da sua vida sem que você consiga prever todos os resultados.",
+              "A verdadeira prosperidade também envolve desenvolver essa liberdade interior. Podemos receber, conquistar, cuidar e desfrutar daquilo que Deus nos permite viver, mas precisamos permanecer conscientes de que nenhuma dessas coisas deve ocupar o lugar de governo que pertence somente ao Senhor.",
+              "Porque aquilo que recebemos pode ser muito precioso, mas nunca deve se tornar mais importante do que nossa confiança naquele que é a fonte da nossa vida."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Existe alguma conquista, relacionamento ou projeto que se tornou tão importante para mim que a possibilidade de perdê-lo desperta um medo intenso ou me leva a negociar princípios que considero essenciais?",
+              "Quando meus planos não acontecem como imaginei, consigo avaliar novas possibilidades com confiança ou sinto que perder o controle significa perder também minha segurança e meu valor?",
+              "Em algum momento da minha história aprendi que precisava controlar tudo aquilo que considerava precioso para evitar novas perdas? Como essa crença ainda influencia minhas decisões?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "EXERCÍCIO SOZO — ENTREGANDO A NECESSIDADE DE CONTROLAR",
+              "Reserve alguns minutos para realizar este exercício em oração.",
+              "1. IDENTIFIQUE: Pense em uma área da sua vida na qual você encontra dificuldade para aceitar mudanças ou confiar em Deus sem conhecer todos os resultados.",
+              "2. INVESTIGUE: Pergunte ao Espírito Santo: “Senhor, o que tenho medo de perder e que significado essa possível perda possui para mim?” Observe se existe alguma experiência ou crença influenciando sua reação.",
+              "3. SUBSTITUA: Leia Gênesis 22:12 e Hebreus 11:17-19. Depois, declare: “Posso valorizar aquilo que recebi sem permitir que o medo de perder governe minhas decisões. Minha segurança está em Deus, e não na minha capacidade de controlar o futuro.”",
+              "4. PRATIQUE: Escolha uma situação que você tem tentado controlar excessivamente e tome uma atitude concreta de confiança: estabeleça um limite saudável, aceite uma mudança necessária ou deixe de insistir em um resultado que não depende exclusivamente de você.",
+              "Lembre-se: entregar a Deus não significa abandonar suas responsabilidades, mas deixar de permitir que o medo determine a maneira como você as exerce."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Pai, hoje coloco diante de Ti aquilo que se tornou tão precioso para mim que tenho encontrado dificuldade para entregar o controle.",
+              "Espírito Santo, revela se existem experiências da minha história que me ensinaram a acreditar que preciso preservar tudo aquilo que amo para continuar seguro.",
+              "Eu renuncio à mentira de que meu futuro depende exclusivamente daquilo que consigo controlar e à crença de que perder uma conquista significa perder meu valor ou minha identidade.",
+              "Cura os medos que ainda influenciam minhas decisões e ensina-me a cuidar daquilo que recebi sem transformar minhas conquistas, meus relacionamentos ou meus projetos na fonte da minha segurança.",
+              "Hoje escolho confiar mais em Ti do que na maneira como imaginei que minha história deveria acontecer. Consagro ao Senhor meus planos, minhas expectativas e aquilo que tenho dificuldade para colocar em Tuas mãos.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "A VERDADEIRA ENTREGA COMEÇA QUANDO AQUILO QUE RECEBEMOS DEIXA DE GOVERNAR NOSSO CORAÇÃO. PODEMOS VALORIZAR PROFUNDAMENTE UMA CONQUISTA SEM PERMITIR QUE O MEDO DE PERDÊ-LA SE TORNE MAIOR DO QUE NOSSA CONFIANÇA EM DEUS."
             ]
           }
         ]
