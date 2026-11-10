@@ -3560,6 +3560,104 @@ export const devotionalWeeks: DevotionalWeek[] = [
             ]
           }
         ]
+      },
+      "2026-11-10": {
+        "format": "document",
+        "label": "OS SEGREDOS DE UMA VIDA PRÓSPERA — DEVOCIONAL | SEMANA 2 — DIA 2",
+        "title": "QUANDO O QUE INVESTIMOS NOS IMPEDE DE SEGUIR EM FRENTE",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“Irmãos, não penso que eu mesmo já o tenha alcançado, mas uma coisa faço: esquecendo-me das coisas que ficaram para trás e avançando para as que estão adiante, prossigo para o alvo.” Filipenses 3:13-14 (NVI)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Você já percebeu como pode ser difícil abrir mão de alguma coisa simplesmente porque dedicamos muito tempo, esforço ou sentimentos a ela?",
+              "Às vezes, continuamos insistindo em situações que já não produzem os resultados esperados, não porque ainda exista uma razão consistente para permanecer, mas porque não conseguimos aceitar a possibilidade de que todo o investimento realizado não terá o desfecho que imaginávamos. Pensamos nas oportunidades que recusamos, nos anos que dedicamos e nas expectativas que construímos. Então, começamos a acreditar que desistir daquele caminho significaria admitir que tudo foi em vão.",
+              "Entretanto, existe uma diferença importante entre perseverar naquilo que possui propósito e permanecer preso a algo apenas porque já investimos muito. A perseverança é sustentada por convicção, discernimento e responsabilidade. O apego, por outro lado, pode ser alimentado pelo medo de reconhecer uma perda, pela dificuldade de aceitar mudanças ou pela necessidade de provar que nossas escolhas anteriores estavam certas.",
+              "Nem sempre continuar representa fidelidade. Em algumas situações, a maturidade exige reconhecer que o esforço realizado não pode se tornar uma prisão para nossas próximas decisões."
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Na segunda mensagem da nossa série, aprendemos que o verdadeiro valor de uma entrega não pode ser medido apenas pelo seu preço. Ao refletirmos sobre a história de Davi e dos três valentes, compreendemos que a água trazida do poço de Belém possuía um significado muito maior do que sua utilidade. Aqueles homens haviam enfrentado grandes riscos para consegui-la, e Davi reconheceu que não poderia tratar aquela água como uma bebida comum. Sua atitude nos ensinou que a maturidade espiritual envolve discernir o valor das coisas e reconhecer quando nossos desejos precisam ser submetidos a princípios maiores.",
+              "Essa verdade também nos convida a examinar uma dificuldade que muitas pessoas enfrentam: a incapacidade de abrir mão de determinados caminhos porque não conseguem aceitar aquilo que já investiram neles. Nem sempre estamos emocionalmente presos a um bem material ou a uma conquista. Às vezes, estamos presos ao tempo que dedicamos, às expectativas que alimentamos e à necessidade de encontrar uma justificativa para todos os esforços realizados.",
+              "É nesse contexto que Filipenses 3:13-14 apresenta uma perspectiva importante. O apóstolo Paulo declara que não considerava ter alcançado tudo aquilo para o qual havia sido chamado, mas havia decidido deixar para trás o que precisava ficar no passado e continuar avançando em direção ao alvo. Ao observarmos o contexto dessa passagem, percebemos que Paulo estava tratando especialmente da sua identidade, de suas antigas referências de justiça e daquilo que havia passado a considerar mais importante depois de conhecer Cristo.",
+              "Nos versículos anteriores, ele menciona sua origem, sua formação religiosa e suas realizações, demonstrando que possuía motivos para se orgulhar de sua trajetória. Entretanto, depois de conhecer Jesus, compreendeu que aquilo que antes considerava sua principal fonte de valor já não poderia ocupar o mesmo lugar em sua vida. Paulo não estava afirmando que sua história havia deixado de existir ou que todas as experiências anteriores eram inúteis. Ele estava reconhecendo que seu passado não poderia continuar determinando sua identidade e impedindo seu avanço.",
+              "A maturidade espiritual não exige que neguemos nossa história, mas que deixemos de permitir que aquilo que ficou para trás determine todas as decisões que ainda precisamos tomar.",
+              "Imagine alguém que dedicou muitos anos a uma atividade profissional e, durante esse período, construiu relacionamentos, desenvolveu habilidades e conquistou reconhecimento. Entretanto, com o passar do tempo, percebe que suas circunstâncias mudaram e que precisa considerar uma nova direção. Mesmo identificando possibilidades legítimas de crescimento, encontra dificuldade para avaliar outras alternativas porque acredita que mudar significaria desperdiçar todos os anos que dedicou àquela trajetória.",
+              "Essa pessoa pode continuar repetindo: “Depois de tudo o que investi aqui, não posso simplesmente sair”. Entretanto, a pergunta que precisa fazer não é apenas quanto tempo dedicou ao passado, mas se permanecer naquele caminho continua sendo uma decisão coerente com seus valores, responsabilidades e possibilidades atuais.",
+              "O tempo investido pode ter produzido aprendizado, experiência e maturidade, mesmo quando uma etapa precisa ser encerrada. Reconhecer isso não significa desvalorizar a história construída, mas compreender que aquilo que aprendemos pode continuar fazendo parte de nós sem que precisemos permanecer indefinidamente nas mesmas circunstâncias.",
+              "Essa dificuldade também pode aparecer em projetos pessoais. Uma pessoa pode dedicar anos à realização de um sonho e, durante o processo, perceber que algumas condições mudaram. Talvez os recursos necessários tenham aumentado, as oportunidades tenham se transformado ou o próprio projeto já não corresponda às necessidades que motivaram sua criação. Entretanto, em vez de avaliar a situação com clareza, continua investindo tempo e energia apenas porque não consegue aceitar a possibilidade de modificar os planos.",
+              "Em situações assim, podemos confundir compromisso com rigidez. O compromisso nos leva a agir com responsabilidade diante daquilo que assumimos, enquanto a rigidez pode nos impedir de reconhecer que determinadas escolhas precisam ser revistas. Nem toda dificuldade é um sinal de que devemos abandonar um projeto, assim como nem toda oportunidade de mudança significa que devemos aceitá-la. A maturidade está em discernir o que precisa ser perseverado, ajustado ou encerrado, sem permitir que o medo de perder determine sozinho a resposta.",
+              "Quando nossa principal razão para continuar é não aceitar o que já investimos, precisamos examinar se ainda estamos escolhendo com liberdade ou apenas tentando justificar o passado.",
+              "Essa questão possui uma dimensão emocional importante. Algumas pessoas aprenderam, desde muito cedo, que mudar de ideia representa fraqueza, reconhecer um erro significa fracassar e encerrar uma etapa é o mesmo que desistir de si mesmas. Talvez tenham crescido em ambientes nos quais qualquer mudança de direção era interpretada como incapacidade, falta de perseverança ou ausência de compromisso.",
+              "Com o passar dos anos, essas experiências podem produzir uma necessidade intensa de demonstrar que todas as decisões tomadas foram corretas. A pessoa encontra dificuldade para reconhecer que determinada escolha já não faz sentido porque acredita que isso colocaria em dúvida sua inteligência, competência ou valor pessoal. Assim, em vez de avaliar as circunstâncias presentes, continua tentando proteger a imagem que construiu de si mesma.",
+              "Essa é uma das razões pelas quais algumas pessoas permanecem emocionalmente ligadas a situações que já terminaram. Elas não estão necessariamente tentando recuperar aquilo que perderam, mas buscando uma maneira de provar que o tempo dedicado, os sentimentos envolvidos e os esforços realizados tiveram algum significado. A dificuldade de aceitar o encerramento de uma etapa pode estar relacionada à crença de que, se o resultado não foi aquele que esperavam, então tudo o que viveram perdeu seu valor.",
+              "Entretanto, precisamos compreender que o significado de uma experiência não depende exclusivamente do seu resultado final. Existem situações que produziram crescimento, aprendizado e amadurecimento, mesmo quando não terminaram como desejávamos. Isso não significa romantizar perdas ou afirmar que todo sofrimento possui uma finalidade específica estabelecida por Deus, mas reconhecer que podemos aprender com aquilo que vivemos sem precisar permanecer presos ao passado.",
+              "Uma experiência não precisa continuar para que aquilo que aprendemos com ela permaneça.",
+              "É importante observar que Paulo não utilizou suas realizações anteriores como justificativa para permanecer preso à identidade que possuía antes de conhecer Cristo. Ele compreendeu que existia um chamado maior e decidiu reorganizar suas prioridades a partir dessa nova realidade. Em Filipenses 3:8, declara que considerava todas as coisas como perda em comparação com a grandeza do conhecimento de Cristo Jesus, seu Senhor.",
+              "Essa declaração não significa que todo investimento anterior de Paulo fosse necessariamente errado, mas que nenhuma conquista poderia ocupar um lugar superior ao relacionamento com Jesus. Sua história continuava fazendo parte de sua trajetória, porém já não possuía autoridade para determinar aquilo que ele deveria valorizar acima de tudo.",
+              "É justamente aqui que encontramos uma conexão profunda com a segunda mensagem da nossa série. Davi reconheceu que o valor daquela água não estava apenas no que havia sido conquistado, mas também no sacrifício envolvido. Entretanto, ele não permitiu que o fato de a água ter custado tanto aos seus homens se tornasse uma justificativa para consumi-la. Ao contrário, o reconhecimento daquele custo o levou a uma decisão orientada por um valor maior.",
+              "Paulo, por sua vez, nos ensina que também precisamos avaliar aquilo que investimos à luz dos propósitos que devem orientar nossa caminhada. Em determinadas situações, continuar será a decisão mais responsável. Em outras, reconhecer que uma etapa terminou poderá ser necessário para avançarmos. O que não podemos permitir é que o medo de desperdiçar o passado nos impeça de discernir aquilo que precisamos fazer no presente.",
+              "Essa verdade também se aplica às nossas relações pessoais. Existem pessoas que continuam emocionalmente presas a uma amizade que terminou, a uma expectativa que não se cumpriu ou a uma situação na qual se sentiram profundamente decepcionadas. Mesmo depois de reconhecerem que não podem mudar o que aconteceu, permanecem revivendo conversas, imaginando respostas diferentes e tentando encontrar uma explicação que finalmente lhes permita descansar.",
+              "Em algumas dessas situações, o que precisa ser entregue não é necessariamente uma pessoa, mas a expectativa de que o passado ainda possa ser reorganizado para produzir o resultado que desejávamos. Isso não elimina a importância de buscar reconciliação quando ela é possível e saudável, nem substitui a necessidade de lidar com responsabilidades e consequências reais. Entretanto, precisamos reconhecer que existem acontecimentos que não podemos modificar, e continuar tentando controlá-los pode nos impedir de viver plenamente aquilo que está diante de nós.",
+              "Talvez hoje o Espírito Santo queira mostrar que você tem dificuldade para encerrar uma etapa porque acredita que reconhecer uma mudança significaria admitir uma derrota. Pode ser que esteja tentando preservar uma imagem de competência, recuperar um reconhecimento que não recebeu ou encontrar uma justificativa para todos os esforços que realizou.",
+              "Entretanto, sua identidade não depende de conseguir transformar todas as escolhas em resultados positivos. Você pode reconhecer limitações, aprender com experiências difíceis e modificar seus planos sem perder o valor que possui diante de Deus.",
+              "Por isso, precisamos retornar à pergunta central da nossa segunda mensagem: o que você ainda não conseguiu entregar? Talvez seja a expectativa de recuperar algo que já passou, a necessidade de provar que estava certo ou a dificuldade de aceitar que uma etapa importante da sua vida precisa ser conduzida de outra maneira.",
+              "A verdadeira prosperidade também envolve essa liberdade interior. Podemos valorizar nossa história sem permitir que ela determine nosso futuro, reconhecer os esforços realizados sem transformá-los em uma obrigação de permanecer e continuar avançando com maturidade, mesmo quando precisamos deixar para trás aquilo que um dia consideramos indispensável.",
+              "Porque entregar não significa declarar que aquilo que vivemos não teve valor, mas reconhecer que o valor do passado não pode nos impedir de obedecer a Deus no presente."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Existe alguma situação, projeto ou relacionamento ao qual continuo emocionalmente preso principalmente porque não consigo aceitar o tempo, os sentimentos ou os esforços que investi?",
+              "Quando percebo que uma decisão precisa ser revista, consigo avaliar a situação com liberdade ou sinto que mudar de direção significaria admitir que fracassei?",
+              "Em algum momento da minha história aprendi que reconhecer um erro, encerrar uma etapa ou modificar meus planos significava perder meu valor? Como essa crença ainda influencia minhas escolhas?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "EXERCÍCIO SOZO — ENTREGANDO O PESO DO PASSADO",
+              "Reserve alguns minutos para realizar este exercício em oração.",
+              "1. IDENTIFIQUE: Pense em uma situação que você tem dificuldade para encerrar ou reorganizar porque considera muito grande o investimento que realizou.",
+              "2. INVESTIGUE: Pergunte ao Espírito Santo: “Senhor, o que acredito que perderei sobre mim mesmo se aceitar que essa etapa precisa mudar ou terminar?” Observe se existe medo de fracassar, de ser julgado ou de considerar inútil o esforço realizado.",
+              "3. SUBSTITUA: Leia Filipenses 3:13-14 e declare: “Minha história possui valor, mas não determina minha identidade. Posso reconhecer o que vivi, aprender com minhas experiências e continuar avançando sem precisar justificar todas as escolhas do passado.”",
+              "4. PRATIQUE: Escolha uma atitude concreta que represente um avanço saudável: rever uma decisão, estabelecer um limite, aceitar uma mudança necessária ou deixar de alimentar uma expectativa que já não corresponde à realidade.",
+              "Lembre-se: reconhecer o valor do que passou não significa permitir que o passado continue governando suas decisões."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Pai, hoje coloco diante de Ti as situações às quais ainda permaneço emocionalmente preso por causa do tempo, dos sentimentos e dos esforços que investi.",
+              "Espírito Santo, revela se tenho dificuldade para aceitar mudanças porque aprendi a acreditar que encerrar uma etapa significa fracassar ou perder meu valor.",
+              "Eu renuncio à mentira de que preciso justificar todas as minhas escolhas anteriores e à crença de que aquilo que não terminou como imaginei não teve nenhum valor.",
+              "Cura as marcas da minha história que me fazem confundir perseverança com a necessidade de permanecer em situações que precisam ser revistas. Ensina-me a reconhecer meus limites, aprender com minhas experiências e discernir quando devo continuar, ajustar ou encerrar um caminho.",
+              "Hoje entrego ao Senhor o peso das expectativas que não se cumpriram e escolho avançar sem permitir que o passado determine minha identidade ou governe meu futuro.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "O VALOR DO QUE VOCÊ INVESTIU NÃO DEVE SE TRANSFORMAR EM UMA PRISÃO. MATURIDADE É RECONHECER O QUE O PASSADO REPRESENTOU, SEM PERMITIR QUE ELE IMPEÇA VOCÊ DE AVANÇAR NA DIREÇÃO QUE DEUS ESTÁ MOSTRANDO."
+            ]
+          }
+        ]
       }
     }
   },

@@ -238,5 +238,21 @@
       "model": "microsoft/mai-voice-2.1-flash",
       "voice": "pt-BR-Caio:MAI-Voice-2.1-Flash"
     }
+  },
+  "2026-11-10": {
+    "feminina": {
+      "src": "/audio/oracoes/2026-11-10-af3c08a10318f992.mp3",
+      "text": "Pai, hoje coloco diante de Ti as situações às quais ainda permaneço emocionalmente preso por causa do tempo, dos sentimentos e dos esforços que investi.\n\nEspírito Santo, revela se tenho dificuldade para aceitar mudanças porque aprendi a acreditar que encerrar uma etapa significa fracassar ou perder meu valor.\n\nEu renuncio à mentira de que preciso justificar todas as minhas escolhas anteriores e à crença de que aquilo que não terminou como imaginei não teve nenhum valor.\n\nCura as marcas da minha história que me fazem confundir perseverança com a necessidade de permanecer em situações que precisam ser revistas. Ensina-me a reconhecer meus limites, aprender com minhas experiências e discernir quando devo continuar, ajustar ou encerrar um caminho.\n\nHoje entrego ao Senhor o peso das expectativas que não se cumpriram e escolho avançar sem permitir que o passado determine minha identidade ou governe meu futuro.\n\nEm nome de Jesus, amém.",
+      "textHash": "50970eb40118e859be34f5e2ac236f23360b8521c397fe98b0a82c17977afc05",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Luana:MAI-Voice-2.1-Flash"
+    },
+    "masculina": {
+      "src": "/audio/oracoes/2026-11-10-f0c2ba9f5a8e3516.mp3",
+      "text": "Pai, hoje coloco diante de Ti as situações às quais ainda permaneço emocionalmente preso por causa do tempo, dos sentimentos e dos esforços que investi.\n\nEspírito Santo, revela se tenho dificuldade para aceitar mudanças porque aprendi a acreditar que encerrar uma etapa significa fracassar ou perder meu valor.\n\nEu renuncio à mentira de que preciso justificar todas as minhas escolhas anteriores e à crença de que aquilo que não terminou como imaginei não teve nenhum valor.\n\nCura as marcas da minha história que me fazem confundir perseverança com a necessidade de permanecer em situações que precisam ser revistas. Ensina-me a reconhecer meus limites, aprender com minhas experiências e discernir quando devo continuar, ajustar ou encerrar um caminho.\n\nHoje entrego ao Senhor o peso das expectativas que não se cumpriram e escolho avançar sem permitir que o passado determine minha identidade ou governe meu futuro.\n\nEm nome de Jesus, amém.",
+      "textHash": "50970eb40118e859be34f5e2ac236f23360b8521c397fe98b0a82c17977afc05",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Caio:MAI-Voice-2.1-Flash"
+    }
   }
 }
