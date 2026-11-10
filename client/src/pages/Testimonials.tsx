@@ -455,26 +455,35 @@ const Testimonials: React.FC = () => {
       {/* Hero */}
       <div className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-[#E50914]/10 via-transparent to-transparent pointer-events-none" />
-        <div className="container mx-auto px-4 md:px-12 py-12 text-center">
-          <div className="flex items-center justify-center gap-3 mb-4">
-            <Sparkles className="w-6 h-6 text-[#E50914]" />
-            <span className="text-[#E50914] font-bold text-sm uppercase tracking-widest">Comunidade Sozo</span>
-            <Sparkles className="w-6 h-6 text-[#E50914]" />
+        <div className="container relative mx-auto flex flex-col items-center gap-10 px-4 py-12 md:px-12 lg:flex-row lg:justify-center lg:gap-16">
+          <div className="max-w-2xl text-center lg:text-left">
+            <div className="mb-4 flex items-center justify-center gap-3 lg:justify-start">
+              <Sparkles className="w-6 h-6 text-[#E50914]" />
+              <span className="text-[#E50914] font-bold text-sm uppercase tracking-widest">Comunidade Sozo</span>
+              <Sparkles className="w-6 h-6 text-[#E50914]" />
+            </div>
+            <h1 className="text-4xl md:text-6xl font-display font-bold mb-4 drop-shadow-lg">
+              Testemunhos
+            </h1>
+            <p className="text-gray-300 text-lg max-w-2xl mb-8">
+              Vidas transformadas pelo poder de Deus através do Culto Sozo.
+              Cada história é uma prova do amor e da graça de Deus.
+            </p>
+            <button
+              onClick={() => setShowForm(!showForm)}
+              className="inline-flex items-center gap-2 bg-[#E50914] hover:bg-[#B20710] text-white font-bold px-8 py-3 rounded-full transition-all duration-200 hover:scale-105 shadow-lg shadow-[#E50914]/30"
+            >
+              <MessageSquareHeart className="w-5 h-5" />
+              {showForm ? 'Fechar formulário' : 'Compartilhar meu testemunho'}
+            </button>
           </div>
-          <h1 className="text-4xl md:text-6xl font-display font-bold mb-4 drop-shadow-lg">
-            Testemunhos
-          </h1>
-          <p className="text-gray-300 text-lg max-w-2xl mx-auto mb-8">
-            Vidas transformadas pelo poder de Deus através do Culto Sozo.
-            Cada história é uma prova do amor e da graça de Deus.
-          </p>
-          <button
-            onClick={() => setShowForm(!showForm)}
-            className="inline-flex items-center gap-2 bg-[#E50914] hover:bg-[#B20710] text-white font-bold px-8 py-3 rounded-full transition-all duration-200 hover:scale-105 shadow-lg shadow-[#E50914]/30"
-          >
-            <MessageSquareHeart className="w-5 h-5" />
-            {showForm ? 'Fechar formulário' : 'Compartilhar meu testemunho'}
-          </button>
+          <img
+            src="/brand/testemunhos-vida-prospera-semana-2.jpg"
+            alt="Os Segredos de uma Vida Próspera, semana 2: O que você ainda não conseguiu entregar?"
+            width={1080}
+            height={1920}
+            className="w-full max-w-[280px] shrink-0 rounded-2xl border border-white/10 shadow-2xl shadow-black/40"
+          />
         </div>
       </div>
 
