@@ -9,7 +9,7 @@ type Series = Omit<typeof publishedSeries[number], "descricao"> & { descricao: s
 
 export function mergePublishedSeries(current: Series[]) {
   const additions = publishedSeries.filter(item => !current.some(existing => existing.id === item.id));
-  const highlighted = additions.find(item => item.destaque && !current.some(existing =>
+  const highlighted = [...additions].sort((a, b) => b.ano - a.ano || b.ordem - a.ordem).find(item => item.destaque && !current.some(existing =>
     existing.ano > item.ano || (existing.ano === item.ano && existing.ordem > item.ordem),
   ));
   return [...current.map(item => highlighted ? { ...item, destaque: false } : item),

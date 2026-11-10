@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-21T16:14:09.000Z",
-  "source": "Cadastro editorial confirmado pelo responsável pelo site",
-  "latestVideoId": "GIzggcamUQM",
+  "updatedAt": "2026-11-10T01:23:03.000Z",
+  "source": "Cadastro editorial com vídeos e temas confirmados pelo responsável pelo site",
+  "latestVideoId": "B0yqmluQ04E",
   "series": [
     {
       "id": "aprovados-2026",
@@ -9,6 +9,14 @@
       "descricao": "Série Aprovados de Outubro de 2026.",
       "destaque": true,
       "ordem": 10,
+      "ano": 2026
+    },
+    {
+      "id": "os-segredos-de-uma-vida-prospera-2026",
+      "titulo": "OS SEGREDOS DE UMA VIDA PRÓSPERA - Novembro 2026",
+      "descricao": "Série Os Segredos de uma Vida Próspera de Novembro de 2026.",
+      "destaque": true,
+      "ordem": 13,
       "ano": 2026
     }
   ],
@@ -21,6 +29,24 @@
       "youtubeVideoId": "GIzggcamUQM",
       "duracao": null,
       "descricaoCurta": "Episódio 3 da série Aprovados — Outubro 2026."
+    },
+    {
+      "id": "os-segredos-de-uma-vida-prospera-2026-ep1-1793634050430",
+      "serieId": "os-segredos-de-uma-vida-prospera-2026",
+      "ordem": 1,
+      "titulo": "1º SEMANA | QUEM ESTÁ GOVERNANDO O SEU CORAÇÃO? | OS SEGREDOS DE UMA VIDA PRÓSPERA",
+      "youtubeVideoId": "f7wSpFsQVv8",
+      "duracao": null,
+      "descricaoCurta": "Semana 1: QUEM ESTÁ GOVERNANDO O SEU CORAÇÃO?"
+    },
+    {
+      "id": "os-segredos-de-uma-vida-prospera-2026-ep2-B0yqmluQ04E",
+      "serieId": "os-segredos-de-uma-vida-prospera-2026",
+      "ordem": 2,
+      "titulo": "2ª SEMANA | O QUE VOCÊ AINDA NÃO CONSEGUIU ENTREGAR? | OS SEGREDOS DE UMA VIDA PRÓSPERA",
+      "youtubeVideoId": "B0yqmluQ04E",
+      "duracao": null,
+      "descricaoCurta": "Semana 2: O QUE VOCÊ AINDA NÃO CONSEGUIU ENTREGAR?"
     }
   ]
 }

@@ -20,10 +20,12 @@ describe("public catalog recovery without managed services", () => {
     const caller = appRouter.createCaller(anonymousContext);
     const series = await caller.content.series();
     const episodes = await caller.content.allEpisodes();
-    expect(series).toHaveLength(18);
-    expect(episodes).toHaveLength(68);
+    expect(series).toHaveLength(19);
+    expect(episodes).toHaveLength(70);
     expect(episodes.find(episode => episode.youtubeVideoId === "GIzggcamUQM"))
       .toMatchObject({ serieId: "aprovados-2026", ordem: 3 });
+    expect(episodes.find(episode => episode.youtubeVideoId === "B0yqmluQ04E"))
+      .toMatchObject({ serieId: "os-segredos-de-uma-vida-prospera-2026", ordem: 2 });
     expect(new Set(episodes.map(ep => ep.id)).size).toBe(episodes.length);
     expect(new Set(episodes.map(ep => ep.youtubeVideoId)).size).toBe(episodes.length);
 
@@ -49,7 +51,7 @@ describe("public catalog recovery without managed services", () => {
       .rejects.toMatchObject({ code: "SERVICE_UNAVAILABLE" });
     await expect(caller.sync.runNow()).rejects.toMatchObject({ code: "UNAUTHORIZED" });
     await expect(caller.admin.testimonialCounts()).rejects.toMatchObject({ code: "UNAUTHORIZED" });
-    expect(await caller.latestVideoId()).toEqual({ lastVideoId: "GIzggcamUQM" });
+    expect(await caller.latestVideoId()).toEqual({ lastVideoId: "B0yqmluQ04E" });
   });
 
   it("does not report snapshot data as a working database", async () => {
