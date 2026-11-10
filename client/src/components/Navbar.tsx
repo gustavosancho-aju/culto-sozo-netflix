@@ -84,7 +84,8 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
         <Dialog.Content className="fixed left-1/2 top-1/2 z-[90] w-[calc(100%-2rem)] max-w-[560px] -translate-x-1/2 -translate-y-1/2 outline-none">
           <Dialog.Title className="sr-only">Horários do culto</Dialog.Title>
           <Dialog.Description className="sr-only">Culto Sozo aos domingos, às 8 horas e às 17 horas.</Dialog.Description>
-          <img src="/brand/horarios-do-culto.webp" alt="Aprovados — Horários do culto: Domingo às 8 horas e Domingo às 17 horas" width={1123} height={1400} className="mx-auto max-h-[calc(100dvh-3rem)] w-auto max-w-full rounded-xl object-contain" />
+          <p className="mb-2 rounded-lg bg-[#1c1c1c] px-14 py-2 text-center text-sm font-semibold text-white">Domingo às 8h e às 17h</p>
+          <img src="/brand/horarios-vida-prospera-semana-2.jpg" alt="Os Segredos de uma Vida Próspera, semana 2: O que você ainda não conseguiu entregar?" width={1080} height={1920} className="mx-auto max-h-[calc(100dvh-7rem)] w-auto max-w-full rounded-xl object-contain" />
           <Dialog.Close asChild><button type="button" aria-label="Fechar horários do culto" className="absolute right-2 top-2 flex h-11 w-11 items-center justify-center rounded-full bg-black/85 text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-white"><X className="h-5 w-5" /></button></Dialog.Close>
         </Dialog.Content>
       </Dialog.Portal>
