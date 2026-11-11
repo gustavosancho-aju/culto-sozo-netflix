@@ -3658,6 +3658,194 @@ export const devotionalWeeks: DevotionalWeek[] = [
             ]
           }
         ]
+      },
+      "2026-11-11": {
+        "format": "document",
+        "label": "OS SEGREDOS DE UMA VIDA PRÓSPERA — DEVOCIONAL | SEMANA 2 — DIA 3",
+        "title": "QUANDO PRECISAMOS QUE TODOS RECONHEÇAM O QUE FIZEMOS",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“Seu Pai, que vê o que é feito em segredo, o recompensará.” Mateus 6:4 (NVI)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Você já fez alguma coisa por alguém e, mesmo sabendo que sua atitude foi importante, sentiu-se frustrado porque ninguém reconheceu o que você realizou?",
+              "Talvez você tenha dedicado tempo, utilizado seus recursos ou assumido responsabilidades para beneficiar outras pessoas. Fez aquilo com disposição, mas, quando tudo terminou, percebeu que ninguém mencionou seu esforço, agradeceu sua participação ou demonstrou compreender o quanto aquela entrega havia lhe custado. Aos poucos, aquilo que começou como uma atitude de cuidado transformou-se em uma experiência de frustração.",
+              "O desejo de ser reconhecido é uma necessidade humana legítima. Todos precisamos experimentar valorização e pertencimento em nossos relacionamentos. Entretanto, quando nossa satisfação depende exclusivamente da resposta que recebemos, podemos começar a entregar não apenas para contribuir, mas também para conquistar a confirmação de que somos importantes."
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Na segunda mensagem da nossa série, aprendemos que o verdadeiro valor de uma entrega não pode ser medido apenas por aquilo que conseguimos enxergar. Quando Davi recebeu a água que seus três valentes haviam buscado em Belém, reconheceu que aquele gesto representava um sacrifício extraordinário. Em vez de simplesmente satisfazer seu desejo, derramou a água como oferta ao Senhor, demonstrando reverência e reconhecimento pelo valor da vida daqueles homens. Essa história nos ensinou que nossas entregas carregam significados que ultrapassam o valor material e que precisamos examinar as motivações que existem por trás daquilo que fazemos.",
+              "Entretanto, existe uma questão que merece nossa atenção: o que acontece dentro de nós quando realizamos uma entrega importante e não recebemos o reconhecimento que esperávamos? Em algumas situações, nossa frustração pode revelar uma necessidade legítima de reciprocidade e consideração. Em outras, pode mostrar que começamos a depender da aprovação das pessoas para reconhecer o valor das nossas próprias atitudes.",
+              "Em Mateus 6:1-4, Jesus ensina seus discípulos sobre a maneira correta de praticar a generosidade. Ele adverte contra o comportamento daqueles que realizavam boas obras com o objetivo de serem admirados publicamente e orienta que a contribuição seja feita sem transformar o gesto em uma oportunidade de exibição. O ensino não está condenando o reconhecimento que eventualmente recebemos, mas confrontando a intenção de utilizar uma atitude de generosidade para conquistar prestígio diante das pessoas.",
+              "Observe que Jesus não estava apenas ensinando uma forma discreta de contribuir. Ele estava revelando que duas pessoas podem realizar uma atitude semelhante, mas possuir motivações completamente diferentes. Uma pode desejar sinceramente atender a uma necessidade, enquanto outra pode estar buscando a admiração que receberá por aquilo que fez. O gesto exterior pode ser parecido, mas aquilo que governa o coração não é necessariamente o mesmo.",
+              "Quando precisamos que todos reconheçam nossas entregas para nos sentirmos importantes, corremos o risco de transformar a generosidade em uma fonte de validação pessoal.",
+              "Imagine uma pessoa que costuma assumir muitas responsabilidades em sua família. Ela organiza compromissos, resolve problemas, oferece ajuda e procura estar disponível sempre que alguém precisa. Entretanto, quando seus familiares não demonstram a gratidão que esperava, começa a sentir uma tristeza profunda, acompanhada da sensação de que ninguém percebe seu valor. Com o passar do tempo, pode passar a mencionar constantemente tudo o que fez, não apenas porque deseja uma divisão mais justa das responsabilidades, mas porque precisa ouvir que sua dedicação foi importante.",
+              "É necessário reconhecer que existem situações nas quais a falta de reciprocidade realmente precisa ser conversada. Ninguém deve ser obrigado a assumir todas as responsabilidades de uma família nem a permanecer em relações nas quais suas necessidades são sistematicamente ignoradas. Entretanto, também precisamos examinar se nossa identidade está sendo sustentada pela capacidade de servir e pela aprovação que recebemos em troca. Quando isso acontece, podemos continuar oferecendo muito mais do que conseguimos sustentar, porque tememos que estabelecer limites faça as pessoas deixarem de nos considerar importantes.",
+              "Essa dificuldade frequentemente possui raízes emocionais. Algumas pessoas cresceram em ambientes nos quais recebiam atenção principalmente quando demonstravam bom comportamento, ajudavam os adultos ou correspondiam às expectativas da família. Talvez tenham aprendido que suas necessidades deveriam ficar em segundo plano e que sua presença seria mais valorizada quando fossem úteis. Com o passar dos anos, podem desenvolver a crença de que precisam estar sempre disponíveis para merecer amor e consideração.",
+              "Na vida adulta, essa crença pode produzir um comportamento aparentemente generoso, mas acompanhado de uma cobrança interior constante. A pessoa ajuda, oferece, resolve e se dedica, porém experimenta grande sofrimento quando não recebe a resposta que imaginava. Sua frustração não está relacionada apenas à atitude do outro, mas também à antiga necessidade de confirmar que possui valor e merece ser amada.",
+              "Quando aprendemos a conquistar amor por meio daquilo que fazemos, podemos transformar nossas entregas em tentativas silenciosas de garantir que não seremos esquecidos ou rejeitados.",
+              "É por isso que o ensino de Jesus em Mateus 6 precisa alcançar uma dimensão mais profunda da nossa alma. Ao afirmar que o Pai vê aquilo que é realizado em secreto, Jesus nos convida a desenvolver uma relação com Deus na qual nossa obediência não dependa da admiração pública. O Senhor conhece nossas intenções e enxerga aquilo que outras pessoas não conseguem perceber. Essa verdade não elimina a importância da gratidão nos relacionamentos, mas nos ajuda a compreender que o valor das nossas atitudes não pode depender exclusivamente da resposta humana.",
+              "Existe uma diferença importante entre desejar que alguém reconheça nosso esforço e precisar desse reconhecimento para acreditar que somos valiosos. Podemos expressar nossas necessidades, conversar sobre expectativas e reconhecer quando uma relação precisa de ajustes. Entretanto, não precisamos utilizar nossas entregas como instrumentos para conquistar um lugar que acreditamos não possuir.",
+              "Essa compreensão também transforma nossa maneira de servir a Deus. Podemos participar de atividades na igreja, contribuir com projetos e dedicar nossas capacidades ao Reino sem transformar cada oportunidade em uma necessidade de visibilidade. Quando compreendemos nossa identidade de filhos, aprendemos que servir não é uma maneira de comprar o amor do Pai, mas uma resposta ao amor que já recebemos.",
+              "Em Efésios 2:8-10, Paulo ensina que somos salvos pela graça, mediante a fé, e que fomos criados em Cristo Jesus para boas obras. Observe a ordem apresentada pelo texto: não realizamos boas obras para conquistar nossa salvação ou produzir nosso valor diante de Deus. As boas obras fazem parte da vida daqueles que foram alcançados por sua graça. Essa verdade confronta a crença de que precisamos entregar cada vez mais para finalmente merecer aceitação.",
+              "Quando compreendemos esse princípio, nossa generosidade começa a ser transformada. Continuamos reconhecendo a importância de contribuir, ajudar e servir, mas deixamos de utilizar essas atitudes como uma tentativa de preencher necessidades emocionais que precisam ser tratadas em nossa identidade. Podemos oferecer algo sem exigir que a outra pessoa nos admire, assim como podemos estabelecer limites quando determinada responsabilidade ultrapassa nossas possibilidades.",
+              "Na segunda mensagem, também refletimos sobre a viúva que ofereceu duas pequenas moedas, conforme Marcos 12:41-44. Jesus reconheceu o significado daquela entrega, embora seu valor financeiro fosse pequeno aos olhos humanos. Essa passagem nos lembra que Deus não avalia nossas atitudes apenas pela aparência ou quantidade, mas conhece a realidade que existe por trás delas. Entretanto, a história não deve ser utilizada para pressionar pessoas vulneráveis a comprometer seu sustento; ela nos convida a reconhecer que o valor de uma entrega não pode ser reduzido a números.",
+              "A verdade que precisamos guardar é que nossa relação com Deus não deve ser sustentada pela necessidade de impressionar alguém. O Senhor não precisa ser convencido de que possuímos valor por meio da quantidade de coisas que conseguimos realizar. Nossa identidade está fundamentada na graça e no amor que recebemos em Cristo, e essa segurança nos permite servir com liberdade, sem transformar a aprovação das pessoas em uma condição para nossa satisfação.",
+              "Talvez hoje o Espírito Santo queira mostrar que você tem se dedicado intensamente a determinadas pessoas porque acredita que, se deixar de atender às expectativas delas, perderá seu lugar de importância. Pode ser que esteja emocionalmente cansado, mas continue assumindo responsabilidades porque sente culpa ao dizer não. Ou talvez tenha dificuldade para celebrar aquilo que realizou quando ninguém reconhece seu esforço.",
+              "Por isso, precisamos retornar à pergunta central da segunda mensagem: o que você ainda não conseguiu entregar? Talvez não seja um recurso financeiro, um projeto ou uma conquista material. Talvez seja a necessidade de que todos percebam seu esforço, reconheçam sua dedicação e confirmem continuamente que você é importante.",
+              "A verdadeira prosperidade também envolve desenvolver essa liberdade interior. Podemos continuar sendo generosos, responsáveis e comprometidos sem permitir que nossas entregas se tornem tentativas de conquistar amor. Quando nossa identidade está firmada em Cristo, aprendemos a servir por convicção, receber reconhecimento com gratidão e permanecer seguros mesmo quando nossas atitudes não recebem a atenção que esperávamos.",
+              "Porque uma entrega verdadeiramente livre não precisa ser utilizada para provar nosso valor. Ela pode nascer de um coração que já compreendeu que é amado e aceito por Deus."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Quando faço alguma coisa importante por alguém e não recebo reconhecimento, consigo lidar com a frustração ou começo a questionar meu próprio valor?",
+              "Existe alguma área da minha vida na qual continuo assumindo responsabilidades porque tenho medo de perder o amor, a consideração ou a aprovação das pessoas?",
+              "Em algum momento da minha história aprendi que precisava ser útil, obediente ou disponível para merecer atenção? Como essa crença ainda influencia minhas entregas?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "EXERCÍCIO SOZO — ENTREGANDO A NECESSIDADE DE APROVAÇÃO",
+              "1. IDENTIFIQUE: Lembre-se de uma situação em que você se sentiu desvalorizado porque seu esforço não foi reconhecido. Observe o que essa experiência despertou em você.",
+              "2. INVESTIGUE: Pergunte ao Espírito Santo: “Senhor, em algum momento aprendi que preciso fazer muito pelas pessoas para merecer amor e aceitação?”",
+              "3. SUBSTITUA: Leia Mateus 6:1-4 e Efésios 2:8-10. Declare: “Meu valor não depende da quantidade de coisas que faço nem do reconhecimento que recebo. Sou amado por Deus e posso servir com liberdade.”",
+              "4. PRATIQUE: Hoje, realize uma atitude de cuidado sem buscar reconhecimento ou estabeleça um limite saudável em uma responsabilidade que você tem assumido apenas por medo de desagradar."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Pai, hoje coloco diante de Ti minha necessidade de reconhecimento e as expectativas que tenho depositado nas respostas das pessoas.",
+              "Espírito Santo, revela se aprendi a buscar amor e aceitação por meio daquilo que faço e cura as experiências que me levaram a acreditar que preciso estar sempre disponível para ser valorizado.",
+              "Eu renuncio à mentira de que meu valor depende do reconhecimento das pessoas e à crença de que preciso conquistar amor por meio das minhas entregas.",
+              "Ensina-me a servir com liberdade, reconhecer meus limites e encontrar segurança na identidade que recebi em Cristo. Que minhas atitudes sejam motivadas pelo amor e não pelo medo de rejeição.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "QUANDO PRECISAMOS SER RECONHECIDOS POR TUDO O QUE ENTREGAMOS, PODEMOS ESTAR TENTANDO RECEBER DAS PESSOAS O VALOR QUE AINDA NÃO APRENDEMOS A RECONHECER EM DEUS. A VERDADEIRA GENEROSIDADE NASCE DE UM CORAÇÃO QUE NÃO PRECISA COMPRAR AMOR."
+            ]
+          }
+        ]
+      },
+      "2026-11-12": {
+        "format": "document",
+        "label": "OS SEGREDOS DE UMA VIDA PRÓSPERA — DEVOCIONAL | SEMANA 2 — DIA 4",
+        "title": "QUANDO O DESEJO DE TER MAIS NOS FAZ PERDER O QUE É PRECIOSO",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“Então Ló escolheu para si todo o vale do Jordão e partiu para o Oriente. Assim os dois se separaram.” Gênesis 13:11 (NVI)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Você já percebeu que algumas oportunidades parecem tão vantajosas que quase não paramos para avaliar o que precisaremos sacrificar para aproveitá-las?",
+              "Existem momentos em que uma possibilidade de crescimento surge diante de nós e imediatamente começamos a imaginar os benefícios que poderemos receber. Pensamos no aumento dos recursos, nas portas que poderão se abrir e nas conquistas que finalmente estarão ao nosso alcance. Entretanto, nem sempre dedicamos a mesma atenção àquilo que essa decisão poderá exigir de nós, especialmente quando o benefício parece corresponder a um desejo que alimentamos há muito tempo.",
+              "O problema não está em desejar crescer ou aproveitar boas oportunidades. A questão começa quando a possibilidade de conquistar algo se torna tão importante que deixamos de avaliar se aquela escolha está alinhada aos nossos princípios. Uma vida próspera não é construída apenas pela capacidade de reconhecer oportunidades, mas também pela maturidade de discernir quais delas realmente devem ser aproveitadas."
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Na segunda mensagem da nossa série, aprendemos que Davi recebeu algo que desejava profundamente: a água do poço de Belém. Entretanto, quando compreendeu o sacrifício realizado pelos três homens que a haviam buscado, decidiu não utilizá-la para satisfazer sua vontade. Aquela água estava diante dele, pronta para ser consumida, mas Davi reconheceu que existia um valor maior envolvido naquela situação. Sua atitude nos revelou um princípio importante: nem tudo aquilo que desejamos, mesmo quando está ao nosso alcance, precisa ser utilizado para nossa satisfação.",
+              "Essa verdade nos conduz à história de Abraão e Ló, registrada em Gênesis 13. Os dois possuíam muitos rebanhos e bens, mas a região onde estavam já não oferecia condições suficientes para que permanecessem juntos. Os pastores de seus rebanhos começaram a discutir, e Abraão percebeu que seria necessário tomar uma decisão para evitar que aquele conflito continuasse prejudicando a convivência.",
+              "Abraão poderia ter utilizado sua posição para determinar qual região ficaria para si. Entretanto, escolheu outro caminho. Em Gênesis 13:8-9, propôs que não houvesse desavença entre eles e ofereceu a Ló a oportunidade de escolher primeiro para onde desejava ir. Se Ló fosse para a esquerda, Abraão seguiria para a direita; se escolhesse a direita, Abraão tomaria o outro caminho.",
+              "Observe que Abraão não estava abrindo mão de toda a sua prosperidade nem abandonando a responsabilidade de cuidar de seus bens. Ele estava reconhecendo que preservar a paz e agir com generosidade naquela situação possuía um valor maior do que disputar a primeira escolha.",
+              "Abraão demonstrou que não precisava garantir para si todas as vantagens disponíveis para continuar confiando na provisão de Deus.",
+              "Ló, por sua vez, levantou os olhos e observou que toda a planície do Jordão era bem irrigada. O texto descreve aquela região como uma terra de grande fertilidade, e Ló decidiu escolhê-la para estabelecer seus rebanhos. Do ponto de vista econômico, sua decisão parecia vantajosa, pois uma região com abundância de água e boas condições para pastagem representava uma oportunidade importante para alguém que possuía muitos animais.",
+              "Entretanto, a narrativa acrescenta uma informação que merece nossa atenção. Gênesis 13:13 declara que os homens de Sodoma eram extremamente perversos e pecavam contra o Senhor. Isso significa que, embora a região apresentasse vantagens materiais, também existiam condições morais e sociais que precisavam ser consideradas.",
+              "O texto não afirma que Ló conhecia todas as consequências futuras de sua decisão. Por isso, não devemos interpretar sua escolha como se ele tivesse consciência de tudo o que aconteceria posteriormente. Entretanto, ao acompanharmos sua trajetória, percebemos que aquela região aparentemente vantajosa acabou se tornando o cenário de experiências profundamente difíceis para sua família.",
+              "Essa história nos ensina que uma oportunidade não deve ser avaliada apenas pelo benefício imediato que oferece. Existem escolhas que parecem excelentes quando observamos somente os resultados financeiros, mas que exigem uma análise mais profunda das circunstâncias, dos relacionamentos e dos valores envolvidos.",
+              "Nem toda oportunidade que promete crescimento representa, necessariamente, um avanço saudável para nossa vida.",
+              "Imagine alguém que possui um pequeno negócio e recebe a proposta de estabelecer uma parceria com uma pessoa que dispõe de muitos recursos e contatos importantes. A possibilidade de crescimento é real, e os benefícios financeiros parecem bastante atraentes. Entretanto, durante as conversas, percebe que o futuro parceiro costuma descumprir acordos, omitir informações e tratar seus funcionários de maneira desrespeitosa.",
+              "Diante dessa situação, a pessoa precisa avaliar não apenas o quanto poderá ganhar, mas também o ambiente no qual estará inserida e os princípios que talvez precise comprometer para manter aquela parceria. Se decidir recusar a proposta, não significa necessariamente que esteja desprezando uma oportunidade de prosperar. Pode estar demonstrando maturidade ao reconhecer que determinados ganhos não compensam os riscos envolvidos.",
+              "Essa é uma das questões mais importantes da prosperidade bíblica: compreender que o crescimento financeiro não pode ser utilizado como justificativa para abandonar valores que deveriam orientar nossas decisões. O dinheiro pode ampliar possibilidades, proporcionar conforto e contribuir para a realização de projetos importantes, mas não deve receber autoridade para determinar aquilo que consideramos certo ou errado.",
+              "Entretanto, precisamos compreender que essa dificuldade nem sempre está relacionada à ambição. Algumas pessoas encontram grande resistência para recusar oportunidades porque cresceram enfrentando limitações financeiras e desenvolveram a crença de que precisam aproveitar toda possibilidade de ganho. Talvez tenham presenciado situações nas quais a falta de recursos produziu insegurança, conflitos familiares ou oportunidades perdidas. Com o passar dos anos, podem começar a acreditar que deixar passar uma possibilidade de crescimento representa um risco que não podem assumir.",
+              "Na vida adulta, essa crença pode fazer com que qualquer oportunidade financeira desperte uma sensação de urgência. A pessoa encontra dificuldade para avaliar com tranquilidade porque sente que precisa decidir rapidamente, antes que a oportunidade desapareça. Mesmo quando percebe aspectos preocupantes, continua tentando justificar sua escolha, pois acredita que recusar aquela possibilidade seria desperdiçar uma chance que talvez nunca mais apareça.",
+              "Quando o medo de voltar a enfrentar a escassez governa nossas decisões, podemos começar a aceitar condições que normalmente não consideraríamos adequadas.",
+              "É justamente aqui que precisamos olhar para uma dimensão importante da cura da alma. Uma pessoa pode ter superado dificuldades financeiras e alcançado uma condição de vida mais estável, mas continuar tomando decisões a partir da insegurança que experimentou no passado. Embora suas circunstâncias tenham mudado, a sensação de que precisa aproveitar toda oportunidade permanece influenciando suas escolhas.",
+              "Essa realidade também pode aparecer na maneira como administramos aquilo que já conquistamos. Imagine alguém que possui uma condição financeira confortável, mas encontra dificuldade para recusar qualquer proposta de investimento que prometa ganhos elevados. Mesmo reconhecendo que não compreende completamente os riscos envolvidos, sente-se pressionado a participar porque teme perder uma oportunidade de aumentar seu patrimônio.",
+              "Nesse caso, a dificuldade não está necessariamente na falta de conhecimento financeiro. Pode existir uma crença interior de que nunca haverá recursos suficientes e de que toda oportunidade precisa ser aproveitada para garantir segurança. Quando isso acontece, a busca por prosperidade pode deixar de ser conduzida pela sabedoria e passar a ser determinada pelo medo de perder.",
+              "Em Provérbios 16:16, encontramos uma verdade que amplia nossa compreensão: “É melhor obter sabedoria do que ouro! É melhor obter entendimento do que prata!” (NVI). O texto não despreza os recursos materiais, mas estabelece uma ordem de valores. O ouro e a prata possuem utilidade, entretanto, a sabedoria é necessária para que nossas decisões não sejam conduzidas apenas pela possibilidade de adquirir mais.",
+              "Uma pessoa pode possuir recursos e, ainda assim, tomar decisões que comprometem sua estabilidade, seus relacionamentos e sua integridade. Por outro lado, alguém que desenvolve discernimento aprende a reconhecer que nem toda proposta vantajosa merece ser aceita e que determinadas escolhas precisam ser avaliadas à luz de consequências que ultrapassam o resultado financeiro imediato.",
+              "Voltando à história de Abraão, encontramos outro detalhe importante. Depois que Ló se separou dele, Deus reafirmou sua promessa e orientou Abraão a olhar para a terra que seria dada à sua descendência, conforme Gênesis 13:14-17. A narrativa nos mostra que Abraão não ficou fora dos propósitos de Deus por ter permitido que Ló escolhesse primeiro.",
+              "Isso não significa que toda renúncia produzirá uma recompensa material maior ou que Deus necessariamente nos dará algo melhor financeiramente sempre que recusarmos uma oportunidade. A promessa feita a Abraão pertence ao contexto específico de sua aliança com Deus. Entretanto, sua postura nos ensina que a confiança no Senhor nos permite tomar decisões sem transformar cada vantagem disponível em algo indispensável.",
+              "Abraão podia agir com generosidade porque sua segurança não precisava estar limitada à escolha imediata que conseguiria fazer. Ele continuava responsável por seus bens e por sua família, mas não permitiu que a disputa pela melhor região determinasse sua atitude diante de Ló.",
+              "Essa verdade se conecta diretamente ao que aprendemos com Davi na segunda mensagem. Davi possuía diante de si aquilo que desejava, mas reconheceu que não deveria consumi-lo. Abraão possuía a possibilidade de escolher primeiro, mas decidiu permitir que Ló fizesse sua escolha. Em ambos os episódios, encontramos homens que demonstraram maturidade ao reconhecer que não precisavam utilizar todas as vantagens disponíveis para satisfazer seus interesses pessoais.",
+              "A verdadeira prosperidade também exige liberdade para abrir mão de uma vantagem quando preservá-la significaria comprometer algo mais importante.",
+              "Talvez hoje o Espírito Santo queira mostrar que você tem encontrado dificuldade para recusar determinadas oportunidades porque acredita que precisa aproveitar tudo o que aparece diante de você. Pode ser que o medo de voltar a enfrentar limitações financeiras esteja influenciando suas escolhas ou que você tenha desenvolvido a necessidade de demonstrar crescimento constante para se sentir bem-sucedido.",
+              "Entretanto, prosperar não significa aceitar todas as propostas, acumular todas as oportunidades ou conquistar tudo aquilo que está ao nosso alcance. A maturidade espiritual nos ensina a reconhecer que nossos recursos devem servir aos propósitos de Deus, e não nos conduzir a uma vida na qual precisamos negociar continuamente aquilo em que acreditamos.",
+              "Por isso, precisamos retornar à pergunta central da segunda mensagem: o que você ainda não conseguiu entregar? Talvez seja a necessidade de aproveitar toda oportunidade de ganho, o medo de perder uma vantagem ou a crença de que recusar uma possibilidade de crescimento significa comprometer seu futuro.",
+              "Quando Deus governa nosso coração, podemos trabalhar, empreender, investir e buscar crescimento com responsabilidade, mas também desenvolvemos liberdade para reconhecer quando uma oportunidade não está alinhada aos princípios que desejamos preservar.",
+              "Porque uma vida verdadeiramente próspera não é aquela que consegue aproveitar todas as oportunidades, mas aquela que possui sabedoria para reconhecer quais conquistas realmente valem o preço que exigem."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Existe alguma oportunidade de crescimento ou ganho financeiro que tenho dificuldade para recusar, mesmo reconhecendo que ela pode comprometer valores importantes para mim?",
+              "Quando preciso abrir mão de uma possibilidade de ganho, consigo avaliar a decisão com tranquilidade ou sinto que estou desperdiçando uma oportunidade que talvez nunca mais apareça?",
+              "Em algum momento da minha história aprendi que precisava aproveitar toda oportunidade financeira para não voltar a enfrentar dificuldades? Como essa crença influencia minhas decisões atualmente?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "EXERCÍCIO SOZO — ENTREGANDO A NECESSIDADE DE APROVEITAR TUDO",
+              "1. IDENTIFIQUE: Pense em uma oportunidade ou decisão financeira que você está considerando. Observe se tem avaliado apenas os benefícios ou também os valores e riscos envolvidos.",
+              "2. INVESTIGUE: Pergunte ao Espírito Santo: “Senhor, existe algum medo da minha história que me faz acreditar que preciso aproveitar toda oportunidade de ganho?”",
+              "3. SUBSTITUA: Leia Gênesis 13:8-12 e Provérbios 16:16. Declare: “Posso crescer e prosperar sem precisar conquistar todas as oportunidades. Minha segurança não depende de aproveitar cada vantagem, mas de administrar minha vida com sabedoria e fidelidade a Deus.”",
+              "4. PRATIQUE: Antes de tomar uma decisão importante, avalie não apenas o benefício que poderá receber, mas também aquilo que precisará comprometer para alcançá-lo."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Pai, hoje coloco diante de Ti meus desejos de crescimento, minhas oportunidades e as decisões que preciso tomar.",
+              "Espírito Santo, revela se existem experiências da minha história que me fazem acreditar que preciso aproveitar toda possibilidade de ganho para me sentir seguro.",
+              "Eu renuncio à mentira de que perder uma oportunidade significa perder meu futuro e à crença de que preciso conquistar tudo aquilo que está ao meu alcance para ser uma pessoa próspera.",
+              "Ensina-me a reconhecer as oportunidades que estão alinhadas aos Teus princípios e dá-me maturidade para recusar aquilo que pode comprometer meus valores.",
+              "Que minhas decisões financeiras sejam conduzidas pela sabedoria, e não pelo medo de perder.",
+              "Hoje entrego ao Senhor minha necessidade de conquistar sempre mais e escolho confiar que posso prosperar sem negociar aquilo que realmente tem valor.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "UMA VIDA PRÓSPERA NÃO É AQUELA QUE APROVEITA TODAS AS OPORTUNIDADES, MAS AQUELA QUE POSSUI MATURIDADE PARA RECONHECER QUE NEM TODA CONQUISTA VALE O PREÇO QUE PRECISAMOS PAGAR."
+            ]
+          }
+        ]
       }
     }
   },

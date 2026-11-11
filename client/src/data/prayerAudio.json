@@ -254,5 +254,37 @@
       "model": "microsoft/mai-voice-2.1-flash",
       "voice": "pt-BR-Caio:MAI-Voice-2.1-Flash"
     }
+  },
+  "2026-11-11": {
+    "feminina": {
+      "src": "/audio/oracoes/2026-11-11-f7ea8a07fb856ee4.mp3",
+      "text": "Pai, hoje coloco diante de Ti minha necessidade de reconhecimento e as expectativas que tenho depositado nas respostas das pessoas.\n\nEspírito Santo, revela se aprendi a buscar amor e aceitação por meio daquilo que faço e cura as experiências que me levaram a acreditar que preciso estar sempre disponível para ser valorizado.\n\nEu renuncio à mentira de que meu valor depende do reconhecimento das pessoas e à crença de que preciso conquistar amor por meio das minhas entregas.\n\nEnsina-me a servir com liberdade, reconhecer meus limites e encontrar segurança na identidade que recebi em Cristo. Que minhas atitudes sejam motivadas pelo amor e não pelo medo de rejeição.\n\nEm nome de Jesus, amém.",
+      "textHash": "9b4429f8e2db34c8205fc192b0b8fd9e9c315da09d001ca37059d1d151d89b5f",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Luana:MAI-Voice-2.1-Flash"
+    },
+    "masculina": {
+      "src": "/audio/oracoes/2026-11-11-064429341d6572ef.mp3",
+      "text": "Pai, hoje coloco diante de Ti minha necessidade de reconhecimento e as expectativas que tenho depositado nas respostas das pessoas.\n\nEspírito Santo, revela se aprendi a buscar amor e aceitação por meio daquilo que faço e cura as experiências que me levaram a acreditar que preciso estar sempre disponível para ser valorizado.\n\nEu renuncio à mentira de que meu valor depende do reconhecimento das pessoas e à crença de que preciso conquistar amor por meio das minhas entregas.\n\nEnsina-me a servir com liberdade, reconhecer meus limites e encontrar segurança na identidade que recebi em Cristo. Que minhas atitudes sejam motivadas pelo amor e não pelo medo de rejeição.\n\nEm nome de Jesus, amém.",
+      "textHash": "9b4429f8e2db34c8205fc192b0b8fd9e9c315da09d001ca37059d1d151d89b5f",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Caio:MAI-Voice-2.1-Flash"
+    }
+  },
+  "2026-11-12": {
+    "feminina": {
+      "src": "/audio/oracoes/2026-11-12-e00fcb21af94f5ea.mp3",
+      "text": "Pai, hoje coloco diante de Ti meus desejos de crescimento, minhas oportunidades e as decisões que preciso tomar.\n\nEspírito Santo, revela se existem experiências da minha história que me fazem acreditar que preciso aproveitar toda possibilidade de ganho para me sentir seguro.\n\nEu renuncio à mentira de que perder uma oportunidade significa perder meu futuro e à crença de que preciso conquistar tudo aquilo que está ao meu alcance para ser uma pessoa próspera.\n\nEnsina-me a reconhecer as oportunidades que estão alinhadas aos Teus princípios e dá-me maturidade para recusar aquilo que pode comprometer meus valores.\n\nQue minhas decisões financeiras sejam conduzidas pela sabedoria, e não pelo medo de perder.\n\nHoje entrego ao Senhor minha necessidade de conquistar sempre mais e escolho confiar que posso prosperar sem negociar aquilo que realmente tem valor.\n\nEm nome de Jesus, amém.",
+      "textHash": "c1f43bf07df049c4f1537fd1e448105e5699c2e8abc8e86525ea2e67bbee5046",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Luana:MAI-Voice-2.1-Flash"
+    },
+    "masculina": {
+      "src": "/audio/oracoes/2026-11-12-b8c36807f3b479ee.mp3",
+      "text": "Pai, hoje coloco diante de Ti meus desejos de crescimento, minhas oportunidades e as decisões que preciso tomar.\n\nEspírito Santo, revela se existem experiências da minha história que me fazem acreditar que preciso aproveitar toda possibilidade de ganho para me sentir seguro.\n\nEu renuncio à mentira de que perder uma oportunidade significa perder meu futuro e à crença de que preciso conquistar tudo aquilo que está ao meu alcance para ser uma pessoa próspera.\n\nEnsina-me a reconhecer as oportunidades que estão alinhadas aos Teus princípios e dá-me maturidade para recusar aquilo que pode comprometer meus valores.\n\nQue minhas decisões financeiras sejam conduzidas pela sabedoria, e não pelo medo de perder.\n\nHoje entrego ao Senhor minha necessidade de conquistar sempre mais e escolho confiar que posso prosperar sem negociar aquilo que realmente tem valor.\n\nEm nome de Jesus, amém.",
+      "textHash": "c1f43bf07df049c4f1537fd1e448105e5699c2e8abc8e86525ea2e67bbee5046",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Caio:MAI-Voice-2.1-Flash"
+    }
   }
 }
