@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Analytics } from '@vercel/analytics/react';
 import InteractionAnalytics from './components/InteractionAnalytics';
 import VideoHighlight from './components/VideoHighlight';
+import { SupportGateProvider } from './components/SupportGate';
 import { Link, Route, Switch, useLocation, useSearch } from 'wouter';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
@@ -106,7 +107,7 @@ const App: React.FC = () => {
       <ThemeProvider defaultTheme="dark">
         <TooltipProvider>
           <Toaster />
-          <Layout />
+          <SupportGateProvider><Layout /></SupportGateProvider>
           <InteractionAnalytics />
           <Analytics mode={import.meta.env.PROD ? 'production' : 'development'} />
         </TooltipProvider>

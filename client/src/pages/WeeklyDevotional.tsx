@@ -5,6 +5,8 @@ import { toast } from 'sonner';
 import { brazilToday, datesForWeek, devotionalWeeks, weekDays } from '../data/weeklyDevotionals';
 import { trpc } from '@/lib/trpc';
 import DevotionalSection, { type DevotionalSectionContent } from '../components/DevotionalSection';
+import GatedVideo from '../components/GatedVideo';
+import { useExternalVideoGate } from '../components/SupportGate';
 import { useDevotionalAnalytics } from '../hooks/useDevotionalAnalytics';
 import { recordEngagement } from '../lib/engagementAnalytics';
 import { devotionalPath, neighborDate, resolveDevotionalDate } from '../lib/devotionalNavigation';
@@ -26,6 +28,7 @@ function dateRange(startsOn: string): string {
 }
 
 const WeeklyDevotional: React.FC = () => {
+  const openExternalVideo = useExternalVideoGate();
   const today = brazilToday();
   const [selectedDate, setSelectedDate] = useState(() => resolveDevotionalDate(window.location.search, today));
   const weekIndex = devotionalWeeks.findIndex(item => datesForWeek(item.startsOn).includes(selectedDate));
@@ -244,15 +247,7 @@ const WeeklyDevotional: React.FC = () => {
               <>
                 <aside className="self-start lg:sticky lg:top-24 overflow-hidden rounded-2xl border border-white/10 bg-[#202020]">
                   {video ? <div className="aspect-video bg-black">
-                    <iframe
-                      className="h-full w-full"
-                      src={`https://www.youtube-nocookie.com/embed/${video.youtubeId}`}
-                      title={videoTitle}
-                      loading="lazy"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerPolicy="strict-origin-when-cross-origin"
-                      allowFullScreen
-                    />
+                    <GatedVideo key={video.youtubeId} videoId={video.youtubeId} title={videoTitle} />
                   </div> : week.upcomingImage ? <img src={week.upcomingImage} alt="Mensagem da Semana 2: O que você ainda não conseguiu entregar?" className="aspect-video w-full object-contain bg-black" /> : <div className="flex aspect-video items-center justify-center bg-black p-6 text-center text-sm text-zinc-400">A mensagem desta semana aparecerá aqui assim que estiver disponível.</div>}
                   <div className="p-6">
                     <p className="text-xs font-bold uppercase tracking-widest text-[#e4d2a6]">Mensagem da semana</p>
@@ -262,6 +257,7 @@ const WeeklyDevotional: React.FC = () => {
                       href={video ? `https://www.youtube.com/watch?v=${video.youtubeId}` : 'https://www.youtube.com/@Lorenaamelo'}
                       target="_blank"
                       rel="noopener noreferrer"
+                      onClick={event => { if (video) { event.preventDefault(); openExternalVideo(`https://www.youtube.com/watch?v=${video.youtubeId}`); } }}
                       className="mt-5 inline-flex items-center gap-2 rounded bg-white px-4 py-2.5 text-sm font-bold text-black transition hover:bg-zinc-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#b79e68]"
                     >
                       <Play className="h-4 w-4 fill-current" /> {video ? 'Ver no YouTube' : 'Abrir canal no YouTube'} <ArrowUpRight className="h-4 w-4" />

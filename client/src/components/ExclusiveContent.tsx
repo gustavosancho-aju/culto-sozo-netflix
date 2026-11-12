@@ -3,8 +3,11 @@ import { Lock, Play, Youtube } from 'lucide-react';
 import { highlightVideo } from '../data/highlightVideo';
 import { recordEngagement } from '../lib/engagementAnalytics';
 import { getThumbnailUrl } from '../constants';
+import SupportCard from './SupportCard';
+import { useExternalVideoGate } from './SupportGate';
 
 const ExclusiveContent: React.FC = () => {
+  const openExternalVideo = useExternalVideoGate();
   const videoId = "7g1mm0sqbHg";
   const youtubeUrl = `https://www.youtube.com/watch?v=${videoId}`;
 
@@ -36,6 +39,7 @@ const ExclusiveContent: React.FC = () => {
           {/* CTA Button */}
           <a 
             href={youtubeUrl} 
+            onClick={event => { event.preventDefault(); openExternalVideo(youtubeUrl); }}
             target="_blank" 
             rel="noopener noreferrer"
             className="flex items-center gap-3 bg-white text-black px-8 py-3 rounded hover:bg-[#E50914] hover:text-white transition-all duration-300 font-bold text-lg transform hover:scale-105 shadow-xl"
@@ -51,7 +55,7 @@ const ExclusiveContent: React.FC = () => {
         href={highlightVideo.url}
         target="_blank"
         rel="noopener noreferrer"
-        onClick={() => recordEngagement('Vídeo em destaque acessado', { video: highlightVideo.id, origem: 'banner' })}
+        onClick={event => { event.preventDefault(); recordEngagement('Vídeo em destaque acessado', { video: highlightVideo.id, origem: 'banner' }); openExternalVideo(highlightVideo.url); }}
         aria-label="Assistir De Bem com a Vida no YouTube (abre em nova aba)"
         className="group mx-auto mt-8 block w-full max-w-4xl overflow-hidden rounded-lg border border-[#b79e68]/30 bg-[#1a1916] shadow-2xl transition hover:border-[#b79e68] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#e4d2a6]"
       >
@@ -63,6 +67,7 @@ const ExclusiveContent: React.FC = () => {
           </span>
         </div>
       </a>
+      <div className="mx-auto mt-8 w-full max-w-4xl"><SupportCard /></div>
     </div>
   );
 };

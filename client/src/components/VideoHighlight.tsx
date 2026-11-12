@@ -3,11 +3,13 @@ import * as Dialog from '@radix-ui/react-dialog';
 import { Play, X } from 'lucide-react';
 import { recordEngagement } from '../lib/engagementAnalytics';
 import { highlightVideo } from '../data/highlightVideo';
+import { useExternalVideoGate } from './SupportGate';
 
 const seenKey = 'sozo-video-destaque-uRkACTK7v4U';
 
 export default function VideoHighlight() {
   const [open, setOpen] = useState(false);
+  const openExternalVideo = useExternalVideoGate();
 
   useEffect(() => {
     try { if (sessionStorage.getItem(seenKey)) return; } catch { /* Disponível também sem armazenamento. */ }
@@ -20,9 +22,11 @@ export default function VideoHighlight() {
     try { sessionStorage.setItem(seenKey, '1'); } catch { /* O visitante ainda pode fechar o aviso. */ }
   }
 
-  function watch() {
+  function watch(event: React.MouseEvent<HTMLAnchorElement>) {
+    event.preventDefault();
     recordEngagement('Vídeo em destaque acessado', { video: highlightVideo.id });
     close();
+    openExternalVideo(highlightVideo.url);
   }
 
   return (

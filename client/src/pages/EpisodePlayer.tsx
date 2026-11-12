@@ -4,6 +4,7 @@ import { ArrowLeft } from 'lucide-react';
 import { dataService } from '../services/dataService';
 import { trpc } from '@/lib/trpc';
 import { parseEpisodeTitle } from '../constants';
+import GatedVideo from '../components/GatedVideo';
 
 const EpisodePlayer: React.FC = () => {
   const [, params] = useRoute('/episodio/:id');
@@ -65,16 +66,7 @@ const EpisodePlayer: React.FC = () => {
 
       {/* YouTube Player */}
       <div className="flex-1 w-full h-full flex items-center justify-center bg-black">
-        <iframe
-          width="100%"
-          height="100%"
-          src={`https://www.youtube.com/embed/${episode.youtubeVideoId}?autoplay=1&rel=0&modestbranding=1`}
-          title={parseEpisodeTitle(episode.titulo)}
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-          className="w-full h-full max-w-[100vw] max-h-[100vh]"
-        ></iframe>
+        <GatedVideo key={episode.youtubeVideoId} videoId={episode.youtubeVideoId} title={parseEpisodeTitle(episode.titulo)} autoRequest fullScreen />
       </div>
     </div>
   );
