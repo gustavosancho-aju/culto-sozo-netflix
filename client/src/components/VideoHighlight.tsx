@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react';
 import * as Dialog from '@radix-ui/react-dialog';
 import { Play, X } from 'lucide-react';
 import { recordEngagement } from '../lib/engagementAnalytics';
+import { highlightVideo } from '../data/highlightVideo';
 
-const videoUrl = 'https://youtu.be/uRkACTK7v4U?is=W9qoc80XvKNjip2g';
 const seenKey = 'sozo-video-destaque-uRkACTK7v4U';
 
 export default function VideoHighlight() {
@@ -21,7 +21,7 @@ export default function VideoHighlight() {
   }
 
   function watch() {
-    recordEngagement('Vídeo em destaque acessado', { video: 'uRkACTK7v4U' });
+    recordEngagement('Vídeo em destaque acessado', { video: highlightVideo.id });
     close();
   }
 
@@ -35,12 +35,12 @@ export default function VideoHighlight() {
           <Dialog.Close asChild>
             <button type="button" aria-label="Fechar destaque" className="absolute right-3 top-3 z-10 grid h-11 w-11 place-items-center rounded-full bg-black/80 text-white hover:bg-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-white"><X className="h-5 w-5" /></button>
           </Dialog.Close>
-          <a href={videoUrl} target="_blank" rel="noopener noreferrer" onClick={watch} aria-label="Assistir ao vídeo em destaque no YouTube (abre em nova aba)" className="block focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:outline-white">
-            <img src="/brand/de-bem-com-a-vida.jpg" alt="De Bem com a Vida, com Juciara Peixoto" width={1170} height={640} className="h-auto w-full" />
+          <a href={highlightVideo.url} target="_blank" rel="noopener noreferrer" onClick={watch} aria-label="Assistir ao vídeo em destaque no YouTube (abre em nova aba)" className="block focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:outline-white">
+            <img src={highlightVideo.image} alt={highlightVideo.imageAlt} width={1170} height={640} className="h-auto w-full" />
           </a>
           <div className="flex flex-col items-start justify-between gap-4 px-5 py-5 sm:flex-row sm:items-center sm:px-7">
             <div><p className="text-xs font-bold uppercase tracking-[0.18em] text-[#d6bd81]">Vídeo em destaque</p><p className="mt-1 text-xl font-bold">De Bem com a Vida</p></div>
-            <a href={videoUrl} target="_blank" rel="noopener noreferrer" onClick={watch} className="inline-flex min-h-11 items-center gap-2 rounded-lg bg-[#d8c18d] px-5 py-2.5 text-sm font-bold text-[#211c12] hover:bg-[#eddbb1] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"><Play className="h-4 w-4 fill-current" aria-hidden="true" /> Assistir no YouTube</a>
+            <a href={highlightVideo.url} target="_blank" rel="noopener noreferrer" onClick={watch} className="inline-flex min-h-11 items-center gap-2 rounded-lg bg-[#d8c18d] px-5 py-2.5 text-sm font-bold text-[#211c12] hover:bg-[#eddbb1] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"><Play className="h-4 w-4 fill-current" aria-hidden="true" /> Assistir no YouTube</a>
           </div>
         </Dialog.Content>
       </Dialog.Portal>

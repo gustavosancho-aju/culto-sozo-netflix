@@ -1,5 +1,7 @@
 import React from 'react';
-import { Lock, Youtube } from 'lucide-react';
+import { Lock, Play, Youtube } from 'lucide-react';
+import { highlightVideo } from '../data/highlightVideo';
+import { recordEngagement } from '../lib/engagementAnalytics';
 import { getThumbnailUrl } from '../constants';
 
 const ExclusiveContent: React.FC = () => {
@@ -44,6 +46,23 @@ const ExclusiveContent: React.FC = () => {
           
         </div>
       </div>
+
+      <a
+        href={highlightVideo.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        onClick={() => recordEngagement('Vídeo em destaque acessado', { video: highlightVideo.id, origem: 'banner' })}
+        aria-label="Assistir De Bem com a Vida no YouTube (abre em nova aba)"
+        className="group mx-auto mt-8 block w-full max-w-4xl overflow-hidden rounded-lg border border-[#b79e68]/30 bg-[#1a1916] shadow-2xl transition hover:border-[#b79e68] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#e4d2a6]"
+      >
+        <img src={highlightVideo.image} alt={highlightVideo.imageAlt} width={1170} height={640} loading="lazy" className="h-auto w-full" />
+        <div className="flex flex-wrap items-center justify-between gap-4 px-5 py-4 sm:px-6">
+          <span className="text-lg font-bold text-white">De Bem com a Vida</span>
+          <span className="inline-flex min-h-11 items-center gap-2 rounded-lg bg-[#d8c18d] px-4 py-2 text-sm font-bold text-[#211c12] transition group-hover:bg-[#eddbb1]">
+            <Play className="h-4 w-4 fill-current" aria-hidden="true" /> Assistir no YouTube
+          </span>
+        </div>
+      </a>
     </div>
   );
 };
