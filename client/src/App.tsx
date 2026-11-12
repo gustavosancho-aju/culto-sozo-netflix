@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Analytics } from '@vercel/analytics/react';
 import InteractionAnalytics from './components/InteractionAnalytics';
+import VideoHighlight from './components/VideoHighlight';
 import { Link, Route, Switch, useLocation, useSearch } from 'wouter';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
@@ -32,6 +33,7 @@ const Layout: React.FC = () => {
       {/* Hide Navbar on Player Page */}
       {!location.startsWith('/episodio/') && <Navbar onSearch={setSearchQuery} />}
       
+      {!location.startsWith('/admin') && !location.startsWith('/episodio/') && <VideoHighlight />}
       <Switch>
         <Route path="/">
           <Home searchQuery={searchQuery} />
