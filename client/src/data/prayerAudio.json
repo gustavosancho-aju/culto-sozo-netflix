@@ -286,5 +286,53 @@
       "model": "microsoft/mai-voice-2.1-flash",
       "voice": "pt-BR-Caio:MAI-Voice-2.1-Flash"
     }
+  },
+  "2026-11-13": {
+    "feminina": {
+      "src": "/audio/oracoes/2026-11-13-a335b005ad65e359.mp3",
+      "text": "Pai, hoje coloco diante de Ti as motivações que existem por trás das minhas entregas. Espírito Santo, revela se tenho utilizado meus recursos para conquistar amor, reconhecimento ou influência.\n\nEu renuncio à mentira de que preciso oferecer benefícios para ser amado e à crença de que toda entrega deve garantir alguma coisa em troca.\n\nCura as experiências que me ensinaram a relacionar generosidade com obrigação. Ensina-me a administrar meus recursos com sabedoria e a contribuir com liberdade, amor e discernimento.\n\nEm nome de Jesus, amém.",
+      "textHash": "fbe5c8d632bcb7aa5522b0c63a8e6153affeac09be26552b0f539676bbe4f76a",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Luana:MAI-Voice-2.1-Flash"
+    },
+    "masculina": {
+      "src": "/audio/oracoes/2026-11-13-3a08dbccaebdb68f.mp3",
+      "text": "Pai, hoje coloco diante de Ti as motivações que existem por trás das minhas entregas. Espírito Santo, revela se tenho utilizado meus recursos para conquistar amor, reconhecimento ou influência.\n\nEu renuncio à mentira de que preciso oferecer benefícios para ser amado e à crença de que toda entrega deve garantir alguma coisa em troca.\n\nCura as experiências que me ensinaram a relacionar generosidade com obrigação. Ensina-me a administrar meus recursos com sabedoria e a contribuir com liberdade, amor e discernimento.\n\nEm nome de Jesus, amém.",
+      "textHash": "fbe5c8d632bcb7aa5522b0c63a8e6153affeac09be26552b0f539676bbe4f76a",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Caio:MAI-Voice-2.1-Flash"
+    }
+  },
+  "2026-11-14": {
+    "feminina": {
+      "src": "/audio/oracoes/2026-11-14-e573d6e3f99de8f9.mp3",
+      "text": "Pai, revela as situações em que tenho confundido generosidade com obrigação. Cura as experiências que me fizeram acreditar que preciso atender a todas as expectativas para ser amado e valorizado.\n\nEu renuncio à mentira de que dizer não significa falta de amor e à crença de que preciso comprometer minhas responsabilidades para provar minha generosidade.\n\nEnsina-me a repartir com alegria, administrar meus recursos com sabedoria e estabelecer limites sem culpa. Que minhas entregas sejam motivadas pelo amor, e não pelo medo.\n\nEm nome de Jesus, amém.",
+      "textHash": "b2084760b901d9109d55c46584bc68c489b9aaf3bcdd8693c36c311045934c23",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Luana:MAI-Voice-2.1-Flash"
+    },
+    "masculina": {
+      "src": "/audio/oracoes/2026-11-14-f856ca2f733b8023.mp3",
+      "text": "Pai, revela as situações em que tenho confundido generosidade com obrigação. Cura as experiências que me fizeram acreditar que preciso atender a todas as expectativas para ser amado e valorizado.\n\nEu renuncio à mentira de que dizer não significa falta de amor e à crença de que preciso comprometer minhas responsabilidades para provar minha generosidade.\n\nEnsina-me a repartir com alegria, administrar meus recursos com sabedoria e estabelecer limites sem culpa. Que minhas entregas sejam motivadas pelo amor, e não pelo medo.\n\nEm nome de Jesus, amém.",
+      "textHash": "b2084760b901d9109d55c46584bc68c489b9aaf3bcdd8693c36c311045934c23",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Caio:MAI-Voice-2.1-Flash"
+    }
+  },
+  "2026-11-15": {
+    "feminina": {
+      "src": "/audio/oracoes/2026-11-15-b937ab5a7fc75890.mp3",
+      "text": "Pai, obrigado por tudo aquilo que tenho recebido e conquistado ao longo da minha caminhada. Ensina-me a reconhecer o valor dos recursos sem permitir que eles ocupem o lugar da minha segurança em Ti.\n\nEspírito Santo, revela as experiências que produziram medo de perder e que ainda dificultam minha liberdade de entregar.\n\nEu renuncio à mentira de que minha segurança depende de preservar tudo o que possuo e à crença de que aquilo que ofereço por amor representa necessariamente uma perda.\n\nForma em mim um coração generoso, maduro e responsável. Que minhas conquistas sejam instrumentos para cumprir meus compromissos, cuidar das pessoas e honrar os princípios do Teu Reino.\n\nEm nome de Jesus, amém.",
+      "textHash": "ce3feb98670b7fab05aedafbf4bf42f5c46c0bd3cff78b92eb2c5a71ba999813",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Luana:MAI-Voice-2.1-Flash"
+    },
+    "masculina": {
+      "src": "/audio/oracoes/2026-11-15-8438c5407f0c81d9.mp3",
+      "text": "Pai, obrigado por tudo aquilo que tenho recebido e conquistado ao longo da minha caminhada. Ensina-me a reconhecer o valor dos recursos sem permitir que eles ocupem o lugar da minha segurança em Ti.\n\nEspírito Santo, revela as experiências que produziram medo de perder e que ainda dificultam minha liberdade de entregar.\n\nEu renuncio à mentira de que minha segurança depende de preservar tudo o que possuo e à crença de que aquilo que ofereço por amor representa necessariamente uma perda.\n\nForma em mim um coração generoso, maduro e responsável. Que minhas conquistas sejam instrumentos para cumprir meus compromissos, cuidar das pessoas e honrar os princípios do Teu Reino.\n\nEm nome de Jesus, amém.",
+      "textHash": "ce3feb98670b7fab05aedafbf4bf42f5c46c0bd3cff78b92eb2c5a71ba999813",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Caio:MAI-Voice-2.1-Flash"
+    }
   }
 }

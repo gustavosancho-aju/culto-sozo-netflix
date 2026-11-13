@@ -3846,6 +3846,252 @@ export const devotionalWeeks: DevotionalWeek[] = [
             ]
           }
         ]
+      },
+      "2026-11-13": {
+        "format": "document",
+        "label": "OS SEGREDOS DE UMA VIDA PRÓSPERA — DEVOCIONAL | SEMANA 2 — DIA 5",
+        "title": "QUANDO NOSSA GENEROSIDADE ESPERA ALGO EM TROCA",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“Mas, quando der um banquete, convide os pobres, os aleijados, os mancos e os cegos. Feliz será você, porque estes não têm como retribuir.” Lucas 14:13–14 (NVI)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Você já fez algo por alguém e depois percebeu que, mesmo sem dizer, esperava receber alguma coisa em troca?",
+              "Às vezes, ajudamos financeiramente, oferecemos presentes ou utilizamos nossos recursos para beneficiar alguém. Entretanto, quando essa pessoa não corresponde às nossas expectativas, sentimos que nossa entrega não foi valorizada. O problema nem sempre está na ausência de gratidão, mas na expectativa silenciosa de que aquilo que oferecemos deveria garantir reconhecimento, consideração ou algum benefício futuro.",
+              "A generosidade começa a perder sua liberdade quando aquilo que entregamos se transforma em uma cobrança."
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Na segunda mensagem da nossa série, aprendemos que o verdadeiro valor de uma entrega não está apenas na quantidade ou no preço daquilo que oferecemos, mas também na motivação do nosso coração. Davi reconheceu o sacrifício envolvido na água trazida pelos três valentes e decidiu derramá-la como oferta ao Senhor. Sua atitude nos ensinou que uma entrega pode expressar reverência e amor, sem estar condicionada à satisfação de um interesse pessoal.",
+              "Em Lucas 14:12–14, Jesus apresenta uma verdade que amplia esse princípio. Ao ensinar sobre a hospitalidade, Ele orienta seus ouvintes a convidarem pessoas que não possuem condições de retribuir o convite. Jesus não estava condenando a reciprocidade entre familiares e amigos, mas confrontando uma generosidade fundamentada na expectativa de receber vantagens. Seu ensino revela que podemos realizar boas ações e, ainda assim, permitir que interesses pessoais determinem nossas motivações.",
+              "O valor espiritual de uma entrega não está apenas no benefício que ela produz, mas também na liberdade com que é realizada.",
+              "Imagine alguém que costuma ajudar financeiramente um familiar. Durante algum tempo, essa contribuição acontece espontaneamente. Entretanto, quando o familiar toma uma decisão diferente daquela que a pessoa esperava, ela começa a mencionar tudo o que já ofereceu, como se sua ajuda lhe concedesse autoridade sobre as escolhas do outro. Aquilo que inicialmente representava cuidado passa a funcionar como um instrumento de cobrança.",
+              "Essa dinâmica pode revelar uma questão emocional importante. Algumas pessoas cresceram em ambientes nos quais toda ajuda vinha acompanhada de exigências. Recebiam presentes, oportunidades ou cuidados, mas, quando contrariavam alguma expectativa, eram lembradas de tudo aquilo que haviam recebido. Com o passar dos anos, podem desenvolver a crença de que nenhuma entrega é verdadeiramente gratuita e de que todo benefício cria uma dívida emocional.",
+              "Outras pessoas aprenderam a oferecer para preservar relacionamentos. Talvez tenham experimentado rejeição e desenvolvido a necessidade de se tornar indispensáveis. Na vida adulta, passam a oferecer presentes, assumir despesas ou resolver problemas porque acreditam que, enquanto forem úteis, continuarão sendo amadas e valorizadas.",
+              "Quando utilizamos nossos recursos para garantir amor ou influência, a generosidade pode se transformar em uma tentativa de controlar aquilo que temos medo de perder.",
+              "É por isso que a cura da alma precisa alcançar também nossas motivações financeiras. Uma pessoa pode ser generosa e, ainda assim, permanecer emocionalmente dependente da resposta que recebe. A questão não está necessariamente na quantidade que entrega, mas na crença de que aquilo que oferece precisa garantir segurança, reconhecimento ou aceitação.",
+              "Essa verdade também se aplica à nossa relação com Deus. Podemos desenvolver uma maneira de contribuir financeiramente baseada na expectativa de receber uma recompensa material específica, como se nossas entregas obrigassem o Senhor a realizar nossos desejos. Entretanto, em 2 Coríntios 9:7, Paulo ensina que cada pessoa deve contribuir conforme decidiu em seu coração, sem tristeza ou obrigação, porque Deus ama quem dá com alegria. A generosidade bíblica não deve ser transformada em uma negociação destinada a controlar os resultados.",
+              "Isso não significa que precisamos ajudar indiscriminadamente ou assumir responsabilidades que não nos pertencem. A generosidade madura também exige discernimento, limites e boa administração dos recursos. Podemos contribuir livremente e, ao mesmo tempo, reconhecer quando determinada ajuda precisa ser reorganizada para não produzir dependência ou comprometer nossas responsabilidades.",
+              "Na segunda mensagem, aprendemos que Davi não tratou aquela água apenas como algo que poderia consumir. Ele reconheceu seu significado e decidiu honrar a Deus com sua entrega. Da mesma maneira, Jesus nos ensina que a generosidade não precisa estar limitada àquilo que podemos receber em retorno.",
+              "Talvez hoje o Espírito Santo queira revelar que você tem oferecido muito às pessoas, mas continua frustrado porque espera que suas contribuições garantam consideração, lealdade ou reconhecimento. Pode ser que a verdadeira entrega que Deus esteja tratando em seu coração não seja um recurso financeiro, mas a necessidade de controlar o que receberá depois de oferecer alguma coisa.",
+              "A prosperidade do Reino também envolve essa liberdade interior. Podemos administrar nossos recursos, contribuir com responsabilidade e beneficiar outras pessoas sem transformar nossas entregas em instrumentos de cobrança.",
+              "Porque uma vida verdadeiramente próspera não é apenas aquela que possui condições de oferecer, mas aquela que desenvolveu maturidade para entregar sem transformar cada gesto em uma negociação."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Quando ajudo alguém, consigo fazê-lo livremente ou espero receber reconhecimento, consideração ou algum benefício em troca?",
+              "Já utilizei aquilo que ofereci como argumento para exigir que alguém correspondesse às minhas expectativas?",
+              "Em algum momento da minha história aprendi que precisava oferecer benefícios para conquistar amor, preservar relacionamentos ou garantir meu valor?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "EXERCÍCIO SOZO — ENTREGANDO A EXPECTATIVA DE RETRIBUIÇÃO",
+              "1. IDENTIFIQUE: Lembre-se de uma situação em que você ofereceu algo e ficou frustrado por não receber o retorno esperado.",
+              "2. INVESTIGUE: Pergunte ao Espírito Santo: “Senhor, tenho utilizado minhas entregas para buscar amor, segurança ou controle sobre as pessoas?”",
+              "3. SUBSTITUA: Declare: “Meu valor não depende daquilo que ofereço. Posso contribuir com liberdade, sem transformar minha generosidade em uma cobrança.”",
+              "4. PRATIQUE: Realize uma atitude generosa dentro das suas possibilidades, sem criar expectativas de retribuição."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Pai, hoje coloco diante de Ti as motivações que existem por trás das minhas entregas. Espírito Santo, revela se tenho utilizado meus recursos para conquistar amor, reconhecimento ou influência.",
+              "Eu renuncio à mentira de que preciso oferecer benefícios para ser amado e à crença de que toda entrega deve garantir alguma coisa em troca.",
+              "Cura as experiências que me ensinaram a relacionar generosidade com obrigação. Ensina-me a administrar meus recursos com sabedoria e a contribuir com liberdade, amor e discernimento.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "A VERDADEIRA GENEROSIDADE NÃO TRANSFORMA CADA ENTREGA EM UMA NEGOCIAÇÃO. QUANDO O CORAÇÃO É LIVRE, PODEMOS OFERECER SEM UTILIZAR AQUILO QUE POSSUÍMOS PARA COMPRAR AMOR, RECONHECIMENTO OU ACEITAÇÃO."
+            ]
+          }
+        ]
+      },
+      "2026-11-14": {
+        "format": "document",
+        "label": "OS SEGREDOS DE UMA VIDA PRÓSPERA — DEVOCIONAL | SEMANA 2 — DIA 6",
+        "title": "QUANDO A CULPA TOMA O LUGAR DA GENEROSIDADE",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“Cada um dê conforme determinou em seu coração, não com pesar ou por obrigação, pois Deus ama quem dá com alegria.” (2 Coríntios 9:7)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Você já entregou alguma coisa não porque realmente desejava, mas porque sentiu que não poderia dizer não?",
+              "Talvez alguém tenha apresentado uma necessidade, solicitado uma contribuição ou esperado que você assumisse determinada despesa. Mesmo percebendo que aquela entrega comprometeria outras responsabilidades, você concordou porque sentiu culpa ao imaginar a possibilidade de recusar. Depois, experimentou preocupação, frustração ou ressentimento.",
+              "A generosidade é uma expressão importante de amor, mas precisamos compreender que nem toda entrega nasce de um coração livre. Às vezes, aquilo que parece disposição para ajudar está sendo sustentado pelo medo de decepcionar, pela necessidade de aprovação ou pela crença de que estabelecer limites significa ser egoísta."
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Na segunda mensagem da nossa série, aprendemos que Deus não avalia nossas entregas apenas pela quantidade ou pelo preço daquilo que oferecemos, mas também pelo significado e pela motivação que existem por trás delas. Ao observarmos a viúva de Marcos 12:41–44, compreendemos que Jesus enxergou algo que as pessoas não conseguiam perceber apenas olhando para as moedas. Entretanto, esse ensino não deve ser utilizado para transformar a contribuição financeira em uma obrigação ou para pressionar alguém a entregar além de suas condições.",
+              "Em 2 Coríntios 9:7, Paulo apresenta um princípio fundamental para nossa relação com a generosidade: cada pessoa deve contribuir conforme decidiu em seu coração, sem pesar ou obrigação. O apóstolo estava orientando os cristãos sobre uma contribuição destinada a atender necessidades de outros irmãos. Seu ensino demonstra que a entrega deve envolver consciência, disposição e liberdade, e não apenas uma resposta à pressão externa.",
+              "Uma entrega pode beneficiar alguém e, ainda assim, revelar que nosso coração está sendo governado pelo medo de desagradar.",
+              "Imagine uma pessoa que administra cuidadosamente suas finanças, mas possui grande dificuldade para recusar pedidos de empréstimo. Sempre que um conhecido apresenta uma necessidade, ela se sente responsável por resolver o problema, mesmo quando isso significa utilizar recursos destinados às próprias despesas. Depois, precisa reorganizar suas contas e enfrenta dificuldades que poderiam ter sido evitadas.",
+              "Essa pessoa talvez não esteja agindo apenas por generosidade. Pode existir uma crença de que dizer não significa abandonar alguém ou demonstrar falta de amor. Quando essa ideia governa suas decisões, ela deixa de avaliar suas possibilidades reais e passa a contribuir para aliviar a culpa que sente diante da necessidade do outro.",
+              "Essa dificuldade pode ter raízes emocionais. Algumas pessoas cresceram em ambientes nos quais eram responsabilizadas pelo bem-estar de todos. Aprenderam que deveriam abrir mão de suas necessidades para evitar conflitos ou impedir que alguém ficasse decepcionado. Na vida adulta, podem continuar acreditando que são responsáveis por atender a qualquer solicitação, mesmo quando não possuem condições.",
+              "Quando confundimos amor com a obrigação de resolver todos os problemas, podemos comprometer nossa própria responsabilidade financeira na tentativa de não decepcionar ninguém.",
+              "É importante compreender que estabelecer limites não significa desenvolver um coração indiferente. A Bíblia nos ensina a repartir, cuidar dos necessitados e agir com compaixão. Entretanto, também nos orienta a administrar com responsabilidade aquilo que recebemos. Em Provérbios 21:5, aprendemos que os planos bem elaborados conduzem à fartura, enquanto a pressa leva à pobreza. Esse princípio nos lembra que nossas decisões financeiras precisam considerar planejamento e consequências.",
+              "A maturidade está em reconhecer que podemos desejar ajudar e, ainda assim, não possuir condições de atender a determinada necessidade. Em algumas situações, será possível contribuir com uma quantia menor, oferecer outro tipo de apoio ou orientar a pessoa a buscar alternativas. Em outras, precisaremos reconhecer que assumir aquela responsabilidade comprometeria compromissos que já nos pertencem.",
+              "Essa verdade também precisa alcançar nossa relação com Deus. Quando contribuímos financeiramente apenas porque sentimos medo de desagradar ao Senhor ou acreditamos que precisamos provar nossa fidelidade por meio de valores que não podemos sustentar, corremos o risco de transformar a entrega em uma tentativa de aliviar a culpa.",
+              "Paulo nos apresenta outro caminho. A generosidade deve nascer de uma decisão consciente, motivada pelo amor e acompanhada de alegria. Isso não significa que toda entrega será emocionalmente fácil ou que nunca envolverá sacrifício. Significa que o sacrifício não deve ser confundido com imposição, manipulação ou ausência de discernimento.",
+              "Na segunda mensagem, Davi reconheceu o valor da água trazida pelos três valentes e decidiu oferecê-la ao Senhor. Sua atitude foi uma resposta consciente ao significado daquela entrega. Da mesma maneira, precisamos aprender que a maturidade espiritual não está apenas em nossa disposição para oferecer, mas também na liberdade com que tomamos essa decisão.",
+              "Talvez hoje o Espírito Santo queira revelar que você tem assumido responsabilidades financeiras por medo de parecer egoísta ou de perder a consideração das pessoas. Pode ser que sua dificuldade não esteja em entregar dinheiro, mas em entregar a crença de que precisa atender a todas as expectativas para ser considerado uma pessoa generosa e fiel.",
+              "Uma vida verdadeiramente próspera envolve aprender a repartir sem abandonar a responsabilidade, ajudar sem ser governado pela culpa e estabelecer limites sem perder a compaixão.",
+              "Porque a generosidade que agrada a Deus não precisa ser sustentada pelo medo de dizer não, mas por um coração livre para decidir com amor e sabedoria."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Já comprometi minhas responsabilidades financeiras porque senti culpa ao recusar um pedido de ajuda?",
+              "Quando alguém precisa de alguma coisa, consigo avaliar minhas possibilidades ou sinto que sou obrigado a resolver a situação?",
+              "Em algum momento da minha história aprendi que dizer não significava ser egoísta, ingrato ou indigno de amor?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "EXERCÍCIO SOZO — ENTREGANDO A CULPA",
+              "1. IDENTIFIQUE: Reconheça uma situação em que você contribuiu por obrigação ou medo de desagradar.",
+              "2. INVESTIGUE: Pergunte ao Espírito Santo: “Senhor, por que sinto culpa quando não consigo atender às expectativas das pessoas?”",
+              "3. SUBSTITUA: Declare: “Posso ser generoso sem assumir responsabilidades que não me pertencem. Meu valor não depende de atender a todos os pedidos.”",
+              "4. PRATIQUE: Antes de aceitar uma solicitação financeira, avalie suas condições e responda com liberdade e responsabilidade."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Pai, revela as situações em que tenho confundido generosidade com obrigação. Cura as experiências que me fizeram acreditar que preciso atender a todas as expectativas para ser amado e valorizado.",
+              "Eu renuncio à mentira de que dizer não significa falta de amor e à crença de que preciso comprometer minhas responsabilidades para provar minha generosidade.",
+              "Ensina-me a repartir com alegria, administrar meus recursos com sabedoria e estabelecer limites sem culpa. Que minhas entregas sejam motivadas pelo amor, e não pelo medo.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "A VERDADEIRA GENEROSIDADE NÃO É MEDIDA PELA INCAPACIDADE DE DIZER NÃO, MAS PELA LIBERDADE DE ENTREGAR COM AMOR, SABEDORIA E RESPONSABILIDADE."
+            ]
+          }
+        ]
+      },
+      "2026-11-15": {
+        "format": "document",
+        "label": "OS SEGREDOS DE UMA VIDA PRÓSPERA — DEVOCIONAL | SEMANA 2 — DIA 7",
+        "title": "QUANDO O AMOR SE TORNA MAIOR QUE O VALOR DA ENTREGA",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“Então Maria pegou um frasco de nardo puro, que era um perfume caro, derramou-o sobre os pés de Jesus e os enxugou com os seus cabelos. E a casa encheu-se com a fragrância do perfume.” (João 12:3)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "O que determina o valor daquilo que você entrega: o preço que pagou ou o amor que motivou sua decisão?",
+              "Existem coisas que possuem um valor financeiro importante, mas também carregam histórias, expectativas e significados pessoais. Quando precisamos decidir o que fazer com elas, nem sempre é fácil separar aquilo que desejamos preservar daquilo que consideramos mais importante.",
+              "Na segunda mensagem da nossa série, aprendemos que a verdadeira prosperidade exige maturidade para reconhecer o valor das nossas conquistas sem permitir que elas governem o coração. Hoje, vamos compreender que uma entrega pode revelar não apenas aquilo que estamos dispostos a oferecer, mas também o lugar que Deus ocupa em nossas prioridades."
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Em João 12:1–8, encontramos uma cena marcante. Jesus estava em Betânia, na casa onde havia sido preparado um jantar em sua homenagem. Durante aquele encontro, Maria tomou um perfume de nardo puro, de grande valor, derramou-o sobre os pés de Jesus e os enxugou com seus cabelos. O texto afirma que a casa ficou cheia da fragrância do perfume.",
+              "A atitude de Maria chamou a atenção de Judas Iscariotes, que questionou por que aquele perfume não havia sido vendido para que o dinheiro fosse dado aos pobres. Segundo João 12:5, seu valor correspondia a trezentos denários, uma quantia muito significativa naquela época. Entretanto, o próprio evangelho revela que Judas não estava motivado pelo cuidado com os necessitados, mas por interesses pessoais relacionados ao dinheiro.",
+              "Essa passagem apresenta uma verdade importante: nem sempre aquilo que parece uma preocupação legítima com os recursos revela uma motivação correta. Judas questionou o valor financeiro da entrega, enquanto Maria demonstrou sua devoção a Jesus por meio de uma atitude que possuía um significado muito maior para ela.",
+              "É importante observar que Jesus não estava ensinando que devemos desprezar o dinheiro ou agir sem responsabilidade financeira. Ele reconheceu o significado daquele gesto dentro de uma circunstância específica, relacionada à proximidade de sua morte e sepultamento. A atitude de Maria não deve ser transformada em uma exigência de ofertas caras ou sacrifícios financeiros, mas compreendida como uma expressão singular de amor e honra a Cristo.",
+              "Na segunda mensagem da nossa série, encontramos algo semelhante na história de Davi. A água trazida pelos três valentes possuía um valor muito maior do que seu preço, pois representava o risco que aqueles homens haviam enfrentado. Davi reconheceu esse significado e decidiu derramá-la como oferta ao Senhor. Maria, por sua vez, utilizou algo precioso para expressar sua devoção a Jesus.",
+              "Nos dois episódios, aprendemos que o valor de uma entrega não pode ser compreendido apenas por aquilo que ela representa financeiramente. Entretanto, também precisamos reconhecer que o amor verdadeiro não é demonstrado simplesmente pela quantidade que conseguimos oferecer, mas pela motivação que governa nossas decisões.",
+              "Essa verdade nos convida a examinar a maneira como utilizamos nossos recursos. Imagine alguém que alcançou estabilidade financeira depois de muitos anos de trabalho. Durante esse período, desenvolveu o hábito de avaliar todas as decisões exclusivamente pelo benefício econômico que poderiam proporcionar. Mesmo quando possui condições de contribuir com uma necessidade legítima, encontra dificuldade para fazê-lo porque considera qualquer recurso que não produza retorno financeiro uma perda.",
+              "Nesse caso, o problema não está no planejamento ou no cuidado com o patrimônio. A administração responsável é importante. Entretanto, quando toda decisão passa a ser determinada exclusivamente pela possibilidade de ganho, podemos perder a capacidade de reconhecer valores que não podem ser medidos pelo dinheiro.",
+              "Uma vida próspera não é aquela que transforma tudo em vantagem financeira, mas aquela que reconhece que existem valores superiores ao lucro.",
+              "Essa dificuldade pode possuir raízes emocionais. Algumas pessoas cresceram enfrentando privações e aprenderam que gastar ou repartir recursos representa uma ameaça à segurança. Mesmo depois de alcançarem uma condição mais estável, continuam experimentando ansiedade sempre que precisam utilizar dinheiro para algo que não consideram absolutamente necessário.",
+              "Outras desenvolveram uma relação com suas conquistas na qual o patrimônio representa a prova de que venceram as dificuldades do passado. Por isso, qualquer possibilidade de abrir mão de uma parte daquilo que possuem pode despertar a sensação de que estão perdendo o resultado de muitos anos de esforço.",
+              "É importante reconhecer que preservar recursos, construir reservas e planejar o futuro são atitudes legítimas. A questão começa quando a necessidade de proteger o patrimônio se torna tão intensa que já não conseguimos avaliar nossas decisões à luz do amor, da compaixão e dos princípios de Deus.",
+              "Em 1 Timóteo 6:17–18, Paulo orienta aqueles que possuem recursos a não depositarem sua esperança na incerteza da riqueza, mas em Deus, e a serem ricos em boas obras, generosos e prontos a repartir. Observe que o apóstolo não condena a posse de bens. Ele ensina que a segurança não deve estar fundamentada exclusivamente neles e que a prosperidade também precisa produzir disposição para fazer o bem.",
+              "Essa é uma verdade essencial para encerrarmos nossa segunda semana. O dinheiro possui utilidade, as conquistas devem ser administradas com responsabilidade e o trabalho merece ser valorizado. Entretanto, nenhuma dessas coisas deve ocupar um lugar tão importante que nos impeça de reconhecer as necessidades das pessoas ou de agir conforme aquilo que acreditamos.",
+              "Talvez hoje o Espírito Santo queira mostrar que você tem dificuldade para entregar porque aprendeu a associar segurança à capacidade de preservar tudo o que conquistou. Pode ser que o medo de perder esteja impedindo você de experimentar a liberdade de utilizar seus recursos de maneira equilibrada, tanto para suas responsabilidades quanto para beneficiar outras pessoas.",
+              "Por isso, precisamos retornar à pergunta que orientou toda a segunda mensagem: o que você ainda não conseguiu entregar? Talvez seja a necessidade de controlar cada recurso, o medo de diminuir aquilo que possui ou a crença de que qualquer contribuição que não produza retorno representa desperdício.",
+              "Maria nos ensina que existem momentos em que o amor nos leva a reconhecer valores que ultrapassam o dinheiro. Davi nos ensina que a maturidade exige discernir o significado daquilo que recebemos. E Paulo nos lembra que os recursos devem ser administrados sem se tornarem o fundamento da nossa segurança.",
+              "A verdadeira prosperidade se manifesta quando aquilo que possuímos deixa de governar nosso coração e passa a servir aos valores que Deus nos ensinou a preservar."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Tenho avaliado minhas decisões financeiras apenas pelo retorno que posso receber ou também considero os valores que desejo preservar?",
+              "Quando surge uma oportunidade legítima de contribuir, consigo avaliar com liberdade ou sinto que qualquer recurso entregue representa uma ameaça à minha segurança?",
+              "Existe alguma experiência da minha história que me levou a acreditar que preservar tudo o que conquistei é a única maneira de garantir meu futuro?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "EXERCÍCIO SOZO — ENTREGANDO O MEDO DE PERDER",
+              "1. IDENTIFIQUE: Reconheça uma situação em que o medo de diminuir seus recursos dificultou uma atitude de generosidade.",
+              "2. INVESTIGUE: Pergunte ao Espírito Santo: “Senhor, o que acredito que acontecerá comigo se abrir mão de algo que considero precioso?”",
+              "3. SUBSTITUA: Declare: “Posso administrar meus recursos com responsabilidade sem permitir que o medo de perder governe meu coração. Minha segurança está em Deus, não apenas naquilo que possuo.”",
+              "4. PRATIQUE: Escolha uma atitude concreta que expresse amor e generosidade, respeitando suas possibilidades e responsabilidades."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Pai, obrigado por tudo aquilo que tenho recebido e conquistado ao longo da minha caminhada. Ensina-me a reconhecer o valor dos recursos sem permitir que eles ocupem o lugar da minha segurança em Ti.",
+              "Espírito Santo, revela as experiências que produziram medo de perder e que ainda dificultam minha liberdade de entregar.",
+              "Eu renuncio à mentira de que minha segurança depende de preservar tudo o que possuo e à crença de que aquilo que ofereço por amor representa necessariamente uma perda.",
+              "Forma em mim um coração generoso, maduro e responsável. Que minhas conquistas sejam instrumentos para cumprir meus compromissos, cuidar das pessoas e honrar os princípios do Teu Reino.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "A VERDADEIRA PROSPERIDADE NÃO ESTÁ APENAS NO VALOR DAQUILO QUE CONSEGUIMOS CONQUISTAR, MAS NA LIBERDADE DE UTILIZAR NOSSOS RECURSOS SEM PERMITIR QUE ELES GOVERNEM NOSSO CORAÇÃO."
+            ]
+          }
+        ]
       }
     }
   },
