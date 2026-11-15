@@ -334,5 +334,117 @@
       "model": "microsoft/mai-voice-2.1-flash",
       "voice": "pt-BR-Caio:MAI-Voice-2.1-Flash"
     }
+  },
+  "2026-11-16": {
+    "feminina": {
+      "src": "/audio/oracoes/2026-11-16-4ce680feacd82750.mp3",
+      "text": "Pai, obrigado por tudo aquilo que já confiaste às minhas mãos. Perdoa-me pelas vezes em que desvalorizei meus recursos porque estava concentrado naquilo que ainda desejava conquistar.\n\nEspírito Santo, revela as crenças que me fazem acreditar que minhas pequenas responsabilidades não possuem importância.\n\nEu renuncio à mentira de que somente poderei ser responsável quando tiver mais recursos e à crença de que aquilo que possuo hoje não tem valor.\n\nEnsina-me a administrar com sabedoria, gratidão e fidelidade aquilo que já recebi. Que minhas decisões sejam conduzidas pela responsabilidade, e não pela comparação ou pelo desânimo.\n\nEm nome de Jesus, amém.",
+      "textHash": "5c1a9be70ffbba70c8d997f3e38ba425a618be363510c985641b3816a4ebdab8",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Luana:MAI-Voice-2.1-Flash"
+    },
+    "masculina": {
+      "src": "/audio/oracoes/2026-11-16-734e16a17026be0d.mp3",
+      "text": "Pai, obrigado por tudo aquilo que já confiaste às minhas mãos. Perdoa-me pelas vezes em que desvalorizei meus recursos porque estava concentrado naquilo que ainda desejava conquistar.\n\nEspírito Santo, revela as crenças que me fazem acreditar que minhas pequenas responsabilidades não possuem importância.\n\nEu renuncio à mentira de que somente poderei ser responsável quando tiver mais recursos e à crença de que aquilo que possuo hoje não tem valor.\n\nEnsina-me a administrar com sabedoria, gratidão e fidelidade aquilo que já recebi. Que minhas decisões sejam conduzidas pela responsabilidade, e não pela comparação ou pelo desânimo.\n\nEm nome de Jesus, amém.",
+      "textHash": "5c1a9be70ffbba70c8d997f3e38ba425a618be363510c985641b3816a4ebdab8",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Caio:MAI-Voice-2.1-Flash"
+    }
+  },
+  "2026-11-17": {
+    "feminina": {
+      "src": "/audio/oracoes/2026-11-17-0d4709df8da687f3.mp3",
+      "text": "Pai, hoje reconheço que o medo de errar tem influenciado algumas das minhas decisões. Espírito Santo, revela as experiências que me ensinaram a associar meus erros à vergonha e à incapacidade.\n\nEu renuncio à mentira de que preciso acertar sempre para ter valor e à crença de que evitar decisões é a única maneira de me proteger do fracasso.\n\nCura minha insegurança e ensina-me a agir com sabedoria, coragem e responsabilidade. Que eu não enterre aquilo que recebi por medo de não conseguir administrar.\n\nEm nome de Jesus, amém.",
+      "textHash": "d0b199da7d1efb14ffc417352afcec7a1c24db2c1e95ec28ae51e4ba2ff11460",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Luana:MAI-Voice-2.1-Flash"
+    },
+    "masculina": {
+      "src": "/audio/oracoes/2026-11-17-6188b5e4bf4c6881.mp3",
+      "text": "Pai, hoje reconheço que o medo de errar tem influenciado algumas das minhas decisões. Espírito Santo, revela as experiências que me ensinaram a associar meus erros à vergonha e à incapacidade.\n\nEu renuncio à mentira de que preciso acertar sempre para ter valor e à crença de que evitar decisões é a única maneira de me proteger do fracasso.\n\nCura minha insegurança e ensina-me a agir com sabedoria, coragem e responsabilidade. Que eu não enterre aquilo que recebi por medo de não conseguir administrar.\n\nEm nome de Jesus, amém.",
+      "textHash": "d0b199da7d1efb14ffc417352afcec7a1c24db2c1e95ec28ae51e4ba2ff11460",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Caio:MAI-Voice-2.1-Flash"
+    }
+  },
+  "2026-11-18": {
+    "feminina": {
+      "src": "/audio/oracoes/2026-11-18-5f8b73ce716d4730.mp3",
+      "text": "Pai, hoje reconheço que algumas responsabilidades têm permanecido adiadas porque continuo esperando condições perfeitas.\n\nEspírito Santo, revela as experiências que produziram insegurança diante das decisões e cura as crenças que me fazem acreditar que preciso controlar todos os resultados antes de agir.\n\nEu renuncio à mentira de que somente posso começar quando tudo estiver resolvido e à passividade que tenho confundido com prudência.\n\nEnsina-me a planejar com sabedoria, reconhecer minhas possibilidades e assumir com fidelidade aquilo que está sob meus cuidados.\n\nEm nome de Jesus, amém.",
+      "textHash": "9b60a1c0b2bb52bda60a569e84ecb2c3f822166c3bf0602efb60e4e49487c435",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Luana:MAI-Voice-2.1-Flash"
+    },
+    "masculina": {
+      "src": "/audio/oracoes/2026-11-18-06125ad6ac6c1af0.mp3",
+      "text": "Pai, hoje reconheço que algumas responsabilidades têm permanecido adiadas porque continuo esperando condições perfeitas.\n\nEspírito Santo, revela as experiências que produziram insegurança diante das decisões e cura as crenças que me fazem acreditar que preciso controlar todos os resultados antes de agir.\n\nEu renuncio à mentira de que somente posso começar quando tudo estiver resolvido e à passividade que tenho confundido com prudência.\n\nEnsina-me a planejar com sabedoria, reconhecer minhas possibilidades e assumir com fidelidade aquilo que está sob meus cuidados.\n\nEm nome de Jesus, amém.",
+      "textHash": "9b60a1c0b2bb52bda60a569e84ecb2c3f822166c3bf0602efb60e4e49487c435",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Caio:MAI-Voice-2.1-Flash"
+    }
+  },
+  "2026-11-19": {
+    "feminina": {
+      "src": "/audio/oracoes/2026-11-19-6e370abaef967747.mp3",
+      "text": "Pai, hoje reconheço que, em algumas situações, tenho permitido que a demora dos resultados produza desânimo e desistência.\n\nEspírito Santo, cura as experiências que me fizeram acreditar que meus esforços só possuem valor quando produzem grandes conquistas.\n\nEu renuncio à mentira de que pequenos avanços não têm importância e à crença de que a demora significa fracasso.\n\nEnsina-me a desenvolver constância, administrar meus recursos com responsabilidade e permanecer fiel mesmo quando os resultados acontecem gradualmente.\n\nEm nome de Jesus, amém.",
+      "textHash": "30bb5126b21fd8af3737717b3144974d3b038bc59a8f931e440bda3fd1c694a2",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Luana:MAI-Voice-2.1-Flash"
+    },
+    "masculina": {
+      "src": "/audio/oracoes/2026-11-19-32fe8ab309e12513.mp3",
+      "text": "Pai, hoje reconheço que, em algumas situações, tenho permitido que a demora dos resultados produza desânimo e desistência.\n\nEspírito Santo, cura as experiências que me fizeram acreditar que meus esforços só possuem valor quando produzem grandes conquistas.\n\nEu renuncio à mentira de que pequenos avanços não têm importância e à crença de que a demora significa fracasso.\n\nEnsina-me a desenvolver constância, administrar meus recursos com responsabilidade e permanecer fiel mesmo quando os resultados acontecem gradualmente.\n\nEm nome de Jesus, amém.",
+      "textHash": "30bb5126b21fd8af3737717b3144974d3b038bc59a8f931e440bda3fd1c694a2",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Caio:MAI-Voice-2.1-Flash"
+    }
+  },
+  "2026-11-20": {
+    "feminina": {
+      "src": "/audio/oracoes/2026-11-20-5321c5457c6142af.mp3",
+      "text": "Pai, obrigado por tudo aquilo que confiaste às minhas mãos. Ensina-me a reconhecer que a fidelidade também se manifesta na maneira como trato aquilo que pertence a outras pessoas.\n\nEspírito Santo, revela as crenças que me levam a justificar pequenas atitudes contrárias à integridade.\n\nEu renuncio à mentira de que aquilo que ninguém percebe não possui importância e à crença de que posso compensar minhas dificuldades agindo sem responsabilidade.\n\nForma em mim um caráter fiel, honesto e comprometido com a verdade. Que minhas decisões revelem os princípios do Teu Reino, mesmo quando ninguém estiver observando.\n\nEm nome de Jesus, amém.",
+      "textHash": "73bd524dd77991f9bc532aeafafaca61c77840ad8ee66286f6a40c199dac3346",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Luana:MAI-Voice-2.1-Flash"
+    },
+    "masculina": {
+      "src": "/audio/oracoes/2026-11-20-1a123586689f1858.mp3",
+      "text": "Pai, obrigado por tudo aquilo que confiaste às minhas mãos. Ensina-me a reconhecer que a fidelidade também se manifesta na maneira como trato aquilo que pertence a outras pessoas.\n\nEspírito Santo, revela as crenças que me levam a justificar pequenas atitudes contrárias à integridade.\n\nEu renuncio à mentira de que aquilo que ninguém percebe não possui importância e à crença de que posso compensar minhas dificuldades agindo sem responsabilidade.\n\nForma em mim um caráter fiel, honesto e comprometido com a verdade. Que minhas decisões revelem os princípios do Teu Reino, mesmo quando ninguém estiver observando.\n\nEm nome de Jesus, amém.",
+      "textHash": "73bd524dd77991f9bc532aeafafaca61c77840ad8ee66286f6a40c199dac3346",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Caio:MAI-Voice-2.1-Flash"
+    }
+  },
+  "2026-11-21": {
+    "feminina": {
+      "src": "/audio/oracoes/2026-11-21-c4139d94c06ae13a.mp3",
+      "text": "Pai, obrigado pelos recursos que confiaste às minhas mãos. Ensina-me a administrá-los com sabedoria e domínio próprio.\n\nEspírito Santo, revela as necessidades emocionais que tenho tentado atender por meio de decisões financeiras impulsivas.\n\nEu renuncio à mentira de que preciso comprar ou consumir alguma coisa para aliviar minhas emoções e à crença de que não consigo controlar meus impulsos.\n\nCura as áreas da minha alma que ainda precisam de restauração e ajuda-me a desenvolver escolhas conscientes, equilibradas e responsáveis.\n\nEm nome de Jesus, amém",
+      "textHash": "38218142c3cd650766c447789b9611cf8683c3169243e1cee768fa5248aaca99",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Luana:MAI-Voice-2.1-Flash"
+    },
+    "masculina": {
+      "src": "/audio/oracoes/2026-11-21-489588d9979eeda9.mp3",
+      "text": "Pai, obrigado pelos recursos que confiaste às minhas mãos. Ensina-me a administrá-los com sabedoria e domínio próprio.\n\nEspírito Santo, revela as necessidades emocionais que tenho tentado atender por meio de decisões financeiras impulsivas.\n\nEu renuncio à mentira de que preciso comprar ou consumir alguma coisa para aliviar minhas emoções e à crença de que não consigo controlar meus impulsos.\n\nCura as áreas da minha alma que ainda precisam de restauração e ajuda-me a desenvolver escolhas conscientes, equilibradas e responsáveis.\n\nEm nome de Jesus, amém",
+      "textHash": "38218142c3cd650766c447789b9611cf8683c3169243e1cee768fa5248aaca99",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Caio:MAI-Voice-2.1-Flash"
+    }
+  },
+  "2026-11-22": {
+    "feminina": {
+      "src": "/audio/oracoes/2026-11-22-1ea4871df37aa592.mp3",
+      "text": "Pai, obrigado por tudo aquilo que tenho recebido das Tuas mãos. Ensina-me a administrar meus recursos com fidelidade e responsabilidade.\n\nEspírito Santo, cura as experiências de instabilidade que me fizeram acreditar que não vale a pena planejar ou me preparar para o futuro.\n\nEu renuncio à mentira de que não posso construir uma vida mais organizada e à crença de que preciso viver apenas reagindo às dificuldades.\n\nDá-me sabedoria para reconhecer minhas responsabilidades, estabelecer prioridades e tomar decisões conscientes. Que eu seja fiel naquilo que já recebi e aprenda a cuidar com maturidade daquilo que está sob minha administração.\n\nEm nome de Jesus, amém.",
+      "textHash": "0f88667c04e2587d8291364b5d5e4fd385885b0845da5b17f0bf186cefad7f3f",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Luana:MAI-Voice-2.1-Flash"
+    },
+    "masculina": {
+      "src": "/audio/oracoes/2026-11-22-b449b4488f8a9009.mp3",
+      "text": "Pai, obrigado por tudo aquilo que tenho recebido das Tuas mãos. Ensina-me a administrar meus recursos com fidelidade e responsabilidade.\n\nEspírito Santo, cura as experiências de instabilidade que me fizeram acreditar que não vale a pena planejar ou me preparar para o futuro.\n\nEu renuncio à mentira de que não posso construir uma vida mais organizada e à crença de que preciso viver apenas reagindo às dificuldades.\n\nDá-me sabedoria para reconhecer minhas responsabilidades, estabelecer prioridades e tomar decisões conscientes. Que eu seja fiel naquilo que já recebi e aprenda a cuidar com maturidade daquilo que está sob minha administração.\n\nEm nome de Jesus, amém.",
+      "textHash": "0f88667c04e2587d8291364b5d5e4fd385885b0845da5b17f0bf186cefad7f3f",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Caio:MAI-Voice-2.1-Flash"
+    }
   }
 }

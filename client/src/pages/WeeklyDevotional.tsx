@@ -248,7 +248,7 @@ const WeeklyDevotional: React.FC = () => {
                 <aside className="self-start lg:sticky lg:top-24 overflow-hidden rounded-2xl border border-white/10 bg-[#202020]">
                   {video ? <div className="aspect-video bg-black">
                     <GatedVideo key={video.youtubeId} videoId={video.youtubeId} title={videoTitle} />
-                  </div> : week.upcomingImage ? <img src={week.upcomingImage} alt="Mensagem da Semana 2: O que você ainda não conseguiu entregar?" className="aspect-video w-full object-contain bg-black" /> : <div className="flex aspect-video items-center justify-center bg-black p-6 text-center text-sm text-zinc-400">A mensagem desta semana aparecerá aqui assim que estiver disponível.</div>}
+                  </div> : week.upcomingImage ? <img src={week.upcomingImage} alt={`${week.theme} — mensagem da Semana ${week.number}`} className="aspect-video w-full object-contain bg-black" /> : <div className="flex aspect-video items-center justify-center bg-black p-6 text-center text-sm text-zinc-400">A mensagem desta semana aparecerá aqui assim que estiver disponível.</div>}
                   <div className="p-6">
                     <p className="text-xs font-bold uppercase tracking-widest text-[#e4d2a6]">Mensagem da semana</p>
                     <h4 className="mt-2 text-xl font-bold text-white">{videoTitle}</h4>

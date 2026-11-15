@@ -4095,6 +4095,624 @@ export const devotionalWeeks: DevotionalWeek[] = [
       }
     }
   },
+  {
+    "number": 3,
+    "startsOn": "2026-11-16",
+    "seriesId": "os-segredos-de-uma-vida-prospera-2026",
+    "theme": "Os Segredos de uma Vida Próspera",
+    "upcomingImage": "/brand/semana-3-vida-prospera.jpg",
+    "devotionals": {
+      "2026-11-16": {
+        "format": "document",
+        "label": "OS SEGREDOS DE UMA VIDA PRÓSPERA — DEVOCIONAL | SEMANA 3 — DIA 1",
+        "title": "QUANDO NÃO VALORIZAMOS AQUILO QUE JÁ ESTÁ EM NOSSAS MÃOS",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“Quem é fiel no pouco, também é fiel no muito, e quem é desonesto no pouco, também é desonesto no muito.” (Lucas 16:10)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Você já percebeu como podemos dedicar tanta atenção àquilo que ainda desejamos conquistar que deixamos de cuidar adequadamente daquilo que já possuímos?",
+              "Às vezes, imaginamos que nossa vida financeira será organizada quando recebermos um salário maior, conquistarmos uma posição melhor ou tivermos mais recursos disponíveis. Enquanto esperamos essas mudanças, pequenas responsabilidades continuam sendo adiadas, porque acreditamos que aquilo que possuímos hoje não é suficiente para fazer diferença.",
+              "Entretanto, existe uma verdade que precisamos compreender: a maneira como administramos o presente revela hábitos que podem continuar nos acompanhando quando nossas circunstâncias mudarem."
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Na terceira mensagem da nossa série, aprendemos que Deus não nos avalia pela quantidade de recursos que recebemos, mas pela fidelidade com que administramos aquilo que está sob nossa responsabilidade. Na parábola dos talentos, os servos receberam quantidades diferentes, mas todos foram chamados a responder pelo que lhes havia sido confiado. Essa verdade nos ensina que a prosperidade do Reino não começa necessariamente com o aumento dos recursos, mas com uma postura de responsabilidade diante daquilo que já possuímos.",
+              "Em Lucas 16:10–12, Jesus apresenta um princípio que aprofunda esse ensinamento. Ao falar sobre a fidelidade nas pequenas coisas, Ele mostra que nossa maneira de lidar com responsabilidades aparentemente menores possui importância espiritual. No contexto da passagem, Jesus está ensinando sobre a administração das riquezas e a necessidade de demonstrar integridade no uso dos recursos materiais.",
+              "Observe que o Senhor não está afirmando que somente as pessoas que possuem muito podem demonstrar fidelidade. Pelo contrário, Ele revela que a fidelidade pode ser desenvolvida e demonstrada mesmo quando aquilo que administramos parece pequeno aos nossos olhos.",
+              "Imagine alguém que recebe uma renda limitada e acredita que não vale a pena acompanhar suas despesas porque, depois de pagar os compromissos essenciais, sobra muito pouco. Por considerar sua situação insuficiente, deixa de observar pequenos gastos, não estabelece prioridades e evita olhar com atenção para sua realidade financeira.",
+              "Entretanto, acompanhar as despesas não significa que essa pessoa conseguirá resolver imediatamente todas as dificuldades. Existem situações em que a renda realmente não atende às necessidades básicas. Ainda assim, conhecer a própria realidade permite identificar prioridades, reconhecer limitações e tomar decisões mais conscientes.",
+              "O problema começa quando acreditamos que a responsabilidade só terá importância depois que nossas condições melhorarem. Quem considera irrelevante aquilo que possui hoje pode deixar de desenvolver hábitos que serão necessários para administrar recursos maiores amanhã.",
+              "Essa dificuldade também pode possuir raízes emocionais. Algumas pessoas cresceram ouvindo que aquilo que tinham era pouco, que suas conquistas não eram importantes ou que somente seriam bem-sucedidas quando alcançassem determinado padrão financeiro. Com o passar dos anos, podem desenvolver a crença de que os recursos que possuem não merecem atenção porque são insuficientes para representar uma verdadeira conquista.",
+              "Essa maneira de pensar pode produzir desânimo e passividade. A pessoa deixa de reconhecer pequenas possibilidades de organização porque acredita que nada do que fizer terá importância enquanto sua renda não aumentar. Assim, começa a esperar por uma mudança externa para assumir responsabilidades que já poderia desenvolver dentro de suas condições atuais.",
+              "Quando desvalorizamos aquilo que recebemos, corremos o risco de negligenciar justamente o que Deus nos confiou para administrar.",
+              "Em Zacarias 4:10, encontramos uma pergunta significativa: “Pois aqueles que desprezaram o dia das pequenas coisas ficarão muito alegres ao verem a pedra principal nas mãos de Zorobabel” (NVI). No contexto, o profeta estava encorajando o povo diante da reconstrução do templo, mostrando que o início aparentemente modesto daquela obra não deveria ser desprezado.",
+              "Embora a passagem não trate diretamente de finanças pessoais, ela nos apresenta uma verdade que podemos aplicar à nossa caminhada: não devemos desvalorizar um começo apenas porque ele ainda não corresponde àquilo que esperamos alcançar.",
+              "Isso não significa que toda pequena iniciativa produzirá grandes resultados financeiros, mas que precisamos reconhecer o valor das responsabilidades presentes. Uma pessoa que aprende a planejar suas despesas, cumprir seus compromissos e avaliar suas decisões está desenvolvendo habilidades importantes, independentemente da quantidade de recursos que administra.",
+              "Na parábola dos talentos, os servos fiéis não foram reconhecidos por possuírem quantidades iguais, mas pela maneira como responderam à responsabilidade recebida. Da mesma forma, Jesus nos ensina em Lucas 16 que a fidelidade não deve ser reservada para situações extraordinárias.",
+              "Talvez hoje o Espírito Santo queira revelar que você tem desvalorizado sua realidade financeira porque continua comparando aquilo que possui com o que gostaria de alcançar. Pode ser que esteja esperando uma promoção, um aumento de renda ou uma oportunidade maior para começar a organizar áreas da sua vida que já precisam de atenção.",
+              "A pergunta central da terceira mensagem continua diante de nós: o que você tem feito com aquilo que já recebeu?",
+              "Uma vida próspera não é construída apenas por aquilo que esperamos conquistar no futuro, mas também pelas decisões responsáveis que aprendemos a tomar no presente. Quando reconhecemos o valor daquilo que está em nossas mãos, deixamos de utilizar a ausência de recursos maiores como justificativa para adiar a fidelidade.",
+              "Porque a maturidade não começa quando recebemos mais, mas quando compreendemos que aquilo que já recebemos merece ser administrado com responsabilidade."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Tenho desvalorizado meus recursos atuais porque acredito que somente uma renda maior permitirá que eu organize minha vida financeira?",
+              "Existe alguma responsabilidade que continuo adiando por considerar que aquilo que possuo hoje é pequeno demais para fazer diferença?",
+              "Em algum momento da minha história aprendi que pequenas conquistas não possuem valor? Como essa crença influencia minha maneira de administrar o que recebo?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "EXERCÍCIO SOZO — VALORIZANDO O QUE JÁ RECEBI",
+              "1. IDENTIFIQUE: Reconheça uma responsabilidade financeira que você tem adiado por considerar seus recursos insuficientes.",
+              "2. INVESTIGUE: Pergunte ao Espírito Santo: “Senhor, existe alguma crença que me faz desvalorizar aquilo que já está em minhas mãos?”",
+              "3. SUBSTITUA: Declare: “Aquilo que recebi possui valor e merece ser administrado com responsabilidade. Não preciso esperar ter muito para começar a ser fiel.”",
+              "4. PRATIQUE: Escolha uma atitude simples de administração financeira que você pode começar hoje, dentro das suas possibilidades."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Pai, obrigado por tudo aquilo que já confiaste às minhas mãos. Perdoa-me pelas vezes em que desvalorizei meus recursos porque estava concentrado naquilo que ainda desejava conquistar.",
+              "Espírito Santo, revela as crenças que me fazem acreditar que minhas pequenas responsabilidades não possuem importância.",
+              "Eu renuncio à mentira de que somente poderei ser responsável quando tiver mais recursos e à crença de que aquilo que possuo hoje não tem valor.",
+              "Ensina-me a administrar com sabedoria, gratidão e fidelidade aquilo que já recebi. Que minhas decisões sejam conduzidas pela responsabilidade, e não pela comparação ou pelo desânimo.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "QUEM ESPERA TER MUITO PARA COMEÇAR A SER FIEL AINDA NÃO COMPREENDEU QUE A RESPONSABILIDADE COMEÇA COM AQUILO QUE JÁ ESTÁ EM SUAS MÃOS."
+            ]
+          }
+        ]
+      },
+      "2026-11-17": {
+        "format": "document",
+        "label": "OS SEGREDOS DE UMA VIDA PRÓSPERA — DEVOCIONAL | SEMANA 3 — DIA 2",
+        "title": "QUANDO O MEDO DE ERRAR NOS IMPEDE DE AVANÇAR",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“O preguiçoso diz: ‘Há um leão lá fora!’ ‘Serei morto na rua!’” (Provérbios 22:13)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Você já deixou de tomar uma decisão importante porque começou a imaginar tudo o que poderia dar errado?",
+              "Às vezes, sabemos que precisamos organizar uma situação financeira, resolver uma pendência ou assumir uma nova responsabilidade. Entretanto, quando pensamos nas possíveis consequências, começamos a encontrar motivos para adiar aquilo que precisa ser feito.",
+              "Dizemos que ainda não chegou o momento certo, que precisamos pensar melhor ou que talvez seja mais seguro esperar. Mas nem sempre estamos sendo prudentes. Em algumas situações, estamos apenas tentando evitar a possibilidade de cometer um erro.",
+              "O problema é que, quando o medo começa a governar nossas decisões, podemos deixar de cumprir responsabilidades que já estão ao nosso alcance."
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Na terceira mensagem da nossa série, aprendemos que o terceiro servo da parábola dos talentos recebeu algo de grande valor, mas decidiu enterrá-lo porque tinha medo. Ele não perdeu o recurso nem permitiu que alguém o roubasse. Entretanto, sua tentativa de evitar qualquer possibilidade de perda o levou a negligenciar a responsabilidade que havia recebido.",
+              "Em Provérbios 22:13, encontramos uma imagem que nos ajuda a compreender esse comportamento. O texto apresenta uma pessoa que utiliza a possibilidade de encontrar um leão na rua como justificativa para não sair de casa. A passagem confronta a tendência de transformar riscos possíveis em razões suficientes para permanecer inativo.",
+              "É importante compreender que a Bíblia não está nos ensinando a ignorar perigos reais. A prudência é uma virtude, e avaliar consequências faz parte de uma administração responsável. Entretanto, existe uma diferença entre reconhecer um risco e permitir que a possibilidade de algo dar errado nos impeça de tomar qualquer decisão.",
+              "A prudência procura caminhos responsáveis para agir. O medo, quando assume o controle, procura justificativas para não precisar agir.",
+              "Imagine alguém que percebe que suas dívidas estão aumentando, mas evita consultar o saldo bancário, abrir as faturas ou conversar sobre sua situação financeira. Essa pessoa sabe que precisa compreender o tamanho do problema, mas teme descobrir que a situação está mais difícil do que imaginava. Por isso, continua adiando uma atitude que poderia ajudá-la a identificar alternativas e reorganizar seus compromissos.",
+              "Nesse caso, o medo não está protegendo a pessoa das dificuldades. Pelo contrário, pode estar impedindo que ela desenvolva uma resposta responsável diante da realidade.",
+              "Essa dificuldade pode ter raízes emocionais profundas. Algumas pessoas cresceram em ambientes nos quais os erros eram acompanhados de críticas severas, humilhações ou punições desproporcionais. Com o passar dos anos, aprenderam a associar o erro não apenas a uma consequência, mas à vergonha e à perda do próprio valor.",
+              "Na vida adulta, essa crença pode influenciar decisões importantes. A pessoa evita assumir responsabilidades porque acredita que qualquer resultado negativo confirmará sua incapacidade. Assim, passa a considerar mais seguro não tentar do que enfrentar a possibilidade de fracassar.",
+              "Quando acreditamos que errar significa não ter valor, podemos começar a evitar justamente as experiências que nos ajudariam a desenvolver maturidade.",
+              "Essa verdade é especialmente importante na administração financeira. Existem pessoas que não procuram aprender sobre orçamento, planejamento ou organização dos recursos porque sentem vergonha de reconhecer que ainda não dominam essas áreas. Outras evitam conversar sobre dívidas ou buscar orientação porque acreditam que admitir uma dificuldade financeira significa demonstrar incompetência.",
+              "Entretanto, reconhecer aquilo que ainda precisamos aprender não diminui nosso valor. Pelo contrário, pode representar o início de uma mudança importante.",
+              "Em Provérbios 15:22, encontramos outro princípio: “Os planos fracassam por falta de conselho, mas são bem-sucedidos quando há muitos conselheiros” (NVI). A sabedoria bíblica não nos orienta a agir impulsivamente, mas a buscar conhecimento, avaliar possibilidades e receber orientações adequadas.",
+              "Isso significa que vencer o medo não exige tomar decisões precipitadas. Podemos pesquisar, organizar informações, procurar ajuda e avançar de maneira responsável. O que não podemos é permitir que a necessidade de ter absoluta certeza sobre todos os resultados se transforme em uma justificativa permanente para permanecer paralisados.",
+              "Na parábola dos talentos, o terceiro servo permitiu que sua percepção do senhor e o medo que sentia determinassem sua resposta. Sua história nos ensina que não basta receber uma responsabilidade; precisamos desenvolver disposição para agir diante dela.",
+              "Talvez hoje o Espírito Santo queira revelar que você tem chamado de prudência aquilo que, na verdade, é medo de errar. Pode ser que existam decisões financeiras, conversas necessárias ou responsabilidades que continuam sendo adiadas porque você teme não conseguir lidar com as consequências.",
+              "A cura começa quando deixamos de interpretar nossos possíveis erros como uma ameaça à nossa identidade. Podemos reconhecer limitações, aprender com experiências e buscar sabedoria sem concluir que nosso valor depende de acertar sempre.",
+              "Uma vida próspera não é construída por pessoas que nunca enfrentam dificuldades, mas por pessoas que aprendem a responder às suas responsabilidades com sabedoria, coragem e disposição para amadurecer."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Existe alguma decisão financeira que continuo adiando porque tenho medo de descobrir que não conseguirei resolver a situação?",
+              "Tenho utilizado a necessidade de esperar o momento certo como justificativa para evitar responsabilidades que já poderia começar a enfrentar?",
+              "Em algum momento da minha história aprendi que cometer erros significava ser incapaz, incompetente ou indigno de reconhecimento?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "EXERCÍCIO SOZO — SAINDO DO MEDO PARA A RESPONSABILIDADE",
+              "1. IDENTIFIQUE: Reconheça uma responsabilidade financeira que você tem evitado por medo de errar.",
+              "2. INVESTIGUE: Pergunte ao Espírito Santo: “Senhor, o que acredito que acontecerá comigo se eu tentar resolver essa situação e não conseguir?”",
+              "3. SUBSTITUA: Declare: “Meu valor não depende de acertar sempre. Posso aprender, buscar orientação e tomar decisões responsáveis, mesmo quando não tenho controle sobre todos os resultados.”",
+              "4. PRATIQUE: Dê um pequeno passo concreto para enfrentar essa responsabilidade, sem assumir riscos desnecessários."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Pai, hoje reconheço que o medo de errar tem influenciado algumas das minhas decisões. Espírito Santo, revela as experiências que me ensinaram a associar meus erros à vergonha e à incapacidade.",
+              "Eu renuncio à mentira de que preciso acertar sempre para ter valor e à crença de que evitar decisões é a única maneira de me proteger do fracasso.",
+              "Cura minha insegurança e ensina-me a agir com sabedoria, coragem e responsabilidade. Que eu não enterre aquilo que recebi por medo de não conseguir administrar.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "A PRUDÊNCIA NOS ENSINA A AVALIAR OS RISCOS; O MEDO NOS CONVENCE A NÃO FAZER NADA. A MATURIDADE ESTÁ EM APRENDER A AGIR COM SABEDORIA, MESMO QUANDO NÃO PODEMOS CONTROLAR TODOS OS RESULTADOS."
+            ]
+          }
+        ]
+      },
+      "2026-11-18": {
+        "format": "document",
+        "label": "OS SEGREDOS DE UMA VIDA PRÓSPERA — DEVOCIONAL | SEMANA 3 — DIA 3",
+        "title": "QUANDO ESPERAR O MOMENTO CERTO SE TORNA UMA DESCULPA PARA NÃO AGIR",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“Quem observa o vento não plantará; e quem olha para as nuvens não colherá.” (Eclesiastes 11:4 (NVI)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Você já percebeu que algumas decisões permanecem adiadas porque estamos esperando condições que talvez nunca sejam perfeitas?",
+              "Às vezes, sabemos que precisamos reorganizar nossas finanças, desenvolver uma habilidade ou tomar uma decisão importante. Entretanto, continuamos esperando que as circunstâncias melhorem, que todas as dúvidas desapareçam ou que tenhamos absoluta certeza de que nada dará errado.",
+              "O problema é que, enquanto aguardamos o cenário ideal, responsabilidades que já poderiam estar sendo enfrentadas permanecem paralisadas.",
+              "Nem toda espera representa sabedoria. Em algumas situações, esperar se torna uma maneira de evitar a responsabilidade de decidir."
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Na terceira mensagem da nossa série, aprendemos que o terceiro servo da parábola dos talentos devolveu exatamente aquilo que havia recebido. Ele não gastou o dinheiro, não permitiu que fosse roubado e não sofreu qualquer perda financeira. Entretanto, foi repreendido porque não cumpriu a responsabilidade que lhe havia sido confiada.",
+              "Essa história nos apresenta uma verdade importante: não perder aquilo que recebemos não significa, necessariamente, que estamos administrando bem. Existe uma diferença entre conservar um recurso e assumir a responsabilidade de utilizá-lo de maneira adequada.",
+              "Em Eclesiastes 11:4, encontramos um ensinamento que amplia essa compreensão. O texto apresenta alguém que observa constantemente o vento e as nuvens, mas acaba deixando de plantar e colher. A imagem revela o perigo de permitir que a preocupação com as circunstâncias impeça a realização daquilo que precisa ser feito.",
+              "O agricultor precisava considerar as condições do tempo, mas não poderia esperar que todos os fatores estivessem perfeitamente favoráveis para começar seu trabalho. Se transformasse cada possibilidade de mudança em uma razão para adiar o plantio, acabaria comprometendo a própria colheita.",
+              "Da mesma maneira, precisamos compreender que a responsabilidade não exige ausência de incertezas, mas disposição para agir com sabedoria diante da realidade que temos.",
+              "Imagine alguém que deseja construir uma reserva financeira, mas acredita que só poderá começar quando conseguir guardar uma quantia significativa todos os meses. Como sua renda atual não permite separar o valor que considera ideal, continua adiando qualquer iniciativa. Entretanto, talvez pudesse começar com uma quantia menor, desenvolver o hábito de poupar e ajustar esse valor conforme suas possibilidades.",
+              "O problema não está em reconhecer que os recursos são limitados. Existem situações em que realmente não sobra dinheiro depois das despesas essenciais. A questão é transformar um objetivo que ainda não podemos alcançar completamente em justificativa para não realizar aquilo que já está ao nosso alcance.",
+              "Essa dificuldade também pode estar relacionada à maneira como aprendemos a lidar com nossas responsabilidades. Algumas pessoas cresceram em ambientes nos quais suas iniciativas eram constantemente questionadas. Antes mesmo de tentar alguma coisa, ouviam críticas, advertências ou previsões de fracasso. Com o passar dos anos, podem desenvolver a necessidade de ter absoluta certeza antes de tomar qualquer decisão.",
+              "Na vida adulta, essa crença pode produzir uma forma silenciosa de passividade. A pessoa pesquisa, planeja e considera inúmeras possibilidades, mas encontra dificuldade para transformar suas intenções em atitudes concretas. Não porque lhe faltem necessariamente condições, mas porque acredita que precisa eliminar todas as incertezas antes de começar.",
+              "Quando acreditamos que só podemos agir depois de controlar todos os resultados, podemos transformar o planejamento em uma maneira de permanecer paralisados.",
+              "É importante compreender que planejamento e passividade não são a mesma coisa. Planejar significa organizar recursos, avaliar riscos, estabelecer prioridades e preparar os próximos passos. A passividade aparece quando continuamos adiando decisões necessárias, mesmo depois de identificar possibilidades responsáveis de ação.",
+              "Em Tiago 4:17, encontramos outro princípio importante: “Pensem nisto, pois: Quem sabe que deve fazer o bem e não o faz, comete pecado” (NVI). Embora o contexto trate da responsabilidade moral diante do bem que conhecemos, essa passagem nos lembra que o conhecimento precisa produzir uma resposta coerente.",
+              "Não basta reconhecer que precisamos mudar determinados hábitos financeiros se continuamos evitando as atitudes necessárias para essa mudança. Saber que devemos acompanhar nossas despesas, reorganizar compromissos ou buscar orientação não produz transformação enquanto esse conhecimento permanece apenas no campo das intenções.",
+              "Isso não significa que devemos agir impulsivamente ou assumir riscos financeiros sem avaliar as consequências. Pelo contrário, a maturidade exige discernimento. Entretanto, precisamos aprender a reconhecer quando já possuímos informações suficientes para dar um primeiro passo responsável.",
+              "Na parábola dos talentos, o terceiro servo parecia acreditar que conservar o recurso seria suficiente. Entretanto, seu senhor esperava que ele assumisse a responsabilidade de administrá-lo. A fidelidade exigia mais do que evitar perdas; exigia uma resposta diante daquilo que havia recebido.",
+              "Talvez hoje o Espírito Santo queira mostrar que você tem chamado de prudência aquilo que, na verdade, se tornou uma dificuldade de assumir decisões. Pode ser que existam responsabilidades financeiras que continuam sendo adiadas porque você acredita que ainda não chegou o momento ideal.",
+              "A pergunta central da terceira mensagem permanece diante de nós: o que você tem feito com aquilo que já recebeu?",
+              "Uma vida próspera não é construída apenas pela capacidade de preservar recursos, mas também pela maturidade de utilizá-los com sabedoria, responsabilidade e propósito.",
+              "Porque a fidelidade não se manifesta somente naquilo que conseguimos conservar, mas também na maneira como respondemos às responsabilidades que Deus colocou em nossas mãos."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Existe alguma responsabilidade financeira que continuo adiando porque estou esperando condições perfeitas para começar?",
+              "Tenho utilizado o planejamento para organizar minhas decisões ou, em algumas situações, para evitar a responsabilidade de agir?",
+              "Em algum momento da minha história aprendi que precisava ter certeza absoluta antes de tomar decisões? Como essa crença influencia minha vida hoje?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "EXERCÍCIO SOZO — SAINDO DA ESPERA PARA A AÇÃO",
+              "1. IDENTIFIQUE: Reconheça uma responsabilidade que você tem adiado por esperar o momento ideal.",
+              "2. INVESTIGUE: Pergunte ao Espírito Santo: “Senhor, o que tenho medo de enfrentar quando preciso transformar minhas intenções em atitudes?”",
+              "3. SUBSTITUA: Declare: “Não preciso controlar todos os resultados para agir com responsabilidade. Posso planejar, buscar sabedoria e começar com aquilo que está ao meu alcance.”",
+              "4. PRATIQUE: Escolha uma pequena ação concreta que você pode realizar hoje para avançar nessa responsabilidade."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Pai, hoje reconheço que algumas responsabilidades têm permanecido adiadas porque continuo esperando condições perfeitas.",
+              "Espírito Santo, revela as experiências que produziram insegurança diante das decisões e cura as crenças que me fazem acreditar que preciso controlar todos os resultados antes de agir.",
+              "Eu renuncio à mentira de que somente posso começar quando tudo estiver resolvido e à passividade que tenho confundido com prudência.",
+              "Ensina-me a planejar com sabedoria, reconhecer minhas possibilidades e assumir com fidelidade aquilo que está sob meus cuidados.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "QUEM ESPERA CONDIÇÕES PERFEITAS PARA COMEÇAR PODE PASSAR A VIDA ADIANDO RESPONSABILIDADES QUE JÁ PODERIA ESTAR CUMPRINDO. A FIDELIDADE TAMBÉM SE REVELA NA CORAGEM DE DAR O PRIMEIRO PASSO."
+            ]
+          }
+        ]
+      },
+      "2026-11-19": {
+        "format": "document",
+        "label": "OS SEGREDOS DE UMA VIDA PRÓSPERA — DEVOCIONAL | SEMANA 3 — DIA 4",
+        "title": "QUANDO DESISTIMOS PORQUE OS RESULTADOS DEMORAM",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“E não nos cansemos de fazer o bem, pois no tempo próprio colheremos, se não desanimarmos.” (Gálatas 6:9)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Você já começou a organizar alguma área da sua vida, mas desistiu porque os resultados não apareceram tão rapidamente quanto esperava?",
+              "Talvez tenha decidido controlar melhor suas despesas, reduzir dívidas ou desenvolver novos hábitos financeiros. Durante algum tempo, manteve seu compromisso, mas, ao perceber que sua situação ainda não havia mudado significativamente, começou a questionar se realmente valia a pena continuar.",
+              "Essa experiência revela algo importante: nem sempre nossa maior dificuldade está em começar uma mudança. Muitas vezes, está em permanecer comprometido quando os resultados ainda não são visíveis.",
+              "A fidelidade não se manifesta apenas na decisão de começar, mas também na disposição de continuar fazendo aquilo que é correto."
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Na terceira mensagem da nossa série, aprendemos que os dois primeiros servos da parábola dos talentos foram reconhecidos pela fidelidade com que administraram aquilo que haviam recebido. Eles não foram avaliados pela comparação entre os resultados, mas pela responsabilidade demonstrada diante daquilo que lhes havia sido confiado.",
+              "Essa verdade nos ensina que a fidelidade não deve depender exclusivamente da quantidade de recursos que possuímos. Entretanto, existe outra dimensão importante: precisamos desenvolver constância para que nossas decisões responsáveis não sejam apenas iniciativas passageiras.",
+              "Em Gálatas 6:9, Paulo encoraja os cristãos a não desanimarem na prática do bem. No contexto, o apóstolo está ensinando sobre semeadura e colheita, especialmente em relação às escolhas e atitudes que expressam uma vida conduzida pelo Espírito. Seu ensino não representa uma promessa de enriquecimento financeiro, mas apresenta um princípio importante sobre perseverança.",
+              "Nem tudo aquilo que fazemos corretamente produz resultados imediatos, mas a ausência de resultados rápidos não significa que nossas atitudes sejam inúteis.",
+              "Imagine uma família que decide reorganizar seu orçamento depois de um período de dificuldades. Durante os primeiros meses, consegue reduzir algumas despesas, evitar novas dívidas e começar a cumprir compromissos atrasados. Entretanto, quando observa que ainda existe um longo caminho pela frente, começa a sentir que todo aquele esforço está produzindo pouca diferença.",
+              "Se essa família avaliar seu progresso apenas pela quantidade de dinheiro disponível ao final do mês, poderá desconsiderar mudanças importantes que já aconteceram. Talvez ainda não tenha alcançado a estabilidade desejada, mas passou a conhecer melhor suas despesas, estabelecer prioridades e tomar decisões mais conscientes.",
+              "O problema começa quando acreditamos que uma mudança só possui valor se produzir resultados expressivos em pouco tempo. Essa expectativa pode nos levar a abandonar hábitos que precisam de continuidade para gerar benefícios.",
+              "A maturidade financeira também envolve aprender a reconhecer o progresso que acontece antes dos grandes resultados.",
+              "Essa dificuldade pode possuir raízes emocionais. Algumas pessoas cresceram em ambientes nos quais seus esforços só eram reconhecidos quando alcançavam resultados extraordinários. Pequenos avanços eram ignorados, enquanto erros e dificuldades recebiam grande atenção. Com o passar dos anos, podem desenvolver a crença de que aquilo que fazem não possui valor enquanto não produz uma conquista significativa.",
+              "Na vida adulta, essa maneira de pensar pode comprometer sua capacidade de perseverar. A pessoa começa projetos com entusiasmo, mas, quando encontra obstáculos ou percebe que os resultados serão mais demorados, sente que está fracassando. Em vez de avaliar o que precisa ser ajustado, abandona completamente aquilo que havia começado.",
+              "Quando nosso valor está condicionado aos resultados, a demora pode ser interpretada como fracasso, mesmo quando estamos avançando.",
+              "Em Provérbios 13:11, encontramos outro ensinamento importante: “O dinheiro ganho com desonestidade diminuirá, mas quem o ajunta aos poucos terá cada vez mais” (NVI). O texto valoriza o crescimento construído de maneira gradual e responsável, em contraste com a busca por ganhos obtidos de forma inadequada.",
+              "Esse princípio nos ajuda a compreender que nem toda conquista precisa acontecer rapidamente. Existem resultados que dependem de planejamento, disciplina e decisões repetidas ao longo do tempo.",
+              "Isso não significa que devemos insistir indefinidamente em estratégias que não estão funcionando. A perseverança bíblica não elimina a necessidade de avaliar resultados, corrigir erros e buscar orientação. Às vezes, permanecer fiel a um propósito exige justamente reconhecer que precisamos mudar a maneira de agir.",
+              "O importante é não permitir que o desânimo nos faça abandonar responsabilidades que continuam sendo necessárias.",
+              "Na parábola dos talentos, Jesus nos apresenta servos que responderam à confiança recebida. Sua história nos ensina que a fidelidade precisa se manifestar em atitudes concretas. E Gálatas 6:9 nos lembra que a prática do bem também exige perseverança.",
+              "Talvez hoje o Espírito Santo queira mostrar que você tem dificuldade para sustentar hábitos financeiros porque espera que cada esforço produza uma transformação imediata. Pode ser que a demora esteja despertando antigas crenças de incapacidade ou a sensação de que suas iniciativas nunca serão suficientes.",
+              "Entretanto, precisamos compreender que a ausência de uma grande conquista não significa ausência de crescimento. Aprender a cumprir compromissos, administrar melhor as despesas e tomar decisões conscientes já representa um desenvolvimento importante, mesmo quando nossa realidade financeira ainda precisa de mudanças.",
+              "A pergunta central da terceira mensagem continua diante de nós: o que você tem feito com aquilo que já recebeu?",
+              "Uma vida próspera também é construída pela fidelidade que permanece quando o entusiasmo inicial diminui e os resultados ainda estão sendo desenvolvidos.",
+              "Porque a maturidade não está apenas em começar a fazer aquilo que é correto, mas em desenvolver constância para continuar, mesmo quando o progresso acontece aos poucos."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Tenho abandonado hábitos financeiros importantes porque os resultados não aparecem na velocidade que desejo?",
+              "Consigo reconhecer pequenos avanços ou considero que meus esforços só possuem valor quando produzem grandes conquistas?",
+              "Em algum momento da minha história aprendi que somente resultados extraordinários mereciam reconhecimento? Como essa crença influencia minha perseverança hoje?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "EXERCÍCIO SOZO — CURANDO O DESÂNIMO",
+              "1. IDENTIFIQUE: Reconheça um hábito financeiro importante que você abandonou porque os resultados demoraram.",
+              "2. INVESTIGUE: Pergunte ao Espírito Santo: “Senhor, por que tenho dificuldade para reconhecer o valor dos pequenos avanços?”",
+              "3. SUBSTITUA: Declare: “Meu valor não depende da velocidade dos resultados. Posso crescer gradualmente e permanecer fiel às responsabilidades que recebi.”",
+              "4. PRATIQUE: Retome uma atitude simples de organização financeira que você consiga manter com constância."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Pai, hoje reconheço que, em algumas situações, tenho permitido que a demora dos resultados produza desânimo e desistência.",
+              "Espírito Santo, cura as experiências que me fizeram acreditar que meus esforços só possuem valor quando produzem grandes conquistas.",
+              "Eu renuncio à mentira de que pequenos avanços não têm importância e à crença de que a demora significa fracasso.",
+              "Ensina-me a desenvolver constância, administrar meus recursos com responsabilidade e permanecer fiel mesmo quando os resultados acontecem gradualmente.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "A FIDELIDADE NÃO É DEMONSTRADA APENAS QUANDO COMEÇAMOS A FAZER O QUE É CERTO, MAS QUANDO PERMANECEMOS RESPONSÁVEIS MESMO QUE OS RESULTADOS AINDA NÃO SEJAM VISÍVEIS."
+            ]
+          }
+        ]
+      },
+      "2026-11-20": {
+        "format": "document",
+        "label": "OS SEGREDOS DE UMA VIDA PRÓSPERA — DEVOCIONAL | SEMANA 3 — DIA 5",
+        "title": "QUANDO A FIDELIDADE É PROVADA NO QUE NÃO NOS PERTENCE",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“E se vocês não forem dignos de confiança em relação ao que é dos outros, quem lhes dará o que é de vocês?” (Lucas 16:12)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Você tem o mesmo cuidado com aquilo que pertence a outras pessoas que costuma ter com aquilo que é seu?",
+              "Às vezes, associamos a responsabilidade financeira apenas à administração do nosso salário, das nossas economias e do patrimônio que conquistamos. Entretanto, a fidelidade também se manifesta quando precisamos cuidar de recursos, bens ou responsabilidades que pertencem a outras pessoas.",
+              "Podemos ser responsáveis por administrar o dinheiro de uma empresa, utilizar equipamentos emprestados, cumprir compromissos financeiros ou cuidar de algo que alguém colocou sob nossa responsabilidade.",
+              "A maneira como tratamos aquilo que não nos pertence também revela os princípios que governam nosso coração."
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Na terceira mensagem da nossa série, aprendemos que, na parábola dos talentos, o senhor confiou seus bens aos servos e esperava que eles os administrassem com fidelidade. Aqueles recursos não pertenciam aos servos, mas cada um recebeu a responsabilidade de cuidar daquilo que havia sido colocado em suas mãos.",
+              "Em Lucas 16:11–12, Jesus apresenta um ensinamento que amplia essa compreensão. Ao falar sobre a administração das riquezas, Ele relaciona a fidelidade no uso dos recursos materiais à capacidade de receber responsabilidades mais profundas. Seu ensino mostra que a maneira como lidamos com aquilo que pertence a outros também revela nosso caráter.",
+              "A fidelidade não começa quando nos tornamos proprietários de alguma coisa, mas quando reconhecemos nossa responsabilidade sobre aquilo que nos foi confiado.",
+              "Imagine alguém que trabalha em uma empresa e possui autorização para utilizar determinados recursos nas atividades profissionais. Entretanto, começa a empregar esses recursos em despesas pessoais, justificando que os valores são pequenos e que a empresa possui condições financeiras para suportá-los.",
+              "Talvez essa pessoa jamais retirasse a mesma quantia de sua própria conta bancária para beneficiar alguém sem sua autorização. Entretanto, por considerar que o recurso pertence a uma organização maior, passa a tratá-lo com menos responsabilidade.",
+              "O problema não está apenas no valor utilizado, mas na crença de que pequenas atitudes deixam de representar uma questão de integridade quando parecem não produzir consequências importantes.",
+              "Essa mesma dificuldade pode aparecer em situações cotidianas. Uma pessoa recebe dinheiro para realizar uma compra em nome de alguém, mas não presta contas corretamente. Outra utiliza um objeto emprestado sem o devido cuidado porque acredita que poderá devolvê-lo sem que o proprietário perceba algum dano.",
+              "Em todas essas situações, existe um princípio que precisa ser considerado: o fato de termos acesso a determinado recurso não significa que possuímos liberdade para utilizá-lo de qualquer maneira.",
+              "Essa verdade também possui uma dimensão importante para a cura da alma. Algumas pessoas cresceram em ambientes nos quais a honestidade era tratada como uma questão de conveniência. Aprenderam que determinadas atitudes eram aceitáveis desde que ninguém descobrisse ou que o prejuízo parecesse pequeno.",
+              "Outras desenvolveram a crença de que precisam aproveitar todas as oportunidades disponíveis porque a vida sempre lhes ofereceu menos do que consideravam justo. Assim, podem começar a justificar atitudes inadequadas como uma forma de compensar aquilo que acreditam não ter recebido.",
+              "Entretanto, precisamos compreender que as injustiças que experimentamos não nos concedem o direito de agir sem integridade com aquilo que pertence a outras pessoas.",
+              "A cura começa quando reconhecemos essas crenças e permitimos que a verdade de Deus transforme nossa maneira de pensar. Nossa história pode explicar como determinados comportamentos foram aprendidos, mas não precisa continuar determinando nossas escolhas.",
+              "Em Provérbios 11:3, encontramos uma declaração importante: “A integridade dos justos os guia, mas a falsidade dos infiéis os destrói” (NVI). Esse princípio nos ensina que a integridade deve orientar nossas decisões, inclusive quando não existe alguém supervisionando aquilo que fazemos.",
+              "Isso também se aplica aos compromissos financeiros. Quando assumimos uma obrigação, precisamos reconhecer que aquela decisão envolve a confiança de outra pessoa. Se surgirem dificuldades para cumprir o combinado, agir com integridade significa buscar uma solução, comunicar a situação e assumir nossa responsabilidade, em vez de simplesmente ignorar o compromisso.",
+              "É importante lembrar que dificuldades financeiras nem sempre são consequência de negligência. Existem circunstâncias inesperadas que comprometem nossa capacidade de pagamento. Entretanto, mesmo quando não conseguimos cumprir imediatamente uma obrigação, ainda podemos demonstrar responsabilidade pela maneira como enfrentamos a situação.",
+              "Na parábola dos talentos, os servos não foram chamados apenas para conservar os bens recebidos. Eles precisavam reconhecer a confiança depositada neles e responder adequadamente à responsabilidade que haviam assumido.",
+              "Da mesma maneira, Jesus nos ensina em Lucas 16 que a fidelidade precisa alcançar nossa relação com os recursos materiais, independentemente de quem seja o proprietário.",
+              "Talvez hoje o Espírito Santo queira revelar alguma área em que você tem tratado com menos cuidado aquilo que pertence a outras pessoas. Pode ser um compromisso financeiro, uma responsabilidade profissional ou até uma pequena atitude que você considera sem importância.",
+              "A pergunta central da terceira mensagem permanece diante de nós: o que você tem feito com aquilo que recebeu?",
+              "Uma vida verdadeiramente próspera não é construída apenas pela capacidade de conquistar recursos, mas também pelo desenvolvimento de um caráter que permanece fiel quando administra aquilo que pertence a outros.",
+              "Porque a integridade não é demonstrada somente nas grandes decisões, mas também nas pequenas responsabilidades que assumimos quando ninguém está observando."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Tenho o mesmo cuidado com os recursos que pertencem a outras pessoas que costumo ter com aquilo que é meu?",
+              "Existe algum compromisso financeiro ou responsabilidade que tenho negligenciado porque considero que suas consequências são pequenas?",
+              "Em algum momento da minha história aprendi que determinadas atitudes eram aceitáveis desde que ninguém descobrisse? Como essa crença influencia minhas decisões hoje?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "EXERCÍCIO SOZO — DESENVOLVENDO INTEGRIDADE",
+              "1. IDENTIFIQUE: Reconheça uma situação em que você precisa demonstrar maior responsabilidade com aquilo que pertence a outra pessoa.",
+              "2. INVESTIGUE: Pergunte ao Espírito Santo: “Senhor, existe alguma crença que me leva a justificar atitudes que não correspondem aos Teus princípios?”",
+              "3. SUBSTITUA: Declare: “Minha integridade não depende de alguém estar observando. Escolho agir com fidelidade e responsabilidade em tudo aquilo que me foi confiado.”",
+              "4. PRATIQUE: Tome uma atitude concreta para honrar um compromisso ou cuidar melhor de um recurso que está sob sua responsabilidade."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Pai, obrigado por tudo aquilo que confiaste às minhas mãos. Ensina-me a reconhecer que a fidelidade também se manifesta na maneira como trato aquilo que pertence a outras pessoas.",
+              "Espírito Santo, revela as crenças que me levam a justificar pequenas atitudes contrárias à integridade.",
+              "Eu renuncio à mentira de que aquilo que ninguém percebe não possui importância e à crença de que posso compensar minhas dificuldades agindo sem responsabilidade.",
+              "Forma em mim um caráter fiel, honesto e comprometido com a verdade. Que minhas decisões revelem os princípios do Teu Reino, mesmo quando ninguém estiver observando.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "A FIDELIDADE NÃO É REVELADA APENAS NA MANEIRA COMO CUIDAMOS DO QUE É NOSSO, MAS TAMBÉM NA INTEGRIDADE COM QUE ADMINISTRAMOS AQUILO QUE OUTRAS PESSOAS CONFIARAM ÀS NOSSAS MÃOS."
+            ]
+          }
+        ]
+      },
+      "2026-11-21": {
+        "format": "document",
+        "label": "OS SEGREDOS DE UMA VIDA PRÓSPERA — DEVOCIONAL | SEMANA 3 — DIA 6",
+        "title": "QUANDO NOSSAS EMOÇÕES GOVERNAM NOSSAS DECISÕES FINANCEIRAS",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“Como a cidade com seus muros derrubados, assim é quem não sabe dominar-se.” (Provérbios 25:28)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Você já tomou uma decisão financeira motivada por uma emoção e depois percebeu que poderia ter agido de outra maneira?",
+              "Talvez tenha comprado alguma coisa para aliviar um dia difícil, assumido uma despesa porque estava entusiasmado ou utilizado dinheiro para compensar uma frustração. Naquele momento, a decisão parecia fazer sentido, mas, quando a emoção diminuiu, você percebeu que havia comprometido recursos destinados a outras responsabilidades.",
+              "Essa experiência revela que nem sempre nossas dificuldades financeiras estão relacionadas apenas à quantidade de dinheiro que recebemos. Em algumas situações, precisamos compreender quem está governando nossas decisões quando utilizamos aquilo que possuímos."
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Na terceira mensagem da nossa série, aprendemos que receber recursos representa uma oportunidade, mas administrá-los exige responsabilidade. Na parábola dos talentos, Jesus nos mostra que os servos precisavam responder pela maneira como utilizaram aquilo que lhes havia sido confiado.",
+              "Entretanto, existe uma dimensão importante dessa responsabilidade: precisamos aprender a reconhecer como nossas emoções influenciam nossas escolhas financeiras.",
+              "Em Provérbios 25:28, a Bíblia compara a pessoa que não possui domínio próprio a uma cidade cujos muros foram derrubados. Na antiguidade, os muros representavam proteção e segurança. Uma cidade sem essa estrutura ficava vulnerável às ameaças externas.",
+              "Essa imagem nos apresenta uma verdade importante: quando não desenvolvemos domínio próprio, ficamos mais vulneráveis a decisões que podem comprometer aquilo que estamos tentando construir.",
+              "Imagine alguém que passou a semana enfrentando pressões no trabalho. Ao chegar ao final de semana, sente que merece uma recompensa por todo o esforço realizado. Então, decide comprar algo que não estava planejado, utilizando um valor que deveria ser reservado para outro compromisso.",
+              "A compra produz uma satisfação momentânea, mas, alguns dias depois, surge a preocupação com a despesa assumida. O problema não está necessariamente em comprar algo para si, mas em utilizar o dinheiro como resposta automática a uma necessidade emocional.",
+              "Algumas pessoas aprenderam a associar o consumo à sensação de acolhimento, reconhecimento ou alívio. Talvez tenham crescido em ambientes nos quais presentes substituíam conversas, demonstrações de afeto ou atenção emocional. Outras passaram por períodos de privação e desenvolveram a crença de que precisam aproveitar imediatamente qualquer oportunidade de adquirir aquilo que desejam.",
+              "Com o passar do tempo, essas experiências podem influenciar a maneira como administram seus recursos.",
+              "Quando utilizamos o dinheiro para resolver necessidades emocionais que não foram reconhecidas, podemos comprometer nossa estabilidade financeira sem tratar aquilo que realmente precisa de cuidado.",
+              "É importante compreender que sentir tristeza, frustração ou ansiedade não significa falta de maturidade. As emoções fazem parte da experiência humana. A questão é reconhecer que elas precisam ser compreendidas, mas não devem determinar automaticamente nossas decisões.",
+              "Em Gálatas 5:22–23, Paulo apresenta o domínio próprio como parte do fruto do Espírito. Isso nos ensina que o governo das nossas escolhas também faz parte do processo de amadurecimento espiritual.",
+              "O domínio próprio não significa viver sem desejos ou nunca desfrutar dos recursos que possuímos. Significa desenvolver liberdade para avaliar se determinada decisão corresponde às nossas prioridades, possibilidades e responsabilidades.",
+              "Uma pessoa pode desejar realizar uma compra e decidir esperar. Pode sentir vontade de assumir uma despesa e reconhecer que aquele não é o momento adequado. Essa capacidade de escolher, mesmo diante de emoções intensas, representa um desenvolvimento importante.",
+              "Na parábola dos talentos, cada servo precisava administrar aquilo que havia recebido. Da mesma maneira, somos chamados a desenvolver responsabilidade sobre nossas escolhas, reconhecendo que o dinheiro pode servir aos nossos propósitos, mas não deve se tornar um instrumento governado por impulsos.",
+              "Talvez hoje o Espírito Santo queira revelar que algumas decisões financeiras têm sido tomadas para aliviar sentimentos que você ainda não aprendeu a enfrentar de maneira saudável.",
+              "A pergunta central da terceira mensagem continua diante de nós: o que você tem feito com aquilo que recebeu?",
+              "Uma vida próspera também envolve aprender a administrar nossas emoções para que elas não comprometam os recursos e as responsabilidades que estão sob nossos cuidados.",
+              "Porque não basta ter recursos nas mãos se ainda não desenvolvemos domínio próprio para decidir como utilizá-los."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Tenho utilizado compras ou despesas não planejadas para aliviar tristeza, frustração ou ansiedade?",
+              "Consigo reconhecer quando uma decisão financeira está sendo motivada por uma emoção passageira?",
+              "Em algum momento da minha história aprendi a relacionar presentes, consumo ou dinheiro com amor, acolhimento ou recompensa emocional?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "EXERCÍCIO SOZO — DESENVOLVENDO DOMÍNIO PRÓPRIO",
+              "1. IDENTIFIQUE: Reconheça uma situação em que suas emoções influenciaram uma decisão financeira.",
+              "2. INVESTIGUE: Pergunte ao Espírito Santo: “Senhor, qual necessidade emocional estou tentando atender quando utilizo meus recursos dessa maneira?”",
+              "3. SUBSTITUA: Declare: “Minhas emoções merecem ser compreendidas, mas não precisam governar minhas decisões. Posso escolher com sabedoria e responsabilidade.”",
+              "4. PRATIQUE: Antes de realizar uma compra não planejada, faça uma pausa e avalie se ela corresponde às suas prioridades financeiras."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Pai, obrigado pelos recursos que confiaste às minhas mãos. Ensina-me a administrá-los com sabedoria e domínio próprio.",
+              "Espírito Santo, revela as necessidades emocionais que tenho tentado atender por meio de decisões financeiras impulsivas.",
+              "Eu renuncio à mentira de que preciso comprar ou consumir alguma coisa para aliviar minhas emoções e à crença de que não consigo controlar meus impulsos.",
+              "Cura as áreas da minha alma que ainda precisam de restauração e ajuda-me a desenvolver escolhas conscientes, equilibradas e responsáveis.",
+              "Em nome de Jesus, amém"
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "A PROSPERIDADE NÃO DEPENDE APENAS DOS RECURSOS QUE CHEGAM ÀS NOSSAS MÃOS, MAS TAMBÉM DO DOMÍNIO PRÓPRIO QUE DESENVOLVEMOS PARA ADMINISTRÁ-LOS."
+            ]
+          }
+        ]
+      },
+      "2026-11-22": {
+        "format": "document",
+        "label": "OS SEGREDOS DE UMA VIDA PRÓSPERA — DEVOCIONAL | SEMANA 3 — DIA 7",
+        "title": "QUANDO ADMINISTRAR O PRESENTE TAMBÉM SIGNIFICA PREPARAR O FUTURO",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“O prudente percebe o perigo e busca refúgio; o inexperiente segue adiante e sofre as consequências.” (Provérbios 22:3)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Você já percebeu que algumas dificuldades poderiam ter sido reduzidas se determinadas decisões tivessem sido tomadas com antecedência?",
+              "Às vezes, concentramos nossa atenção apenas nas necessidades imediatas e deixamos de considerar compromissos que sabemos que chegarão. Quando essas despesas aparecem, somos surpreendidos por situações que, na verdade, já poderiam ter sido previstas.",
+              "A responsabilidade financeira não envolve apenas resolver aquilo que está diante de nós hoje. Também exige desenvolver sabedoria para considerar as consequências das nossas decisões e preparar aquilo que estiver ao nosso alcance.",
+              "Uma vida próspera não é construída apenas pela maneira como utilizamos nossos recursos no presente, mas também pela responsabilidade com que nos preparamos para o futuro."
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Na terceira mensagem da nossa série, aprendemos que os servos da parábola dos talentos receberam recursos e precisaram responder pela maneira como os administraram. Os dois primeiros foram reconhecidos pela fidelidade demonstrada diante da responsabilidade recebida, enquanto o terceiro foi repreendido porque permitiu que o medo o conduzisse à inatividade.",
+              "Essa parábola nos ensina que a fidelidade exige uma resposta concreta. Entretanto, precisamos compreender que administrar adequadamente aquilo que recebemos também envolve pensar nas consequências futuras das nossas escolhas.",
+              "Em Provérbios 22:3, a Bíblia apresenta uma diferença entre a pessoa prudente e aquela que segue adiante sem considerar os riscos. O prudente reconhece uma ameaça e toma providências, enquanto o inexperiente ignora os sinais e acaba enfrentando consequências que poderiam ter sido evitadas.",
+              "Esse ensinamento não significa que conseguiremos prever todos os acontecimentos ou impedir qualquer dificuldade financeira. Existem situações inesperadas que ultrapassam nossa capacidade de planejamento. Entretanto, a prudência nos ensina a assumir responsabilidade por aquilo que podemos reconhecer e preparar antecipadamente.",
+              "Imagine uma pessoa que possui um veículo e sabe que, em determinado período do ano, precisará pagar impostos, renovar documentos e realizar despesas de manutenção. Mesmo conhecendo esses compromissos, utiliza toda a renda disponível sem considerar os gastos futuros.",
+              "Quando chega o momento de pagar essas despesas, precisa recorrer ao crédito ou comprometer recursos destinados a outras necessidades. O problema não começou quando a cobrança apareceu, mas na ausência de planejamento para uma responsabilidade que já era conhecida.",
+              "Essa situação revela um princípio importante: nem toda dificuldade financeira é consequência da falta de recursos; algumas surgem porque não aprendemos a considerar as necessidades que ainda não chegaram.",
+              "Essa dificuldade também pode possuir raízes emocionais. Algumas pessoas cresceram em ambientes marcados por instabilidade, nos quais as necessidades imediatas consumiam toda a atenção da família. Aprenderam a viver resolvendo uma urgência depois da outra, sem desenvolver a experiência de planejar com tranquilidade.",
+              "Na vida adulta, podem continuar funcionando dessa maneira, mesmo quando suas condições permitem alguma organização. O futuro parece distante demais para merecer atenção, enquanto as necessidades do presente parecem sempre mais urgentes.",
+              "Outras pessoas evitam planejar porque sentem ansiedade ao pensar nas responsabilidades futuras. Preferem não olhar para determinados compromissos porque acreditam que, ao reconhecê-los, experimentarão ainda mais preocupação.",
+              "Entretanto, evitar uma responsabilidade não significa que ela deixará de existir. Em algumas situações, a falta de planejamento apenas aumenta a dificuldade que precisaremos enfrentar posteriormente.",
+              "Quando aprendemos a olhar para o futuro com responsabilidade, deixamos de viver apenas reagindo às circunstâncias e começamos a participar conscientemente das decisões que podemos tomar.",
+              "Em Gênesis 41:33–36, encontramos um exemplo importante na história de José. Depois de interpretar os sonhos do faraó, ele orientou que fossem tomadas providências durante os anos de abundância para enfrentar o período de escassez que viria.",
+              "José não utilizou o conhecimento sobre o futuro como motivo para permanecer preocupado ou paralisado. Ele propôs uma administração responsável dos recursos disponíveis.",
+              "Observe que sua orientação envolvia reconhecer o tempo presente e preparar-se para uma necessidade futura. A abundância não deveria ser tratada como uma oportunidade para consumir tudo imediatamente, mas também como um período em que seria possível construir condições para enfrentar dificuldades posteriores.",
+              "Esse princípio continua relevante para nossa vida financeira. Quando temos condições, podemos organizar reservas, planejar despesas previsíveis e evitar compromissos que comprometam desnecessariamente nossa renda futura.",
+              "É importante reconhecer que nem todas as pessoas possuem recursos suficientes para poupar. Em algumas realidades, o primeiro passo será buscar orientação, reorganizar prioridades ou identificar possibilidades de melhorar a renda. O princípio não está em exigir o mesmo resultado de todos, mas em desenvolver responsabilidade conforme as condições de cada um.",
+              "Na terceira mensagem, aprendemos que Deus não nos chama a reproduzir a história financeira de outras pessoas. Ele nos chama a administrar com fidelidade aquilo que está sob nossos cuidados.",
+              "Talvez hoje o Espírito Santo queira revelar que você tem vivido apenas respondendo às urgências, sem conseguir considerar as responsabilidades futuras. Pode ser que experiências de instabilidade tenham produzido a crença de que planejar não adianta, porque as dificuldades sempre acabam acontecendo.",
+              "Entretanto, precisamos compreender que o planejamento não representa uma tentativa de controlar o futuro. Ele é uma expressão de responsabilidade sobre aquilo que podemos administrar no presente.",
+              "Ao encerrarmos esta terceira semana, retornamos à pergunta que orientou toda a mensagem: o que você tem feito com aquilo que recebeu?",
+              "Uma vida verdadeiramente próspera envolve reconhecer o valor dos recursos, superar a passividade, desenvolver fidelidade e tomar decisões que considerem não apenas as necessidades de hoje, mas também as responsabilidades de amanhã.",
+              "Porque administrar com sabedoria não significa controlar tudo o que acontecerá, mas assumir hoje a responsabilidade por aquilo que já podemos preparar."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Tenho considerado as despesas e responsabilidades futuras ou costumo administrar meus recursos apenas para atender às necessidades imediatas?",
+              "Existe algum compromisso previsível que continuo ignorando porque acredito que conseguirei resolvê-lo quando chegar o momento?",
+              "Em algum momento da minha história aprendi a viver apenas resolvendo urgências? Como essa experiência influencia minha capacidade de planejar hoje?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "EXERCÍCIO SOZO — DESENVOLVENDO RESPONSABILIDADE PELO FUTURO",
+              "1. IDENTIFIQUE: Reconheça uma despesa ou responsabilidade futura que você ainda não começou a planejar.",
+              "2. INVESTIGUE: Pergunte ao Espírito Santo: “Senhor, existe alguma experiência que me faz acreditar que não adianta planejar porque sempre surgirão dificuldades?”",
+              "3. SUBSTITUA: Declare: “Não preciso controlar o futuro para agir com responsabilidade. Posso administrar o presente com sabedoria e me preparar dentro das minhas possibilidades.”",
+              "4. PRATIQUE: Identifique um compromisso financeiro futuro e estabeleça uma pequena medida de preparação que esteja ao seu alcance."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Pai, obrigado por tudo aquilo que tenho recebido das Tuas mãos. Ensina-me a administrar meus recursos com fidelidade e responsabilidade.",
+              "Espírito Santo, cura as experiências de instabilidade que me fizeram acreditar que não vale a pena planejar ou me preparar para o futuro.",
+              "Eu renuncio à mentira de que não posso construir uma vida mais organizada e à crença de que preciso viver apenas reagindo às dificuldades.",
+              "Dá-me sabedoria para reconhecer minhas responsabilidades, estabelecer prioridades e tomar decisões conscientes. Que eu seja fiel naquilo que já recebi e aprenda a cuidar com maturidade daquilo que está sob minha administração.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "UMA VIDA PRÓSPERA NÃO É CONSTRUÍDA APENAS PELAQUILO QUE RECEBEMOS HOJE, MAS TAMBÉM PELA SABEDORIA COM QUE ADMINISTRAMOS O PRESENTE E NOS PREPARAMOS PARA O FUTURO."
+            ]
+          }
+        ]
+      }
+    }
+  },
 ];
 
 export const weekDays = ['Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado', 'Domingo'] as const;

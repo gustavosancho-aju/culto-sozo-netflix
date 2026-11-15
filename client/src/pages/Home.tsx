@@ -2,6 +2,7 @@ import React, { useMemo } from 'react';
 import { Link } from 'wouter';
 import Hero from '../components/Hero';
 import NewMessageHero from '../components/NewMessageHero';
+import UpcomingMessageHero from '../components/UpcomingMessageHero';
 import SeriesCard from '../components/SeriesCard';
 import ScrollRow from '../components/ScrollRow';
 import ExclusiveContent from '../components/ExclusiveContent';
@@ -71,6 +72,9 @@ const Home: React.FC<HomeProps> = ({ searchQuery }) => {
     );
   }
 
+  const upcomingWeek = devotionalWeeks.filter(week => week.upcomingImage).at(-1);
+  const showUpcoming = upcomingWeek && !allEpisodes.some(episode => episode.serieId === upcomingWeek.seriesId && episode.ordem >= upcomingWeek.number);
+
   // Filtro de busca
   if (searchQuery) {
     const normalized = (value: string) => value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
@@ -129,7 +133,7 @@ const Home: React.FC<HomeProps> = ({ searchQuery }) => {
           </span>
         </Link>
       </div>
-      {featuredEpisode.youtubeVideoId === 'B0yqmluQ04E' ? <NewMessageHero image="/brand/semana-2-vida-prospera.jpg" episodeId={featuredEpisode.id} /> : <Hero episode={featuredEpisode} isNew={featuredEpisode.youtubeVideoId === lastSyncedVideoId} />}
+      {showUpcoming ? <UpcomingMessageHero image={upcomingWeek.upcomingImage!} week={upcomingWeek.number} /> : featuredEpisode.youtubeVideoId === 'B0yqmluQ04E' ? <NewMessageHero image="/brand/semana-2-vida-prospera.jpg" episodeId={featuredEpisode.id} /> : <Hero episode={featuredEpisode} isNew={featuredEpisode.youtubeVideoId === lastSyncedVideoId} />}
 
       <div className="relative z-20 px-4 md:px-12 space-y-16 mt-8">
         {/* Section 2026 */}
