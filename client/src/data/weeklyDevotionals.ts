@@ -4713,6 +4713,105 @@ export const devotionalWeeks: DevotionalWeek[] = [
       }
     }
   },
+  {
+    "number": 4,
+    "startsOn": "2026-11-23",
+    "theme": "Os Segredos de uma Vida Próspera",
+    "seriesId": "os-segredos-de-uma-vida-prospera-2026",
+    "video": {
+      "title": "4º SEMANA | O QUE SOBRA PARA DEUS? | OS SEGREDOS DE UMA VIDA PRÓSPERA",
+      "youtubeId": "IZdbJlkPqX8"
+    },
+    "devotionals": {
+      "2026-11-23": {
+        "format": "document",
+        "label": "OS SEGREDOS DE UMA VIDA PRÓSPERA — DEVOCIONAL | SEMANA 4 — DIA 1",
+        "title": "QUANDO DEUS É PRIORIDADE NAS PALAVRAS, MAS NÃO NAS DECISÕES",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“Busquem, pois, em primeiro lugar o Reino de Deus e a sua justiça, e todas essas coisas lhes serão acrescentadas.”",
+              "Mateus 6:33 (NVI)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Se alguém observasse suas decisões financeiras, conseguiria identificar aquilo que você considera mais importante?",
+              "É possível afirmar que Deus ocupa o primeiro lugar em nossa vida e, ainda assim, tomar decisões que não correspondem a essa declaração. Podemos reconhecer a importância da fidelidade, da generosidade e dos princípios bíblicos, mas permitir que nossos desejos imediatos ocupem todo o espaço disponível em nossas escolhas.",
+              "Isso nos conduz a uma verdade importante: nossas prioridades não são reveladas apenas pelo que consideramos importante, mas também pelas decisões que tomamos."
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Na quarta mensagem da nossa série, aprendemos que honrar a Deus com nossos recursos envolve mais do que reconhecer verbalmente que tudo vem das suas mãos. A honra precisa alcançar a maneira como estabelecemos prioridades, administramos nossos compromissos e decidimos utilizar aquilo que recebemos.",
+              "Em Mateus 6:33, Jesus apresenta um princípio fundamental: buscar primeiro o Reino de Deus e a sua justiça. Essa declaração aparece em um contexto no qual o Senhor está ensinando sobre as preocupações relacionadas às necessidades materiais, como alimentação e vestuário. Jesus não está afirmando que essas necessidades são irrelevantes, mas ensinando que elas não devem ocupar o lugar central que pertence a Deus.",
+              "Observe que Jesus não disse que devemos ignorar nossas responsabilidades para demonstrar espiritualidade. Pelo contrário, Ele nos convida a viver de maneira que nossa confiança em Deus influencie a forma como enfrentamos as necessidades da vida.",
+              "Colocar Deus em primeiro lugar não significa deixar de cuidar das nossas responsabilidades, mas permitir que seus princípios orientem a maneira como cuidamos delas.",
+              "Imagine uma pessoa que deseja viver com fidelidade e generosidade, mas costuma tomar decisões financeiras considerando apenas seus interesses imediatos. Sempre que recebe algum recurso extra, rapidamente encontra algo que gostaria de comprar. Assume novos compromissos, amplia suas despesas e, quando surge uma oportunidade de contribuir com uma necessidade legítima ou participar de um propósito que considera importante, percebe que já comprometeu tudo o que possuía.",
+              "O problema não está necessariamente em comprar algo ou desfrutar do resultado do próprio trabalho. A questão é perceber que suas decisões estão sendo tomadas sem considerar valores que ela mesma afirma serem fundamentais.",
+              "Quando nossas prioridades não participam das decisões, elas permanecem apenas no campo das intenções.",
+              "Essa dificuldade também pode possuir raízes emocionais. Algumas pessoas cresceram enfrentando privações e desenvolveram a crença de que precisam aproveitar imediatamente tudo aquilo que conseguem conquistar. Para elas, adiar uma compra ou reservar recursos para outra finalidade pode despertar a sensação de que estão perdendo uma oportunidade de desfrutar da vida.",
+              "Outras aprenderam a encontrar segurança na capacidade de controlar cada recurso. Mesmo reconhecendo a importância da generosidade, experimentam ansiedade quando precisam abrir mão de alguma quantia, porque associam a entrega à possibilidade de faltar algo no futuro.",
+              "Essas experiências não devem ser ignoradas. A cura da alma envolve compreender como nossa história influenciou a maneira como lidamos com o dinheiro. Entretanto, também precisamos reconhecer que as experiências que explicam nossos medos não precisam continuar governando nossas prioridades.",
+              "Em Colossenses 3:2, Paulo nos orienta a manter o pensamento nas coisas do alto, e não apenas nas coisas terrenas. Esse princípio não significa desprezar as necessidades materiais, mas desenvolver uma perspectiva na qual nossas decisões sejam orientadas por valores que ultrapassam os interesses imediatos.",
+              "Isso também se aplica à nossa maneira de contribuir financeiramente. A fidelidade nos dízimos, a generosidade nas ofertas e o princípio das primícias precisam ser compreendidos como expressões de honra e reconhecimento de Deus, e não como tentativas de comprar seu favor ou garantir resultados financeiros.",
+              "Quando estabelecemos nossas prioridades com consciência, aprendemos a administrar os recursos considerando nossos compromissos, o cuidado com a família, as necessidades presentes e aquilo que desejamos honrar diante de Deus.",
+              "É importante reconhecer que existem pessoas enfrentando dificuldades financeiras reais. Nem sempre a ausência de recursos disponíveis representa uma escolha inadequada. Em algumas situações, a renda não é suficiente para atender às necessidades essenciais. Por isso, o convite de Jesus não deve ser transformado em condenação, mas em uma oportunidade de examinar o coração e buscar sabedoria para agir dentro das possibilidades existentes.",
+              "Talvez hoje o Espírito Santo queira revelar que você tem reconhecido a importância de Deus em suas palavras, mas ainda encontra dificuldade para permitir que essa prioridade influencie suas decisões financeiras.",
+              "Pode ser que o desafio não esteja apenas em entregar determinado recurso, mas em entregar a necessidade de decidir tudo a partir dos seus desejos, medos ou interesses pessoais.",
+              "A pergunta central da quarta mensagem permanece diante de nós: o que sobra para Deus depois que você estabelece suas prioridades?",
+              "Uma vida verdadeiramente próspera não é construída apenas pela quantidade de recursos que recebemos, mas também pela maturidade de organizar nossas decisões de acordo com os valores que professamos.",
+              "Porque Deus não deve ocupar apenas um lugar de importância em nossas declarações, mas também um lugar de prioridade nas escolhas que fazemos."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Minhas decisões financeiras demonstram que os princípios de Deus ocupam um lugar importante em minha vida?",
+              "Tenho permitido que desejos imediatos ou preocupações com o futuro ocupem o espaço de responsabilidades e compromissos que reconheço como prioridades?",
+              "Existe alguma experiência da minha história que me faz sentir insegurança quando preciso reservar ou compartilhar recursos para honrar aquilo que considero importante?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "EXERCÍCIO SOZO — REALINHANDO MINHAS PRIORIDADES",
+              "1. IDENTIFIQUE: Reconheça uma decisão financeira recente que não correspondeu às prioridades que você afirma possuir.",
+              "2. INVESTIGUE: Pergunte ao Espírito Santo: “Senhor, o que tem ocupado o primeiro lugar nas minhas decisões, mesmo quando declaro que Tu és minha prioridade?”",
+              "3. SUBSTITUA: Declare: “Meus desejos e medos não precisam governar minhas escolhas. Posso administrar meus recursos com responsabilidade e permitir que os princípios de Deus orientem minhas prioridades.”",
+              "4. PRATIQUE: Revise uma decisão financeira e faça um ajuste concreto que reflita melhor seus valores e responsabilidades."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Pai, hoje reconheço que honrar o Teu nome envolve também as decisões que tomo com aquilo que recebo.",
+              "Espírito Santo, revela os desejos, medos e crenças que têm ocupado um lugar maior do que deveriam em minhas prioridades.",
+              "Eu renuncio à mentira de que preciso satisfazer todos os meus desejos para me sentir seguro e à crença de que colocar Teus princípios em primeiro lugar significa perder aquilo que é importante para mim.",
+              "Ensina-me a administrar meus recursos com sabedoria, fidelidade e generosidade. Que minhas escolhas revelem a honra que declaro com meus lábios.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "DEUS NÃO OCUPA O PRIMEIRO LUGAR EM NOSSA VIDA APENAS PORQUE DECLARAMOS QUE ELE É IMPORTANTE, MAS QUANDO PERMITIMOS QUE SEUS PRINCÍPIOS ORIENTEM AS DECISÕES QUE TOMAMOS."
+            ]
+          }
+        ]
+      }
+    }
+  },
 ];
 
 export const weekDays = ['Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado', 'Domingo'] as const;

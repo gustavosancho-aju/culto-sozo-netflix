@@ -446,5 +446,21 @@
       "model": "microsoft/mai-voice-2.1-flash",
       "voice": "pt-BR-Caio:MAI-Voice-2.1-Flash"
     }
+  },
+  "2026-11-23": {
+    "feminina": {
+      "src": "/audio/oracoes/2026-11-23-854d16e3e2117242.mp3",
+      "text": "Pai, hoje reconheço que honrar o Teu nome envolve também as decisões que tomo com aquilo que recebo.\n\nEspírito Santo, revela os desejos, medos e crenças que têm ocupado um lugar maior do que deveriam em minhas prioridades.\n\nEu renuncio à mentira de que preciso satisfazer todos os meus desejos para me sentir seguro e à crença de que colocar Teus princípios em primeiro lugar significa perder aquilo que é importante para mim.\n\nEnsina-me a administrar meus recursos com sabedoria, fidelidade e generosidade. Que minhas escolhas revelem a honra que declaro com meus lábios.\n\nEm nome de Jesus, amém.",
+      "textHash": "aa7e5138aeb2172eecef0f74f11f17d45f754cb0acc10d9fd815d894232ad5e2",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Luana:MAI-Voice-2.1-Flash"
+    },
+    "masculina": {
+      "src": "/audio/oracoes/2026-11-23-0cc37ffe4cefa57e.mp3",
+      "text": "Pai, hoje reconheço que honrar o Teu nome envolve também as decisões que tomo com aquilo que recebo.\n\nEspírito Santo, revela os desejos, medos e crenças que têm ocupado um lugar maior do que deveriam em minhas prioridades.\n\nEu renuncio à mentira de que preciso satisfazer todos os meus desejos para me sentir seguro e à crença de que colocar Teus princípios em primeiro lugar significa perder aquilo que é importante para mim.\n\nEnsina-me a administrar meus recursos com sabedoria, fidelidade e generosidade. Que minhas escolhas revelem a honra que declaro com meus lábios.\n\nEm nome de Jesus, amém.",
+      "textHash": "aa7e5138aeb2172eecef0f74f11f17d45f754cb0acc10d9fd815d894232ad5e2",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Caio:MAI-Voice-2.1-Flash"
+    }
   }
 }
