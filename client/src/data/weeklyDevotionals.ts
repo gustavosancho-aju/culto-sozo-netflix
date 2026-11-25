@@ -4809,6 +4809,229 @@ export const devotionalWeeks: DevotionalWeek[] = [
             ]
           }
         ]
+      },
+      "2026-11-24": {
+        "format": "document",
+        "label": "OS SEGREDOS DE UMA VIDA PRÓSPERA — DEVOCIONAL | SEMANA 4 — DIA 2",
+        "title": "QUANDO NOSSOS INTERESSES OCUPAM TODO O ESPAÇO",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“Pois todos buscam os seus próprios interesses e não os de Jesus Cristo.”",
+              "Filipenses 2:21 (NVI)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Você já se perguntou quanto daquilo que deseja conquistar está relacionado exclusivamente ao seu próprio benefício?",
+              "Não há nada de errado em desejar melhorar suas condições de vida, proporcionar conforto à família ou realizar projetos pessoais. Entretanto, precisamos examinar nosso coração quando nossas conquistas começam a servir exclusivamente aos nossos interesses, sem considerar os propósitos de Deus."
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Na quarta mensagem da nossa série, aprendemos que, no tempo do profeta Ageu, o povo de Israel estava envolvido com a construção de suas próprias casas, enquanto o templo do Senhor permanecia em ruínas. O problema não estava em cuidar de suas casas, mas em permitir que seus interesses pessoais os levassem a negligenciar uma responsabilidade relacionada aos propósitos de Deus.",
+              "Em Filipenses 2:19–22, Paulo apresenta Timóteo como alguém que demonstrava interesse genuíno pelo bem-estar das pessoas e pelo avanço do evangelho. Ao contrastar sua postura com a daqueles que buscavam os próprios interesses, Paulo nos revela uma característica importante da maturidade espiritual: a capacidade de considerar propósitos que vão além do nosso benefício pessoal.",
+              "Essa verdade também precisa alcançar nossa vida financeira. Podemos passar anos trabalhando para aumentar nossa renda, adquirir patrimônio e melhorar nosso padrão de vida sem nunca perguntar ao Senhor como nossas conquistas podem servir aos seus propósitos.",
+              "Uma pessoa pode receber uma promoção profissional e imediatamente começar a planejar tudo aquilo que poderá adquirir com o aumento salarial. Entretanto, talvez nunca tenha considerado que essa nova condição também representa uma oportunidade de ampliar sua participação em projetos que beneficiem outras pessoas e contribuam para o avanço do Reino.",
+              "O problema não está em desfrutar das conquistas, mas em desenvolver uma mentalidade na qual todo crescimento financeiro precisa resultar exclusivamente em crescimento pessoal.",
+              "Quando nossas conquistas servem apenas aos nossos interesses, ainda não compreendemos plenamente o propósito da prosperidade no Reino de Deus.",
+              "Essa maneira de pensar pode estar relacionada a experiências de privação. Algumas pessoas passaram tanto tempo tendo seus desejos frustrados que, quando finalmente conquistam melhores condições financeiras, desenvolvem uma necessidade constante de compensar aquilo que não puderam viver anteriormente. Cada nova conquista parece insuficiente diante de tudo o que acreditam ter perdido.",
+              "Sem perceber, podem passar a utilizar seus recursos para tentar preencher as lacunas da própria história. Nesse processo, torna-se difícil olhar para necessidades e propósitos que ultrapassam seus interesses pessoais.",
+              "Em 2 Coríntios 9:11, Paulo nos ensina que a abundância também está relacionada à possibilidade de exercermos generosidade. Essa perspectiva amplia nossa compreensão da prosperidade: não se trata apenas daquilo que Deus coloca em nossas mãos, mas também daquilo que podemos realizar por meio dos recursos que recebemos.",
+              "Isso não significa negligenciar nossas necessidades ou comprometer o sustento da família, mas desenvolver um coração que não esteja permanentemente ocupado em satisfazer a si mesmo.",
+              "Talvez o Espírito Santo queira revelar hoje que algumas das suas ambições financeiras estão sendo governadas pela necessidade de compensar privações do passado. Permita que Ele cure essas áreas, para que suas conquistas não sejam apenas respostas às suas antigas necessidades emocionais, mas também instrumentos para o cumprimento dos propósitos de Deus.",
+              "A maturidade espiritual transforma nossa maneira de enxergar a prosperidade: deixamos de perguntar apenas o que podemos conquistar e começamos a perguntar o que Deus pode realizar por meio daquilo que conquistamos."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Meus projetos financeiros estão voltados exclusivamente aos meus interesses pessoais?",
+              "Tenho utilizado minhas conquistas para tentar compensar privações e frustrações do passado?",
+              "De que maneira os recursos e as oportunidades que recebo podem contribuir para os propósitos de Deus?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "Apresente seus projetos financeiros ao Espírito Santo e pergunte: “Senhor, existe algum interesse pessoal que tem ocupado um espaço maior do que deveria em meu coração?”",
+              "Identifique uma maneira responsável de utilizar seus recursos, habilidades ou oportunidades em benefício de um propósito que ultrapasse seus próprios interesses."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Pai, cura em mim as marcas das privações que me levam a viver concentrado apenas nas minhas próprias necessidades. Renuncio à mentira de que preciso compensar meu passado por meio das minhas conquistas. Amplia minha visão e ensina-me a reconhecer os propósitos do Teu Reino naquilo que colocas em minhas mãos.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "A PROSPERIDADE DO REINO NÃO SE REVELA APENAS NAQUILO QUE DEUS NOS PERMITE CONQUISTAR, MAS TAMBÉM NAQUILO QUE ELE PODE REALIZAR POR MEIO DAS NOSSAS CONQUISTAS."
+            ]
+          }
+        ]
+      },
+      "2026-11-25": {
+        "format": "document",
+        "label": "OS SEGREDOS DE UMA VIDA PRÓSPERA — DEVOCIONAL | SEMANA 4 — DIA 3",
+        "title": "ANTES DE DESFRUTAR, APRENDA A RECONHECER",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“E agora trago os primeiros frutos do solo que tu, ó Senhor, me deste.”",
+              "Deuteronômio 26:10 (NVI)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Quando você contempla suas conquistas, consegue reconhecer a participação de Deus em sua trajetória?",
+              "Podemos ser gratos por uma conquista no momento em que ela acontece, mas, à medida que passamos a desfrutá-la, corremos o risco de perder a consciência de quem nos sustentou durante o processo."
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Na quarta mensagem da nossa série, aprendemos que as primícias representam uma expressão bíblica de honra, prioridade e reconhecimento da provisão divina. Em Deuteronômio 26, encontramos um ensinamento que amplia nossa compreensão desse princípio.",
+              "Quando os israelitas entrassem na Terra Prometida e começassem a colher seus frutos, deveriam apresentar ao Senhor uma parte dos primeiros frutos da terra. Entretanto, essa entrega era acompanhada pela recordação de sua história: a opressão no Egito, o clamor por socorro, a intervenção divina e a chegada à terra que Deus lhes havia prometido.",
+              "Deus estava ensinando aquele povo a não separar suas conquistas da história da sua provisão. Antes de desfrutarem plenamente da colheita, deveriam recordar o caminho que haviam percorrido e reconhecer quem os havia conduzido até ali.",
+              "As primícias eram uma expressão material de uma memória espiritual.",
+              "Os israelitas haviam trabalhado, cultivado a terra e realizado a colheita, mas precisavam reconhecer que seu esforço não era a única razão pela qual estavam desfrutando daquela abundância.",
+              "Quantas vezes oramos por uma oportunidade profissional, apresentamos nossas dificuldades financeiras ao Senhor e buscamos sua direção diante de decisões importantes? Entretanto, depois que as circunstâncias mudam, podemos nos acostumar tanto com a nova realidade que deixamos de reconhecer o cuidado de Deus que experimentamos durante aquele processo.",
+              "Aquilo que um dia foi motivo de oração pode se tornar algo que consideramos simplesmente uma obrigação da vida nos proporcionar.",
+              "Essa dificuldade também pode estar relacionada à nossa história emocional. Pessoas que cresceram sem uma rede de apoio, assumindo responsabilidades precocemente e enfrentando dificuldades sozinhas, podem desenvolver a crença de que tudo o que possuem depende exclusivamente do próprio esforço.",
+              "Embora essa postura possa ter sido uma estratégia de sobrevivência, ela também pode dificultar o reconhecimento da dependência de Deus. A pessoa aprende a trabalhar, conquistar e administrar, mas encontra dificuldade para se perceber como alguém que também recebe cuidado.",
+              "A autossuficiência pode ser uma estratégia de sobrevivência que ainda não foi substituída pela segurança de viver como filho de Deus.",
+              "Em Tiago 1:17, aprendemos que toda boa dádiva e todo dom perfeito vêm do alto. Reconhecer essa verdade não diminui o valor do nosso trabalho, da nossa dedicação ou das nossas competências. Significa compreender que nossas capacidades, oportunidades e conquistas também podem ser recebidas com gratidão diante do Pai.",
+              "É nesse entendimento que o princípio das primícias ganha significado. A entrega deixa de ser apenas uma prática financeira e se torna uma expressão concreta de reconhecimento. Não entregamos para comprar o favor de Deus, mas porque reconhecemos o cuidado que já recebemos.",
+              "Talvez hoje o Espírito Santo queira conduzi-lo a revisitar sua própria história, trazendo à memória situações nas quais você foi sustentado, direcionado e fortalecido. Ao reconhecer essas experiências, permita que a gratidão transforme sua maneira de se relacionar com aquilo que possui.",
+              "Um coração que reconhece a origem da provisão compreende que honrar a Deus não é apenas uma responsabilidade, mas uma resposta à sua bondade."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Tenho me acostumado com conquistas que um dia foram motivo das minhas orações?",
+              "As experiências da minha história me ensinaram a acreditar que tudo depende exclusivamente de mim?",
+              "Minha maneira de administrar os recursos expressa gratidão e reconhecimento pela provisão de Deus?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "Traga à memória três situações da sua trajetória nas quais você reconhece o cuidado e a provisão de Deus. Agradeça ao Senhor por cada uma delas e reflita sobre como esse reconhecimento pode encontrar expressão concreta na sua vida financeira."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Pai, obrigado por cada expressão do Teu cuidado ao longo da minha história. Cura em mim as marcas que produziram autossuficiência e renuncio à mentira de que tudo depende exclusivamente do meu esforço. Que eu nunca perca a consciência da Tua bondade e que minhas atitudes sejam uma expressão sincera de gratidão e honra.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "AS PRIMÍCIAS NOS ENSINAM A NÃO DESFRUTAR DA PROVISÃO ESQUECENDO AQUELE QUE NOS PROVEU. A HONRA É A EXPRESSÃO CONCRETA DE UM CORAÇÃO QUE RECONHECE."
+            ]
+          }
+        ]
+      },
+      "2026-11-26": {
+        "format": "document",
+        "label": "OS SEGREDOS DE UMA VIDA PRÓSPERA — DEVOCIONAL | SEMANA 4 — DIA 4",
+        "title": "QUANDO NOS ESQUECEMOS DE QUE TUDO PERTENCE A DEUS",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“Tudo vem de ti, e nós apenas te demos o que vem das tuas mãos.”",
+              "1 Crônicas 29:14 (NVI)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Você já percebeu como a maneira de enxergar aquilo que possui influencia sua disposição para entregar?",
+              "Quando nos consideramos proprietários absolutos dos nossos recursos, qualquer entrega pode ser interpretada como uma perda. Entretanto, quando compreendemos que somos administradores daquilo que Deus nos confiou, nossa relação com o dinheiro começa a ser transformada."
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Na quarta mensagem da nossa série, aprendemos que o dízimo representa uma expressão de reconhecimento e fidelidade a Deus. Entretanto, para compreender esse princípio, precisamos desenvolver uma consciência espiritual acerca daquilo que possuímos.",
+              "Em 1 Crônicas 29, depois de reunir recursos para a construção do templo, Davi apresenta uma oração que revela sua compreensão acerca das riquezas. Mesmo sendo um rei que possuía grandes recursos, ele reconhecia que tudo pertencia ao Senhor. Sua entrega não era uma demonstração de superioridade ou uma tentativa de conquistar o favor divino, mas uma resposta à consciência de que tudo havia recebido das mãos de Deus.",
+              "Davi possuía riquezas, mas não desenvolveu uma mentalidade de proprietário absoluto. Ele compreendia sua posição de administrador diante de Deus.",
+              "Essa distinção transforma nossa maneira de compreender a fidelidade financeira. Quando acreditamos que tudo nos pertence exclusivamente, podemos interpretar o dízimo como uma retirada daquilo que conquistamos. Entretanto, quando reconhecemos o senhorio de Deus sobre nossos recursos, compreendemos que a fidelidade é uma maneira concreta de expressar esse reconhecimento.",
+              "Uma das dificuldades para viver esse princípio está na necessidade de controle. Algumas pessoas passaram por experiências de perdas, abandono ou instabilidade financeira que as ensinaram a encontrar segurança naquilo que conseguem manter sob seu domínio. Para elas, possuir recursos não representa apenas uma condição financeira, mas uma forma de proteção emocional.",
+              "Mesmo quando suas condições melhoram, continuam experimentando insegurança diante da possibilidade de entregar. O dinheiro passa a representar uma garantia de que não voltarão a experimentar as dificuldades do passado.",
+              "Nesse caso, o desafio não está somente na administração financeira, mas naquilo que os recursos passaram a representar emocionalmente.",
+              "Quando o dinheiro assume a função de proteger nossa alma, entregar pode despertar o medo de perder a própria segurança.",
+              "Em Salmos 24:1, encontramos uma verdade que confronta essa mentalidade:",
+              "“Do Senhor é a terra e tudo o que nela existe, o mundo e os que nele vivem.” (NVI)",
+              "Reconhecer que tudo pertence a Deus não elimina nossa responsabilidade de trabalhar, planejar, poupar e cuidar da família. Significa compreender que nenhuma dessas atitudes precisa ser governada pela crença de que estamos sozinhos e de que nossa segurança depende exclusivamente daquilo que conseguimos acumular.",
+              "É nesse entendimento que a fidelidade financeira deixa de ser reduzida a um cálculo matemático. O dízimo não deve ser compreendido como um pagamento para garantir a proteção de Deus, mas como uma expressão de honra daquele que reconhece o seu senhorio.",
+              "Deus não deseja apenas transformar nossa maneira de administrar o dinheiro. Ele deseja transformar o lugar que o dinheiro ocupa dentro de nós.",
+              "Talvez o Espírito Santo queira revelar hoje que sua dificuldade de entregar está relacionada ao medo de voltar a experimentar situações que marcaram sua história. Permita que o Pai restaure sua confiança, para que você não precise encontrar nos recursos materiais a segurança que sua identidade de filho lhe proporciona.",
+              "A verdadeira prosperidade começa quando conseguimos possuir recursos sem permitir que eles ocupem o lugar de Deus em nosso coração."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Tenho me relacionado com meus recursos como proprietário absoluto ou como administrador daquilo que Deus me confiou?",
+              "Existe alguma experiência de perda ou escassez que me levou a encontrar segurança emocional no dinheiro?",
+              "Minha fidelidade financeira expressa honra e confiança em Deus ou está sendo governada pelo medo e pela obrigação?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "Pergunte ao Espírito Santo: “Senhor, o que tenho medo de perder quando preciso abrir mão do controle sobre meus recursos?”",
+              "Apresente essa insegurança ao Pai e examine de que maneira ela tem influenciado sua fidelidade financeira."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Pai, reconheço que tudo vem das Tuas mãos. Cura em mim as marcas das perdas e da escassez que me ensinaram a encontrar segurança no dinheiro. Renuncio à mentira de que minha proteção depende exclusivamente daquilo que possuo. Ensina-me a administrar com sabedoria e a viver em fidelidade, honra e confiança em Ti.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "QUANDO COMPREENDERMOS QUE SOMOS ADMINISTRADORES E NÃO PROPRIETÁRIOS ABSOLUTOS, A FIDELIDADE DEIXARÁ DE SER INTERPRETADA COMO PERDA E PASSARÁ A SER UMA EXPRESSÃO DE HONRA AO SENHOR."
+            ]
+          }
+        ]
       }
     }
   },

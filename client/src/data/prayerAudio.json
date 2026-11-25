@@ -462,5 +462,53 @@
       "model": "microsoft/mai-voice-2.1-flash",
       "voice": "pt-BR-Caio:MAI-Voice-2.1-Flash"
     }
+  },
+  "2026-11-24": {
+    "feminina": {
+      "src": "/audio/oracoes/2026-11-24-6b6d4dae59b62a3f.mp3",
+      "text": "Pai, cura em mim as marcas das privações que me levam a viver concentrado apenas nas minhas próprias necessidades. Renuncio à mentira de que preciso compensar meu passado por meio das minhas conquistas. Amplia minha visão e ensina-me a reconhecer os propósitos do Teu Reino naquilo que colocas em minhas mãos.\n\nEm nome de Jesus, amém.",
+      "textHash": "0390377b4d267bf485475e6d5be63fe618e2e63bcfd6f3df36734e4f3248f504",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Luana:MAI-Voice-2.1-Flash"
+    },
+    "masculina": {
+      "src": "/audio/oracoes/2026-11-24-d18e8c02608a942a.mp3",
+      "text": "Pai, cura em mim as marcas das privações que me levam a viver concentrado apenas nas minhas próprias necessidades. Renuncio à mentira de que preciso compensar meu passado por meio das minhas conquistas. Amplia minha visão e ensina-me a reconhecer os propósitos do Teu Reino naquilo que colocas em minhas mãos.\n\nEm nome de Jesus, amém.",
+      "textHash": "0390377b4d267bf485475e6d5be63fe618e2e63bcfd6f3df36734e4f3248f504",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Caio:MAI-Voice-2.1-Flash"
+    }
+  },
+  "2026-11-25": {
+    "feminina": {
+      "src": "/audio/oracoes/2026-11-25-3d7c1b04c70265dc.mp3",
+      "text": "Pai, obrigado por cada expressão do Teu cuidado ao longo da minha história. Cura em mim as marcas que produziram autossuficiência e renuncio à mentira de que tudo depende exclusivamente do meu esforço. Que eu nunca perca a consciência da Tua bondade e que minhas atitudes sejam uma expressão sincera de gratidão e honra.\n\nEm nome de Jesus, amém.",
+      "textHash": "508270d9aafadfa610409cdde41987156bb4700cfddec0a0edff30b9faad947d",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Luana:MAI-Voice-2.1-Flash"
+    },
+    "masculina": {
+      "src": "/audio/oracoes/2026-11-25-3e7ea5600f4e1514.mp3",
+      "text": "Pai, obrigado por cada expressão do Teu cuidado ao longo da minha história. Cura em mim as marcas que produziram autossuficiência e renuncio à mentira de que tudo depende exclusivamente do meu esforço. Que eu nunca perca a consciência da Tua bondade e que minhas atitudes sejam uma expressão sincera de gratidão e honra.\n\nEm nome de Jesus, amém.",
+      "textHash": "508270d9aafadfa610409cdde41987156bb4700cfddec0a0edff30b9faad947d",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Caio:MAI-Voice-2.1-Flash"
+    }
+  },
+  "2026-11-26": {
+    "feminina": {
+      "src": "/audio/oracoes/2026-11-26-35449421627fb637.mp3",
+      "text": "Pai, reconheço que tudo vem das Tuas mãos. Cura em mim as marcas das perdas e da escassez que me ensinaram a encontrar segurança no dinheiro. Renuncio à mentira de que minha proteção depende exclusivamente daquilo que possuo. Ensina-me a administrar com sabedoria e a viver em fidelidade, honra e confiança em Ti.\n\nEm nome de Jesus, amém.",
+      "textHash": "907fcdc8d335f790eaab4dcbeadf6b780909a5f0a57a7d94dcd17bb944b1baf4",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Luana:MAI-Voice-2.1-Flash"
+    },
+    "masculina": {
+      "src": "/audio/oracoes/2026-11-26-93612cb9236eb5a4.mp3",
+      "text": "Pai, reconheço que tudo vem das Tuas mãos. Cura em mim as marcas das perdas e da escassez que me ensinaram a encontrar segurança no dinheiro. Renuncio à mentira de que minha proteção depende exclusivamente daquilo que possuo. Ensina-me a administrar com sabedoria e a viver em fidelidade, honra e confiança em Ti.\n\nEm nome de Jesus, amém.",
+      "textHash": "907fcdc8d335f790eaab4dcbeadf6b780909a5f0a57a7d94dcd17bb944b1baf4",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Caio:MAI-Voice-2.1-Flash"
+    }
   }
 }
