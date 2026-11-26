@@ -5032,6 +5032,82 @@ export const devotionalWeeks: DevotionalWeek[] = [
             ]
           }
         ]
+      },
+      "2026-11-27": {
+        "format": "document",
+        "label": "OS SEGREDOS DE UMA VIDA PRÓSPERA — DEVOCIONAL | SEMANA 4 — DIA 5",
+        "title": "QUANDO A PROSPERIDADE MATERIAL ESCONDE A POBREZA ESPIRITUAL",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“Você diz: Estou rico, adquiri riquezas e não preciso de nada. Não reconhece, porém, que é miserável, digno de compaixão, pobre, cego e que está nu.”",
+              "Apocalipse 3:17 (NVI)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Quais critérios você utiliza para avaliar se sua vida está prosperando?",
+              "Normalmente, conseguimos identificar nosso crescimento financeiro observando o aumento da renda, a aquisição de bens e a realização de projetos. Entretanto, será que temos a mesma capacidade de identificar o que está acontecendo em nossa vida espiritual enquanto avançamos materialmente?"
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Na quarta mensagem da nossa série, aprendemos que a honra a Deus precisa alcançar a ordem das nossas prioridades. Entretanto, existe um perigo ainda mais profundo: podemos experimentar crescimento material sem perceber que estamos vivendo um empobrecimento espiritual.",
+              "Em Apocalipse 3, Jesus dirige uma palavra à igreja de Laodiceia. Aquela igreja possuía uma percepção positiva de si mesma, fundamentada em sua condição de riqueza. Entretanto, a avaliação que Jesus fazia dela era completamente diferente.",
+              "O aspecto mais preocupante daquela condição não era apenas sua pobreza espiritual, mas sua incapacidade de reconhecê-la. A prosperidade material havia se tornado um critério inadequado para avaliar sua verdadeira condição diante de Deus.",
+              "O perigo não está em possuir riquezas, mas em utilizar nossas conquistas materiais como evidência de que tudo está bem espiritualmente.",
+              "Uma pessoa pode experimentar crescimento profissional, ampliar seus negócios e conquistar estabilidade financeira enquanto se torna menos sensível à voz do Espírito Santo, menos disponível para servir e menos receptiva à correção.",
+              "Como os resultados externos continuam sendo positivos, ela pode não perceber que algumas áreas importantes de sua vida espiritual estão se deteriorando.",
+              "Essa dificuldade também pode estar relacionada à maneira como aprendemos a avaliar nosso próprio valor. Algumas pessoas cresceram em ambientes nos quais o sucesso era considerado a principal evidência de que estavam fazendo as escolhas certas. Aprenderam a medir sua condição pessoal pelos resultados que conseguiam apresentar.",
+              "Quando essa mentalidade é transferida para a vida espiritual, existe o risco de interpretar conquistas financeiras como confirmação automática da aprovação de Deus.",
+              "Entretanto, Jesus nos ensina que os critérios do Reino são diferentes. Em Mateus 7:16, Ele afirma que as pessoas seriam reconhecidas pelos seus frutos. O contexto dessa passagem nos conduz à necessidade de discernir o caráter e as atitudes, e não apenas as manifestações exteriores.",
+              "Resultados financeiros podem revelar competências profissionais, mas não são suficientes para revelar maturidade espiritual.",
+              "É interessante observar que, depois de confrontar a condição da igreja de Laodiceia, Jesus declara:",
+              "“Repreendo e disciplino aqueles que eu amo. Por isso, seja diligente e arrependa-se.” (Apocalipse 3:19 — NVI)",
+              "O confronto de Jesus era uma expressão do seu amor. Ele desejava restaurar naquela igreja a capacidade de reconhecer sua verdadeira condição e responder àquilo que precisava ser transformado.",
+              "Uma das evidências de maturidade espiritual é continuar permitindo que Deus nos confronte, mesmo quando estamos experimentando sucesso em outras áreas da vida.",
+              "Talvez hoje o Espírito Santo queira mostrar que, enquanto você tem acompanhado cuidadosamente seu crescimento financeiro, algumas dimensões da sua vida espiritual deixaram de receber a mesma atenção.",
+              "Não permita que suas conquistas impeçam você de reconhecer aquilo que ainda precisa ser transformado. A verdadeira prosperidade não consiste apenas em avançar materialmente, mas em continuar crescendo espiritualmente à medida que novas conquistas são acrescentadas à sua história."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Tenho utilizado minhas conquistas financeiras como evidência de que minha vida espiritual está bem?",
+              "Enquanto tenho crescido materialmente, também tenho amadurecido em humildade, obediência e sensibilidade espiritual?",
+              "Continuo permitindo que Deus confronte minhas atitudes, mesmo quando minhas decisões parecem produzir bons resultados?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "Faça uma avaliação da sua vida espiritual, independentemente das suas conquistas materiais. Pergunte ao Espírito Santo: “Senhor, existe alguma área da minha vida que não tenho conseguido enxergar como Tu a enxergas?”"
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Pai, não permita que minhas conquistas escondam aquilo que ainda precisa ser transformado em mim. Renuncio à mentira de que meu sucesso material é suficiente para demonstrar minha maturidade espiritual. Dá-me discernimento, humildade e um coração sensível à Tua correção.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "NÃO CONFUNDA CRESCIMENTO FINANCEIRO COM CRESCIMENTO ESPIRITUAL. A VERDADEIRA PROSPERIDADE EXIGE QUE O NOSSO INTERIOR AMADUREÇA À MEDIDA QUE NOSSAS CONQUISTAS AUMENTAM."
+            ]
+          }
+        ]
       }
     }
   },

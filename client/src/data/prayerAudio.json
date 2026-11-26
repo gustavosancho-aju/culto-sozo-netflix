@@ -510,5 +510,21 @@
       "model": "microsoft/mai-voice-2.1-flash",
       "voice": "pt-BR-Caio:MAI-Voice-2.1-Flash"
     }
+  },
+  "2026-11-27": {
+    "feminina": {
+      "src": "/audio/oracoes/2026-11-27-d34df0b3a8a79b80.mp3",
+      "text": "Pai, não permita que minhas conquistas escondam aquilo que ainda precisa ser transformado em mim. Renuncio à mentira de que meu sucesso material é suficiente para demonstrar minha maturidade espiritual. Dá-me discernimento, humildade e um coração sensível à Tua correção.\n\nEm nome de Jesus, amém.",
+      "textHash": "2e4d185bd31cb2ea6c82071ee63d37f9ba2f63521e8f956aba865a5cbd3715ef",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Luana:MAI-Voice-2.1-Flash"
+    },
+    "masculina": {
+      "src": "/audio/oracoes/2026-11-27-976ecf0f84515cbe.mp3",
+      "text": "Pai, não permita que minhas conquistas escondam aquilo que ainda precisa ser transformado em mim. Renuncio à mentira de que meu sucesso material é suficiente para demonstrar minha maturidade espiritual. Dá-me discernimento, humildade e um coração sensível à Tua correção.\n\nEm nome de Jesus, amém.",
+      "textHash": "2e4d185bd31cb2ea6c82071ee63d37f9ba2f63521e8f956aba865a5cbd3715ef",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Caio:MAI-Voice-2.1-Flash"
+    }
   }
 }
