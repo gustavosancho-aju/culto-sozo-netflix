@@ -5108,6 +5108,163 @@ export const devotionalWeeks: DevotionalWeek[] = [
             ]
           }
         ]
+      },
+      "2026-11-28": {
+        "format": "document",
+        "label": "OS SEGREDOS DE UMA VIDA PRÓSPERA — DEVOCIONAL | SEMANA 4 — DIA 6",
+        "title": "QUANDO O DESEJO DE TER MAIS NOS FAZ NEGOCIAR VALORES",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“Os que querem ficar ricos caem em tentação, em armadilhas e em muitos desejos descontrolados e nocivos.”",
+              "1 Timóteo 6:9 (NVI — trecho)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Existe algum princípio do qual você estaria disposto a abrir mão diante de uma oportunidade de crescimento financeiro?",
+              "É relativamente fácil defender determinados valores quando eles não representam nenhum custo para nós. Entretanto, nossa convicção é verdadeiramente confrontada quando permanecer fiel àquilo em que acreditamos significa renunciar a uma vantagem."
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Na quarta mensagem da nossa série, aprendemos que honrar a Deus envolve permitir que seus princípios governem nossas decisões financeiras. Entretanto, essa honra também precisa ser preservada quando nossos valores entram em conflito com nossas ambições.",
+              "Em 1 Timóteo 6:9–10, Paulo não condena a riqueza em si, mas adverte sobre os perigos de transformar o enriquecimento em uma ambição dominante. Quando o desejo de possuir mais passa a governar o coração, a pessoa pode se tornar vulnerável a escolhas que anteriormente considerava inaceitáveis.",
+              "Paulo afirma que algumas pessoas, por cobiçarem o dinheiro, desviaram-se da fé e se atormentaram com muitos sofrimentos.",
+              "Observe que o texto não apresenta apenas uma consequência financeira. Ele revela que determinadas ambições podem comprometer nossa trajetória espiritual.",
+              "O desejo de crescer financeiramente se torna perigoso quando começa a modificar os limites que nossos valores deveriam estabelecer.",
+              "Em Números 22–24, encontramos a história de Balaão. Balaque, rei de Moabe, ofereceu-lhe recompensas para que amaldiçoasse o povo de Israel. Embora Balaão conhecesse as orientações de Deus, sua história ficou marcada pela relação entre sua atuação espiritual e o interesse por recompensas.",
+              "Em 2 Pedro 2:15, a Bíblia afirma que Balaão amou o salário da injustiça. Sua trajetória nos adverte sobre o perigo de permitir que vantagens pessoais interfiram na maneira como respondemos à verdade que conhecemos.",
+              "Essa realidade pode se manifestar de maneira sutil em nossas escolhas. Uma pessoa recebe uma proposta profissional financeiramente vantajosa, mas percebe que, para aceitá-la, precisará participar de práticas contrárias aos seus princípios. Inicialmente, sente desconforto. Entretanto, começa a construir justificativas, considerando que aquela oportunidade poderá melhorar significativamente suas condições de vida.",
+              "Aos poucos, aquilo que antes era considerado inaceitável começa a ser interpretado como necessário.",
+              "Quando uma vantagem financeira se torna suficientemente importante para modificar nossas convicções, precisamos examinar o poder que ela adquiriu sobre nosso coração.",
+              "Essa vulnerabilidade também pode estar relacionada a feridas emocionais. Algumas pessoas desenvolveram uma necessidade intensa de provar que são capazes de vencer na vida. Suas conquistas representam uma tentativa de responder àqueles que duvidaram delas, desprezaram suas capacidades ou desacreditaram seu futuro.",
+              "Nesse processo, alcançar determinado resultado pode se tornar tão importante que a pessoa começa a relativizar os meios utilizados para conquistá-lo.",
+              "Ela já não está apenas buscando crescimento financeiro, mas tentando provar alguma coisa sobre si mesma.",
+              "Em Marcos 8:36, Jesus apresenta uma pergunta que confronta essa maneira de viver:",
+              "“Pois, que adianta ao homem ganhar o mundo inteiro e perder a sua alma?” (NVI)",
+              "Jesus nos conduz a considerar o custo espiritual das nossas conquistas. Nem toda oportunidade representa um avanço quando aquilo que precisamos abandonar para conquistá-la possui um valor maior do que aquilo que receberemos.",
+              "A maturidade financeira no Reino envolve desenvolver liberdade interior para recusar vantagens que exigem a negociação dos nossos princípios.",
+              "Talvez hoje o Espírito Santo queira revelar que alguma ambição financeira tem ocupado um espaço tão importante em seu coração que você começou a justificar escolhas que anteriormente reconhecia como inadequadas.",
+              "Permita que Deus restaure a segurança da sua identidade, para que você não precise conquistar a qualquer custo nem utilizar seus resultados para provar seu valor."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Existe alguma vantagem financeira que tem me levado a flexibilizar princípios que antes considerava inegociáveis?",
+              "Tenho buscado crescimento financeiro para cumprir propósitos ou para provar alguma coisa sobre mim?",
+              "Estou disposto a renunciar a uma oportunidade quando ela exige que eu comprometa meus valores?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "Identifique três princípios bíblicos dos quais você não deseja abrir mão, independentemente das vantagens financeiras que possam surgir. Apresente-os ao Senhor e examine se suas decisões atuais estão coerentes com eles."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Pai, cura em mim a necessidade de provar meu valor por meio das minhas conquistas. Renuncio à mentira de que preciso vencer a qualquer custo. Fortalece minhas convicções e dá-me liberdade para recusar tudo aquilo que comprometa minha fidelidade a Ti.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "NENHUMA CONQUISTA FINANCEIRA REPRESENTA VERDADEIRA PROSPERIDADE QUANDO O PREÇO PARA ALCANÇÁ-LA É A RENÚNCIA AOS PRINCÍPIOS DO REINO."
+            ]
+          }
+        ]
+      },
+      "2026-11-29": {
+        "format": "document",
+        "label": "OS SEGREDOS DE UMA VIDA PRÓSPERA — DEVOCIONAL | SEMANA 4 — DIA 7",
+        "title": "QUANDO NOSSA FIDELIDADE NÃO DEPENDE DOS RESULTADOS",
+        "sections": [
+          {
+            "title": "TEXTO-CHAVE",
+            "kind": "verse",
+            "paragraphs": [
+              "“Ainda assim eu exultarei no Senhor e me alegrarei no Deus da minha salvação.”",
+              "Habacuque 3:18 (NVI)"
+            ]
+          },
+          {
+            "title": "PARA COMEÇAR",
+            "kind": "text",
+            "paragraphs": [
+              "Como fica sua disposição para honrar a Deus quando sua realidade financeira não corresponde às suas expectativas?",
+              "É importante examinarmos se nossa fidelidade está fundamentada em quem Deus é ou naquilo que esperamos que Ele faça por nós. Essa distinção se torna especialmente evidente quando atravessamos circunstâncias que não conseguimos compreender."
+            ]
+          },
+          {
+            "title": "DEVOCIONAL",
+            "kind": "text",
+            "paragraphs": [
+              "Ao longo desta quarta semana, aprendemos que a honra a Deus precisa alcançar nossas prioridades, nossas motivações e a maneira como administramos aquilo que recebemos. Entretanto, existe uma dimensão da maturidade espiritual que precisa ser desenvolvida: permanecer fiel mesmo quando nossas expectativas não são atendidas.",
+              "Em Habacuque 3:17–18, o profeta apresenta um cenário de profunda dificuldade econômica. A figueira não floresceria, as videiras não produziriam frutos, a colheita falharia e os rebanhos desapareceriam.",
+              "Em uma sociedade essencialmente agrícola, essas circunstâncias representavam a perda de importantes fontes de sustento. Habacuque não estava falando de pequenos inconvenientes, mas da possibilidade de enfrentar uma realidade de grande privação.",
+              "Mesmo diante desse cenário, ele declara que continuaria se alegrando no Senhor.",
+              "Habacuque havia aprendido a distinguir a bondade de Deus das circunstâncias que estava experimentando.",
+              "Sua declaração não negava a gravidade da situação nem eliminava a necessidade de provisão. Revelava, entretanto, que seu relacionamento com Deus não seria determinado exclusivamente pelos resultados que pudesse experimentar.",
+              "Essa verdade confronta uma compreensão equivocada da fidelidade financeira. Algumas pessoas acreditam que, se forem fiéis a Deus, estarão protegidas de qualquer dificuldade econômica. Quando enfrentam desemprego, perdas ou frustrações, começam a questionar se sua fidelidade realmente valeu a pena.",
+              "Sem perceber, podem desenvolver um relacionamento com Deus fundamentado em uma expectativa de reciprocidade: se cumprirem determinadas responsabilidades, acreditam que Deus deverá responder exatamente da maneira que esperam.",
+              "O problema dessa mentalidade se torna evidente quando a resposta esperada não acontece. A frustração financeira pode se transformar em decepção espiritual, produzindo afastamento, ressentimento e dificuldade para continuar confiando.",
+              "Essa reação também pode estar relacionada a experiências anteriores nas quais a confiança foi quebrada. Pessoas que receberam promessas não cumpridas ou foram decepcionadas por figuras importantes podem desenvolver grande dificuldade para lidar com expectativas frustradas.",
+              "Quando essas feridas são projetadas no relacionamento com Deus, uma oração aparentemente não respondida pode ser interpretada como rejeição, abandono ou falta de cuidado.",
+              "Precisamos aprender a não interpretar o caráter de Deus a partir das nossas expectativas frustradas.",
+              "Em Daniel 3:17–18, encontramos uma expressão extraordinária dessa maturidade. Diante da ameaça da fornalha, Sadraque, Mesaque e Abede-Nego declararam que Deus tinha poder para livrá-los. Entretanto, afirmaram que, mesmo que isso não acontecesse, permaneceriam fiéis.",
+              "Eles não duvidavam do poder de Deus, mas também não condicionavam sua obediência à manifestação desse poder da maneira que desejavam.",
+              "Essa é uma dimensão profunda da fé: confiar que Deus pode transformar nossas circunstâncias sem transformar essa possibilidade em uma condição para continuarmos honrando seu nome.",
+              "Isso não significa deixar de orar por provisão, buscar soluções ou esperar mudanças. Significa reconhecer que nossa fidelidade não é uma negociação com Deus, mas uma resposta ao relacionamento que temos com Ele.",
+              "Talvez você esteja atravessando uma situação financeira que não corresponde àquilo que esperava viver. Permita-se apresentar ao Pai suas frustrações, perguntas e necessidades, sem concluir que as dificuldades representam ausência do seu amor.",
+              "Ao encerrarmos esta quarta semana, precisamos compreender que a honra mais madura não é aquela que oferecemos somente quando estamos satisfeitos com nossas circunstâncias, mas aquela que permanece fundamentada no conhecimento de quem Deus é."
+            ]
+          },
+          {
+            "title": "PERGUNTE AO SEU CORAÇÃO",
+            "kind": "questions",
+            "paragraphs": [
+              "Minha disposição para honrar a Deus tem sido influenciada pelos resultados financeiros que experimento?",
+              "Existe alguma expectativa frustrada que produziu ressentimento ou decepção no meu relacionamento com Deus?",
+              "Consigo permanecer fiel aos princípios do Reino mesmo quando ainda não compreendo aquilo que estou vivendo?"
+            ]
+          },
+          {
+            "title": "PRÁTICA DO DIA",
+            "kind": "text",
+            "paragraphs": [
+              "Apresente ao Senhor uma expectativa financeira que ainda não foi atendida. Fale sinceramente sobre seus sentimentos e peça ao Espírito Santo que o ajude a distinguir suas circunstâncias do caráter de Deus."
+            ]
+          },
+          {
+            "title": "ORAÇÃO",
+            "kind": "text",
+            "paragraphs": [
+              "Pai, entrego a Ti minhas expectativas frustradas e as perguntas que ainda não possuem respostas. Cura em mim toda decepção que comprometeu minha confiança em Ti. Renuncio à mentira de que Tua bondade depende dos resultados que experimento. Que minha fidelidade esteja fundamentada em quem Tu és.",
+              "Em nome de Jesus, amém."
+            ]
+          },
+          {
+            "title": "FRASE PARA LEVAR COM VOCÊ",
+            "kind": "takeaway",
+            "paragraphs": [
+              "A FIDELIDADE AMADURECE QUANDO DEIXAMOS DE CONDICIONAR NOSSA HONRA A DEUS ÀQUILO QUE ESPERAMOS RECEBER DELE."
+            ]
+          }
+        ]
       }
     }
   },

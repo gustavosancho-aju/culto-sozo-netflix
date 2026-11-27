@@ -526,5 +526,37 @@
       "model": "microsoft/mai-voice-2.1-flash",
       "voice": "pt-BR-Caio:MAI-Voice-2.1-Flash"
     }
+  },
+  "2026-11-28": {
+    "feminina": {
+      "src": "/audio/oracoes/2026-11-28-419bedfdae036baa.mp3",
+      "text": "Pai, cura em mim a necessidade de provar meu valor por meio das minhas conquistas. Renuncio à mentira de que preciso vencer a qualquer custo. Fortalece minhas convicções e dá-me liberdade para recusar tudo aquilo que comprometa minha fidelidade a Ti.\n\nEm nome de Jesus, amém.",
+      "textHash": "b1e70fddc4c38b0afc04af20604440840b4d46ad53f3bbd6393398f51d108b30",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Luana:MAI-Voice-2.1-Flash"
+    },
+    "masculina": {
+      "src": "/audio/oracoes/2026-11-28-086da3744f827b9c.mp3",
+      "text": "Pai, cura em mim a necessidade de provar meu valor por meio das minhas conquistas. Renuncio à mentira de que preciso vencer a qualquer custo. Fortalece minhas convicções e dá-me liberdade para recusar tudo aquilo que comprometa minha fidelidade a Ti.\n\nEm nome de Jesus, amém.",
+      "textHash": "b1e70fddc4c38b0afc04af20604440840b4d46ad53f3bbd6393398f51d108b30",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Caio:MAI-Voice-2.1-Flash"
+    }
+  },
+  "2026-11-29": {
+    "feminina": {
+      "src": "/audio/oracoes/2026-11-29-447312d3861d9edc.mp3",
+      "text": "Pai, entrego a Ti minhas expectativas frustradas e as perguntas que ainda não possuem respostas. Cura em mim toda decepção que comprometeu minha confiança em Ti. Renuncio à mentira de que Tua bondade depende dos resultados que experimento. Que minha fidelidade esteja fundamentada em quem Tu és.\n\nEm nome de Jesus, amém.",
+      "textHash": "c4c98f1a842f5adf3cfff2bfc1c00769cef9ed2c5ace11d91d0796ae3352126e",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Luana:MAI-Voice-2.1-Flash"
+    },
+    "masculina": {
+      "src": "/audio/oracoes/2026-11-29-18ab5479fcece2cf.mp3",
+      "text": "Pai, entrego a Ti minhas expectativas frustradas e as perguntas que ainda não possuem respostas. Cura em mim toda decepção que comprometeu minha confiança em Ti. Renuncio à mentira de que Tua bondade depende dos resultados que experimento. Que minha fidelidade esteja fundamentada em quem Tu és.\n\nEm nome de Jesus, amém.",
+      "textHash": "c4c98f1a842f5adf3cfff2bfc1c00769cef9ed2c5ace11d91d0796ae3352126e",
+      "model": "microsoft/mai-voice-2.1-flash",
+      "voice": "pt-BR-Caio:MAI-Voice-2.1-Flash"
+    }
   }
 }
